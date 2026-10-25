@@ -9,6 +9,7 @@ Fantasy book design studies, editable drawings, Three.js sources, binding resear
 | Ranked covers | Initial / Advanced / Meistro; twelve elements; independent fantasy/wizardry styles | [Design](objects/books/default-book-design-types/design.md), [knowledge and lessons](objects/books/default-book-design-types/knowledge.md) | npm run start — 127.0.0.1:4174 |
 | Working wizard grimoire | Current anatomy-v2 sewn-on-tapes hollow-back case, 240 leaves, controlled opening and page turn | [Design](objects/books/wizard-grimoire/design.md), [knowledge and corrections](objects/books/wizard-grimoire/knowledge.md) | npm run start:grimoire — 127.0.0.1:4194 |
 | Bound open book | Static reusable multi-part open-book factory, retained separately from the moving grimoire | [Design](objects/books/bound-open-book/design.md), [integration knowledge](objects/books/bound-open-book/knowledge.md) | Import the factory; no standalone viewer |
+| Blender physics hardcover | Rounded-and-backed hollow-back case binding in Blender 5; 162 leaves solved as heavy elastica, boards pivoting in the joint grooves, 120-frame opening to 90° | [Design](objects/books/blender-physics-hardcover/design.md), [knowledge and what not to forget](objects/books/blender-physics-hardcover/knowledge.md), [Anatomy & Physics of the Book](objects/books/blender-physics-hardcover/references/document/anatomy-and-physics-of-the-book.md) | Open the .blend in Blender 5; rebake via build_book.py |
 
 ## Install, run, and verify
 
