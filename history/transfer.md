@@ -1,0 +1,15 @@
+# Books repository transfer — 25 October 2026
+
+Source: C:/Users/Andre.Olivier/dev/3d-design-drafts. Destination: https://github.com/CrysiscodeX/Book_design_types. Independent working checkout: C:/Users/Andre.Olivier/dev/Book_design_types. The repository's original bootstrap commit remains its ancestor.
+
+All three Books objects retain their ownership and responsibility parts. Required shared resources and the book-evaluation skill are included; unrelated desks, cabinets, rooms, portals, and their Git history are not imported as active objects. The room design is included only as immutable context for the extracted open-book component.
+
+[Transfer manifest](transfer-manifest.json) records each copied source path, destination, SHA-256, size, and explicitly adapted root tools. [Logical resources](../tools/resources.json) retain IDs after the earlier filesystem moves. [Knowledge map](knowledge-map.json) records previous document consolidations. Source copy checks exclude only explicitly adapted root tools and generated outputs that are rerun with fresh verification; immutable history remains byte-exact.
+
+[Snapshots](snapshots.json) preserve all 135 historical entries. The history tool protects borrowed active assets before root builds, verifies hashes, and can reconstruct the captured trees. [Checkpoint metadata](source-workspace-checkpoint.json) identifies the original full recovery archive, which remains outside this repository and is not deleted. Desk Git history remains untouched in its source object. No temporary dependency tree, cache, credentials, private reasoning, or unrelated environment files are published.
+
+Public conversation messages/plans are preserved verbatim under conversations with identifiers and dates, supplemented by the other chat’s recovered session-segment archive under conversation. Older links and claims are historical; current designs and correction notes govern active behavior. The missing-private-reasoning boundary is explicit. The current migration turn is captured as an in-progress record, with final repository delivery documented here and in the commit.
+
+The additional checkpoint manifest preserves 339 selected Books/audit/evaluation entries as immutable historical bytes, including retired generators and superseded exports without recreating them as active drafts. The transfer-source manifest preserves all 393 original copied source-byte records independently of subsequent generated output and scoped root-tool changes. Neither manifest contains dependency installations or the unrelated full workspace recovery archive.
+
+The source workspace still serves other object families whose modules import the book component and shared adapters. The coordinated Bookshelves migration owns their versioned dependency handoff and final source-workspace cutover, after both repositories are verified and published. This Books migration does not independently remove original folders or create junctions. Until that handoff, the original working folders remain intact. This repository owns the canonical bound-open-book factory; its exact commit and file hash are supplied to Bookshelves.

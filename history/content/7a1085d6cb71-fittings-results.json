@@ -1,0 +1,891 @@
+{
+  "generated": "2026-10-24T15:48:47.219Z",
+  "passed": true,
+  "rows": [
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0.053853249177338025,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0.053853249177338025,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.01
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0.053853249177338025,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.01
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0.053853249177338025,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.025
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0.053853249177338025,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.025
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0.053853249177338025,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.05
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.05
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.2
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.2
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.25
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.25
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.4
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.4
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.6
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.6
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.8
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.8
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.0.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "turn": 0,
+        "release": 1
+      },
+      "hook": "clasp.1.hook",
+      "maximumContactMm": 0,
+      "unintendedMm": 0
+    }
+  ],
+  "strapChecks": [
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.01
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.01
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.025
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.025
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.05
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.05
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.2
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.2
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.25
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.25
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.4
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.4
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.6
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.6
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.8
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0.8
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.0.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "turn": 0,
+        "release": 1
+      },
+      "strap": "clasp.1.strap",
+      "paperPenetrationMm": 0,
+      "leaf": null
+    }
+  ],
+  "contacts": [
+    {
+      "opening": 0,
+      "part": "support.rear.post.00",
+      "maximumGapMm": 7.557868896695963e-7
+    },
+    {
+      "opening": 0,
+      "part": "support.rear.post.01",
+      "maximumGapMm": 7.557868896695963e-7
+    },
+    {
+      "opening": 0,
+      "part": "support.rear.post.10",
+      "maximumGapMm": 7.557868896695963e-7
+    },
+    {
+      "opening": 0,
+      "part": "support.rear.post.11",
+      "maximumGapMm": 7.557868896695963e-7
+    },
+    {
+      "opening": 15,
+      "part": "support.rear.post.00",
+      "maximumGapMm": 0.0000013447046098152837
+    },
+    {
+      "opening": 15,
+      "part": "support.rear.post.01",
+      "maximumGapMm": 0.0000013447046098152837
+    },
+    {
+      "opening": 15,
+      "part": "support.rear.post.10",
+      "maximumGapMm": 0.0000027033380655544503
+    },
+    {
+      "opening": 15,
+      "part": "support.rear.post.11",
+      "maximumGapMm": 0.0000027033380655544503
+    },
+    {
+      "opening": 30,
+      "part": "support.rear.post.00",
+      "maximumGapMm": 0.0000036031491349591827
+    },
+    {
+      "opening": 30,
+      "part": "support.rear.post.01",
+      "maximumGapMm": 0.0000036031491349591827
+    },
+    {
+      "opening": 30,
+      "part": "support.rear.post.10",
+      "maximumGapMm": 0.0000027522751664538214
+    },
+    {
+      "opening": 30,
+      "part": "support.rear.post.11",
+      "maximumGapMm": 0.0000027522751664538214
+    },
+    {
+      "opening": 60,
+      "part": "support.rear.post.00",
+      "maximumGapMm": 0.000002766576809656862
+    },
+    {
+      "opening": 60,
+      "part": "support.rear.post.01",
+      "maximumGapMm": 0.000002766576809656862
+    },
+    {
+      "opening": 60,
+      "part": "support.rear.post.10",
+      "maximumGapMm": 0.0000032627683280855857
+    },
+    {
+      "opening": 60,
+      "part": "support.rear.post.11",
+      "maximumGapMm": 0.0000032627683280855857
+    },
+    {
+      "opening": 90,
+      "part": "support.rear.post.00",
+      "maximumGapMm": 0.0000030377353740090873
+    },
+    {
+      "opening": 90,
+      "part": "support.rear.post.01",
+      "maximumGapMm": 0.0000030377353740090873
+    },
+    {
+      "opening": 90,
+      "part": "support.rear.post.10",
+      "maximumGapMm": 0.000002619456372296436
+    },
+    {
+      "opening": 90,
+      "part": "support.rear.post.11",
+      "maximumGapMm": 0.000002619456372296436
+    },
+    {
+      "opening": 110,
+      "part": "support.rear.post.00",
+      "maximumGapMm": 3.435033871929116e-7
+    },
+    {
+      "opening": 110,
+      "part": "support.rear.post.01",
+      "maximumGapMm": 3.435033871929116e-7
+    },
+    {
+      "opening": 110,
+      "part": "support.rear.post.10",
+      "maximumGapMm": 0.0000014983033164855941
+    },
+    {
+      "opening": 110,
+      "part": "support.rear.post.11",
+      "maximumGapMm": 0.0000014983033164855941
+    },
+    {
+      "opening": 110,
+      "part": "support.front.post.00",
+      "maximumGapMm": 0.000003281062451246375
+    },
+    {
+      "opening": 110,
+      "part": "support.front.post.01",
+      "maximumGapMm": 0.000003281062451246375
+    },
+    {
+      "opening": 110,
+      "part": "support.front.post.10",
+      "maximumGapMm": 0.000002740485846933205
+    },
+    {
+      "opening": 110,
+      "part": "support.front.post.11",
+      "maximumGapMm": 0.000002740485846933205
+    },
+    {
+      "opening": 130,
+      "part": "support.rear.post.00",
+      "maximumGapMm": 0.0000018850388836672005
+    },
+    {
+      "opening": 130,
+      "part": "support.rear.post.01",
+      "maximumGapMm": 0.0000018850388836672005
+    },
+    {
+      "opening": 130,
+      "part": "support.rear.post.10",
+      "maximumGapMm": 0.000004715815920056099
+    },
+    {
+      "opening": 130,
+      "part": "support.rear.post.11",
+      "maximumGapMm": 0.000004715815920056099
+    },
+    {
+      "opening": 130,
+      "part": "support.front.post.00",
+      "maximumGapMm": 0.000003144651082934158
+    },
+    {
+      "opening": 130,
+      "part": "support.front.post.01",
+      "maximumGapMm": 0.000003144651082934158
+    },
+    {
+      "opening": 130,
+      "part": "support.front.post.10",
+      "maximumGapMm": 0.000004773239985558786
+    },
+    {
+      "opening": 130,
+      "part": "support.front.post.11",
+      "maximumGapMm": 0.000004773239985558786
+    }
+  ],
+  "feet": [
+    {
+      "id": "support.foot.-1.-1",
+      "gapMm": -1.899898051382909e-7
+    },
+    {
+      "id": "support.foot.-1.1",
+      "gapMm": -1.899898051382909e-7
+    },
+    {
+      "id": "support.foot.1.-1",
+      "gapMm": -1.899898051382909e-7
+    },
+    {
+      "id": "support.foot.1.1",
+      "gapMm": -1.899898051382909e-7
+    }
+  ],
+  "failures": [],
+  "coverage": "Actual bent-hook cross-section against the catch bar envelope; both straps against all 240 writing leaves at the strap longitudinal station; exact pad-local post corner witnesses at seven opening angles; all four foot/floor contacts. Intended seated hook-tip contact is bounded by identifier, curve region and 0.15 mm maximum depth. Other unintended contacts use 0.05 mm; paper uses 0.005 mm.",
+  "limitations": "Does not establish every strap-to-plate or concealed sewing/adhesive interface."
+}

@@ -1,0 +1,151 @@
+{
+  "betweenSlices": {
+    "positionZ": 0.0037,
+    "slicesZ": [
+      0,
+      0.005,
+      0.01,
+      0.015,
+      0.02
+    ],
+    "intersections": {
+      "tested": 32,
+      "count": 20,
+      "samples": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    "sliceBoxesMiss": true
+  },
+  "material": {
+    "isActualClay": true,
+    "restored": true
+  },
+  "interruption": [
+    {
+      "opening": 0,
+      "turn": 0,
+      "release": 0.20826389685528388,
+      "finite": true
+    },
+    {
+      "opening": 0,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    },
+    {
+      "opening": 25.25658787597642,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    },
+    {
+      "opening": 130,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    },
+    {
+      "opening": 130,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    },
+    {
+      "opening": 130,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    },
+    {
+      "opening": 121.63771017751479,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    },
+    {
+      "opening": 53.256616409660246,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    },
+    {
+      "opening": 104.02701222959732,
+      "turn": 0,
+      "release": 1,
+      "finite": true
+    }
+  ],
+  "lifetime": {
+    "cycles": 6,
+    "samples": [
+      {
+        "geometries": 315,
+        "textures": 13
+      },
+      {
+        "geometries": 315,
+        "textures": 13
+      },
+      {
+        "geometries": 315,
+        "textures": 13
+      },
+      {
+        "geometries": 315,
+        "textures": 13
+      },
+      {
+        "geometries": 315,
+        "textures": 13
+      },
+      {
+        "geometries": 315,
+        "textures": 13
+      }
+    ],
+    "note": "Factory scene create/render/dispose only; not full viewer remount or JS heap leak proof"
+  },
+  "storage": {
+    "loads": true
+  },
+  "cdn": {
+    "status": "Preparing the book…",
+    "loaded": false
+  },
+  "cdnErrors": []
+}

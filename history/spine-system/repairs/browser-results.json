@@ -1,0 +1,127 @@
+{
+  "generated": "2026-10-23T13:55:39.077Z",
+  "passed": true,
+  "results": [
+    {
+      "engine": "Chrome",
+      "version": "156.0.8078.48",
+      "invalid": [
+        {
+          "rejected": true,
+          "preserved": true
+        },
+        {
+          "rejected": true,
+          "preserved": true
+        },
+        {
+          "rejected": true,
+          "preserved": true
+        },
+        {
+          "rejected": true,
+          "preserved": true
+        }
+      ],
+      "clay": true,
+      "restored": true,
+      "bookmarks": [
+        {
+          "name": "joint",
+          "first": "binding.leather-spine",
+          "distanceMm": 74.57824708227872,
+          "partFocus": null
+        },
+        {
+          "name": "repair",
+          "first": "repair.lower-spine-patch",
+          "distanceMm": 77.7327046282688,
+          "partFocus": null
+        },
+        {
+          "name": "head",
+          "first": "binding.leather-spine",
+          "distanceMm": 79.96248485196737,
+          "partFocus": null
+        },
+        {
+          "name": "fold",
+          "first": "gathering.10",
+          "distanceMm": 74.65107956658701,
+          "partFocus": "gathering.10"
+        }
+      ],
+      "inline": {
+        "camera": [
+          0.19000000000000003,
+          0.21000000000000002,
+          0.23000000000000004
+        ],
+        "preserved": true
+      },
+      "fallback": "The 3D preview could not load: Failed to fetch dynamically imported module: https://esm.sh/three@0.186.1",
+      "passed": true
+    },
+    {
+      "engine": "Edge",
+      "version": "155.0.4283.62",
+      "invalid": [
+        {
+          "rejected": true,
+          "preserved": true
+        },
+        {
+          "rejected": true,
+          "preserved": true
+        },
+        {
+          "rejected": true,
+          "preserved": true
+        },
+        {
+          "rejected": true,
+          "preserved": true
+        }
+      ],
+      "clay": true,
+      "restored": true,
+      "bookmarks": [
+        {
+          "name": "joint",
+          "first": "binding.leather-spine",
+          "distanceMm": 74.57824708227872,
+          "partFocus": null
+        },
+        {
+          "name": "repair",
+          "first": "repair.lower-spine-patch",
+          "distanceMm": 77.7327046282688,
+          "partFocus": null
+        },
+        {
+          "name": "head",
+          "first": "binding.leather-spine",
+          "distanceMm": 79.96248485196737,
+          "partFocus": null
+        },
+        {
+          "name": "fold",
+          "first": "gathering.10",
+          "distanceMm": 74.65107956658701,
+          "partFocus": "gathering.10"
+        }
+      ],
+      "inline": {
+        "camera": [
+          0.19000000000000003,
+          0.21000000000000002,
+          0.23000000000000004
+        ],
+        "preserved": true
+      },
+      "fallback": "The 3D preview could not load: Failed to fetch dynamically imported module: https://esm.sh/three@0.186.1",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

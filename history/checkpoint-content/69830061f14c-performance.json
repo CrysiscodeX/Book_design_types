@@ -1,0 +1,59 @@
+{
+  "generated": "2026-10-23T13:51:28.081Z",
+  "browser": "156.0.8078.48",
+  "rows": [
+    {
+      "mode": "orbit",
+      "width": 1920,
+      "height": 1080,
+      "frames": 90,
+      "fps": 57.8740916985049,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18,
+      "drawCalls": 690,
+      "triangles": 1273180,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "orbit"
+    },
+    {
+      "mode": "turn",
+      "width": 1920,
+      "height": 1080,
+      "frames": 90,
+      "fps": 51.017516013572845,
+      "medianMs": 17.600000008940697,
+      "p95Ms": 21.69999998807907,
+      "drawCalls": 690,
+      "triangles": 1273180,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "turn"
+    },
+    {
+      "mode": "close",
+      "width": 3840,
+      "height": 2160,
+      "frames": 90,
+      "fps": 23.132084200857367,
+      "medianMs": 44.29999999701977,
+      "p95Ms": 46.900000005960464,
+      "drawCalls": 1303,
+      "triangles": 1480936,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "close"
+    },
+    {
+      "mode": "close",
+      "width": 1920,
+      "height": 1080,
+      "frames": 90,
+      "fps": 43.20691310640607,
+      "medianMs": 24.5,
+      "p95Ms": 29.200000002980232,
+      "drawCalls": 1975,
+      "triangles": 2719460,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "close-native"
+    }
+  ],
+  "scope": "Ordinary DPR1; production close at automatic 2×; diagnostic native close pins DPR1 in memory"
+}

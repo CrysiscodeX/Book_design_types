@@ -1,0 +1,31 @@
+{
+  "threadId": "01a120d1-0d41-7fc2-9908-c54bc792023f",
+  "segments": [
+    {
+      "name": "rollout-2026-10-09T17-18-53-01a120d1-0d41-7fc2-9908-c54bc792023f.jsonl.zst",
+      "sha256": "480e6a7e555ad5f003e9042660b09d29ece2e069c4ce9666d8443893ede18340"
+    },
+    {
+      "name": "rollout-2026-10-09T17-28-25-01a120d1-0d41-7fc2-9908-c54bc792023f_01a120d9-c702-7dd0-b6cf-0688ed61f7ed.jsonl",
+      "sha256": "49aa4a5672258a7cd797962c151ff001bb91f64a1af980745f7d4f213c94da8d"
+    },
+    {
+      "name": "rollout-2026-10-23T12-33-23-01a120d1-0d41-7fc2-9908-c54bc792023f_01a167e4-b401-7682-ac0a-de010b9cdc44.jsonl",
+      "sha256": "d17285124d16dcc8129b16c2500b4cc2dff94aa62513f6892b2aa565e589fe36"
+    },
+    {
+      "name": "rollout-2026-10-24T19-52-27-01a120d1-0d41-7fc2-9908-c54bc792023f_01a16e9d-0a43-7090-ab1b-b95bff6af43b.jsonl",
+      "sha256": "da6444fbf4f15f8f5387de659547f686c946dc004ef15c04c937f556eefa89c7"
+    }
+  ],
+  "method": "Visible requests and assistant commentary/final responses only. Ambient browser blocks removed; exact retained text hashed. Editorial dossiers are separate. Cross-topic messages share stable IDs.",
+  "messages": 158,
+  "originalSessionSegmentMessages": 114,
+  "additionalSource": {
+    "threadId": "01a10de3-0ed9-78e1-95e1-f0efd50e18f3",
+    "method": "All eight turns returned by the thread reader; user and public assistant messages plus public plans only. Current migration turn is in progress.",
+    "publicMessages": 44,
+    "focusedSource": "history/conversations/ranked-covers.json",
+    "timestampPrecision": "Turn start from thread reader; not per-message timing"
+  }
+}

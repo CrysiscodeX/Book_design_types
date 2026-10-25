@@ -1,0 +1,18 @@
+{
+  "name": "wizard-grimoire",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node Part_2-Connectors/server.mjs",
+    "check": "node checks/checks.mjs",
+    "check:browser": "node checks/browser-qa.mjs",
+    "check:motion": "node checks/motion-checks.mjs",
+    "check:fittings": "node checks/fittings-checks.mjs",
+    "benchmark": "node checks/benchmark.mjs",
+    "capture": "node checks/capture.mjs",
+    "documents": "node Part_2-Connectors/documents.mjs",
+    "build": "node ../../../tools/build.mjs wizard-grimoire",
+    "build:inline": "node Part_2-Connectors/build-inline.mjs"
+  }
+}

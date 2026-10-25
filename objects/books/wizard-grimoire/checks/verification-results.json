@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "authority": {
+    "title": "The Anatomy & Physics of the Book",
+    "author": "Andre Olivier",
+    "date": "2026-10-24",
+    "kind": "user-supplied governing design brief"
+  },
+  "generated": "2026-10-24T16:40:39.394Z",
+  "checks": {
+    "sourceSolids": true,
+    "paperMotion": true,
+    "interfaces": true,
+    "browser": true,
+    "inline": true
+  },
+  "passed": true,
+  "sourceMeshes": 469,
+  "physicalMeshes": 467,
+  "motionStates": 313,
+  "refinements": 36,
+  "browserChecks": 37,
+  "caseLengthMm": [
+    {
+      "opening": 0,
+      "length": 50.38038178168555,
+      "error": 0.0000031888232193688637
+    },
+    {
+      "opening": 15,
+      "length": 50.38038266725267,
+      "error": 0.000002303256099733808
+    },
+    {
+      "opening": 30,
+      "length": 50.3803829917875,
+      "error": 0.0000019787212701682932
+    },
+    {
+      "opening": 60,
+      "length": 50.38038184132545,
+      "error": 0.0000031291833221813725
+    },
+    {
+      "opening": 90,
+      "length": 50.380378983540986,
+      "error": 0.000005986967782645181
+    },
+    {
+      "opening": 110,
+      "length": 50.3803767295982,
+      "error": 0.000008240910571999382
+    },
+    {
+      "opening": 130,
+      "length": 50.380374525482786,
+      "error": 0.000010445025983019107
+    }
+  ],
+  "thicknessMm": {
+    "min": 0.15998282239374415,
+    "max": 0.16001682700099415
+  },
+  "widthErrorPercent": 0.08052039380588683,
+  "dimensions": {
+    "writing": 38.4,
+    "endpapers": 0.36,
+    "flat": 38.76,
+    "swelling": 3.3000000000000003,
+    "spine": 42.059999999999995,
+    "boardHeight": 298,
+    "boardWidth": 212,
+    "boardThickness": 3,
+    "square": 3,
+    "joint": 9,
+    "nominalClosed": 50.519999999999996,
+    "spineRadius": 24.283352322115658,
+    "note": "Thread swell is concentrated at the folds. Envelope measured from actual posed solids. Endpapers are separate."
+  },
+  "envelopesMm": {
+    "closed": [
+      240.2149774134159,
+      52.59740765977762,
+      299.19999837875366
+    ],
+    "open": [
+      457.1915094853007,
+      143.38285103440285,
+      299.19999837875366
+    ],
+    "turn": [
+      457.1915094853007,
+      245.02624943852425,
+      299.19999837875366
+    ]
+  },
+  "performance": [
+    {
+      "mode": "orbit",
+      "width": 1920,
+      "height": 1080,
+      "frames": 120,
+      "fps": 60.87971183529426,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 17.099999994039536,
+      "drawCalls": 480,
+      "triangles": 507604,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "mode": "turn",
+      "width": 1920,
+      "height": 1080,
+      "frames": 80,
+      "fps": 61.48170919207879,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 17.200000017881393,
+      "drawCalls": 480,
+      "triangles": 507604,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "mode": "close",
+      "width": 1920,
+      "height": 1080,
+      "frames": 80,
+      "fps": 33.21431536959566,
+      "medianMs": 31.5,
+      "p95Ms": 37.599999994039536,
+      "drawCalls": 1153,
+      "triangles": 936336,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  ],
+  "limits": [
+    "Opening is an authored fixed-length spine-coordinate construction, not a calibrated paper/leather stress, moisture, friction or gravity solver. The neutral case curve retains its derived length; individual layers are not strain-solved.",
+    "Five nested bifolia per gathering and visible sewing/link stitches are proposed. Every needle hole, adhesive microcontact and endband tie-down route is not certified. Endbands must not be claimed as load-tested structural bands.",
+    "The placement checks cover paper/paper, outer paper/endpaper against boards, feet against slab and straps against paper. They do not establish universal whole-assembly collision freedom or continuous-in-time proof.",
+    "Layer dimensions and workshop values are proposals from the governing brief. Leather, rag paper, patina and wear are procedural appearances. No museum facsimile, reflectance scan or manufactured dummy is claimed.",
+    "Close-up typography remains an authored typeset manuscript interpretation. Six representative spreads carry content; other reading content is outside this study.",
+    "V1 anatomy, old 55 mm-return measurements and old passing reports do not validate this rebuild. Their retained evidence is historical only."
+  ]
+}

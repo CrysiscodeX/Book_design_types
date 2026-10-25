@@ -1,0 +1,329 @@
+{
+  "records": [
+    {
+      "rank": "initial",
+      "primaryElement": "fire",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 20
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "water",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 20
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "earth",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 20
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "air",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 20
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "ice",
+      "layers": 1,
+      "memory": {
+        "geometries": 124,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "lightning",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "metal",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "crystal",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "light",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "shadow",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "nature",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "initial",
+      "primaryElement": "decay",
+      "layers": 1,
+      "memory": {
+        "geometries": 114,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "fire",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "water",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "earth",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "air",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "ice",
+      "layers": 3,
+      "memory": {
+        "geometries": 176,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "lightning",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "metal",
+      "layers": 3,
+      "memory": {
+        "geometries": 163,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "crystal",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "light",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "shadow",
+      "layers": 3,
+      "memory": {
+        "geometries": 163,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "nature",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "advanced",
+      "primaryElement": "decay",
+      "layers": 3,
+      "memory": {
+        "geometries": 164,
+        "textures": 21
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "fire",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "water",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "earth",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "air",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "ice",
+      "layers": 5,
+      "memory": {
+        "geometries": 235,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "lightning",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "metal",
+      "layers": 5,
+      "memory": {
+        "geometries": 220,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "crystal",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "light",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "shadow",
+      "layers": 5,
+      "memory": {
+        "geometries": 220,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "nature",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    },
+    {
+      "rank": "meistro",
+      "primaryElement": "decay",
+      "layers": 5,
+      "memory": {
+        "geometries": 221,
+        "textures": 22
+      }
+    }
+  ],
+  "errors": []
+}

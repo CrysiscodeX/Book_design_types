@@ -1,0 +1,1922 @@
+{
+  "generated": "2026-10-23T13:54:52.776Z",
+  "spineRows": [
+    {
+      "opening": 0,
+      "leaf": 1,
+      "neutralArcMm": 54.99998103556668,
+      "minimumBookYmm": 37.920188158750534,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014866486312199013,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005453126755736448,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.591530764713753e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.0468766281852637e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 173287,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899941096900021
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999942162597706
+        }
+      ]
+    },
+    {
+      "opening": 15,
+      "leaf": 1,
+      "neutralArcMm": 54.999976178962164,
+      "minimumBookYmm": 41.202612221241,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014867630674154214,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005441861426389288,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.619165708644615e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.055263455651141e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 180456,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999940652340903
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899992939855124
+        }
+      ]
+    },
+    {
+      "opening": 30,
+      "leaf": 1,
+      "neutralArcMm": 54.999970613447445,
+      "minimumBookYmm": 49.957480281591415,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014868788783021662,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005430287068995374,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.647272219550312e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.063880542214576e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 179944,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899954634929073
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899945908082497
+        }
+      ]
+    },
+    {
+      "opening": 60,
+      "leaf": 1,
+      "neutralArcMm": 54.99995819809903,
+      "minimumBookYmm": 56.895893067121506,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014870986554054185,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005407892326181459,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.6928276289901975e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.080517208883421e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 182579,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999927341591517
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899974081014469
+        }
+      ]
+    },
+    {
+      "opening": 90,
+      "leaf": 1,
+      "neutralArcMm": 54.999945156276574,
+      "minimumBookYmm": 40.95404967665672,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.00001487291344337957,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005387718450221304,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.7110214989987854e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.095479994006911e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 193047,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999897439697073
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899983455216252
+        }
+      ]
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "neutralArcMm": 54.999937241860245,
+      "minimumBookYmm": 31.430363655090332,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.00001487395460714787,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.00000537663008169085,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.7028135625833976e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.1036912528003395e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 165678,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.389998634558125
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899979471865224
+        }
+      ]
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "neutralArcMm": 54.999931523217924,
+      "minimumBookYmm": 25.563592091202736,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.00001487465655816894,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005369046274982145,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.677961916658401e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.1093050187945727e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 182061,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999512279176096
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899990220313599
+        }
+      ]
+    },
+    {
+      "opening": 0,
+      "leaf": 120,
+      "neutralArcMm": 54.999981035566684,
+      "minimumBookYmm": 37.920188158750534,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014866486312199013,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005453126755736502,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.591530764713753e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.0468766281852637e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 173291,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899941096900021
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899994216259631
+        }
+      ]
+    },
+    {
+      "opening": 15,
+      "leaf": 120,
+      "neutralArcMm": 54.999974897845526,
+      "minimumBookYmm": 41.202612221241,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.00001486791801571968,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005439089171322856,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.6202367208507217e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.057327883691747e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 186237,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899994057497566
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.389994710261403
+        }
+      ]
+    },
+    {
+      "opening": 30,
+      "leaf": 120,
+      "neutralArcMm": 54.999965294109465,
+      "minimumBookYmm": 49.957480281591415,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014869788405588508,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.00000542021027142092,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.6516351116047177e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.0713692314803255e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 179146,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999548070373463
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899975865367214
+        }
+      ]
+    },
+    {
+      "opening": 60,
+      "leaf": 120,
+      "neutralArcMm": 54.9999351408544,
+      "minimumBookYmm": 60.306306928396225,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014874216683460098,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005373806536616149,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.707548887415825e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.1057842428549713e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 164523,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999928554307056
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999843723882055
+        }
+      ]
+    },
+    {
+      "opening": 90,
+      "leaf": 120,
+      "neutralArcMm": 54.99989788067364,
+      "minimumBookYmm": 50.49819499254227,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014879310373141524,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005341194626028473,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.7352145411238916e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.1485332339136164e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 178666,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899988156186367
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.389996089931162
+        }
+      ]
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "neutralArcMm": 54.99986596909254,
+      "minimumBookYmm": 43.89673098921776,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014882637314986742,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005342480807598293,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.754040159916144e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.199321585170555e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 176442,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999876737709466
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.389997676283116
+        }
+      ]
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "neutralArcMm": 54.99979573314675,
+      "minimumBookYmm": 39.12194073200226,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014884337416808219,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005343212745268644,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.765768100084777e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.250870912789175e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 93876,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999504451331873
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999504451331946
+        }
+      ]
+    },
+    {
+      "opening": 0,
+      "leaf": 238,
+      "neutralArcMm": 54.99998103556668,
+      "minimumBookYmm": 37.920188158750534,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014866486312199013,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005453126755736448,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.591530764713753e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.0468766281852637e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 173287,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899941096900021
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999942162597706
+        }
+      ]
+    },
+    {
+      "opening": 15,
+      "leaf": 238,
+      "neutralArcMm": 54.999975972752395,
+      "minimumBookYmm": 41.202612221241,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014867675867853032,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005441409743581091,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.619348159277095e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.055600050639282e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 187491,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899994009539727
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999661607559993
+        }
+      ]
+    },
+    {
+      "opening": 30,
+      "leaf": 238,
+      "neutralArcMm": 54.99996979697794,
+      "minimumBookYmm": 49.957480281591415,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.00001486894596511173,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.0000054286837611613395,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.6479431119943465e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.065068117847887e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 195433,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.389995464551826
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999829757586163
+        }
+      ]
+    },
+    {
+      "opening": 60,
+      "leaf": 238,
+      "neutralArcMm": 54.99995544558216,
+      "minimumBookYmm": 62.779881060123444,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014871423418513828,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005403398502704588,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.69445832101189e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.083851084236309e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 193497,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899992360099107
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899967281100054
+        }
+      ]
+    },
+    {
+      "opening": 90,
+      "leaf": 238,
+      "neutralArcMm": 54.99994132158615,
+      "minimumBookYmm": 62.290288507938385,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014873433584359432,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005382255720931529,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.7117342017300243e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.099527332836614e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 180409,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999889421773154
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.3899977357845252
+        }
+      ]
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "neutralArcMm": 54.99993413147602,
+      "minimumBookYmm": 61.83762848377228,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.00001487434012027208,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.00000537246633657449,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.702243848520573e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.1067730000579706e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 182343,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.38999891773409917
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999716836895565
+        }
+      ]
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "neutralArcMm": 54.99993016429168,
+      "minimumBookYmm": 61.736639589071274,
+      "reports": [
+        {
+          "id": "binding.leather-spine",
+          "passed": true,
+          "vertices": 32502,
+          "triangles": 61000,
+          "volume": 0.000014874816716369708,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.spine-lining",
+          "passed": true,
+          "vertices": 31242,
+          "triangles": 58576,
+          "volume": 0.000005367292009626508,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "binding.cord.2",
+          "passed": true,
+          "vertices": 951,
+          "triangles": 1752,
+          "volume": 2.677145396036739e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "repair.lower-spine-patch",
+          "passed": true,
+          "vertices": 3702,
+          "triangles": 5960,
+          "volume": 4.1106025798899965e-7,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "linerCrossings": {
+        "tested": 180680,
+        "count": 0,
+        "samples": [],
+        "exhausted": false,
+        "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+      },
+      "roots": [
+        {
+          "name": "rear",
+          "contained": true,
+          "centreToLacingMm": 0.3899951521122851
+        },
+        {
+          "name": "front",
+          "contained": true,
+          "centreToLacingMm": 0.38999718355464236
+        }
+      ]
+    }
+  ],
+  "studio": [
+    {
+      "rank": "initial",
+      "report": [
+        {
+          "id": "body.spine",
+          "passed": true,
+          "vertices": 484,
+          "triangles": 320,
+          "volume": 123726.84575830022,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.0",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 73.75984910477874,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.1",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 73.75978278490243,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.2",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 73.75978278490047,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.3",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 73.7598491047853,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ]
+    },
+    {
+      "rank": "advanced",
+      "report": [
+        {
+          "id": "body.spine",
+          "passed": true,
+          "vertices": 484,
+          "triangles": 320,
+          "volume": 235283.11250731497,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.0",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 112.31582500052397,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.1",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 112.31582500052,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.2",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 112.31576188376457,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.3",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 112.31582500052568,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.4",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 112.31582500052605,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ]
+    },
+    {
+      "rank": "meistro",
+      "report": [
+        {
+          "id": "body.spine",
+          "passed": true,
+          "vertices": 484,
+          "triangles": 320,
+          "volume": 429529.1182334219,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.0",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 163.5627637817108,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.1",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 163.56217552516063,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.2",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 163.56202846102477,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.3",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 163.5620284610183,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.4",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 163.56217552516418,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.5",
+          "passed": true,
+          "vertices": 749,
+          "triangles": 1328,
+          "volume": 163.56276378169508,
+          "boundary": 0,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ]
+    }
+  ],
+  "invalidPoseRejected": true,
+  "posePreserved": true,
+  "remaining": [
+    "Spine material compression and gathering/sewing interface still require a coherent mechanical model",
+    "Static scene books are not upgraded to moving bindings",
+    "No full continuous collision certificate"
+  ]
+}

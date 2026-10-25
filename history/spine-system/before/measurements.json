@@ -1,0 +1,4609 @@
+{
+  "generated": "2026-10-23T11:35:24.561Z",
+  "fixtures": {
+    "crossing": {
+      "tested": 80,
+      "count": 40,
+      "samples": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    "separated": {
+      "tested": 0,
+      "count": 0,
+      "samples": [],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    "contained": true,
+    "outside": false
+  },
+  "poses": [
+    {
+      "leaf": 1,
+      "opening": 0,
+      "lengthMm": 50.668158563782775,
+      "skinAreaMm2": 15212.100722844569,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.6373437397921573,
+        "max": 0.7
+      }
+    },
+    {
+      "leaf": 1,
+      "opening": 15,
+      "lengthMm": 50.47426302795911,
+      "skinAreaMm2": 15156.6213248209,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.5854176521187185,
+        "max": 0.6999897373663392
+      }
+    },
+    {
+      "leaf": 1,
+      "opening": 30,
+      "lengthMm": 48.963205745810896,
+      "skinAreaMm2": 14707.274647812108,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.5292265553396699,
+        "max": 0.6999968660236001
+      }
+    },
+    {
+      "leaf": 1,
+      "opening": 60,
+      "lengthMm": 49.91773702264787,
+      "skinAreaMm2": 14774.835830215621,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5629556567820051,
+        "max": 0.4157535024695156
+      }
+    },
+    {
+      "leaf": 1,
+      "opening": 90,
+      "lengthMm": 58.02152652564855,
+      "skinAreaMm2": 17069.079655014488,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6895460138496593,
+        "max": 0.3166396902077363
+      }
+    },
+    {
+      "leaf": 1,
+      "opening": 110,
+      "lengthMm": 60.58472168992153,
+      "skinAreaMm2": 17778.557954851458,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999989803826,
+        "max": 0.2861657968237925
+      }
+    },
+    {
+      "leaf": 1,
+      "opening": 130,
+      "lengthMm": 60.589706569074146,
+      "skinAreaMm2": 17728.17516570352,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990123124714,
+        "max": 0.3022811534365887
+      }
+    },
+    {
+      "leaf": 120,
+      "opening": 0,
+      "lengthMm": 50.668158563782775,
+      "skinAreaMm2": 15212.100722844569,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.6373437397921573,
+        "max": 0.7
+      }
+    },
+    {
+      "leaf": 120,
+      "opening": 15,
+      "lengthMm": 50.501649277911014,
+      "skinAreaMm2": 15164.343991010272,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.6132917377989492,
+        "max": 0.6999915239232114
+      }
+    },
+    {
+      "leaf": 120,
+      "opening": 30,
+      "lengthMm": 49.028947390080994,
+      "skinAreaMm2": 14728.495112640225,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.5858451398983449,
+        "max": 0.6999724077926376
+      }
+    },
+    {
+      "leaf": 120,
+      "opening": 60,
+      "lengthMm": 43.0114340714291,
+      "skinAreaMm2": 12928.292085721389,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6940147216568371,
+        "max": 0.5606891244692851
+      }
+    },
+    {
+      "leaf": 120,
+      "opening": 90,
+      "lengthMm": 47.30271609955987,
+      "skinAreaMm2": 13804.201576081472,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999908397654908,
+        "max": 0.500832164784962
+      }
+    },
+    {
+      "leaf": 120,
+      "opening": 110,
+      "lengthMm": 49.62609398040962,
+      "skinAreaMm2": 14455.161067158593,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999751354933718,
+        "max": 0.5025305635070416
+      }
+    },
+    {
+      "leaf": 120,
+      "opening": 130,
+      "lengthMm": 50.524831612060794,
+      "skinAreaMm2": 14682.026937843206,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956528069852,
+        "max": 0.5250840158134082
+      }
+    },
+    {
+      "leaf": 238,
+      "opening": 0,
+      "lengthMm": 50.66815856378279,
+      "skinAreaMm2": 15212.100722844569,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.6373437397921573,
+        "max": 0.7
+      }
+    },
+    {
+      "leaf": 238,
+      "opening": 15,
+      "lengthMm": 51.0165751194269,
+      "skinAreaMm2": 15318.867863651949,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.6061511147278269,
+        "max": 0.6999901307230604
+      }
+    },
+    {
+      "leaf": 238,
+      "opening": 30,
+      "lengthMm": 51.153888498928495,
+      "skinAreaMm2": 15365.489175288936,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.5613501032165594,
+        "max": 0.699997669092702
+      }
+    },
+    {
+      "leaf": 238,
+      "opening": 60,
+      "lengthMm": 50.70969915039857,
+      "skinAreaMm2": 15270.484350707571,
+      "worldXOffsetNormalProjectionMm": {
+        "min": 0.31018938224478887,
+        "max": 0.6999567363624078
+      }
+    },
+    {
+      "leaf": 238,
+      "opening": 90,
+      "lengthMm": 50.99956440988475,
+      "skinAreaMm2": 15500.178568622181,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.3964100679521919,
+        "max": 0.6999876424868897
+      }
+    },
+    {
+      "leaf": 238,
+      "opening": 110,
+      "lengthMm": 52.856585625679905,
+      "skinAreaMm2": 16131.44959608908,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5779129337034496,
+        "max": 0.6993813630726231
+      }
+    },
+    {
+      "leaf": 238,
+      "opening": 130,
+      "lengthMm": 55.1491469619481,
+      "skinAreaMm2": 16769.09909270137,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6163417890002887,
+        "max": 0.6994484689571396
+      }
+    }
+  ],
+  "motion": [
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0,
+      "solid": true,
+      "lengthMm": 60.58472168992153,
+      "skinAreaMm2": 17778.557954851458,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999989803826,
+        "max": 0.2861657968237925
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.02,
+      "solid": true,
+      "lengthMm": 60.58197721012365,
+      "skinAreaMm2": 17777.72581140991,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999984126358,
+        "max": 0.28621270589793985
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.04,
+      "solid": true,
+      "lengthMm": 60.57923300181321,
+      "skinAreaMm2": 17776.8940170415,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999977196453,
+        "max": 0.28625961189648197
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.06,
+      "solid": true,
+      "lengthMm": 60.57648906500663,
+      "skinAreaMm2": 17776.062170559802,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999969013619,
+        "max": 0.28630651481888675
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.08,
+      "solid": true,
+      "lengthMm": 60.573745399720764,
+      "skinAreaMm2": 17775.230183107156,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999959577368,
+        "max": 0.2863534146646217
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.1,
+      "solid": true,
+      "lengthMm": 60.57100200597194,
+      "skinAreaMm2": 17774.398325178125,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999948887211,
+        "max": 0.28640031143315536
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.12,
+      "solid": true,
+      "lengthMm": 60.56825888377687,
+      "skinAreaMm2": 17773.566763723094,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999936942654,
+        "max": 0.2864472051239503
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.14,
+      "solid": true,
+      "lengthMm": 60.56551603315197,
+      "skinAreaMm2": 17772.73507173014,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999923743209,
+        "max": 0.2864940957364914
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.16,
+      "solid": true,
+      "lengthMm": 60.56277345411393,
+      "skinAreaMm2": 17771.903745003765,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999909288387,
+        "max": 0.2865409832702311
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.18,
+      "solid": true,
+      "lengthMm": 60.5600311466793,
+      "skinAreaMm2": 17771.072209183454,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999893577693,
+        "max": 0.286587867724638
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.2,
+      "solid": true,
+      "lengthMm": 60.55728911086455,
+      "skinAreaMm2": 17770.241002755673,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999876610641,
+        "max": 0.286634749099198
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.22,
+      "solid": true,
+      "lengthMm": 60.554547346686384,
+      "skinAreaMm2": 17769.40951504145,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999858386736,
+        "max": 0.28668162739335834
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.24,
+      "solid": true,
+      "lengthMm": 60.551805854161216,
+      "skinAreaMm2": 17768.578374050943,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999838905488,
+        "max": 0.28672850260661054
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.26,
+      "solid": true,
+      "lengthMm": 60.549064633305676,
+      "skinAreaMm2": 17767.747190314953,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999818166409,
+        "max": 0.28677537473840775
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.28,
+      "solid": true,
+      "lengthMm": 60.54632368413634,
+      "skinAreaMm2": 17766.91608752742,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999796169002,
+        "max": 0.2868222437882198
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.3,
+      "solid": true,
+      "lengthMm": 60.54358300666972,
+      "skinAreaMm2": 17766.08545336026,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999772912777,
+        "max": 0.28686910975553354
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.32,
+      "solid": true,
+      "lengthMm": 60.54084260092244,
+      "skinAreaMm2": 17765.254506605503,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999748397241,
+        "max": 0.2869159726397971
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.34,
+      "solid": true,
+      "lengthMm": 60.53810246691101,
+      "skinAreaMm2": 17764.42363559778,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999722621907,
+        "max": 0.2869628324405033
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.36,
+      "solid": true,
+      "lengthMm": 60.535362604651965,
+      "skinAreaMm2": 17763.59279738188,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999695586276,
+        "max": 0.2870096891571062
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.38,
+      "solid": true,
+      "lengthMm": 60.53262301416182,
+      "skinAreaMm2": 17762.76250269283,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999667289859,
+        "max": 0.28705654278907655
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.4,
+      "solid": true,
+      "lengthMm": 60.5298836954573,
+      "skinAreaMm2": 17761.93192190469,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999637732162,
+        "max": 0.28710339333590246
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.42,
+      "solid": true,
+      "lengthMm": 60.52714464855483,
+      "skinAreaMm2": 17761.101338505854,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999606912691,
+        "max": 0.2871502407970327
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.44,
+      "solid": true,
+      "lengthMm": 60.52440587347095,
+      "skinAreaMm2": 17760.27094572674,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999574830954,
+        "max": 0.28719708517195586
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.46,
+      "solid": true,
+      "lengthMm": 60.52166737022228,
+      "skinAreaMm2": 17759.44089828019,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999954148646,
+        "max": 0.2872439264601435
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.48,
+      "solid": true,
+      "lengthMm": 60.51892913882533,
+      "skinAreaMm2": 17758.610839208886,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999506878711,
+        "max": 0.2872907646610511
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.5,
+      "solid": true,
+      "lengthMm": 60.51619117929667,
+      "skinAreaMm2": 17757.780430226798,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999471007214,
+        "max": 0.2873375997741728
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.52,
+      "solid": true,
+      "lengthMm": 60.51345349165285,
+      "skinAreaMm2": 17756.950318147028,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999433871479,
+        "max": 0.28738443179895884
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.54,
+      "solid": true,
+      "lengthMm": 60.51071607591042,
+      "skinAreaMm2": 17756.120335556192,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999395471009,
+        "max": 0.2874312607348985
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.56,
+      "solid": true,
+      "lengthMm": 60.50797893208593,
+      "skinAreaMm2": 17755.29065145905,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999935580531,
+        "max": 0.2874780865814646
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.58,
+      "solid": true,
+      "lengthMm": 60.50524206019585,
+      "skinAreaMm2": 17754.46079629861,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999314873885,
+        "max": 0.2875249093381134
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.6,
+      "solid": true,
+      "lengthMm": 60.50250546025686,
+      "skinAreaMm2": 17753.631163164842,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999272676243,
+        "max": 0.28757172900433475
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.62,
+      "solid": true,
+      "lengthMm": 60.499769132285415,
+      "skinAreaMm2": 17752.801501124624,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999229211887,
+        "max": 0.2876185455795966
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.64,
+      "solid": true,
+      "lengthMm": 60.49703307629817,
+      "skinAreaMm2": 17751.972081580123,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999184480323,
+        "max": 0.2876653590633723
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.66,
+      "solid": true,
+      "lengthMm": 60.4942972923115,
+      "skinAreaMm2": 17751.142678424047,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999138481054,
+        "max": 0.2877121694551415
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.68,
+      "solid": true,
+      "lengthMm": 60.49156178034207,
+      "skinAreaMm2": 17750.313141232135,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999091213589,
+        "max": 0.2877589767543615
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.7,
+      "solid": true,
+      "lengthMm": 60.4888265404064,
+      "skinAreaMm2": 17749.483741762266,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999999042677427,
+        "max": 0.287805780960523
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.72,
+      "solid": true,
+      "lengthMm": 60.48609157252106,
+      "skinAreaMm2": 17748.65467704751,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998992872074,
+        "max": 0.2878525820730949
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.74,
+      "solid": true,
+      "lengthMm": 60.48335687670257,
+      "skinAreaMm2": 17747.825714219227,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998941797034,
+        "max": 0.28789938009155197
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.76,
+      "solid": true,
+      "lengthMm": 60.48062245296742,
+      "skinAreaMm2": 17746.996531226912,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998889451812,
+        "max": 0.2879461750153689
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.78,
+      "solid": true,
+      "lengthMm": 60.47788830133222,
+      "skinAreaMm2": 17746.16754034811,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999883583591,
+        "max": 0.2879929668440207
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.8,
+      "solid": true,
+      "lengthMm": 60.475154421813464,
+      "skinAreaMm2": 17745.338556814597,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998780948831,
+        "max": 0.2880397555769828
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.82,
+      "solid": true,
+      "lengthMm": 60.47242081442781,
+      "skinAreaMm2": 17744.509718424157,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999872479008,
+        "max": 0.2880865412137304
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.84,
+      "solid": true,
+      "lengthMm": 60.46968747919161,
+      "skinAreaMm2": 17743.681293071706,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998667359157,
+        "max": 0.2881333237537393
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.86,
+      "solid": true,
+      "lengthMm": 60.46695441612157,
+      "skinAreaMm2": 17742.852671926445,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998608655569,
+        "max": 0.28818010319648535
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.88,
+      "solid": true,
+      "lengthMm": 60.46422162523409,
+      "skinAreaMm2": 17742.02403601976,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998548678815,
+        "max": 0.28822687954144444
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.9,
+      "solid": true,
+      "lengthMm": 60.46148910654582,
+      "skinAreaMm2": 17741.195442158663,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998487428399,
+        "max": 0.2882736527880929
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.92,
+      "solid": true,
+      "lengthMm": 60.458756860073244,
+      "skinAreaMm2": 17740.367323275837,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998424903824,
+        "max": 0.2883204229359019
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.94,
+      "solid": true,
+      "lengthMm": 60.456024885832875,
+      "skinAreaMm2": 17739.538977462264,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998361104589,
+        "max": 0.2883671899843644
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.96,
+      "solid": true,
+      "lengthMm": 60.45329318384131,
+      "skinAreaMm2": 17738.710819747776,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.69999982960302,
+        "max": 0.2884139539329351
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.98,
+      "solid": true,
+      "lengthMm": 60.45056175411505,
+      "skinAreaMm2": 17737.8827015099,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998305867305,
+        "max": 0.2884607147811135
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 1,
+      "solid": true,
+      "lengthMm": 60.44783059667061,
+      "skinAreaMm2": 17737.054464582357,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999998370595271,
+        "max": 0.28850747252836006
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0,
+      "solid": true,
+      "lengthMm": 49.62609398040962,
+      "skinAreaMm2": 14455.161067158593,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999751354933718,
+        "max": 0.5025305635070416
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.02,
+      "solid": true,
+      "lengthMm": 49.625253881467266,
+      "skinAreaMm2": 14454.903712509644,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999749553459109,
+        "max": 0.5025564243662449
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.04,
+      "solid": true,
+      "lengthMm": 49.62441415664199,
+      "skinAreaMm2": 14454.646355340481,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999747744966034,
+        "max": 0.5025822819384159
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.06,
+      "solid": true,
+      "lengthMm": 49.62357480595727,
+      "skinAreaMm2": 14454.389090718456,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999745929448715,
+        "max": 0.502608136223853
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.08,
+      "solid": true,
+      "lengthMm": 49.62273582943662,
+      "skinAreaMm2": 14454.132136343975,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999747327344796,
+        "max": 0.5026339872228481
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.1,
+      "solid": true,
+      "lengthMm": 49.62189722710336,
+      "skinAreaMm2": 14453.875170029634,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999749048587581,
+        "max": 0.5026598349356911
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.12,
+      "solid": true,
+      "lengthMm": 49.621058998980914,
+      "skinAreaMm2": 14453.618678151215,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699975076445358,
+        "max": 0.5026856793626743
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.14,
+      "solid": true,
+      "lengthMm": 49.6202211450927,
+      "skinAreaMm2": 14453.361122156039,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999752474937795,
+        "max": 0.502711520504091
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.16,
+      "solid": true,
+      "lengthMm": 49.619383665462294,
+      "skinAreaMm2": 14453.104764426595,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999754180035227,
+        "max": 0.5027373583602328
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.18,
+      "solid": true,
+      "lengthMm": 49.61854656011299,
+      "skinAreaMm2": 14452.848610372777,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999755879740872,
+        "max": 0.5027631929313923
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.2,
+      "solid": true,
+      "lengthMm": 49.61770982906833,
+      "skinAreaMm2": 14452.592476200913,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999757574049723,
+        "max": 0.5027890242178621
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.22,
+      "solid": true,
+      "lengthMm": 49.61687347235171,
+      "skinAreaMm2": 14452.335900260345,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999759262956764,
+        "max": 0.5028148522199336
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.24,
+      "solid": true,
+      "lengthMm": 49.61603748998667,
+      "skinAreaMm2": 14452.07965498403,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999760946456975,
+        "max": 0.5028406769378986
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.26,
+      "solid": true,
+      "lengthMm": 49.615201881996654,
+      "skinAreaMm2": 14451.823831395637,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999762624545339,
+        "max": 0.5028664983720514
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.28,
+      "solid": true,
+      "lengthMm": 49.61436664840511,
+      "skinAreaMm2": 14451.567411827706,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999764297216826,
+        "max": 0.5028923165226808
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.3,
+      "solid": true,
+      "lengthMm": 49.61353178923552,
+      "skinAreaMm2": 14451.311569068159,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999765964466406,
+        "max": 0.5029181313900875
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.32,
+      "solid": true,
+      "lengthMm": 49.612697304511315,
+      "skinAreaMm2": 14451.055943980193,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999767626289043,
+        "max": 0.5029439429745566
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.34,
+      "solid": true,
+      "lengthMm": 49.6118631942561,
+      "skinAreaMm2": 14450.800852812608,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999769282679691,
+        "max": 0.5029697512763776
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.36,
+      "solid": true,
+      "lengthMm": 49.611029458493356,
+      "skinAreaMm2": 14450.544594375815,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999770933633317,
+        "max": 0.5029955562958557
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.38,
+      "solid": true,
+      "lengthMm": 49.610196097246515,
+      "skinAreaMm2": 14450.289360110497,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999772579144861,
+        "max": 0.5030213580332717
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.4,
+      "solid": true,
+      "lengthMm": 49.60936311053909,
+      "skinAreaMm2": 14450.034439336705,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999774219209275,
+        "max": 0.5030471564889233
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.42,
+      "solid": true,
+      "lengthMm": 49.60853049839464,
+      "skinAreaMm2": 14449.779564027236,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999775853821499,
+        "max": 0.5030729516631024
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.44,
+      "solid": true,
+      "lengthMm": 49.60769826083666,
+      "skinAreaMm2": 14449.523673361105,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999777482976468,
+        "max": 0.5030987435561014
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.46,
+      "solid": true,
+      "lengthMm": 49.60686639788874,
+      "skinAreaMm2": 14449.269352229428,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699977910666912,
+        "max": 0.5031245321682135
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.48,
+      "solid": true,
+      "lengthMm": 49.60603490957432,
+      "skinAreaMm2": 14449.014379964206,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999780724894378,
+        "max": 0.5031503174997284
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.5,
+      "solid": true,
+      "lengthMm": 49.60520379591695,
+      "skinAreaMm2": 14448.759545712106,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999782337647167,
+        "max": 0.5031760995509472
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.52,
+      "solid": true,
+      "lengthMm": 49.604373056940204,
+      "skinAreaMm2": 14448.504949913191,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999783944922406,
+        "max": 0.5032018783221549
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.54,
+      "solid": true,
+      "lengthMm": 49.60354269266757,
+      "skinAreaMm2": 14448.2504362246,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999785546715013,
+        "max": 0.503227653813644
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.56,
+      "solid": true,
+      "lengthMm": 49.60271270312268,
+      "skinAreaMm2": 14447.996777922059,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999787143019892,
+        "max": 0.5032534260257157
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.58,
+      "solid": true,
+      "lengthMm": 49.60188308832904,
+      "skinAreaMm2": 14447.741516537872,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999788733831952,
+        "max": 0.5032791949586555
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.6,
+      "solid": true,
+      "lengthMm": 49.601053848310144,
+      "skinAreaMm2": 14447.487412617204,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999790319146094,
+        "max": 0.5033049606127536
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.62,
+      "solid": true,
+      "lengthMm": 49.600224983089696,
+      "skinAreaMm2": 14447.234200062272,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999791898957215,
+        "max": 0.5033307229883147
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.64,
+      "solid": true,
+      "lengthMm": 49.599396492691234,
+      "skinAreaMm2": 14446.979091283345,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999793473260203,
+        "max": 0.5033564820856221
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.66,
+      "solid": true,
+      "lengthMm": 49.598568377138285,
+      "skinAreaMm2": 14446.725628532095,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699979504204995,
+        "max": 0.5033822379049693
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.68,
+      "solid": true,
+      "lengthMm": 49.59774063645443,
+      "skinAreaMm2": 14446.472407410629,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999796605321336,
+        "max": 0.5034079904466545
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.7,
+      "solid": true,
+      "lengthMm": 49.59691327066335,
+      "skinAreaMm2": 14446.218033732233,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999798163069239,
+        "max": 0.5034337397109709
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.72,
+      "solid": true,
+      "lengthMm": 49.596086279788516,
+      "skinAreaMm2": 14445.964939103,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999799715288534,
+        "max": 0.5034594856982039
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.74,
+      "solid": true,
+      "lengthMm": 49.59525966385361,
+      "skinAreaMm2": 14445.71174125828,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999801261974086,
+        "max": 0.5034852284086543
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.76,
+      "solid": true,
+      "lengthMm": 49.59443342288232,
+      "skinAreaMm2": 14445.458348781987,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999802803120764,
+        "max": 0.5035109678426158
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.78,
+      "solid": true,
+      "lengthMm": 49.59360755689806,
+      "skinAreaMm2": 14445.20509031334,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999804338723423,
+        "max": 0.5035367040003734
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.8,
+      "solid": true,
+      "lengthMm": 49.592782065924546,
+      "skinAreaMm2": 14444.952037828063,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999805868776923,
+        "max": 0.5035624368822285
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.82,
+      "solid": true,
+      "lengthMm": 49.5919569499854,
+      "skinAreaMm2": 14444.699022078847,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999807393276114,
+        "max": 0.5035881664884719
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.84,
+      "solid": true,
+      "lengthMm": 49.591132209104316,
+      "skinAreaMm2": 14444.44618630356,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999808912215839,
+        "max": 0.5036138928193961
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.86,
+      "solid": true,
+      "lengthMm": 49.59030784330482,
+      "skinAreaMm2": 14444.193520052277,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999810425590942,
+        "max": 0.5036396158752954
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.88,
+      "solid": true,
+      "lengthMm": 49.589483852610584,
+      "skinAreaMm2": 14443.940794549091,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999811933396256,
+        "max": 0.5036653356564645
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.9,
+      "solid": true,
+      "lengthMm": 49.588660237045296,
+      "skinAreaMm2": 14443.688282528745,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999813435626616,
+        "max": 0.5036910521631951
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.92,
+      "solid": true,
+      "lengthMm": 49.58783699663252,
+      "skinAreaMm2": 14443.435728586617,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999814932276852,
+        "max": 0.503716765395781
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.94,
+      "solid": true,
+      "lengthMm": 49.58701413139605,
+      "skinAreaMm2": 14443.184151183084,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999816423341781,
+        "max": 0.5037424753545161
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.96,
+      "solid": true,
+      "lengthMm": 49.586191641359456,
+      "skinAreaMm2": 14442.931853889946,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999817908816225,
+        "max": 0.5037681820396931
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.98,
+      "solid": true,
+      "lengthMm": 49.585369526546394,
+      "skinAreaMm2": 14442.679372569983,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999819388694996,
+        "max": 0.5037938854516072
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 1,
+      "solid": true,
+      "lengthMm": 49.58454778698062,
+      "skinAreaMm2": 14442.427772489127,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999820862972904,
+        "max": 0.5038195855905518
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0,
+      "solid": true,
+      "lengthMm": 52.856585625679905,
+      "skinAreaMm2": 16131.44959608908,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5779129337034496,
+        "max": 0.6993813630726231
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.02,
+      "solid": true,
+      "lengthMm": 52.85908268004239,
+      "skinAreaMm2": 16132.161237951106,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5778463475763511,
+        "max": 0.6993771130502225
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.04,
+      "solid": true,
+      "lengthMm": 52.86158044526219,
+      "skinAreaMm2": 16132.872676108922,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5777797233054386,
+        "max": 0.6993728560987736
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.06,
+      "solid": true,
+      "lengthMm": 52.8640789212017,
+      "skinAreaMm2": 16133.585343432156,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5777130608697099,
+        "max": 0.6993685922757542
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.08,
+      "solid": true,
+      "lengthMm": 52.86657810772311,
+      "skinAreaMm2": 16134.298961571703,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5776463602481509,
+        "max": 0.6993643216382955
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.1,
+      "solid": true,
+      "lengthMm": 52.869078004688895,
+      "skinAreaMm2": 16135.009331697853,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5775796214197185,
+        "max": 0.699360044243194
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.12,
+      "solid": true,
+      "lengthMm": 52.8715786119618,
+      "skinAreaMm2": 16135.722487125251,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5775128443633575,
+        "max": 0.6993557601469075
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.14,
+      "solid": true,
+      "lengthMm": 52.87407992940463,
+      "skinAreaMm2": 16136.436373326762,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5774460290580358,
+        "max": 0.6993514694055581
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.16,
+      "solid": true,
+      "lengthMm": 52.87658195688045,
+      "skinAreaMm2": 16137.15068100991,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5773791754827124,
+        "max": 0.6993471720749364
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.18,
+      "solid": true,
+      "lengthMm": 52.879084694252306,
+      "skinAreaMm2": 16137.86186925667,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5773122836163128,
+        "max": 0.699342868210501
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.2,
+      "solid": true,
+      "lengthMm": 52.88158814138348,
+      "skinAreaMm2": 16138.575045975951,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.577245353437756,
+        "max": 0.6993385578673811
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.22,
+      "solid": true,
+      "lengthMm": 52.884092298137666,
+      "skinAreaMm2": 16139.2896392239,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5771783849259775,
+        "max": 0.6993342411003811
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.24,
+      "solid": true,
+      "lengthMm": 52.88659716437823,
+      "skinAreaMm2": 16140.004523459946,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.577111378059908,
+        "max": 0.6993299179639787
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.26,
+      "solid": true,
+      "lengthMm": 52.88910273996913,
+      "skinAreaMm2": 16140.717477561042,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5770443328184459,
+        "max": 0.6993255885123292
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.28,
+      "solid": true,
+      "lengthMm": 52.89160902477427,
+      "skinAreaMm2": 16141.43155306742,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5769772491804771,
+        "max": 0.6993212527992667
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.3,
+      "solid": true,
+      "lengthMm": 52.89411601865779,
+      "skinAreaMm2": 16142.145816288783,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5769101271249247,
+        "max": 0.6993169108783088
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.32,
+      "solid": true,
+      "lengthMm": 52.896623721483955,
+      "skinAreaMm2": 16142.860093905267,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5768429666306496,
+        "max": 0.6993125628026525
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.34,
+      "solid": true,
+      "lengthMm": 52.89913213311721,
+      "skinAreaMm2": 16143.57394131858,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5767757676765591,
+        "max": 0.699308208625181
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.36,
+      "solid": true,
+      "lengthMm": 52.90164125342206,
+      "skinAreaMm2": 16144.289556397143,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5767085302415005,
+        "max": 0.699303848398467
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.38,
+      "solid": true,
+      "lengthMm": 52.90415108226342,
+      "skinAreaMm2": 16145.002969260428,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5766412543043651,
+        "max": 0.6992994821747682
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.4,
+      "solid": true,
+      "lengthMm": 52.906661619506146,
+      "skinAreaMm2": 16145.719229288172,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5765739398439871,
+        "max": 0.6992951100060353
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.42,
+      "solid": true,
+      "lengthMm": 52.90917286501513,
+      "skinAreaMm2": 16146.434009522318,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5765065868392424,
+        "max": 0.6992907319439106
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.44,
+      "solid": true,
+      "lengthMm": 52.911684818655864,
+      "skinAreaMm2": 16147.1500035157,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5764391952689497,
+        "max": 0.6992863480397326
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.46,
+      "solid": true,
+      "lengthMm": 52.914197480293566,
+      "skinAreaMm2": 16147.864617648014,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5763717651119733,
+        "max": 0.6992819583445337
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.48,
+      "solid": true,
+      "lengthMm": 52.91671084979372,
+      "skinAreaMm2": 16148.581422553418,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5763042963471162,
+        "max": 0.6992775629090455
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.5,
+      "solid": true,
+      "lengthMm": 52.919224927022206,
+      "skinAreaMm2": 16149.296921736892,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5762367889532288,
+        "max": 0.6992731617837026
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.52,
+      "solid": true,
+      "lengthMm": 52.92173971184467,
+      "skinAreaMm2": 16150.013019324613,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5761692429090987,
+        "max": 0.6992687550186348
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.54,
+      "solid": true,
+      "lengthMm": 52.924255204127284,
+      "skinAreaMm2": 16150.728293778882,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5761016581935618,
+        "max": 0.6992643426636832
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.56,
+      "solid": true,
+      "lengthMm": 52.92677140373603,
+      "skinAreaMm2": 16151.446727161914,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5760340347854074,
+        "max": 0.6992599247683884
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.58,
+      "solid": true,
+      "lengthMm": 52.929288310537366,
+      "skinAreaMm2": 16152.161790872258,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5759663726634136,
+        "max": 0.6992555013820013
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.6,
+      "solid": true,
+      "lengthMm": 52.931805924397665,
+      "skinAreaMm2": 16152.878832874563,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5758986718063822,
+        "max": 0.6992510725534822
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.62,
+      "solid": true,
+      "lengthMm": 52.93432424518357,
+      "skinAreaMm2": 16153.59547148345,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5758309321931065,
+        "max": 0.6992466383314992
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.64,
+      "solid": true,
+      "lengthMm": 52.936843272761905,
+      "skinAreaMm2": 16154.312011301241,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5757631538023459,
+        "max": 0.699242198764437
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.66,
+      "solid": true,
+      "lengthMm": 52.939363006999464,
+      "skinAreaMm2": 16155.029709893031,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5756953366128531,
+        "max": 0.6992377539003929
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.68,
+      "solid": true,
+      "lengthMm": 52.94188344776339,
+      "skinAreaMm2": 16155.748075253527,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5756274806033982,
+        "max": 0.6992333037871789
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.7,
+      "solid": true,
+      "lengthMm": 52.94440459492088,
+      "skinAreaMm2": 16156.464205136845,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5755595857527479,
+        "max": 0.6992288484723254
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.72,
+      "solid": true,
+      "lengthMm": 52.94692644833933,
+      "skinAreaMm2": 16157.181235744656,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5754916520396339,
+        "max": 0.6992243880030846
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.74,
+      "solid": true,
+      "lengthMm": 52.94944900788632,
+      "skinAreaMm2": 16157.901411466817,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.575423679442777,
+        "max": 0.6992199224264276
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.76,
+      "solid": true,
+      "lengthMm": 52.95197227342934,
+      "skinAreaMm2": 16158.617770715728,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5753556679409224,
+        "max": 0.6992154517890491
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.78,
+      "solid": true,
+      "lengthMm": 52.95449624483647,
+      "skinAreaMm2": 16159.337145544523,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5752876175128063,
+        "max": 0.6992109761373675
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.8,
+      "solid": true,
+      "lengthMm": 52.95702092197553,
+      "skinAreaMm2": 16160.055082532002,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5752195281371314,
+        "max": 0.6992064955175291
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.82,
+      "solid": true,
+      "lengthMm": 52.95954630471463,
+      "skinAreaMm2": 16160.773035893888,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5751513997925936,
+        "max": 0.6992020099754056
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.84,
+      "solid": true,
+      "lengthMm": 52.96207239292207,
+      "skinAreaMm2": 16161.4916883179,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5750832324579069,
+        "max": 0.6991975195566027
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.86,
+      "solid": true,
+      "lengthMm": 52.964599186466366,
+      "skinAreaMm2": 16162.211615667398,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5750150261117818,
+        "max": 0.6991930243064512
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.88,
+      "solid": true,
+      "lengthMm": 52.96712668521591,
+      "skinAreaMm2": 16162.929570937495,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5749467807328895,
+        "max": 0.6991885242700203
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.9,
+      "solid": true,
+      "lengthMm": 52.96965488903959,
+      "skinAreaMm2": 16163.65020172746,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5748784962998986,
+        "max": 0.6991840194921096
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.92,
+      "solid": true,
+      "lengthMm": 52.97218379780613,
+      "skinAreaMm2": 16164.36980144293,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5748101727914963,
+        "max": 0.699179510017257
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.94,
+      "solid": true,
+      "lengthMm": 52.97471341138467,
+      "skinAreaMm2": 16165.088934894806,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.574741810186363,
+        "max": 0.6991749958897376
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.96,
+      "solid": true,
+      "lengthMm": 52.97724372964426,
+      "skinAreaMm2": 16165.808649277087,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5746734084631437,
+        "max": 0.6991704771535636
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.98,
+      "solid": true,
+      "lengthMm": 52.979774752454205,
+      "skinAreaMm2": 16166.53001588661,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5746049676004802,
+        "max": 0.6991659538524923
+      }
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 1,
+      "solid": true,
+      "lengthMm": 52.98230647968401,
+      "skinAreaMm2": 16167.248329746242,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.5745364875770287,
+        "max": 0.6991614260300175
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0,
+      "solid": true,
+      "lengthMm": 60.589706569074146,
+      "skinAreaMm2": 17728.17516570352,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990123124714,
+        "max": 0.3022811534365887
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.02,
+      "solid": true,
+      "lengthMm": 60.58690780147651,
+      "skinAreaMm2": 17727.325360678464,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990121387005,
+        "max": 0.30233752951432863
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.04,
+      "solid": true,
+      "lengthMm": 60.58410939034936,
+      "skinAreaMm2": 17726.47538756091,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990119648835,
+        "max": 0.30239389836073605
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.06,
+      "solid": true,
+      "lengthMm": 60.58131133570326,
+      "skinAreaMm2": 17725.625516682474,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990117910208,
+        "max": 0.302450259975687
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.08,
+      "solid": true,
+      "lengthMm": 60.578513637548944,
+      "skinAreaMm2": 17724.776112273485,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990116171121,
+        "max": 0.30250661435908344
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.1,
+      "solid": true,
+      "lengthMm": 60.575716295897244,
+      "skinAreaMm2": 17723.92649003477,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990114431573,
+        "max": 0.3025629615108091
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.12,
+      "solid": true,
+      "lengthMm": 60.57291931075865,
+      "skinAreaMm2": 17723.0770562762,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999011269157,
+        "max": 0.30261930143075466
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.14,
+      "solid": true,
+      "lengthMm": 60.57012268214398,
+      "skinAreaMm2": 17722.227821525874,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990110951105,
+        "max": 0.3026756341188048
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.16,
+      "solid": true,
+      "lengthMm": 60.56732641006384,
+      "skinAreaMm2": 17721.378870932243,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999010921018,
+        "max": 0.3027319595748643
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.18,
+      "solid": true,
+      "lengthMm": 60.56453049452895,
+      "skinAreaMm2": 17720.529875114957,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990107468798,
+        "max": 0.3027882777988125
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.2,
+      "solid": true,
+      "lengthMm": 60.56173493555,
+      "skinAreaMm2": 17719.680909038085,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990105726952,
+        "max": 0.3028445887905554
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.22,
+      "solid": true,
+      "lengthMm": 60.55893973313768,
+      "skinAreaMm2": 17718.83224178104,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990103984648,
+        "max": 0.30290089254998015
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.24,
+      "solid": true,
+      "lengthMm": 60.556144887302594,
+      "skinAreaMm2": 17717.98335053235,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990102241885,
+        "max": 0.3029571890769811
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.26,
+      "solid": true,
+      "lengthMm": 60.553350398055485,
+      "skinAreaMm2": 17717.13473113574,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990100498659,
+        "max": 0.30301347837145276
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.28,
+      "solid": true,
+      "lengthMm": 60.550556265406954,
+      "skinAreaMm2": 17716.286236558477,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990098754973,
+        "max": 0.30306976043328426
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.3,
+      "solid": true,
+      "lengthMm": 60.54776248936768,
+      "skinAreaMm2": 17715.43808022803,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990097010828,
+        "max": 0.3031260352623847
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.32,
+      "solid": true,
+      "lengthMm": 60.54496906994839,
+      "skinAreaMm2": 17714.589831860398,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990095266221,
+        "max": 0.3031823028586435
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.34,
+      "solid": true,
+      "lengthMm": 60.54217600715966,
+      "skinAreaMm2": 17713.741711154467,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990093521152,
+        "max": 0.3032385632219585
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.36,
+      "solid": true,
+      "lengthMm": 60.53938330101215,
+      "skinAreaMm2": 17712.893498333706,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990091775623,
+        "max": 0.3032948163522211
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.38,
+      "solid": true,
+      "lengthMm": 60.53659095151653,
+      "skinAreaMm2": 17712.045636004434,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990090029634,
+        "max": 0.303351062249342
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.4,
+      "solid": true,
+      "lengthMm": 60.53379895868349,
+      "skinAreaMm2": 17711.197703707137,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990088283181,
+        "max": 0.30340730091320767
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.42,
+      "solid": true,
+      "lengthMm": 60.53100732252359,
+      "skinAreaMm2": 17710.34986959911,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990086536266,
+        "max": 0.30346353234373724
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.44,
+      "solid": true,
+      "lengthMm": 60.528216043047564,
+      "skinAreaMm2": 17709.502329415023,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990084788892,
+        "max": 0.3035197565408044
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.46,
+      "solid": true,
+      "lengthMm": 60.52542512026595,
+      "skinAreaMm2": 17708.655000496325,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990083041054,
+        "max": 0.30357597350432997
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.48,
+      "solid": true,
+      "lengthMm": 60.52263455418943,
+      "skinAreaMm2": 17707.807648762766,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990081292753,
+        "max": 0.30363218323420216
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.5,
+      "solid": true,
+      "lengthMm": 60.519844344828655,
+      "skinAreaMm2": 17706.960421319007,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990079543992,
+        "max": 0.30368838573033574
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.52,
+      "solid": true,
+      "lengthMm": 60.51705449219424,
+      "skinAreaMm2": 17706.11320331072,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990077794767,
+        "max": 0.3037445809926332
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.54,
+      "solid": true,
+      "lengthMm": 60.51426499629676,
+      "skinAreaMm2": 17705.266129382955,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999007604508,
+        "max": 0.3038007690209787
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.56,
+      "solid": true,
+      "lengthMm": 60.51147585714695,
+      "skinAreaMm2": 17704.419033747872,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990074294927,
+        "max": 0.303856949815295
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.58,
+      "solid": true,
+      "lengthMm": 60.50868707475538,
+      "skinAreaMm2": 17703.572232148144,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990072544316,
+        "max": 0.3039131233754737
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.6,
+      "solid": true,
+      "lengthMm": 60.505898649132575,
+      "skinAreaMm2": 17702.725397105845,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990070793239,
+        "max": 0.30396928970143267
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.62,
+      "solid": true,
+      "lengthMm": 60.50311058028929,
+      "skinAreaMm2": 17701.878692035967,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990069041698,
+        "max": 0.3040254487930642
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.64,
+      "solid": true,
+      "lengthMm": 60.50032286823602,
+      "skinAreaMm2": 17701.032390068798,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990067289695,
+        "max": 0.304081600650294
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.66,
+      "solid": true,
+      "lengthMm": 60.49753551298344,
+      "skinAreaMm2": 17700.1862407705,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990065537227,
+        "max": 0.3041377452730033
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.68,
+      "solid": true,
+      "lengthMm": 60.49474851454219,
+      "skinAreaMm2": 17699.339779524544,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990063784298,
+        "max": 0.3041938826611182
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.7,
+      "solid": true,
+      "lengthMm": 60.49196187292275,
+      "skinAreaMm2": 17698.49369774254,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990062030901,
+        "max": 0.3042500128145339
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.72,
+      "solid": true,
+      "lengthMm": 60.48917558813575,
+      "skinAreaMm2": 17697.64746584177,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990060277042,
+        "max": 0.304306135733172
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.74,
+      "solid": true,
+      "lengthMm": 60.4863896601919,
+      "skinAreaMm2": 17696.801559964726,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999005852272,
+        "max": 0.30436225141693485
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.76,
+      "solid": true,
+      "lengthMm": 60.483604089101696,
+      "skinAreaMm2": 17695.955705420794,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990056767931,
+        "max": 0.3044183598657325
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.78,
+      "solid": true,
+      "lengthMm": 60.48081887487569,
+      "skinAreaMm2": 17695.109800571518,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999005501268,
+        "max": 0.304474461079475
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.8,
+      "solid": true,
+      "lengthMm": 60.47803401752459,
+      "skinAreaMm2": 17694.264531818888,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990053256961,
+        "max": 0.30453055505806675
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.82,
+      "solid": true,
+      "lengthMm": 60.47524951705881,
+      "skinAreaMm2": 17693.418956842164,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990051500778,
+        "max": 0.304586641801432
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.84,
+      "solid": true,
+      "lengthMm": 60.47246537348913,
+      "skinAreaMm2": 17692.573467355895,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990049744131,
+        "max": 0.3046427213094766
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.86,
+      "solid": true,
+      "lengthMm": 60.46968158682603,
+      "skinAreaMm2": 17691.728075282565,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990047987018,
+        "max": 0.30469879358211294
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.88,
+      "solid": true,
+      "lengthMm": 60.466898157079996,
+      "skinAreaMm2": 17690.882840620347,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990046229442,
+        "max": 0.30475485861924834
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.9,
+      "solid": true,
+      "lengthMm": 60.464115084261714,
+      "skinAreaMm2": 17690.03790715396,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990044471397,
+        "max": 0.3048109164208088
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.92,
+      "solid": true,
+      "lengthMm": 60.461332368381754,
+      "skinAreaMm2": 17689.19279456175,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990042712887,
+        "max": 0.3048669669866961
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.94,
+      "solid": true,
+      "lengthMm": 60.45855000945063,
+      "skinAreaMm2": 17688.347843821062,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990040953912,
+        "max": 0.3049230103168385
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.96,
+      "solid": true,
+      "lengthMm": 60.4557680074789,
+      "skinAreaMm2": 17687.50301320797,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699999003919447,
+        "max": 0.30497904641114454
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.98,
+      "solid": true,
+      "lengthMm": 60.452986362477176,
+      "skinAreaMm2": 17686.658788465083,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990037434561,
+        "max": 0.30503507526953083
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 1,
+      "solid": true,
+      "lengthMm": 60.450205074455944,
+      "skinAreaMm2": 17685.81425568235,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999990035674187,
+        "max": 0.3050910968919078
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0,
+      "solid": true,
+      "lengthMm": 50.524831612060794,
+      "skinAreaMm2": 14682.026937843206,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956528069852,
+        "max": 0.5250840158134082
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.02,
+      "solid": true,
+      "lengthMm": 50.524289319932286,
+      "skinAreaMm2": 14681.863138202889,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956512021781,
+        "max": 0.5251064226296032
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.04,
+      "solid": true,
+      "lengthMm": 50.52374743008919,
+      "skinAreaMm2": 14681.69875485156,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956495964823,
+        "max": 0.5251288257550852
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.06,
+      "solid": true,
+      "lengthMm": 50.52320594254273,
+      "skinAreaMm2": 14681.535120951197,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699995647989897,
+        "max": 0.5251512251905159
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.08,
+      "solid": true,
+      "lengthMm": 50.52266485730388,
+      "skinAreaMm2": 14681.371768577494,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956463824216,
+        "max": 0.5251736209365406
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.1,
+      "solid": true,
+      "lengthMm": 50.52212417438386,
+      "skinAreaMm2": 14681.207621203228,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956447740555,
+        "max": 0.5251960129938226
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.12,
+      "solid": true,
+      "lengthMm": 50.52158389379374,
+      "skinAreaMm2": 14681.044707807532,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699995643164798,
+        "max": 0.5252184013630038
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.14,
+      "solid": true,
+      "lengthMm": 50.52104401554465,
+      "skinAreaMm2": 14680.880297825008,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956415546482,
+        "max": 0.5252407860447429
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.16,
+      "solid": true,
+      "lengthMm": 50.520504539647646,
+      "skinAreaMm2": 14680.7171784676,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956399436057,
+        "max": 0.5252631670396921
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.18,
+      "solid": true,
+      "lengthMm": 50.51996546611394,
+      "skinAreaMm2": 14680.554383209897,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956383316699,
+        "max": 0.5252855443485038
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.2,
+      "solid": true,
+      "lengthMm": 50.51942679495458,
+      "skinAreaMm2": 14680.391159264147,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956367188401,
+        "max": 0.5253079179718259
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.22,
+      "solid": true,
+      "lengthMm": 50.51888852618077,
+      "skinAreaMm2": 14680.228630630647,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956351051154,
+        "max": 0.5253302879103172
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.24,
+      "solid": true,
+      "lengthMm": 50.518350659803545,
+      "skinAreaMm2": 14680.065497034877,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956334904953,
+        "max": 0.5253526541646294
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.26,
+      "solid": true,
+      "lengthMm": 50.51781319583419,
+      "skinAreaMm2": 14679.903276053372,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956318749792,
+        "max": 0.5253750167354081
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.28,
+      "solid": true,
+      "lengthMm": 50.5172761342837,
+      "skinAreaMm2": 14679.740918068946,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956302585664,
+        "max": 0.5253973756233131
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.3,
+      "solid": true,
+      "lengthMm": 50.5167394751633,
+      "skinAreaMm2": 14679.578251580268,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956286412562,
+        "max": 0.525419730828994
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.32,
+      "solid": true,
+      "lengthMm": 50.51620321848418,
+      "skinAreaMm2": 14679.416178415373,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956270230479,
+        "max": 0.5254420823530978
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.34,
+      "solid": true,
+      "lengthMm": 50.515667364257304,
+      "skinAreaMm2": 14679.25390833344,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699995625403941,
+        "max": 0.5254644301962837
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.36,
+      "solid": true,
+      "lengthMm": 50.51513191249404,
+      "skinAreaMm2": 14679.09211627639,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956237839345,
+        "max": 0.5254867743591994
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.38,
+      "solid": true,
+      "lengthMm": 50.514596863205476,
+      "skinAreaMm2": 14678.929324772329,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699995622163028,
+        "max": 0.5255091148424986
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.4,
+      "solid": true,
+      "lengthMm": 50.51406221640274,
+      "skinAreaMm2": 14678.767523021968,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956205412209,
+        "max": 0.5255314516468284
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.42,
+      "solid": true,
+      "lengthMm": 50.513527972096966,
+      "skinAreaMm2": 14678.606017810604,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956189185124,
+        "max": 0.5255537847728454
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.44,
+      "solid": true,
+      "lengthMm": 50.51299413029944,
+      "skinAreaMm2": 14678.444280019354,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956172949019,
+        "max": 0.525576114221199
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.46,
+      "solid": true,
+      "lengthMm": 50.512460691021296,
+      "skinAreaMm2": 14678.283511319194,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956156703885,
+        "max": 0.5255984399925376
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.48,
+      "solid": true,
+      "lengthMm": 50.51192765427362,
+      "skinAreaMm2": 14678.122242276062,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956140449719,
+        "max": 0.5256207620875174
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.5,
+      "solid": true,
+      "lengthMm": 50.51139502006773,
+      "skinAreaMm2": 14677.960697272923,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956124186512,
+        "max": 0.5256430805067871
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.52,
+      "solid": true,
+      "lengthMm": 50.51086278841474,
+      "skinAreaMm2": 14677.799924632796,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956107914258,
+        "max": 0.5256653952509975
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.54,
+      "solid": true,
+      "lengthMm": 50.51033095932582,
+      "skinAreaMm2": 14677.639132305583,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956091632947,
+        "max": 0.525687706320797
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.56,
+      "solid": true,
+      "lengthMm": 50.509799532812174,
+      "skinAreaMm2": 14677.47796873588,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956075342579,
+        "max": 0.5257100137168421
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.58,
+      "solid": true,
+      "lengthMm": 50.50926850888499,
+      "skinAreaMm2": 14677.317593652,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956059043142,
+        "max": 0.525732317439778
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.6,
+      "solid": true,
+      "lengthMm": 50.508737887555505,
+      "skinAreaMm2": 14677.155967096814,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956042734632,
+        "max": 0.5257546174902573
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.62,
+      "solid": true,
+      "lengthMm": 50.50820766883495,
+      "skinAreaMm2": 14676.996038422143,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956026417039,
+        "max": 0.5257769138689332
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.64,
+      "solid": true,
+      "lengthMm": 50.50767785273441,
+      "skinAreaMm2": 14676.835823695777,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999956010090359,
+        "max": 0.5257992065764522
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.66,
+      "solid": true,
+      "lengthMm": 50.507148439265215,
+      "skinAreaMm2": 14676.675384343427,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955993754584,
+        "max": 0.5258214956134643
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.68,
+      "solid": true,
+      "lengthMm": 50.50661942843851,
+      "skinAreaMm2": 14676.515628681389,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955977409711,
+        "max": 0.5258437809806246
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.7,
+      "solid": true,
+      "lengthMm": 50.50609082026556,
+      "skinAreaMm2": 14676.355122581479,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955961055727,
+        "max": 0.5258660626785786
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.72,
+      "solid": true,
+      "lengthMm": 50.505562614757544,
+      "skinAreaMm2": 14676.195668648623,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955944692628,
+        "max": 0.5258883407079786
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.74,
+      "solid": true,
+      "lengthMm": 50.505034811925704,
+      "skinAreaMm2": 14676.03612556765,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955928320409,
+        "max": 0.525910615069472
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.76,
+      "solid": true,
+      "lengthMm": 50.50450741178126,
+      "skinAreaMm2": 14675.87629695873,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955911939062,
+        "max": 0.5259328857637112
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.78,
+      "solid": true,
+      "lengthMm": 50.50398041433543,
+      "skinAreaMm2": 14675.716883175095,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699995589554858,
+        "max": 0.5259551527913453
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.8,
+      "solid": true,
+      "lengthMm": 50.50345381959956,
+      "skinAreaMm2": 14675.557372642497,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955879148956,
+        "max": 0.5259774161530252
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.82,
+      "solid": true,
+      "lengthMm": 50.50292762758474,
+      "skinAreaMm2": 14675.397671650739,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955862740183,
+        "max": 0.5259996758493957
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.84,
+      "solid": true,
+      "lengthMm": 50.50240183830226,
+      "skinAreaMm2": 14675.238559212576,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955846322253,
+        "max": 0.526021931881112
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.86,
+      "solid": true,
+      "lengthMm": 50.501876451763366,
+      "skinAreaMm2": 14675.07939241294,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955829895164,
+        "max": 0.5260441842488213
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.88,
+      "solid": true,
+      "lengthMm": 50.50135146797942,
+      "skinAreaMm2": 14674.92084254679,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955813458905,
+        "max": 0.52606643295317
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.9,
+      "solid": true,
+      "lengthMm": 50.500826886961455,
+      "skinAreaMm2": 14674.761932163097,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955797013468,
+        "max": 0.5260886779948125
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.92,
+      "solid": true,
+      "lengthMm": 50.500302708720945,
+      "skinAreaMm2": 14674.603526983878,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699995578055885,
+        "max": 0.5261109193743954
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.94,
+      "solid": true,
+      "lengthMm": 50.499778933268956,
+      "skinAreaMm2": 14674.445137314005,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955764095043,
+        "max": 0.526133157092565
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.96,
+      "solid": true,
+      "lengthMm": 50.49925556061701,
+      "skinAreaMm2": 14674.286547438236,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955747622038,
+        "max": 0.5261553911499754
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.98,
+      "solid": true,
+      "lengthMm": 50.49873259077607,
+      "skinAreaMm2": 14674.128291364717,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.699995573113983,
+        "max": 0.5261776215472729
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 1,
+      "solid": true,
+      "lengthMm": 50.49821002375762,
+      "skinAreaMm2": 14673.970451931831,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6999955714648413,
+        "max": 0.5261998482851068
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0,
+      "solid": true,
+      "lengthMm": 55.1491469619481,
+      "skinAreaMm2": 16769.09909270137,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6163417890002887,
+        "max": 0.6994484689571396
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.02,
+      "solid": true,
+      "lengthMm": 55.15159671907478,
+      "skinAreaMm2": 16770.655781515954,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6163099753794246,
+        "max": 0.6994507531798057
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.04,
+      "solid": true,
+      "lengthMm": 55.15404715338099,
+      "skinAreaMm2": 16772.216565864674,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6162781447625595,
+        "max": 0.6994530232468098
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.06,
+      "solid": true,
+      "lengthMm": 55.15649826472968,
+      "skinAreaMm2": 16773.78271644202,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6162462971384578,
+        "max": 0.6994552792748323
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.08,
+      "solid": true,
+      "lengthMm": 55.158950052984764,
+      "skinAreaMm2": 16775.350912899397,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6162144324958936,
+        "max": 0.6994575213793538
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.1,
+      "solid": true,
+      "lengthMm": 55.16140251801114,
+      "skinAreaMm2": 16776.92114794715,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6161825508236137,
+        "max": 0.6994597496746675
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.12,
+      "solid": true,
+      "lengthMm": 55.16385565967469,
+      "skinAreaMm2": 16778.497026339835,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6161506521103555,
+        "max": 0.6994619642739031
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.14,
+      "solid": true,
+      "lengthMm": 55.1663094778423,
+      "skinAreaMm2": 16780.075613237135,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6161187363448694,
+        "max": 0.6994641652890288
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.16,
+      "solid": true,
+      "lengthMm": 55.168763972381676,
+      "skinAreaMm2": 16781.65795245894,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6160868035158769,
+        "max": 0.6994663528308745
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.18,
+      "solid": true,
+      "lengthMm": 55.1712191431614,
+      "skinAreaMm2": 16783.2399471923,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6160548536120894,
+        "max": 0.6994685270091409
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.2,
+      "solid": true,
+      "lengthMm": 55.17367499005082,
+      "skinAreaMm2": 16784.82667396578,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6160228866222325,
+        "max": 0.6994706879324167
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.22,
+      "solid": true,
+      "lengthMm": 55.176131512920186,
+      "skinAreaMm2": 16786.415282987644,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6159909025350018,
+        "max": 0.6994728357081883
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.24,
+      "solid": true,
+      "lengthMm": 55.17858871164035,
+      "skinAreaMm2": 16788.00791467868,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6159589013390824,
+        "max": 0.6994749704428554
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.26,
+      "solid": true,
+      "lengthMm": 55.18104658608304,
+      "skinAreaMm2": 16789.59950208009,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6159268830231762,
+        "max": 0.6994770922417478
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.28,
+      "solid": true,
+      "lengthMm": 55.18350513612062,
+      "skinAreaMm2": 16791.194549074764,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6158948475759514,
+        "max": 0.6994792012091272
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.3,
+      "solid": true,
+      "lengthMm": 55.185964361626105,
+      "skinAreaMm2": 16792.791636955422,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.615862794986069,
+        "max": 0.6994812974482144
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.32,
+      "solid": true,
+      "lengthMm": 55.18842426247299,
+      "skinAreaMm2": 16794.387660473192,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6158307252422044,
+        "max": 0.699483381061191
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.34,
+      "solid": true,
+      "lengthMm": 55.19088483853576,
+      "skinAreaMm2": 16795.986111516555,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6157986383330009,
+        "max": 0.6994854521492161
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.36,
+      "solid": true,
+      "lengthMm": 55.19334608968897,
+      "skinAreaMm2": 16797.58660902141,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.615766534247095,
+        "max": 0.6994875108124372
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.38,
+      "solid": true,
+      "lengthMm": 55.19580801580815,
+      "skinAreaMm2": 16799.18633805766,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6157344129731278,
+        "max": 0.6994895571500062
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.4,
+      "solid": true,
+      "lengthMm": 55.19827061676896,
+      "skinAreaMm2": 16800.78559766482,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6157022744997316,
+        "max": 0.6994915912600869
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.42,
+      "solid": true,
+      "lengthMm": 55.20073389244785,
+      "skinAreaMm2": 16802.384149111826,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6156701188155168,
+        "max": 0.6994936132398674
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.44,
+      "solid": true,
+      "lengthMm": 55.2031978427217,
+      "skinAreaMm2": 16803.98586546884,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6156379459090845,
+        "max": 0.6994956231855702
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.46,
+      "solid": true,
+      "lengthMm": 55.20566246746748,
+      "skinAreaMm2": 16805.583822574714,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6156057557690499,
+        "max": 0.6994976211924719
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.48,
+      "solid": true,
+      "lengthMm": 55.20812776656306,
+      "skinAreaMm2": 16807.181177834213,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6155735483839968,
+        "max": 0.6994996073549028
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.5,
+      "solid": true,
+      "lengthMm": 55.21059373988626,
+      "skinAreaMm2": 16808.775653231565,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6155413237425005,
+        "max": 0.6995015817662683
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.52,
+      "solid": true,
+      "lengthMm": 55.213060387315515,
+      "skinAreaMm2": 16810.370403599438,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6155090818331515,
+        "max": 0.6995035445190503
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.54,
+      "solid": true,
+      "lengthMm": 55.21552770872958,
+      "skinAreaMm2": 16811.962300958334,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6154768226445059,
+        "max": 0.6995054957048278
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.56,
+      "solid": true,
+      "lengthMm": 55.217995704007365,
+      "skinAreaMm2": 16813.549592248375,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6154445461651155,
+        "max": 0.6995074354142788
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.58,
+      "solid": true,
+      "lengthMm": 55.22046437302828,
+      "skinAreaMm2": 16815.136660047974,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6154122523835422,
+        "max": 0.6995093637371967
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.6,
+      "solid": true,
+      "lengthMm": 55.222933715671815,
+      "skinAreaMm2": 16816.71856598977,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6153799412883187,
+        "max": 0.6995112807624997
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.62,
+      "solid": true,
+      "lengthMm": 55.225403731817785,
+      "skinAreaMm2": 16818.297322359493,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6153476128679697,
+        "max": 0.6995131865782365
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.64,
+      "solid": true,
+      "lengthMm": 55.22787442134638,
+      "skinAreaMm2": 16819.86833370746,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6153152671110318,
+        "max": 0.6995150812716054
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.66,
+      "solid": true,
+      "lengthMm": 55.23034578413785,
+      "skinAreaMm2": 16821.438127691476,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6152829040060128,
+        "max": 0.6995169649289534
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.68,
+      "solid": true,
+      "lengthMm": 55.23281782007258,
+      "skinAreaMm2": 16823.00023694036,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6152505235414101,
+        "max": 0.6995188376357928
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.7,
+      "solid": true,
+      "lengthMm": 55.23529052903138,
+      "skinAreaMm2": 16824.556642450556,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6152181257057344,
+        "max": 0.6995206994768122
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.72,
+      "solid": true,
+      "lengthMm": 55.23776391089497,
+      "skinAreaMm2": 16826.106430661872,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6151857104874681,
+        "max": 0.6995225505358817
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.74,
+      "solid": true,
+      "lengthMm": 55.24023796554458,
+      "skinAreaMm2": 16827.650848162986,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6151532778750811,
+        "max": 0.6995243908960633
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.76,
+      "solid": true,
+      "lengthMm": 55.24271269286111,
+      "skinAreaMm2": 16829.18739200869,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.615120827857061,
+        "max": 0.699526220639622
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.78,
+      "solid": true,
+      "lengthMm": 55.245188092725975,
+      "skinAreaMm2": 16830.714517028387,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6150883604218615,
+        "max": 0.6995280398480312
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.8,
+      "solid": true,
+      "lengthMm": 55.247664165020524,
+      "skinAreaMm2": 16832.23626736937,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6150558755579288,
+        "max": 0.6995298486019909
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.82,
+      "solid": true,
+      "lengthMm": 55.25014090962633,
+      "skinAreaMm2": 16833.745978793984,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6150233732537161,
+        "max": 0.6995316469814225
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.84,
+      "solid": true,
+      "lengthMm": 55.252618326425015,
+      "skinAreaMm2": 16835.247945477946,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6149908534976649,
+        "max": 0.6995334350654915
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.86,
+      "solid": true,
+      "lengthMm": 55.25509641529821,
+      "skinAreaMm2": 16836.73861480045,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6149583162781969,
+        "max": 0.6995352129326051
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.88,
+      "solid": true,
+      "lengthMm": 55.25757517612777,
+      "skinAreaMm2": 16838.22182151859,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6149257615837224,
+        "max": 0.6995369806604286
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.9,
+      "solid": true,
+      "lengthMm": 55.2600546087955,
+      "skinAreaMm2": 16839.69128242634,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6148931894026658,
+        "max": 0.6995387383258916
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.92,
+      "solid": true,
+      "lengthMm": 55.262534713183385,
+      "skinAreaMm2": 16841.15173448427,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6148605997234218,
+        "max": 0.6995404860051938
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.94,
+      "solid": true,
+      "lengthMm": 55.26501548917333,
+      "skinAreaMm2": 16842.599579560796,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6148279925343751,
+        "max": 0.699542223773815
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.96,
+      "solid": true,
+      "lengthMm": 55.267496936647454,
+      "skinAreaMm2": 16844.03258553125,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6147953678239251,
+        "max": 0.6995439517065255
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.98,
+      "solid": true,
+      "lengthMm": 55.26997905548778,
+      "skinAreaMm2": 16845.456186113897,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.6147627255804388,
+        "max": 0.6995456698773911
+      }
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 1,
+      "solid": true,
+      "lengthMm": 55.272461845576515,
+      "skinAreaMm2": 16846.86597899882,
+      "worldXOffsetNormalProjectionMm": {
+        "min": -0.614730065792274,
+        "max": 0.6995473783597813
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "opening": 0,
+      "a": "binding.leather-spine",
+      "b": "binding.spine-lining",
+      "tested": 40512,
+      "count": 1788,
+      "samples": [
+        [
+          14087,
+          610
+        ],
+        [
+          11818,
+          202
+        ],
+        [
+          11819,
+          202
+        ],
+        [
+          11926,
+          202
+        ],
+        [
+          11927,
+          226
+        ],
+        [
+          11927,
+          202
+        ],
+        [
+          11927,
+          203
+        ],
+        [
+          12034,
+          226
+        ]
+      ],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    {
+      "opening": 0,
+      "a": "binding.cord.2",
+      "b": "front.lacing.2",
+      "tested": 0,
+      "count": 0,
+      "samples": [],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    {
+      "opening": 60,
+      "a": "binding.leather-spine",
+      "b": "binding.spine-lining",
+      "tested": 55663,
+      "count": 4050,
+      "samples": [
+        [
+          21603,
+          4206
+        ],
+        [
+          10802,
+          4206
+        ],
+        [
+          10802,
+          4207
+        ],
+        [
+          10802,
+          4204
+        ],
+        [
+          10803,
+          4204
+        ],
+        [
+          10910,
+          4204
+        ],
+        [
+          10910,
+          4205
+        ],
+        [
+          10911,
+          4205
+        ]
+      ],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    {
+      "opening": 60,
+      "a": "binding.cord.2",
+      "b": "front.lacing.2",
+      "tested": 0,
+      "count": 0,
+      "samples": [],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    {
+      "opening": 130,
+      "a": "binding.leather-spine",
+      "b": "binding.spine-lining",
+      "tested": 49557,
+      "count": 3104,
+      "samples": [
+        [
+          6482,
+          4109
+        ],
+        [
+          6374,
+          4109
+        ],
+        [
+          6374,
+          4108
+        ],
+        [
+          6375,
+          4109
+        ],
+        [
+          6266,
+          4108
+        ],
+        [
+          6266,
+          4111
+        ],
+        [
+          6267,
+          4108
+        ],
+        [
+          6158,
+          4111
+        ]
+      ],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    {
+      "opening": 130,
+      "a": "binding.cord.2",
+      "b": "front.lacing.2",
+      "tested": 0,
+      "count": 0,
+      "samples": [],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    }
+  ],
+  "endpoints": [
+    {
+      "opening": 0,
+      "name": "rear",
+      "spineEndpointToLeatherMm": 0.5000000949949013
+    },
+    {
+      "opening": 0,
+      "name": "front",
+      "spineEndpointToLeatherMm": 0.5000000949949013
+    },
+    {
+      "opening": 15,
+      "name": "rear",
+      "spineEndpointToLeatherMm": 0.5001941820515503
+    },
+    {
+      "opening": 15,
+      "name": "front",
+      "spineEndpointToLeatherMm": 0.5575439536937649
+    },
+    {
+      "opening": 30,
+      "name": "rear",
+      "spineEndpointToLeatherMm": 0.502608787426781
+    },
+    {
+      "opening": 30,
+      "name": "front",
+      "spineEndpointToLeatherMm": 0.7474345070735083
+    },
+    {
+      "opening": 60,
+      "name": "rear",
+      "spineEndpointToLeatherMm": 0.527862546703343
+    },
+    {
+      "opening": 60,
+      "name": "front",
+      "spineEndpointToLeatherMm": 1.5131466477906854
+    },
+    {
+      "opening": 90,
+      "name": "rear",
+      "spineEndpointToLeatherMm": 0.5847833818167428
+    },
+    {
+      "opening": 90,
+      "name": "front",
+      "spineEndpointToLeatherMm": 2.497153647472613
+    },
+    {
+      "opening": 110,
+      "name": "rear",
+      "spineEndpointToLeatherMm": 0.6234401005393021
+    },
+    {
+      "opening": 110,
+      "name": "front",
+      "spineEndpointToLeatherMm": 3.0307629556638993
+    },
+    {
+      "opening": 130,
+      "name": "rear",
+      "spineEndpointToLeatherMm": 0.6405384144399255
+    },
+    {
+      "opening": 130,
+      "name": "front",
+      "spineEndpointToLeatherMm": 3.3594617755498803
+    }
+  ],
+  "cycles": {
+    "count": 100,
+    "maxProfileDriftMm": 0,
+    "scope": "Deterministic public assembly setter, not 100 animated UI cycles"
+  },
+  "malformed": [
+    {
+      "input": {
+        "turn": "invalid"
+      },
+      "error": "Cannot read properties of undefined (reading 'x')"
+    },
+    {
+      "input": {
+        "turn": null
+      },
+      "pose": {
+        "opening": 130,
+        "turn": 1,
+        "leaf": 120
+      },
+      "finite": true
+    },
+    {
+      "input": {
+        "opening": "130"
+      },
+      "pose": {
+        "opening": 130,
+        "turn": 0,
+        "leaf": 120
+      },
+      "finite": true
+    },
+    {
+      "input": {
+        "leaf": -1
+      },
+      "pose": {
+        "opening": 130,
+        "turn": 0,
+        "leaf": 1
+      },
+      "finite": true
+    },
+    {
+      "input": {
+        "leaf": 239
+      },
+      "pose": {
+        "opening": 130,
+        "turn": 0,
+        "leaf": 238
+      },
+      "finite": true
+    }
+  ],
+  "studio": [
+    {
+      "rank": "initial",
+      "config": {
+        "rank": "initial",
+        "primaryElement": "water",
+        "accentElements": [],
+        "fantasyMotif": "neutral",
+        "wizardryStyle": "neutral",
+        "botanical": false,
+        "title": "Skill Codex",
+        "developmentStage": "",
+        "projectArea": "",
+        "industry": "",
+        "quality": "high",
+        "constructionTrack": "unspecified",
+        "bookmark": false,
+        "evidence": null
+      },
+      "spines": [
+        {
+          "id": "body.spine",
+          "passed": false,
+          "vertices": 162,
+          "triangles": 160,
+          "volume": -82484.56883844793,
+          "boundary": 160,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.0",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 147.32777615122765,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.1",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 147.3276436840513,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.2",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 147.32764368404935,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.3",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 147.32777615123422,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "liveBounds": [
+        160,
+        260,
+        49.95000081539154
+      ],
+      "exportBounds": [
+        160,
+        260,
+        49.95000081539154
+      ],
+      "exportUnit": "mm"
+    },
+    {
+      "rank": "advanced",
+      "config": {
+        "rank": "advanced",
+        "primaryElement": "water",
+        "accentElements": [],
+        "fantasyMotif": "neutral",
+        "wizardryStyle": "neutral",
+        "botanical": false,
+        "title": "Skill Codex",
+        "developmentStage": "",
+        "projectArea": "",
+        "industry": "",
+        "quality": "high",
+        "constructionTrack": "unspecified",
+        "bookmark": false,
+        "evidence": null
+      },
+      "spines": [
+        {
+          "id": "body.spine",
+          "passed": false,
+          "vertices": 162,
+          "triangles": 160,
+          "volume": -156855.41901386227,
+          "boundary": 160,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.0",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 206.01200137594643,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.1",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 206.0120013759424,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.2",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 206.01188560595824,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.3",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 206.01200137594807,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.4",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 206.0120013759485,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "liveBounds": [
+        210,
+        310,
+        79.95000081062317
+      ],
+      "exportBounds": [
+        210,
+        310,
+        79.95000081062317
+      ],
+      "exportUnit": "mm"
+    },
+    {
+      "rank": "meistro",
+      "config": {
+        "rank": "meistro",
+        "primaryElement": "water",
+        "accentElements": [],
+        "fantasyMotif": "neutral",
+        "wizardryStyle": "neutral",
+        "botanical": false,
+        "title": "Skill Codex",
+        "developmentStage": "",
+        "projectArea": "",
+        "industry": "",
+        "quality": "high",
+        "constructionTrack": "unspecified",
+        "bookmark": false,
+        "evidence": null
+      },
+      "spines": [
+        {
+          "id": "body.spine",
+          "passed": false,
+          "vertices": 162,
+          "triangles": 160,
+          "volume": -286352.7488182798,
+          "boundary": 160,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.0",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 280.82477705532443,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.1",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 280.823767063612,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.2",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 280.8235145656857,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.3",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 280.8235145656792,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.4",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 280.82376706361555,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        },
+        {
+          "id": "body.spine-band.5",
+          "passed": false,
+          "vertices": 747,
+          "triangles": 1312,
+          "volume": 280.8247770553087,
+          "boundary": 16,
+          "nonManifold": 0,
+          "inconsistent": 0,
+          "degenerate": 0,
+          "nonFinite": 0,
+          "invalidNormals": 0
+        }
+      ],
+      "liveBounds": [
+        280,
+        380,
+        119.95000074386596
+      ],
+      "exportBounds": [
+        280,
+        380,
+        119.95000074386596
+      ],
+      "exportUnit": "mm"
+    }
+  ],
+  "priorPerformance": {
+    "generated": "2026-10-22T21:11:10.591Z",
+    "performance": [
+      {
+        "mode": "orbit",
+        "width": 1920,
+        "height": 1080,
+        "frames": 120,
+        "fps": 60.76872436333198,
+        "medianMs": 16.69999999552965,
+        "p95Ms": 17,
+        "drawCalls": 689,
+        "triangles": 1121500,
+        "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "mode": "turn",
+        "width": 1920,
+        "height": 1080,
+        "frames": 80,
+        "fps": 40.2232389763487,
+        "medianMs": 25.200000002980232,
+        "p95Ms": 29.899999998509884,
+        "drawCalls": 689,
+        "triangles": 1121500,
+        "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      },
+      {
+        "mode": "close",
+        "width": 3840,
+        "height": 2160,
+        "frames": 80,
+        "fps": 22.92066584531345,
+        "medianMs": 44.70000000298023,
+        "p95Ms": 48.100000001490116,
+        "drawCalls": 1305,
+        "triangles": 1331044,
+        "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+      }
+    ]
+  },
+  "limits": [
+    "No calibrated constitutive material model",
+    "Triangle crossing cannot classify bonded contact by itself",
+    "Coplanar/self-intersection exhaustive checks not established",
+    "Five-section prior paper tests do not certify the binding"
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "fixtures": {
+    "closed": {
+      "passed": true,
+      "vertices": 24,
+      "triangles": 12,
+      "volume": 9.99999932944776e-7,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    "inverted": {
+      "passed": false,
+      "vertices": 24,
+      "triangles": 12,
+      "volume": -9.99999932944776e-7,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    "overlappingClosedShells": {
+      "passed": true,
+      "vertices": 48,
+      "triangles": 24,
+      "volume": 0.0000019999998426064887,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    "actualCrossing": {
+      "tested": 80,
+      "count": 40,
+      "samples": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "exhausted": false,
+      "method": "AABB hierarchy and segment/triangle intersections; coplanar overlaps and tangency unresolved; crossings do not alone classify intended contact"
+    },
+    "tolerance": [
+      {
+        "scale": 1,
+        "penetrationMm": 0.003,
+        "paperDetected": false,
+        "rigidDetected": false
+      },
+      {
+        "scale": 1,
+        "penetrationMm": 0.007,
+        "paperDetected": true,
+        "rigidDetected": false
+      },
+      {
+        "scale": 1,
+        "penetrationMm": 0.04,
+        "paperDetected": true,
+        "rigidDetected": false
+      },
+      {
+        "scale": 1,
+        "penetrationMm": 0.07,
+        "paperDetected": true,
+        "rigidDetected": true
+      },
+      {
+        "scale": 1000,
+        "penetrationMm": 0.003,
+        "paperDetected": false,
+        "rigidDetected": false
+      },
+      {
+        "scale": 1000,
+        "penetrationMm": 0.007,
+        "paperDetected": true,
+        "rigidDetected": false
+      },
+      {
+        "scale": 1000,
+        "penetrationMm": 0.04,
+        "paperDetected": true,
+        "rigidDetected": false
+      },
+      {
+        "scale": 1000,
+        "penetrationMm": 0.07,
+        "paperDetected": true,
+        "rigidDetected": true
+      }
+    ]
+  },
+  "attachment": [
+    {
+      "opening": 0,
+      "name": "rear",
+      "cordEndCentreToLacingSurfaceMm": 2.754287578981631,
+      "cordRadiusMm": 1.2
+    },
+    {
+      "opening": 0,
+      "name": "front",
+      "cordEndCentreToLacingSurfaceMm": 2.754287578981631,
+      "cordRadiusMm": 1.2
+    },
+    {
+      "opening": 60,
+      "name": "rear",
+      "cordEndCentreToLacingSurfaceMm": 3.146575591273333,
+      "cordRadiusMm": 1.2
+    },
+    {
+      "opening": 60,
+      "name": "front",
+      "cordEndCentreToLacingSurfaceMm": 1.0943535280914967,
+      "cordRadiusMm": 1.2
+    },
+    {
+      "opening": 130,
+      "name": "rear",
+      "cordEndCentreToLacingSurfaceMm": 3.610011728062255,
+      "cordRadiusMm": 1.2
+    },
+    {
+      "opening": 130,
+      "name": "front",
+      "cordEndCentreToLacingSurfaceMm": 3.7452093504872517,
+      "cordRadiusMm": 1.2
+    }
+  ],
+  "roomReport": [
+    {
+      "name": "Six millimetre cover board",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 564,
+      "triangles": 188,
+      "volume": 0.001216478051569272,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Pasted endpaper",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 564,
+      "triangles": 188,
+      "volume": 0.00011038664538518931,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 1",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008411491608085149,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 2",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008409680200062323,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 3",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008404565382120346,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 4",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008405864459577583,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 5",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008398013295716377,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 6",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008401516117553285,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Individual 0.16 mm curled leaf",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 2610,
+      "triangles": 5216,
+      "volume": 0.00002914560808088956,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Individual 0.16 mm curled leaf",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 2610,
+      "triangles": 5216,
+      "volume": 0.000029145595136857218,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Individual 0.16 mm curled leaf",
+      "determinant": -1,
+      "passed": true,
+      "vertices": 2610,
+      "triangles": 5216,
+      "volume": 0.000029145600369556773,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Six millimetre cover board",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 564,
+      "triangles": 188,
+      "volume": 0.001216478051569272,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Pasted endpaper",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 564,
+      "triangles": 188,
+      "volume": 0.00011038664538518931,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 1",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008411491608085149,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 2",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008409680200062323,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 3",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008404565382120346,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 4",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008405864459577583,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 5",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008398013295716377,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Closed sewn signature 6",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 5922,
+      "triangles": 11840,
+      "volume": 0.0008401516117553285,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Individual 0.16 mm curled leaf",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 2610,
+      "triangles": 5216,
+      "volume": 0.00002914560808088956,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Individual 0.16 mm curled leaf",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 2610,
+      "triangles": 5216,
+      "volume": 0.000029145595136857218,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Individual 0.16 mm curled leaf",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 2610,
+      "triangles": 5216,
+      "volume": 0.000029145600369556773,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    },
+    {
+      "name": "Flexible spine lining",
+      "determinant": 1,
+      "passed": true,
+      "vertices": 492,
+      "triangles": 164,
+      "volume": 0.00010738769561836665,
+      "boundary": 0,
+      "nonManifold": 0,
+      "inconsistent": 0,
+      "degenerate": 0,
+      "nonFinite": 0,
+      "invalidNormals": 0
+    }
+  ],
+  "notes": [
+    "Closed overlapping shells pass topology: self-intersection must be independent",
+    "Reflections are reported, not automatically classified as defective",
+    "Tolerance fixtures validate SAT witness thresholds, not robust arbitrary-mesh penetration depth",
+    "Signed volume of an open surface is not physical volume"
+  ]
+}

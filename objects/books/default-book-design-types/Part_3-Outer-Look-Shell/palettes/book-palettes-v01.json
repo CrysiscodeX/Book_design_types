@@ -1,0 +1,67 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "colorSpace": "sRGB",
+  "evidenceStatus": "proposed",
+  "note": "Authored starting swatches, not sampled reference measurements or physical material specifications. Emissive defaults describe design intent only.",
+  "palettes": [
+    {
+      "id": "palette-book-01",
+      "referenceId": "book-01",
+      "name": "Turquoise arcane",
+      "colors": {"cover": "#087F87", "coverDark": "#07464C", "ornament": "#876036", "chain": "#A78539", "pages": "#CBBB91", "core": "#45FFF0", "lightSecondary": "#0CA7C2", "scene": "#09191E"},
+      "magicalEffectsDefault": true
+    },
+    {
+      "id": "palette-book-02",
+      "referenceId": "book-02",
+      "name": "Dark angular gold",
+      "colors": {"cover": "#2A2327", "coverDark": "#17161D", "ornament": "#B68B50", "surround": "#4C3C31", "pages": "#B99B71", "core": "#FFD37C", "candleLight": "#FFE3B1", "scene": "#684A37"},
+      "magicalEffectsDefault": true,
+      "interpretationNote": "Amber center emission is a proposed interpretation; review a reflected-only alternative."
+    },
+    {
+      "id": "palette-book-03",
+      "referenceId": "book-03",
+      "name": "Cyan chained",
+      "colors": {"cover": "#142D38", "coverDark": "#0A1922", "ornament": "#577583", "chain": "#BD842B", "pages": "#74624B", "core": "#38E8FF", "chainLight": "#FFC04A", "scene": "#1A3036"},
+      "magicalEffectsDefault": true
+    },
+    {
+      "id": "palette-book-04",
+      "referenceId": "book-04",
+      "name": "Purple botanical",
+      "colors": {"cover": "#221127", "lining": "#641A36", "ornament": "#735037", "pages": "#DBC396", "lightPrimary": "#46D8FF", "lightSecondary": "#B75AFF", "nodeWarm": "#FFB16C", "scene": "#202A3B"},
+      "magicalEffectsDefault": true
+    },
+    {
+      "id": "palette-book-05",
+      "referenceId": "book-05",
+      "name": "Organic growth",
+      "colors": {"cover": "#101E2B", "ornament": "#536B71", "growth": "#559CAD", "pages": "#D6B37D", "lightPrimary": "#53ECFF", "lightSecondary": "#CD7DFF", "nodeWarm": "#FFD18A", "scene": "#070C15"},
+      "magicalEffectsDefault": true
+    },
+    {
+      "id": "palette-book-06",
+      "referenceId": "book-06",
+      "name": "Antler flame",
+      "colors": {"cover": "#302B31", "ornament": "#7E5B43", "flowers": "#76517D", "pages": "#E7BF7E", "lightPrimary": "#79D7FF", "lightSecondary": "#A678FF", "nodeWarm": "#FFCD69", "scene": "#26323C"},
+      "magicalEffectsDefault": true
+    },
+    {
+      "id": "palette-book-07",
+      "referenceId": "book-07",
+      "name": "Fiery solar",
+      "colors": {"cover": "#743325", "coverDark": "#3E201B", "ornament": "#D2852D", "ribbon": "#982D20", "pages": "#D2B387", "lightPrimary": "#FFAA24", "core": "#FFF1A3", "scene": "#694338"},
+      "magicalEffectsDefault": true
+    },
+    {
+      "id": "palette-book-08",
+      "referenceId": "book-08",
+      "name": "Blue ceremonial solar",
+      "colors": {"cover": "#36718B", "coverDark": "#234659", "ornament": "#D8AE4C", "leaves": "#5B8F73", "pages": "#C7AC82", "bookmark": "#214C63", "environmentWarm": "#FFE5B6", "scene": "#BEB39D"},
+      "magicalEffectsDefault": false,
+      "interpretationNote": "Gold center is reflective by default, not an emissive magical core."
+    }
+  ]
+}

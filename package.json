@@ -1,0 +1,25 @@
+{
+  "name": "book-design-types",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "objects/*/*"
+  ],
+  "scripts": {
+    "check": "node tools/validate-workspace.mjs",
+    "check:history": "node tools/history.mjs verify",
+    "build": "node tools/build.mjs",
+    "verify": "node tools/verify.mjs",
+    "audit:serve": "node tools/spine-system/server.mjs",
+    "check:migration": "node tools/check-migration.mjs",
+    "start": "npm run start --workspace=default-book-design-types",
+    "start:grimoire": "npm run start --workspace=wizard-grimoire"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

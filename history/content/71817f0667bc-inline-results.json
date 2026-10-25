@@ -1,0 +1,17 @@
+{
+  "generated": "2026-10-23T13:55:48.437Z",
+  "passed": true,
+  "half": true,
+  "clay": true,
+  "widths": [
+    {
+      "width": 736,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "passed": true
+    }
+  ],
+  "errors": []
+}

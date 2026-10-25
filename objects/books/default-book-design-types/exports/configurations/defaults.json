@@ -1,0 +1,19 @@
+{
+  "version": "0.3",
+  "config": {
+    "rank": "initial",
+    "primaryElement": "water",
+    "accentElements": [],
+    "fantasyMotif": "neutral",
+    "wizardryStyle": "neutral",
+    "botanical": false,
+    "title": "Skill Codex",
+    "developmentStage": "",
+    "projectArea": "",
+    "industry": "",
+    "quality": "high",
+    "constructionTrack": "unspecified",
+    "bookmark": false,
+    "evidence": null
+  }
+}

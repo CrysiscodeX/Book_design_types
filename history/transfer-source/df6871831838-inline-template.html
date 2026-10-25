@@ -1,0 +1,38 @@
+<div id="wizard-grimoire-inline">
+  <div class="viz-controls">
+    <button type="button" class="btn" data-pose="closed" aria-pressed="true">Closed</button>
+    <button type="button" class="btn" data-pose="open" aria-pressed="false">Open</button>
+    <label class="form-check"><input class="form-check-input" type="checkbox" data-clay><span class="form-check-label">Clay</span></label>
+    <label class="form-label">Spread<select class="form-select" data-spread aria-label="Reading spread"></select></label>
+  </div>
+  <div data-scene role="img" aria-label="Orbitable solid wizard grimoire, with covers, individual leaves, binding, clasps and reading cradle."></div>
+  <label class="form-label">Page turn <span class="tabular-nums" data-progress>0%</span><input class="form-range" data-turn aria-label="Solid page turn" type="range" min="0" max="1" step=".01" value="0" disabled></label>
+  <div class="text-small" data-status aria-live="polite">Preparing the book…</div>
+</div>
+<style>
+#wizard-grimoire-inline [data-scene]{width:100%;height:430px;position:relative;overflow:hidden}
+#wizard-grimoire-inline canvas{display:block;max-width:100%;touch-action:none}
+@media(max-width:450px){#wizard-grimoire-inline [data-scene]{height:350px}}
+</style>
+<script type="module">
+let T,OrbitControls,RoomEnvironment;
+/* ASSEMBLY_SOURCE */
+const container=document.getElementById('wizard-grimoire-inline'),q=s=>container.querySelector(s),host=q('[data-scene]');
+try {
+[T,{OrbitControls},{RoomEnvironment}]=await Promise.all([import('https://esm.sh/three@0.186.1'),import('https://esm.sh/three@0.186.1/examples/jsm/controls/OrbitControls.js'),import('https://esm.sh/three@0.186.1/examples/jsm/environments/RoomEnvironment.js')]);
+const scene=new T.Scene(),camera=new T.PerspectiveCamera(45,1,.0005,5),renderer=new T.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.02;host.append(renderer.domElement);
+const generator=new T.PMREMGenerator(renderer),environmentScene=new RoomEnvironment(),environment=generator.fromScene(environmentScene,.04);scene.environment=environment.texture;scene.environmentIntensity=.32;environmentScene.dispose();generator.dispose();
+const key=new T.DirectionalLight('#fff5dd',2.6),hemi=new T.HemisphereLight('#f5efdc','#76634f',.65);key.position.set(-.4,.9,.55);scene.add(key,hemi);
+const book=createWizardBook(T),art=createPageArt(T);book.setArt(art);scene.add(book.root);book.groups.ground.visible=false;
+const controls=new OrbitControls(camera,renderer.domElement);controls.minDistance=.025;controls.maxDistance=1.5;let opened=false,clay=false,spread=2,restoring=true;
+function render(){book.updateLOD(camera.position,false);renderer.render(scene,camera);}
+function fit(){camera.position.set(...(opened?[.37,.42,.47]:[.42,.32,.43]));controls.target.set(...(opened?[0,.085,0]:[.10,.065,0]));controls.update();render();}
+function apply(p={},remember=true){book.setPose(p);book.setDisplay({appearance:clay?'clay':'material'});book.groups.ground.visible=false;q('[data-turn]').disabled=!opened;q('[data-turn]').value=book.pose.turn;q('[data-progress]').textContent=Math.round(book.pose.turn*100)+'%';q('[data-status]').textContent=opened?'240 leaves · 0.16 mm paper · drag to orbit, wheel to approach':'Closed binding · drag to orbit, wheel to approach';render();if(remember)rememberState();}
+function rememberState(){if(!restoring)window.openai?.setWidgetState?.({modelContent:{study:'wizard-grimoire-v2',opening:book.pose.opening,leaf:book.pose.leaf,turn:book.pose.turn,clay},privateContent:{spread,camera:camera.position.toArray(),target:controls.target.toArray()}}).catch(()=>{});}
+for(const [i,s]of SPREADS.entries()){const o=document.createElement('option');o.value=i;o.textContent=s.heading;q('[data-spread]').append(o);}q('[data-spread]').value=spread;
+for(const b of container.querySelectorAll('[data-pose]'))b.onclick=()=>{opened=b.dataset.pose==='open';for(const other of container.querySelectorAll('[data-pose]'))other.setAttribute('aria-pressed',String(other===b));apply({opening:opened?130:0,turn:0,release:opened?1:0});fit();};
+q('[data-turn]').oninput=e=>apply({turn:+e.target.value});q('[data-clay]').onchange=e=>{clay=e.target.checked;apply();};q('[data-spread]').onchange=e=>{spread=+e.target.value;apply({leaf:SPREADS[spread].leaf,turn:0});};controls.addEventListener('change',()=>{render();rememberState();});
+function restore(s){if(!s?.modelContent||s.modelContent.study!=='wizard-grimoire-v2')return;restoring=true;opened=s.modelContent.opening>=110;clay=!!s.modelContent.clay;spread=Number.isInteger(s.privateContent?.spread)?Math.max(0,Math.min(5,s.privateContent.spread)):2;q('[data-spread]').value=spread;q('[data-clay]').checked=clay;for(const b of container.querySelectorAll('[data-pose]'))b.setAttribute('aria-pressed',String((b.dataset.pose==='open')===opened));apply({opening:opened?130:0,leaf:SPREADS[spread].leaf,turn:typeof s.modelContent.turn==='number'&&Number.isFinite(s.modelContent.turn)?s.modelContent.turn:0},false);const valid=v=>Array.isArray(v)&&v.length===3&&v.every(Number.isFinite);if(valid(s.privateContent?.camera)&&valid(s.privateContent?.target)){camera.position.fromArray(s.privateContent.camera);controls.target.fromArray(s.privateContent.target);controls.update();render();}else fit();restoring=false;}
+const observer=new ResizeObserver(()=>{const r=host.getBoundingClientRect();renderer.setSize(r.width,r.height);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();render();});observer.observe(host);apply({opening:0,turn:0,release:0},false);fit();restore(window.openai?.widgetState);restoring=false;addEventListener('openai:set_globals',e=>restore(e.detail?.globals?.widgetState));addEventListener('pagehide',()=>{observer.disconnect();controls.dispose();book.dispose();art.dispose();environment.dispose();renderer.dispose();},{once:true});container.grimoire={book,renderer,camera,controls};
+} catch(error){q('[data-status]').textContent='The 3D preview could not load: '+error.message;q('[data-status]').setAttribute('role','alert');}
+</script>

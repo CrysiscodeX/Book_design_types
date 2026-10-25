@@ -1,0 +1,33 @@
+{
+  "version": "0.3",
+  "config": {
+    "rank": "advanced",
+    "primaryElement": "fire",
+    "accentElements": [
+      "earth"
+    ],
+    "fantasyMotif": "draconic",
+    "wizardryStyle": "alchemy-transformation",
+    "botanical": true,
+    "title": "Water Codex",
+    "developmentStage": "",
+    "projectArea": "",
+    "industry": "Custom industry",
+    "quality": "high",
+    "constructionTrack": "display-prop",
+    "bookmark": true,
+    "evidence": null
+  },
+  "presentation": {
+    "display": "single",
+    "view": "three-quarter",
+    "lighting": "reference",
+    "explode": 0,
+    "state": "resting",
+    "effectsEnabled": true,
+    "intensity": 1,
+    "reduced": false,
+    "time": 0.1333000000000002,
+    "playing": true
+  }
+}

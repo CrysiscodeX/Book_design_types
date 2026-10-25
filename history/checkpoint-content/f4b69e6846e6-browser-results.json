@@ -1,0 +1,164 @@
+{
+  "generated": "2026-10-23T11:36:13.115Z",
+  "matrix": [
+    {
+      "engine": "chrome",
+      "version": "156.0.8078.48",
+      "dpr": 1,
+      "viewport": 1920,
+      "buffer": [
+        1594,
+        964
+      ],
+      "noOverflow": true,
+      "units": "mm",
+      "geometryUnits": "m",
+      "fontsReady": "loaded"
+    },
+    {
+      "engine": "chrome",
+      "version": "156.0.8078.48",
+      "dpr": 2,
+      "viewport": 320,
+      "buffer": [
+        480,
+        1053
+      ],
+      "noOverflow": true,
+      "units": "mm",
+      "geometryUnits": "m",
+      "fontsReady": "loaded"
+    },
+    {
+      "engine": "edge",
+      "version": "155.0.4283.62",
+      "dpr": 1,
+      "viewport": 1920,
+      "buffer": [
+        1594,
+        964
+      ],
+      "noOverflow": true,
+      "units": "mm",
+      "geometryUnits": "m",
+      "fontsReady": "loaded"
+    },
+    {
+      "engine": "edge",
+      "version": "155.0.4283.62",
+      "dpr": 2,
+      "viewport": 320,
+      "buffer": [
+        480,
+        1053
+      ],
+      "noOverflow": true,
+      "units": "mm",
+      "geometryUnits": "m",
+      "fontsReady": "loaded"
+    }
+  ],
+  "checks": [
+    {
+      "name": "threshold 109.999",
+      "turn": 1,
+      "disabled": true
+    },
+    {
+      "name": "threshold 110",
+      "turn": 0.5,
+      "disabled": false
+    },
+    {
+      "name": "threshold 110.001",
+      "turn": 0.5,
+      "disabled": false
+    },
+    {
+      "name": "threshold 130",
+      "turn": 0.5,
+      "disabled": false
+    },
+    {
+      "name": "malformed pose import",
+      "rejected": true,
+      "error": "Cannot read properties of undefined (reading 'x')",
+      "stateUnchanged": false
+    },
+    {
+      "name": "100 reduced-motion UI cycles",
+      "cycles": 100,
+      "pose": {
+        "opening": 0,
+        "turn": 0,
+        "release": 0
+      },
+      "finite": true,
+      "scope": "Reduced-motion immediate control transitions; animated interruption endurance separate"
+    },
+    {
+      "name": "inline camera restore",
+      "requested": [
+        0.19,
+        0.21,
+        0.23
+      ],
+      "actual": [
+        0.36999999999999994,
+        0.42,
+        0.4699999999999999
+      ],
+      "preserved": false
+    },
+    {
+      "name": "context restore",
+      "restored": true,
+      "renderCalls": 374
+    }
+  ],
+  "bookmarks": [
+    {
+      "name": "joint",
+      "firstSurface": "leaf.165",
+      "surfaceDistanceMm": 4.442201543891376,
+      "anchorDistanceMm": 77.93587107359485,
+      "nearMm": 1
+    },
+    {
+      "name": "head",
+      "firstSurface": "binding.leather-spine",
+      "surfaceDistanceMm": 81.32649552047943,
+      "anchorDistanceMm": 81.32650244538985,
+      "nearMm": 1
+    },
+    {
+      "name": "fold",
+      "firstSurface": "leaf.126",
+      "surfaceDistanceMm": 65.34794122467164,
+      "anchorDistanceMm": 75.33259586659679,
+      "nearMm": 1
+    },
+    {
+      "name": "edge",
+      "firstSurface": "leaf.085",
+      "surfaceDistanceMm": 74.18884565608123,
+      "anchorDistanceMm": 74.40430095095307,
+      "nearMm": 1
+    },
+    {
+      "name": "turnin",
+      "firstSurface": "front.wrapped-edge-and-turnins",
+      "surfaceDistanceMm": 75.59928385082063,
+      "anchorDistanceMm": 75.33259586659682,
+      "nearMm": 1
+    },
+    {
+      "name": "underside",
+      "firstSurface": "rear.leather-face",
+      "surfaceDistanceMm": 78.06389138928539,
+      "anchorDistanceMm": 77.94228634059948,
+      "nearMm": 1
+    }
+  ],
+  "errors": []
+}

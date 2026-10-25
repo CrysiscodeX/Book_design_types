@@ -1,0 +1,198 @@
+{
+  "generated": "2026-10-23T14:01:44.414Z",
+  "automaticChecksPass": true,
+  "stats": {
+    "solid": {
+      "passed": true,
+      "meshes": 663,
+      "renderOnly": 2
+    },
+    "motion": {
+      "passed": true,
+      "states": 313,
+      "refinements": 36,
+      "changedGeometryAudits": 14890,
+      "widthErrorPercent": 0.002326414669475989,
+      "thicknessMm": {
+        "min": 0.1599756284287781,
+        "max": 0.16001946018610652
+      }
+    },
+    "fittings": {
+      "passed": true,
+      "hookStates": 34,
+      "strapStates": 34,
+      "padContacts": 36,
+      "feet": 4
+    },
+    "browser": {
+      "passed": true,
+      "checks": 48,
+      "errors": []
+    },
+    "inline": {
+      "generated": "2026-10-23T13:55:48.437Z",
+      "passed": true,
+      "half": true,
+      "clay": true,
+      "widths": [
+        {
+          "width": 736,
+          "passed": true
+        },
+        {
+          "width": 320,
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    "ordinaryPerformanceTargetMet": true,
+    "performance": [
+      {
+        "mode": "orbit",
+        "width": 1920,
+        "height": 1080,
+        "frames": 90,
+        "fps": 57.8740916985049,
+        "medianMs": 16.69999998807907,
+        "p95Ms": 18,
+        "drawCalls": 690,
+        "triangles": 1273180,
+        "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "label": "orbit"
+      },
+      {
+        "mode": "turn",
+        "width": 1920,
+        "height": 1080,
+        "frames": 90,
+        "fps": 51.017516013572845,
+        "medianMs": 17.600000008940697,
+        "p95Ms": 21.69999998807907,
+        "drawCalls": 690,
+        "triangles": 1273180,
+        "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "label": "turn"
+      },
+      {
+        "mode": "close",
+        "width": 3840,
+        "height": 2160,
+        "frames": 90,
+        "fps": 23.132084200857367,
+        "medianMs": 44.29999999701977,
+        "p95Ms": 46.900000005960464,
+        "drawCalls": 1303,
+        "triangles": 1480936,
+        "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "label": "close"
+      }
+    ]
+  },
+  "gates": [
+    {
+      "gate": "Assembly",
+      "result": "Implemented",
+      "evidence": "Dimensioned front/rear/side/open diagrams, explicit capped layer section, measured envelopes and 51.280 mm body budget."
+    },
+    {
+      "gate": "Craftsmanship sample",
+      "result": "Reviewed; artistic refinement remains",
+      "evidence": "Clay and material corner/turn-in/spine-head captures. Improved corner tessellation, pressed tooling, tapered bonded repair and inner-board channels. No automatic craftsmanship score."
+    },
+    {
+      "gate": "Mechanical sample",
+      "result": "Covered checks pass",
+      "evidence": "Solid turning leaf, separate accumulated stacks, release sequence, raised catch, matched cradle posts and real feet."
+    },
+    {
+      "gate": "Physical object",
+      "result": "Implemented as proposed study",
+      "evidence": "Separate boards, skins, turn-ins, endpapers, 240 leaves, 120 folded returns, five supports, lining, endbands, caps, fittings and repair."
+    },
+    {
+      "gate": "Viewer",
+      "result": "Covered checks pass",
+      "evidence": "Orbit/dolly/pan/flight; touch; bookmarks; save/recall; JSON; isolation/explosion; reduced motion; fullscreen; narrow layouts."
+    }
+  ],
+  "limits": [
+    "The opening and page turn are controlled geometric illustrations. Gravity, friction, strain, adhesive behaviour and moisture response are not simulated.",
+    "Default source solids and changed source geometry across sampled motion are checked. Closed boundaries and positive volume do not establish global self-intersection freedom, complete containment or visual craftsmanship.",
+    "Paper placement uses actual-mesh 2D SAT witnesses at five longitudinal positions. It is not a full continuous 3D collision proof. Render-only paper blocks intentionally occupy the same volume as their hidden source leaves.",
+    "Local inner-board channels and flattened lacing ends are modelled; complete concealed through-edge cord passages, glue distribution and every stitch interface remain schematic or proposed.",
+    "The leather, wood, paper and wear are original procedural appearances. No material scan, timber species identification, museum facsimile or measured reflectance calibration is claimed.",
+    "The manuscript content and ownership history are authored. System typography approximates written content; only six spreads receive authored reading artwork.",
+    "Corner wrapping, endband construction and repairs are deliberate proposed interpretations, with finite geometric sampling visible at sufficiently extreme magnification. The visual result remains a review candidate.",
+    "Local frame rates describe the measured Chrome/Intel device and settings. They do not guarantee performance on other hardware. Magical effects remain deferred."
+  ],
+  "envelopes": {
+    "closed": {
+      "sizeMm": [
+        244.69495192170143,
+        58.8423704791069,
+        301.8999993801117
+      ],
+      "minMm": [
+        -15.019718557596207,
+        62.11999994300307,
+        -150.94999969005585
+      ],
+      "maxMm": [
+        229.67523336410522,
+        120.96237042210997,
+        150.94999969005585
+      ],
+      "includes": "All furniture parts including coverings, repair and fittings; excludes stand and ground."
+    },
+    "open": {
+      "sizeMm": [
+        449.74352144684093,
+        139.5239382982254,
+        301.8999993801117
+      ],
+      "minMm": [
+        -209.32045012520902,
+        37.58417069911957,
+        -150.94999969005585
+      ],
+      "maxMm": [
+        240.4230713216319,
+        177.10810899734497,
+        150.94999969005585
+      ],
+      "includes": "All furniture parts including coverings, repair and fittings; excludes stand and ground."
+    },
+    "midTurn": {
+      "sizeMm": [
+        449.74352144684093,
+        244.2314177751541,
+        301.8999993801117
+      ],
+      "minMm": [
+        -209.2849501912228,
+        37.60714828968048,
+        -150.94999969005585
+      ],
+      "maxMm": [
+        240.45857125561812,
+        281.8385660648346,
+        150.94999969005585
+      ],
+      "includes": "All furniture parts including coverings, repair and fittings; excludes stand and ground."
+    }
+  },
+  "budget": {
+    "writing": 38.4,
+    "allowance": 1.9120000000000001,
+    "endpapers": 0.72,
+    "endpaperClearance": 0.048,
+    "boards": 8,
+    "outerLeather": 1.8,
+    "pastedowns": 0.4,
+    "body": 51.279999999999994,
+    "spineMaximum": 53.67999999999999,
+    "note": "Turn-ins occupy perimeter recesses; hardware and curved spine projections are measured separately."
+  }
+}

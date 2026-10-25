@@ -1,0 +1,110 @@
+{
+  "generated": "2026-10-23T14:03:08.254Z",
+  "changed": [
+    {
+      "path": "wizard-grimoire/book.mjs",
+      "sha256": "e6deb24ad919aa8bae9e6255b5ab9f432bbd9bf9fd5299259f7e72bdc9db93e6"
+    },
+    {
+      "path": "wizard-grimoire/browser-results.json",
+      "sha256": "16e52be7f42241d58184611879c8843a5419435916c860950eb6bef6d3a0adfc"
+    },
+    {
+      "path": "wizard-grimoire/component-spec.json",
+      "sha256": "cce8468042492f966e57a9c1da0337c69dd1f3eef873419f3de5d90148cd2d82"
+    },
+    {
+      "path": "wizard-grimoire/documents.mjs",
+      "sha256": "16b89ffaf1aac49762a223b66c22a1acdf16d9be2fab3c2373eefd91f74b7b50"
+    },
+    {
+      "path": "wizard-grimoire/drawings.svg",
+      "sha256": "4aa81c0c62c5207ff81cdda03f730e0eba1ce3bba079c90e51ead9722377e05d"
+    },
+    {
+      "path": "wizard-grimoire/fittings-results.json",
+      "sha256": "dd6f6209a93bc2e1abb6b67f9759c11f35f428c5d6bce2a6091451f7449f56ef"
+    },
+    {
+      "path": "wizard-grimoire/geometry.mjs",
+      "sha256": "65b63a174b6f5ea905b410ff2f370f1803cf9b5ba648834742ef1e50587606cf"
+    },
+    {
+      "path": "wizard-grimoire/index.html",
+      "sha256": "e8c86fd0bdf6aec67973b91e6ed2caf6a98dedcffeb98dd0bc03a91d40935b0f"
+    },
+    {
+      "path": "wizard-grimoire/inline-results.json",
+      "sha256": "71817f0667bcaada70392134e53a4cc783773cf36dc9e46f98658fbf635f7772"
+    },
+    {
+      "path": "wizard-grimoire/inline-template.html",
+      "sha256": "25d6bc31d2d383f1f03ecc24b75841d63eeb5bc9c7c41754650843a146de3f23"
+    },
+    {
+      "path": "wizard-grimoire/inline-test.html",
+      "sha256": "bce90954545096ee4f7f386e4cd8df73df26735f81ec0010bf8e92269e87a76d"
+    },
+    {
+      "path": "wizard-grimoire/motion-results.json",
+      "sha256": "23403e03a0f619a96afa8665c41e47e7958274521bb225eb81fc1e4619c52ba6"
+    },
+    {
+      "path": "wizard-grimoire/performance-results.json",
+      "sha256": "a6b5a880cbf165b248040c07298c6af19f306fc3df7e67b72eae380357090a7a"
+    },
+    {
+      "path": "wizard-grimoire/README.md",
+      "sha256": "cf21ebe5a6edf70a03baff7c5da1a5d113ba2f0869e1fb8097176833eff470a2"
+    },
+    {
+      "path": "wizard-grimoire/review.html",
+      "sha256": "4f8c1af6d444feb6598cae698f06149c68320e62695627242462a6dd92f2061b"
+    },
+    {
+      "path": "wizard-grimoire/solid-results.json",
+      "sha256": "a2ceb6ff64b9d87c303d71dbde20a523188383c2c58526d248a34bf6380d6cbb"
+    },
+    {
+      "path": "wizard-grimoire/specification.mjs",
+      "sha256": "217a5207f7ec97f838972116794c1ed3038386eb972cf1d13316c7a498fa89dd"
+    },
+    {
+      "path": "wizard-grimoire/verification-results.json",
+      "sha256": "e6cc3cc36e59dea45b90329254bd19fbd34aea1c745d44f040d48c6e494ea23a"
+    },
+    {
+      "path": "wizard-grimoire/verification.md",
+      "sha256": "233dbf4dbf606f5a1a99c1205175bd2a936346f78feaef9a6c7d1b75dc690f4f"
+    },
+    {
+      "path": "wizard-grimoire/viewer.mjs",
+      "sha256": "853f21673236c2f64660149325bf74bb9cc8b94f971213d3194c2ee09f9cf03c"
+    },
+    {
+      "path": "default-book-design-types/checks/geometry-results.json",
+      "sha256": "3d32b4152cde097bb67c23d221212ddcae3d683831960db7884e81cc7b79ba3e"
+    },
+    {
+      "path": "default-book-design-types/exports/threejs/book-advanced.json",
+      "sha256": "57ebfab8a3152445cf658264c4a5884f0da16a09d16040155c631cbc07924cee"
+    },
+    {
+      "path": "default-book-design-types/exports/threejs/book-initial.json",
+      "sha256": "d17d184f128adc9ce3dac2b58fd752e0acdba388a73b369bb31f3ffab58a19ae"
+    },
+    {
+      "path": "default-book-design-types/exports/threejs/book-meistro.json",
+      "sha256": "d38d6ea270750f57bba0c9b66324ebabd8d5bdf52028495de7713ae7c605b7cf"
+    },
+    {
+      "path": "default-book-design-types/models/threejs/geometry.mjs",
+      "sha256": "d158a9030af6a4d9748d9a9be00876dc17c03a52367a3f56743c166f379febdb"
+    },
+    {
+      "path": "default-book-design-types/README.md",
+      "sha256": "c31d6567280167c396b23f02a59e0e8a366d03c4a6de8724a344dce4f373b04c"
+    }
+  ],
+  "unexpected": []
+}

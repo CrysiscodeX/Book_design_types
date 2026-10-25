@@ -1,0 +1,203 @@
+{
+  "rows": [
+    {
+      "leaf": 1,
+      "opening": 0,
+      "turn": 0,
+      "maximumGapMm": 0.000002798318868291183
+    },
+    {
+      "leaf": 1,
+      "opening": 15,
+      "turn": 0,
+      "maximumGapMm": 0.0000022126261411415825
+    },
+    {
+      "leaf": 1,
+      "opening": 30,
+      "turn": 0,
+      "maximumGapMm": 0.0000026694179953745935
+    },
+    {
+      "leaf": 1,
+      "opening": 60,
+      "turn": 0,
+      "maximumGapMm": 0.0000034613337228901947
+    },
+    {
+      "leaf": 1,
+      "opening": 90,
+      "turn": 0,
+      "maximumGapMm": 0.000003725318720062925
+    },
+    {
+      "leaf": 1,
+      "opening": 110,
+      "turn": 0,
+      "maximumGapMm": 0.0000019012028535816575
+    },
+    {
+      "leaf": 1,
+      "opening": 110,
+      "turn": 0.5,
+      "maximumGapMm": 0.000003725290298461914
+    },
+    {
+      "leaf": 1,
+      "opening": 110,
+      "turn": 1,
+      "maximumGapMm": 0.000001969121892871826
+    },
+    {
+      "leaf": 1,
+      "opening": 130,
+      "turn": 0,
+      "maximumGapMm": 0.000002021962478589336
+    },
+    {
+      "leaf": 1,
+      "opening": 130,
+      "turn": 0.5,
+      "maximumGapMm": 0.0000020607951729076556
+    },
+    {
+      "leaf": 1,
+      "opening": 130,
+      "turn": 1,
+      "maximumGapMm": 0.0000016647757711093183
+    },
+    {
+      "leaf": 120,
+      "opening": 0,
+      "turn": 0,
+      "maximumGapMm": 0.0000026104450268071844
+    },
+    {
+      "leaf": 120,
+      "opening": 15,
+      "turn": 0,
+      "maximumGapMm": 2.6420415074570993e-7
+    },
+    {
+      "leaf": 120,
+      "opening": 30,
+      "turn": 0,
+      "maximumGapMm": 2.710376714048043e-7
+    },
+    {
+      "leaf": 120,
+      "opening": 60,
+      "turn": 0,
+      "maximumGapMm": 4.896206239956551e-7
+    },
+    {
+      "leaf": 120,
+      "opening": 90,
+      "turn": 0,
+      "maximumGapMm": 8.444916194463983e-7
+    },
+    {
+      "leaf": 120,
+      "opening": 110,
+      "turn": 0,
+      "maximumGapMm": 0.000003725290298461914
+    },
+    {
+      "leaf": 120,
+      "opening": 110,
+      "turn": 0.5,
+      "maximumGapMm": 0.000003725290298461914
+    },
+    {
+      "leaf": 120,
+      "opening": 110,
+      "turn": 1,
+      "maximumGapMm": 1.417272316394477e-7
+    },
+    {
+      "leaf": 120,
+      "opening": 130,
+      "turn": 0,
+      "maximumGapMm": 0.0000012477420733923838
+    },
+    {
+      "leaf": 120,
+      "opening": 130,
+      "turn": 0.5,
+      "maximumGapMm": 0.000003725290298461914
+    },
+    {
+      "leaf": 120,
+      "opening": 130,
+      "turn": 1,
+      "maximumGapMm": 0.0000010475781050701481
+    },
+    {
+      "leaf": 238,
+      "opening": 0,
+      "turn": 0,
+      "maximumGapMm": 0.0000029211007224194674
+    },
+    {
+      "leaf": 238,
+      "opening": 15,
+      "turn": 0,
+      "maximumGapMm": 0.0000018942342427778163
+    },
+    {
+      "leaf": 238,
+      "opening": 30,
+      "turn": 0,
+      "maximumGapMm": 0.0000026414832442789888
+    },
+    {
+      "leaf": 238,
+      "opening": 60,
+      "turn": 0,
+      "maximumGapMm": 0.0000017867595767894511
+    },
+    {
+      "leaf": 238,
+      "opening": 90,
+      "turn": 0,
+      "maximumGapMm": 0.0000024769132046050183
+    },
+    {
+      "leaf": 238,
+      "opening": 110,
+      "turn": 0,
+      "maximumGapMm": 0.0000024381143353068114
+    },
+    {
+      "leaf": 238,
+      "opening": 110,
+      "turn": 0.5,
+      "maximumGapMm": 0.000003725290298461914
+    },
+    {
+      "leaf": 238,
+      "opening": 110,
+      "turn": 1,
+      "maximumGapMm": 0.000003725403983564965
+    },
+    {
+      "leaf": 238,
+      "opening": 130,
+      "turn": 0,
+      "maximumGapMm": 9.87431051646817e-7
+    },
+    {
+      "leaf": 238,
+      "opening": 130,
+      "turn": 0.5,
+      "maximumGapMm": 9.543509661590738e-7
+    },
+    {
+      "leaf": 238,
+      "opening": 130,
+      "turn": 1,
+      "maximumGapMm": 9.548198562381797e-7
+    }
+  ],
+  "coverage": "Actual mesh mid-surface return endpoints versus corresponding writing-leaf roots, three longitudinal samples; does not verify sewing holes or stress"
+}

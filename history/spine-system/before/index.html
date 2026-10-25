@@ -1,0 +1,605 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spine systems · evidence audit</title><style>body{margin:0;background:#f3efe4;color:#292c29;font:16px/1.65 system-ui}main{max-width:1150px;margin:auto;padding:35px 25px}h1{font:44px Georgia}h2{font:29px Georgia;margin-top:45px}h3{font-size:20px}a{color:#43685b}nav{display:flex;gap:18px;flex-wrap:wrap}.flag{padding:20px;border-left:5px solid #a14931;background:#ead9cc}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:20px}figure{margin:0}img{width:100%}figcaption{font-size:13px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;border-bottom:1px solid #c9c5b9;text-align:left;vertical-align:top}article{border-top:1px solid #c9c5b9;padding:18px 0}details{margin:15px 0}code{overflow-wrap:anywhere}.scroll{overflow:auto}pre{white-space:pre-wrap;font:14px/1.8 system-ui}body{overflow-wrap:anywhere}main{min-width:0}table{display:block;max-width:100%;overflow-x:auto}.scroll{max-width:100%}@media(max-width:600px){.grid{grid-template-columns:1fr}main{padding:24px 18px}}</style><main><p data-repair-notice><strong>Before-state audit.</strong> The measurements below precede the repairs. <a href="repairs/index.html">Read the subsequent repair record and remaining limitations.</a></p><p>OBJECT STUDIES / 23 OCTOBER 2026 / AUDIT</p><h1>The spine is a connected system.</h1><div class="flag"><strong>REWORK — binding validation not established.</strong><p>The current spine systems are not validated physical bindings. The grimoire adds individually solid components and coordinated motion, but the interfaces do not form a demonstrated continuous binding. Earlier scene books range from box proxies to closed parts without resolved attachment; the studio has directly measured open spine geometry. Passing topology and browser smoke checks did not establish craftsmanship or assembly correctness.</p></div><nav><a href="#findings">Findings</a><a href="#perspectives">Eight perspectives</a><a href="#coverage">Coverage</a><a href="report.md">Full report</a><a href="findings.json">Findings JSON</a><a href="measurements.json">Measurements</a><a href="browser-results.json">Browser evidence</a><a href="README.md">Reproduce</a><a href="extraction-requirements.md">Extraction requirements</a></nav><h2>Current construction families</h2><div class="scroll"><table><thead><tr><th>Family</th><th>Implementation</th><th>Findings</th><th>Disposition</th></tr></thead><tbody><tr><td>Wizard grimoire</td><td>connected but inconsistent proposed supported tight-back</td><td>B01–B06</td><td>rework</td></tr><tr><td>Woodland portal shelf books</td><td>box cover/page instances and bands</td><td>P01</td><td>rework</td></tr><tr><td>Hollow-tree shelf / return / stacks</td><td>boxes with partial page-edge hints</td><td>P01</td><td>rework</td></tr><tr><td>Gothic miniature shelf books</td><td>miniature box instances</td><td>P01</td><td>rework</td></tr><tr><td>Gothic miniature open book</td><td>open surfaces and central rod</td><td>R02</td><td>rework</td></tr><tr><td>Gothic room shelf books</td><td>boards, paper, rounded spine</td><td>P02</td><td>not established</td></tr><tr><td>Gothic room central book</td><td>closed blocks and leaves; primitive spine</td><td>R01</td><td>rework</td></tr><tr><td>Dragon-wing shelf books</td><td>boards, paper, lining, scaled spine</td><td>P02</td><td>not established</td></tr><tr><td>Dragon exemplar shelf books</td><td>similar construction with different transforms</td><td>P02</td><td>not established</td></tr><tr><td>Initial studio</td><td>visual binding design, mechanics explicitly deferred</td><td>S01–S03</td><td>rework</td></tr><tr><td>Advanced studio</td><td>visual binding design, mechanics explicitly deferred</td><td>S01–S03</td><td>rework</td></tr><tr><td>Meistro studio</td><td>visual binding design, mechanics explicitly deferred</td><td>S01–S03</td><td>rework</td></tr></tbody></table></div><h2>Source and diagnostic overlays</h2><p><a href="source-evidence.md">Line-numbered source extracts</a> · <a href="annotated-joint.svg">joint overlay</a> · <a href="annotated-head.svg">head overlay</a> · <a href="annotated-fold.svg">fold overlay</a> · <a href="annotated-edge.svg">edge overlay</a> · <a href="annotated-turnin.svg">turnin overlay</a> · <a href="annotated-underside.svg">underside overlay</a></p><h2>Authored geometry, measured</h2><img src="sections.svg" alt="Actual spine and lining curves at zero, sixty and one hundred thirty degrees"/><p>The spine curve contracts 15.11% at 60°. This is geometric change, not measured leather strain. The lining offset changes sides of the local normal. See raw measurements for all 21 opening/leaf combinations and 306 turn samples.</p><h2>Inspection evidence</h2><p>These are actual unmodified viewer captures. Broad surfaces hiding the named feature are retained as evidence of inspection failure.</p><div class="grid"><figure><a href="captures/spine-neutral.png"><img loading="lazy" src="captures/spine-neutral.png" alt="spine-neutral"/></a><figcaption>spine-neutral · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure><figure><a href="captures/spine-grazing.png"><img loading="lazy" src="captures/spine-grazing.png" alt="spine-grazing"/></a><figcaption>spine-grazing · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure><figure><a href="captures/bookmark-joint.png"><img loading="lazy" src="captures/bookmark-joint.png" alt="bookmark-joint"/></a><figcaption>bookmark-joint · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure><figure><a href="captures/bookmark-head.png"><img loading="lazy" src="captures/bookmark-head.png" alt="bookmark-head"/></a><figcaption>bookmark-head · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure><figure><a href="captures/bookmark-fold.png"><img loading="lazy" src="captures/bookmark-fold.png" alt="bookmark-fold"/></a><figcaption>bookmark-fold · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure><figure><a href="captures/bookmark-edge.png"><img loading="lazy" src="captures/bookmark-edge.png" alt="bookmark-edge"/></a><figcaption>bookmark-edge · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure><figure><a href="captures/bookmark-turnin.png"><img loading="lazy" src="captures/bookmark-turnin.png" alt="bookmark-turnin"/></a><figcaption>bookmark-turnin · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure><figure><a href="captures/bookmark-underside.png"><img loading="lazy" src="captures/bookmark-underside.png" alt="bookmark-underside"/></a><figcaption>bookmark-underside · neutral/clay/grazing as named; no corrective model edits.</figcaption></figure></div><h2 id="perspectives">Eight expert-informed perspectives</h2><article><h3>Hand bookbinder</h3><p>The first question is not whether the spine looks rounded, but whether the sections can actually be sewn, lined and attached to the boards in the order implied by the assembly. The centre cord does not meet its visible lacing terminal in the sampled closed and fully open states. Separate return pieces can be closed solids and still fail to form a folded sheet with their leaves. Build the gathering, support and board attachment as one construction sequence before embellishing bands.</p><small>B01, B02, B05, R01 · source context Espinosa</small></article><article><h3>Book conservator</h3><p>A repair should make its location and purpose legible. This patch follows the front board, so it cannot establish a lower-spine repair while the spine flexes independently. The cap and endband need an inspectable relationship: the Met describes a folded layer of pared leather protecting an endband. A rolled-looking strip and repeated torus loops alone do not establish that relationship. Concealed construction needs a labelled section, not an obstructed bookmark.</p><small>B04, B06, F03 · source context Met, LOC</small></article><article><h3>Binding historian / bibliographer</h3><p>Keep the proposed supported tight-back identity distinct from later case-binding and hollow-back interpretations. A visible cavity is not by itself evidence of an intentional hollow. Record what is proposed, what is merely a display proxy, and what construction the cited object actually demonstrates. The old studio already says opening/fabrication are deferred; it should not be condemned for absent animation, but its advertised solid export still needs solid geometry.</p><small>C03, B01, R02 · source context LoB, SHI</small></article><article><h3>Mechanical engineer</h3><p>Treat the cords, sewn sections, lining, covering and board attachments as a load path. Geometry that stops short cannot transmit the loads implied by the scene unless another attachment is specified. The 15% arc and area change is a strong modelling warning but cannot be converted into material stress without constitutive properties. Covers supported by pads do not prove the binding is in equilibrium. Gravity and external opening controls must remain explicit.</p><small>B02, B03, C03 · source context Conroy</small></article><article><h3>Computational geometry specialist</h3><p>A watertight mesh is only one predicate. Multiple closed shells can overlap or be fully contained; both must be tested independently. Open studio spines make their signed-volume result unsuitable as a physical volume. The new hierarchy tests find surface-crossing witnesses between spine and lining, but do not solve coplanar contact or establish a penetration depth. Pair-level attachment regions are needed before contact can be accepted.</p><small>B01, S01, S02, Q01 · source context Three-dispose</small></article><article><h3>Animation / simulation specialist</h3><p>The deterministic cycle result is useful, but it certifies only repeatability for that sequence. A moving binding needs material correspondence and connected roots, not independent shapes rebuilt at each angle. Reversal, a partly turned leaf, spread changes and a closing cover must all reach the same physical assembly. ETH page-block separation is relevant to runtime strategy, not evidence validating this spine.</p><small>B03, B05, F04 · source context ETH</small></article><article><h3>Technical artist / material specialist</h3><p>The reviewed spine preset obscures the assembly behind a cover and cradle. The joint capture largely shows broad surfaces rather than the joint. This is a presentation defect independent of polygon count. Box-based shelf books may be effective scene props at distance but cannot inherit the hero book’s inspection promise. Neutral and grazing comparisons should show actual folds, layer edges and contact shadows before grain or warm light is used to sell age.</p><small>F03, P01, B06 · source context Three-colour</small></article><article><h3>QA / metrology specialist</h3><p>Tests must be able to fail when the named property is broken. The clay-class assertion is non-discriminating; a metadata thickness assertion does not inspect a solid; a resolving attachment ID does not test contact. The invalid-import test now demonstrates state mutation before failure. Unit-scaled tolerance fixtures pass, but this does not calibrate arbitrary mesh penetration, all coordinate transforms or real leather strain. Keep each limited pass bounded.</p><small>Q01, F01, C01 · source context Three-dispose</small></article><h2 id="findings">Findings and corrections</h2><article id="B01"><h3>B01 · spine / lining — rework</h3><p><strong>wizard-grimoire</strong> · severity critical · confidence high</p><p>At 60°, the 0.7 mm world-X shift projects from -0.694 to +0.561 mm onto the spine normal. Triangle crossing counts are 1788 / 4050 / 3104 at 0 / 60 / 130°.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Lining must remain on its intended side of the covering with deliberate spacing.</p><p><strong>cause:</strong> Lining is translated on the world X axis instead of offset in the spine local surface frame.</p><p><strong>correction:</strong> Construct common layer interfaces from a shared reference surface and normals; define bonded regions and terminations.</p><p><strong>acceptanceTest:</strong> Check signed separation, thickness and contact regions for every sampled pose.</p><p><strong>evidence:</strong> wizard-grimoire/book.mjs: spinePoint and liner update; measurements.json pairs/poses</p><p><strong>remainingUncertainty:</strong> Crossing counts are triangle-pair witnesses, not unique collisions or penetration depth. Some contact may be intended; no explicit lining/cover attachment-region allowance establishes these crossings as valid.</p></details></article><article id="B02"><h3>B02 · cord / board lacing — rework</h3><p><strong>wizard-grimoire</strong> · severity critical · confidence high</p><p>At 130°, cord-end centre distances to front/rear lacing surfaces are 3.745 / 3.610 mm; cord radius is 1.2 mm. Broad-phase boxes are disjoint in tested centre-cord/lacing pairs.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Support ends must connect to board lacing.</p><p><strong>cause:</strong> Cords and lacing are authored independently; registry attachment is not physical continuity.</p><p><strong>correction:</strong> Create a single routed support per station, with board entry, channel, and visible terminal.</p><p><strong>acceptanceTest:</strong> Track both ends and board entry through all poses; check separation and local attachment containment.</p><p><strong>evidence:</strong> extra-results.json attachment; measurements.json pairs</p><p><strong>remainingUncertainty:</strong> Only centre station tested geometrically; other four stations share the generator but are not separately certified.</p></details></article><article id="B03"><h3>B03 · spine deformation — rework</h3><p><strong>wizard-grimoire</strong> · severity high · confidence high</p><p>Midline cross-section changes 50.668 → 43.011 mm at 60° (-15.11%); corresponding outer-face area changes 15212 → 12928 mm² (-15.01%).</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Surface deformation must agree with an explicit material-coordinate model.</p><p><strong>cause:</strong> Authored spine curve is rebuilt from independent cover positions with an added bulge; no strain/paring model.</p><p><strong>correction:</strong> Define a reference binding and neutral surface; distribute bending and compression by layer, with justified limits.</p><p><strong>acceptanceTest:</strong> Track consistent surface locations, local edge lengths and triangle areas; reject unexplained collapse or stretch.</p><p><strong>evidence:</strong> measurements.json poses leaf120</p><p><strong>remainingUncertainty:</strong> This is geometric distortion, not a calibrated leather stress/strain result. Compression can be physically appropriate; magnitude alone is not proof of failure.</p></details></article><article id="B04"><h3>B04 · repair / spine — rework</h3><p><strong>wizard-grimoire</strong> · severity high · confidence high</p><p>Patch and stitches are children of front-cover and reference its leather face.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> A lower-spine repair must physically bridge the described region.</p><p><strong>cause:</strong> Description and actual parent/attachment disagree.</p><p><strong>correction:</strong> Either relocate the repair across the actual spine with coordinated deformation, or describe it honestly as a cover repair.</p><p><strong>acceptanceTest:</strong> Inspect patch front/back, bonded perimeter and movement relative to its stated damaged region.</p><p><strong>evidence:</strong> wizard-grimoire/book.mjs repair.lower-spine-patch</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="B05"><h3>B05 · gatherings / sewing — not established</h3><p><strong>wizard-grimoire</strong> · severity high · confidence high</p><p>240 leaf identities and 120 closed return pieces exist; sewing loops are positioned on spinePoint, not verified through actual fold holes.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Bifolia and stitch paths must remain connected at the fold and supports.</p><p><strong>cause:</strong> Independent geometric constructions and incomplete contact checks.</p><p><strong>correction:</strong> Define one gathering topology with paired leaves, fold and station paths; derive sewing from it.</p><p><strong>acceptanceTest:</strong> Measure all fold/leaf endpoints and stitch/support/board interfaces; do not accept metadata as continuity.</p><p><strong>evidence:</strong> wizard-grimoire/book.mjs folds/sewing; prior motion exclusions</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="B06"><h3>B06 · headcap / endband / shoulder — not established</h3><p><strong>wizard-grimoire</strong> · severity high · confidence high</p><p>Caps, cores and loops follow spinePoint independently. Closed geometry exists, but tiedowns, material-frame separation and shoulder transitions are not verified.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Caps must fold around their layer stack and endbands must have defined seating/attachment.</p><p><strong>cause:</strong> Anatomical suggestion replaces resolved construction interfaces.</p><p><strong>correction:</strong> Author a complete head/tail section with pared folds, endband attachment and board transitions.</p><p><strong>acceptanceTest:</strong> Inspect both end sections in clay and measure component interfaces through opening.</p><p><strong>evidence:</strong> wizard-grimoire/book.mjs caps/endbands; captures/bookmark-head.png</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="S01"><h3>S01 · spine body — rework</h3><p><strong>book studio: Initial / Advanced / Meistro</strong> · severity critical · confidence high</p><p>Each live spine has 160 boundary edges. Open-surface signed volumes are negative; they are not physical volumes.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Exported solids must have closed oriented boundaries.</p><p><strong>cause:</strong> Generator connects elliptical rings but supplies no end caps; side winding also needs review.</p><p><strong>correction:</strong> Cap the shape and validate intended orientation; treat construction mechanics separately.</p><p><strong>acceptanceTest:</strong> Closed-boundary, oriented-normal and self-intersection tests on live and reloaded exports.</p><p><strong>evidence:</strong> measurements.json studio; default-book-design-types/models/threejs/geometry.mjs spineGeometry</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="S02"><h3>S02 · raised bands — rework</h3><p><strong>book studio: all ranks</strong> · severity high · confidence high</p><p>Each inspected band has 16 boundary edges.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Raised bands intended as solids need finished ends.</p><p><strong>cause:</strong> TubeGeometry endpoints are not capped.</p><p><strong>correction:</strong> Use capped sweeps with deliberate roots; identify decorative versus structural bands.</p><p><strong>acceptanceTest:</strong> Inspect end caps, intersections, and parent attachment at actual scale.</p><p><strong>evidence:</strong> measurements.json studio.spines</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="S03"><h3>S03 · live / JSON export — pass</h3><p><strong>book studio: all ranks</strong> · severity info · confidence high</p><p>Live and exported XYZ bounds agree for the three tested default rank configurations.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Current exported geometry must reload at the same dimensions.</p><p><strong>cause:</strong> Shared source and export construction preserve dimensions.</p><p><strong>correction:</strong> Preserve this regression while repairing the source geometry.</p><p><strong>acceptanceTest:</strong> Reload exported geometry and compare bounds, units and identifiers.</p><p><strong>evidence:</strong> measurements.json studio</p><p><strong>remainingUncertainty:</strong> Matching bounds is not full geometry/material/animation parity. Reproducing an open spine reproduces the defect too.</p></details></article><article id="R01"><h3>R01 · lining / hinges / page roots — rework</h3><p><strong>Gothic room central book</strong> · severity high · confidence high</p><p>A 24 × 9 × 538 mm rounded box is called flexible spine lining; cylindrical hinge rolls and mirrored signature blocks do not establish a connected binding.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Static open pose still needs plausible construction.</p><p><strong>cause:</strong> Separate solid primitives suggest anatomy without shared attachment surfaces.</p><p><strong>correction:</strong> Rebuild as a binding assembly rather than adding more trim to the box.</p><p><strong>acceptanceTest:</strong> Head/tail sections must show how signatures, supports, boards, lining and covering meet.</p><p><strong>evidence:</strong> gothic-library-room/physical-assets.mjs buildBoundBook; extra-results.json roomReport</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="R02"><h3>R02 · pages / spine — rework</h3><p><strong>Gothic miniature foreground book</strong> · severity high · confidence high</p><p>Four single-sided curved page surfaces per side and a central rod; no closed page-edge construction in this generator.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Pages intended for close inspection require thickness and a binding.</p><p><strong>cause:</strong> Distant-view miniature construction.</p><p><strong>correction:</strong> Declare distant-only scope or replace with closed leaves/page blocks and connected binding.</p><p><strong>acceptanceTest:</strong> Side and underside inspection must not expose zero-thickness leaves.</p><p><strong>evidence:</strong> gothic-miniature-library/model.mjs buildOpenBook</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="P01"><h3>P01 · covers / paper / spine — rework</h3><p><strong>woodland portal / hollow tree / Gothic miniature shelf books</strong> · severity medium · confidence high</p><p>Portal uses overlapping cover/page boxes; hollow-tree and miniature books use coloured box instances with surface bands; separate page top hints do not form complete bindings.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> 5–10 cm inspection requires more than solid exterior boxes.</p><p><strong>cause:</strong> Composition-scale proxies were retained under later close-up expectations.</p><p><strong>correction:</strong> Separate distance proxies from physically built hero books; clearly document supported inspection distance per family.</p><p><strong>acceptanceTest:</strong> Inspect top, fore-edge, back and underside of representative upright/stacked/side-facing variants.</p><p><strong>evidence:</strong> respective model.mjs book builders</p><p><strong>remainingUncertainty:</strong> These proxies can remain suitable at intended distant scales; historical mechanics are not applicable to their original presentation purpose.</p></details></article><article id="P02"><h3>P02 · spine shell / boards — not established</h3><p><strong>Gothic room / dragon shelf books</strong> · severity high · confidence high</p><p>Distinct boards and paper plus rounded spines exist; no complete binding interface or opening model. Dragon generators use different widths/offsets around similar half-ellipse spines.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Closed subparts must form one non-overlapping usable book.</p><p><strong>cause:</strong> Independent constants and nonuniform instance scales.</p><p><strong>correction:</strong> Define one local book frame and component interfaces; retain intentional static-book scope.</p><p><strong>acceptanceTest:</strong> Test narrowest/widest books, lean/stack transforms, paper/spine containment and world-space normals.</p><p><strong>evidence:</strong> gothic-library-room/model.mjs; dragon-wing-bookcase/builders.mjs; dragon-carving-exemplar/assembly.mjs</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="F01"><h3>F01 · pose import — rework</h3><p><strong>wizard viewer / public assembly</strong> · severity high · confidence high</p><p>turn:&quot;invalid&quot; throws Cannot read properties of undefined (reading x); stateUnchanged=false.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Rejected import must preserve previous valid state.</p><p><strong>cause:</strong> Pose is applied before complete validation/transactional commit.</p><p><strong>correction:</strong> Validate and construct candidate pose before mutation; reject or normalize invalid values under a documented contract.</p><p><strong>acceptanceTest:</strong> Wrong types, missing fields, non-finite API values, version/unit mismatch must fail without state change.</p><p><strong>evidence:</strong> browser-results.json malformed pose import; measurements.json malformed</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="F02"><h3>F02 · camera persistence — rework</h3><p><strong>wizard inline preview</strong> · severity medium · confidence high</p><p>Requested [0.19,0.21,0.23]; actual [0.37,0.42,0.47].</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Saved camera state must restore.</p><p><strong>cause:</strong> Restore reads spread/pose but calls fit instead of restoring saved camera/target.</p><p><strong>correction:</strong> Restore valid camera/target after model pose; default fit only when state is absent.</p><p><strong>acceptanceTest:</strong> Orbit/pan, save globals, reload, compare camera and target numerically.</p><p><strong>evidence:</strong> browser-results.json inline camera restore</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="F03"><h3>F03 · bookmarks — rework</h3><p><strong>wizard viewer</strong> · severity high · confidence high</p><p>Fold bookmark centre ray hits leaf.126; head/joint results and captures show occlusion. The Spine preset view also shows obstructing cover/support.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Inspection must reveal the named surface.</p><p><strong>cause:</strong> Bookmark tests check anchor distance rather than intended visibility.</p><p><strong>correction:</strong> Author object-aware camera directions and labelled isolation/sections for concealed features.</p><p><strong>acceptanceTest:</strong> Named detail must be visible at 50–100 mm, with usable light, orbit and clipping.</p><p><strong>evidence:</strong> browser-results.json bookmarks; captures/bookmark-fold.png; captures/bookmark-joint.png</p><p><strong>remainingUncertainty:</strong> Centre-ray occlusion is a diagnostic witness, not a proof that the feature is invisible everywhere in the frame.</p></details></article><article id="F04"><h3>F04 · repeated transitions — pass</h3><p><strong>wizard viewer / factory</strong> · severity info · confidence high</p><p>100 factory cycles have 0 mm profile drift; 100 reduced-motion UI open/turn/close cycles settle closed with released=0 and finite spine coordinates.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Repeated permitted operations must not accumulate deterministic geometry drift.</p><p><strong>cause:</strong> Deterministic rebuilding avoids accumulated pose offsets in this sequence.</p><p><strong>correction:</strong> Keep as regression; extend to animated adversarial actions.</p><p><strong>acceptanceTest:</strong> Repeat with opening reversal, mid-turn close, spread selection and pause/resume.</p><p><strong>evidence:</strong> measurements.json cycles; browser-results.json UI cycles</p><p><strong>remainingUncertainty:</strong> Not proof of attachment validity, animated endurance or absence of all state-dependent failures.</p></details></article><article id="F05"><h3>F05 · Chrome / Edge layout — pass</h3><p><strong>wizard runtime</strong> · severity info · confidence high</p><p>Chrome 156 and Edge 155 load at tested desktop/DPR1 and 320px/DPR2 layouts; fonts loaded; no captured page exceptions in valid-state runs.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Load on tested engines and narrow layouts without overflow.</p><p><strong>cause:</strong> Pinned local runtime works in both tested Chromium environments.</p><p><strong>correction:</strong> Retain matrix with exact browser and drawing-buffer dimensions.</p><p><strong>acceptanceTest:</strong> Repeat local and embedded workflows on each claimed environment.</p><p><strong>evidence:</strong> browser-results.json matrix</p><p><strong>remainingUncertainty:</strong> Two Chromium browsers are not two rendering-engine families. Physical touch, Firefox/WebKit and other GPUs remain untested.</p></details></article><article id="F06"><h3>F06 · performance / supersampling — pass</h3><p><strong>wizard rendering</strong> · severity info · confidence high</p><p>New isolated 90-frame runs meet 30 fps in all three diagnostic 1080p modes; previous production 4K close remains 22.92 fps.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Measure 1080p orbit, turn and close independently.</p><p><strong>cause:</strong> Close inspection automatically raises pixel ratio; frame cost depends on buffer size.</p><p><strong>correction:</strong> Expose quality/performance tradeoff if production close must meet 30 fps; never reduce physical construction silently.</p><p><strong>acceptanceTest:</strong> Report buffer resolution, DPR, CPU/GPU and frame percentiles with each measurement.</p><p><strong>evidence:</strong> performance.json; measurements.json priorPerformance</p><p><strong>remainingUncertainty:</strong> 1080p close test pins pixel ratio to 1 in memory; production source is unchanged. Short samples do not establish sustained thermal performance.</p></details></article><article id="Q01"><h3>Q01 · test adequacy — rework</h3><p><strong>earlier verification reports</strong> · severity critical · confidence high</p><p>Clay test checks MeshStandardMaterial, which ordinary materials also use; bookmark test checks distance; half-turn check reads geometry metadata/groups. Topology fixture with overlapping closed shells passes despite actual crossings.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> A pass claim must match the property actually tested.</p><p><strong>cause:</strong> Tests mirror implementation declarations and omit interface-level outcomes.</p><p><strong>correction:</strong> Use negative fixtures and independent outcomes; split topology, collision, physical continuity, visibility and functionality gates.</p><p><strong>acceptanceTest:</strong> Deliberately break each target property and demonstrate its specific test fails.</p><p><strong>evidence:</strong> wizard-grimoire/browser-qa.mjs; inline-qa.mjs; extra-results.json fixtures</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="C01"><h3>C01 · units / transforms — not established</h3><p><strong>all reusable book components</strong> · severity high · confidence high</p><p>Studio scene geometry and exports use mm; wizard and library geometry use metres; Gothic open-book surfaces include scale.x=-1.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Shared components need an explicit dimensional contract.</p><p><strong>cause:</strong> Independent local conventions with no common adapter.</p><p><strong>correction:</strong> Specify unit conversion, axis basis, pivot, normal handling and invariant identifiers at component boundaries.</p><p><strong>acceptanceTest:</strong> Compare equivalent scenes in m/mm and translated/rotated/reflected frames, including contact results.</p><p><strong>evidence:</strong> source inventory and geometry factories</p><p><strong>remainingUncertainty:</strong> SAT fixtures agree at scale 1/1000; full cross-project geometry/normal equivalence is not established. Reflections are not automatically defects.</p></details></article><article id="C02"><h3>C02 · representation parity — not established</h3><p><strong>current SVG / inline / exports</strong> · severity medium · confidence high</p><p>Studio SVG spine renderer emits a rounded rectangle while 3D emits an open elliptical shell. Wizard inline bundles the same source but uses different controls and restore behaviour.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Simplified representations must state which properties they retain.</p><p><strong>cause:</strong> Shared broad dimensions are mistaken for full visual/mechanical parity.</p><p><strong>correction:</strong> Document representation contracts and fingerprint source bundle; test dimensions/IDs/materials/pose separately.</p><p><strong>acceptanceTest:</strong> Compare component inventory and silhouettes per supported view, then round-trip supported state.</p><p><strong>evidence:</strong> default-book-design-types/models/shared/svg.mjs; wizard-grimoire/build-inline.mjs; inline-template.html</p><p><strong>remainingUncertainty:</strong> No physical specimen was measured.</p></details></article><article id="C03"><h3>C03 · physical simulation / material validation — not established</h3><p><strong>all studies</strong> · severity high · confidence high</p><p>Current wizard geometry has no gravity/friction/stress solver or measured anisotropic material properties.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Physics claims need calibrated material behaviour and external validation.</p><p><strong>cause:</strong> Controlled authored kinematics were used for a construction study.</p><p><strong>correction:</strong> Retain that explicit scope; add constraints first and only select a solver after physical behaviour is specified.</p><p><strong>acceptanceTest:</strong> Compare a physical binding model and measured opening/section curves before calling the result physically validated.</p><p><strong>evidence:</strong> wizard-grimoire/README.md; geometry.mjs</p><p><strong>remainingUncertainty:</strong> No strength, equilibrium, conservation-treatment suitability or historical fabrication certification is given.</p></details></article><article id="F07"><h3>F07 · CDN failure presentation — rework</h3><p><strong>wizard inline preview</strong> · severity medium · confidence high</p><p>Blocking esm.sh leaves the preview unloaded and still saying Preparing the book… after the failure observation window.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Unavailable runtime must produce a meaningful error or fallback.</p><p><strong>cause:</strong> Static module import fails before the viewer catch block can present the intended error.</p><p><strong>correction:</strong> Use an outer loading/error boundary that covers module retrieval as well as scene construction.</p><p><strong>acceptanceTest:</strong> Block CDN, disconnect network, and force module failure; loading state must terminate with useful recovery guidance.</p><p><strong>evidence:</strong> followup-results.json cdn</p><p><strong>remainingUncertainty:</strong> Single controlled blocked-origin case, not every possible network failure.</p></details></article><article id="F08"><h3>F08 · materials / factory resource ownership — pass</h3><p><strong>wizard runtime</strong> · severity info · confidence high</p><p>Clay instance identity and original-material restoration pass. Six factory create/render/dispose cycles retain 315 geometry and 13 texture counters after cleanup. Blocked local storage still permits loading.</p><details><summary>Requirement, cause, correction and acceptance evidence</summary><p><strong>requirement:</strong> Actual material mode identity and bounded factory GPU resources must be demonstrated.</p><p><strong>cause:</strong> Current materials and factory cleanup behave consistently in these tests.</p><p><strong>correction:</strong> Keep instance-identity checks and warm-baseline resource observations.</p><p><strong>acceptanceTest:</strong> Repeat ownership and full viewer remount tests; do not demand zero internal renderer cache entries.</p><p><strong>evidence:</strong> followup-results.json</p><p><strong>remainingUncertainty:</strong> Not a JS heap, full-viewer remount or prolonged lifetime leak proof.</p></details></article><h2 id="coverage">Coverage: no missing evidence counted as a pass</h2><div class="scroll"><table><thead><tr><th>Criterion</th><th>Disposition</th><th>Evidence / limitation</th></tr></thead><tbody><tr><td>Actual-mesh interface crossing / containment fixtures</td><td>pass</td><td>AABB hierarchy + segment-triangle witnesses and odd-ray containment; limited fixtures only.</td></tr><tr><td>Coplanar overlap, exhaustive self-intersection, all attachment regions</td><td>not established</td><td>Algorithm explicitly excludes robust coplanar/tangent classification; no exhaustive self-BVH on every source mesh.</td></tr><tr><td>Paper/rigid tolerance thresholds in m and mm</td><td>pass</td><td>3/7 micrometre and 0.04/0.07 mm SAT fixtures agree under 1000× scaling.</td></tr><tr><td>Fixtures with collisions missed between five slices</td><td>pass</td><td>Off-slice box collision at Z=3.7 mm is detected by triangle witnesses and missed by nominal 0/5/10/15/20 mm slice planes; diagnostic fixture only.</td></tr><tr><td>Seven openings × three leaf positions</td><td>pass</td><td>21 spine profiles; no claim of complete contact validity.</td></tr><tr><td>2% page-turn grid at 110° / 130° × three leaf positions</td><td>pass</td><td>306 active-leaf topology and spine profile samples.</td></tr><tr><td>Adaptive refinement / continuous contact proof</td><td>not established</td><td>No full continuous collision proof or exhaustive adaptive contact search.</td></tr><tr><td>100 factory and reduced-motion UI cycles</td><td>pass</td><td>Stable deterministic profile and settled closed state.</td></tr><tr><td>100 fully animated adversarial cycles / reproducible interruptions</td><td>not established</td><td>Earlier normal animation smoke tests exist; new endurance suite is reduced-motion only.</td></tr><tr><td>Full leaf content identity / gathering continuity / support route</td><td>not established</td><td>Part names do not prove topology, content placement or continuous attachment.</td></tr><tr><td>Chrome / Edge local DPR/layout matrix</td><td>pass</td><td>Four measured combinations, not the full Cartesian product of all widths/DPRs.</td></tr><tr><td>Firefox / WebKit / physical touch / other GPUs</td><td>not established</td><td>Not executed.</td></tr><tr><td>Context loss and restore</td><td>pass</td><td>Chrome restored context and rendered again in this test.</td></tr><tr><td>Blocked CDN/storage / lifecycle mount endurance / keyboard focus accessibility</td><td>rework</td><td>Blocked storage loads; six factory cleanup cycles have stable GPU counters. Blocked CDN remains loading. Full viewer remount/heap and accessibility suite not established.</td></tr><tr><td>JSON rejected atomically / inline camera round trip</td><td>rework</td><td>Both fail new outcome checks.</td></tr><tr><td>Static proxy opening mechanics</td><td>not applicable</td><td>Not advertised; close-up solid construction evaluated separately.</td></tr><tr><td>Craftsmanship at 50–100mm for every family</td><td>rework</td><td>Representative wizard captures show obstructions; source-based proxies lack physical construction; all-family matched runtime capture not completed.</td></tr><tr><td>All-family world-normal and SVG silhouette parity</td><td>not established</td><td>Static implementation reviewed; not a complete perceptual/transform equivalence suite.</td></tr><tr><td>Production supersampled close reaches 30fps</td><td>rework</td><td>Recorded 22.92fps at 3840×2160. Diagnostic 1080p passes.</td></tr><tr><td>Actual clay identity and material restoration</td><td>pass</td><td>New independent instance-identity checks pass; old class-only test remains inadequate.</td></tr><tr><td>Deterministic animated interruption sequence</td><td>pass</td><td>Nine fixed actions at 95 ms spacing remain finite; not 100-cycle animated endurance.</td></tr></tbody></table></div><h2>Browser and performance evidence</h2><table><thead><tr><th>Browser</th><th>Version</th><th>Viewport</th><th>DPR</th><th>Actual buffer</th></tr></thead><tbody><tr><td>chrome</td><td>156.0.8078.48</td><td>1920</td><td>1</td><td>1594 × 964</td></tr><tr><td>chrome</td><td>156.0.8078.48</td><td>320</td><td>2</td><td>480 × 1053</td></tr><tr><td>edge</td><td>155.0.4283.62</td><td>1920</td><td>1</td><td>1594 × 964</td></tr><tr><td>edge</td><td>155.0.4283.62</td><td>320</td><td>2</td><td>480 × 1053</td></tr></tbody></table><table><thead><tr><th>Mode</th><th>FPS</th><th>Median ms</th><th>p95 ms</th><th>Buffer</th></tr></thead><tbody><tr><td>orbit</td><td>61.59</td><td>16.60</td><td>17.70</td><td>1920 × 1080</td></tr><tr><td>turn</td><td>44.71</td><td>22.70</td><td>30.40</td><td>1920 × 1080</td></tr><tr><td>close</td><td>60.37</td><td>16.70</td><td>17.90</td><td>1920 × 1080</td></tr></tbody></table><p>1080p close uses a diagnostic ratio override; production source unchanged. Previous production 4K close: <strong>22.92 fps</strong>. Device: ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11).</p><h2>Prior claims, corrected conclusions and complete report</h2><p>The Markdown report contains the claim-by-claim review, reconstruction sequence and evidence boundaries.</p><details><summary>Read complete text here</summary><pre># Spine systems — construction, movement and compatibility audit
+
+23 October 2026 · eight current projects · no model repairs
+
+The current spine systems are not validated physical bindings. The grimoire adds individually solid components and coordinated motion, but the interfaces do not form a demonstrated continuous binding. Earlier scene books range from box proxies to closed parts without resolved attachment; the studio has directly measured open spine geometry. Passing topology and browser smoke checks did not establish craftsmanship or assembly correctness.
+
+## Executive disposition
+
+**REWORK. Full binding validation: false.** Critical defects are not averaged into a cosmetic score. Some scoped checks pass; they do not override missing or failed interfaces.
+
+- **Wizard grimoire — rework:** connected but inconsistent proposed supported tight-back (B01–B06).
+- **Woodland portal shelf books — rework:** box cover/page instances and bands (P01).
+- **Hollow-tree shelf / return / stacks — rework:** boxes with partial page-edge hints (P01).
+- **Gothic miniature shelf books — rework:** miniature box instances (P01).
+- **Gothic miniature open book — rework:** open surfaces and central rod (R02).
+- **Gothic room shelf books — not established:** boards, paper, rounded spine (P02).
+- **Gothic room central book — rework:** closed blocks and leaves; primitive spine (R01).
+- **Dragon-wing shelf books — not established:** boards, paper, lining, scaled spine (P02).
+- **Dragon exemplar shelf books — not established:** similar construction with different transforms (P02).
+- **Initial studio — rework:** visual binding design, mechanics explicitly deferred (S01–S03).
+- **Advanced studio — rework:** visual binding design, mechanics explicitly deferred (S01–S03).
+- **Meistro studio — rework:** visual binding design, mechanics explicitly deferred (S01–S03).
+
+## Measurements and method
+
+21 spine profiles plus 306 turning samples; 100 deterministic factory cycles and 100 reduced-motion UI cycles. Triangle pair tests use AABB hierarchy pruning and two-way segment/triangle intersections. Closed containment uses deduplicated odd-ray counts. These are diagnostic implementations, not certified robust predicates: coplanar overlap and tangent contact remain unresolved. Contact counts are not penetration depths or unique collisions. Studio topology is measured in its native mm; grimoire geometry in metres.
+
+Midpoint 60° spine arc: 43.011 mm versus 50.668 mm closed. Outer-face area: 12928 versus 15212 mm². Consistent surface parameters are tracked, but no material constitutive model is present. Lining normal-offset projection crosses zero and changes sign. Centre support endpoints fail to meet visible lacing in fully open/closed states.
+
+Fixtures show a pair of overlapping closed shells passes the original topology checker despite detected surface crossings. Open and inverted fixtures are recorded independently. The 0.005/0.05 mm SAT thresholds discriminate known overlaps identically in m/mm; this is not an arbitrary-mesh penetration calibration.
+
+## Eight expert-informed perspectives
+
+### Hand bookbinder
+
+The first question is not whether the spine looks rounded, but whether the sections can actually be sewn, lined and attached to the boards in the order implied by the assembly. The centre cord does not meet its visible lacing terminal in the sampled closed and fully open states. Separate return pieces can be closed solids and still fail to form a folded sheet with their leaves. Build the gathering, support and board attachment as one construction sequence before embellishing bands.
+
+Findings: B01, B02, B05, R01. Reference context: Espinosa.
+
+### Book conservator
+
+A repair should make its location and purpose legible. This patch follows the front board, so it cannot establish a lower-spine repair while the spine flexes independently. The cap and endband need an inspectable relationship: the Met describes a folded layer of pared leather protecting an endband. A rolled-looking strip and repeated torus loops alone do not establish that relationship. Concealed construction needs a labelled section, not an obstructed bookmark.
+
+Findings: B04, B06, F03. Reference context: Met, LOC.
+
+### Binding historian / bibliographer
+
+Keep the proposed supported tight-back identity distinct from later case-binding and hollow-back interpretations. A visible cavity is not by itself evidence of an intentional hollow. Record what is proposed, what is merely a display proxy, and what construction the cited object actually demonstrates. The old studio already says opening/fabrication are deferred; it should not be condemned for absent animation, but its advertised solid export still needs solid geometry.
+
+Findings: C03, B01, R02. Reference context: LoB, SHI.
+
+### Mechanical engineer
+
+Treat the cords, sewn sections, lining, covering and board attachments as a load path. Geometry that stops short cannot transmit the loads implied by the scene unless another attachment is specified. The 15% arc and area change is a strong modelling warning but cannot be converted into material stress without constitutive properties. Covers supported by pads do not prove the binding is in equilibrium. Gravity and external opening controls must remain explicit.
+
+Findings: B02, B03, C03. Reference context: Conroy.
+
+### Computational geometry specialist
+
+A watertight mesh is only one predicate. Multiple closed shells can overlap or be fully contained; both must be tested independently. Open studio spines make their signed-volume result unsuitable as a physical volume. The new hierarchy tests find surface-crossing witnesses between spine and lining, but do not solve coplanar contact or establish a penetration depth. Pair-level attachment regions are needed before contact can be accepted.
+
+Findings: B01, S01, S02, Q01. Reference context: Three-dispose.
+
+### Animation / simulation specialist
+
+The deterministic cycle result is useful, but it certifies only repeatability for that sequence. A moving binding needs material correspondence and connected roots, not independent shapes rebuilt at each angle. Reversal, a partly turned leaf, spread changes and a closing cover must all reach the same physical assembly. ETH page-block separation is relevant to runtime strategy, not evidence validating this spine.
+
+Findings: B03, B05, F04. Reference context: ETH.
+
+### Technical artist / material specialist
+
+The reviewed spine preset obscures the assembly behind a cover and cradle. The joint capture largely shows broad surfaces rather than the joint. This is a presentation defect independent of polygon count. Box-based shelf books may be effective scene props at distance but cannot inherit the hero book’s inspection promise. Neutral and grazing comparisons should show actual folds, layer edges and contact shadows before grain or warm light is used to sell age.
+
+Findings: F03, P01, B06. Reference context: Three-colour.
+
+### QA / metrology specialist
+
+Tests must be able to fail when the named property is broken. The clay-class assertion is non-discriminating; a metadata thickness assertion does not inspect a solid; a resolving attachment ID does not test contact. The invalid-import test now demonstrates state mutation before failure. Unit-scaled tolerance fixtures pass, but this does not calibrate arbitrary mesh penetration, all coordinate transforms or real leather strain. Keep each limited pass bounded.
+
+Findings: Q01, F01, C01. Reference context: Three-dispose.
+
+## Findings register
+
+### B01 · spine / lining — rework
+
+**Affected:** wizard-grimoire. **Severity:** critical. **Confidence:** high.
+
+**Requirement:** Lining must remain on its intended side of the covering with deliberate spacing.
+
+**Observed / measured:** At 60°, the 0.7 mm world-X shift projects from -0.694 to +0.561 mm onto the spine normal. Triangle crossing counts are 1788 / 4050 / 3104 at 0 / 60 / 130°.
+
+**Cause:** Lining is translated on the world X axis instead of offset in the spine local surface frame.
+
+**Correction:** Construct common layer interfaces from a shared reference surface and normals; define bonded regions and terminations.
+
+**Acceptance test:** Check signed separation, thickness and contact regions for every sampled pose.
+
+**Evidence / reproduction:** wizard-grimoire/book.mjs: spinePoint and liner update; measurements.json pairs/poses
+
+**Uncertainty:** Crossing counts are triangle-pair witnesses, not unique collisions or penetration depth. Some contact may be intended; no explicit lining/cover attachment-region allowance establishes these crossings as valid.
+
+### B02 · cord / board lacing — rework
+
+**Affected:** wizard-grimoire. **Severity:** critical. **Confidence:** high.
+
+**Requirement:** Support ends must connect to board lacing.
+
+**Observed / measured:** At 130°, cord-end centre distances to front/rear lacing surfaces are 3.745 / 3.610 mm; cord radius is 1.2 mm. Broad-phase boxes are disjoint in tested centre-cord/lacing pairs.
+
+**Cause:** Cords and lacing are authored independently; registry attachment is not physical continuity.
+
+**Correction:** Create a single routed support per station, with board entry, channel, and visible terminal.
+
+**Acceptance test:** Track both ends and board entry through all poses; check separation and local attachment containment.
+
+**Evidence / reproduction:** extra-results.json attachment; measurements.json pairs
+
+**Uncertainty:** Only centre station tested geometrically; other four stations share the generator but are not separately certified.
+
+### B03 · spine deformation — rework
+
+**Affected:** wizard-grimoire. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Surface deformation must agree with an explicit material-coordinate model.
+
+**Observed / measured:** Midline cross-section changes 50.668 → 43.011 mm at 60° (-15.11%); corresponding outer-face area changes 15212 → 12928 mm² (-15.01%).
+
+**Cause:** Authored spine curve is rebuilt from independent cover positions with an added bulge; no strain/paring model.
+
+**Correction:** Define a reference binding and neutral surface; distribute bending and compression by layer, with justified limits.
+
+**Acceptance test:** Track consistent surface locations, local edge lengths and triangle areas; reject unexplained collapse or stretch.
+
+**Evidence / reproduction:** measurements.json poses leaf120
+
+**Uncertainty:** This is geometric distortion, not a calibrated leather stress/strain result. Compression can be physically appropriate; magnitude alone is not proof of failure.
+
+### B04 · repair / spine — rework
+
+**Affected:** wizard-grimoire. **Severity:** high. **Confidence:** high.
+
+**Requirement:** A lower-spine repair must physically bridge the described region.
+
+**Observed / measured:** Patch and stitches are children of front-cover and reference its leather face.
+
+**Cause:** Description and actual parent/attachment disagree.
+
+**Correction:** Either relocate the repair across the actual spine with coordinated deformation, or describe it honestly as a cover repair.
+
+**Acceptance test:** Inspect patch front/back, bonded perimeter and movement relative to its stated damaged region.
+
+**Evidence / reproduction:** wizard-grimoire/book.mjs repair.lower-spine-patch
+
+**Uncertainty:** No physical specimen was measured.
+
+### B05 · gatherings / sewing — not established
+
+**Affected:** wizard-grimoire. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Bifolia and stitch paths must remain connected at the fold and supports.
+
+**Observed / measured:** 240 leaf identities and 120 closed return pieces exist; sewing loops are positioned on spinePoint, not verified through actual fold holes.
+
+**Cause:** Independent geometric constructions and incomplete contact checks.
+
+**Correction:** Define one gathering topology with paired leaves, fold and station paths; derive sewing from it.
+
+**Acceptance test:** Measure all fold/leaf endpoints and stitch/support/board interfaces; do not accept metadata as continuity.
+
+**Evidence / reproduction:** wizard-grimoire/book.mjs folds/sewing; prior motion exclusions
+
+**Uncertainty:** No physical specimen was measured.
+
+### B06 · headcap / endband / shoulder — not established
+
+**Affected:** wizard-grimoire. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Caps must fold around their layer stack and endbands must have defined seating/attachment.
+
+**Observed / measured:** Caps, cores and loops follow spinePoint independently. Closed geometry exists, but tiedowns, material-frame separation and shoulder transitions are not verified.
+
+**Cause:** Anatomical suggestion replaces resolved construction interfaces.
+
+**Correction:** Author a complete head/tail section with pared folds, endband attachment and board transitions.
+
+**Acceptance test:** Inspect both end sections in clay and measure component interfaces through opening.
+
+**Evidence / reproduction:** wizard-grimoire/book.mjs caps/endbands; captures/bookmark-head.png
+
+**Uncertainty:** No physical specimen was measured.
+
+### S01 · spine body — rework
+
+**Affected:** book studio: Initial / Advanced / Meistro. **Severity:** critical. **Confidence:** high.
+
+**Requirement:** Exported solids must have closed oriented boundaries.
+
+**Observed / measured:** Each live spine has 160 boundary edges. Open-surface signed volumes are negative; they are not physical volumes.
+
+**Cause:** Generator connects elliptical rings but supplies no end caps; side winding also needs review.
+
+**Correction:** Cap the shape and validate intended orientation; treat construction mechanics separately.
+
+**Acceptance test:** Closed-boundary, oriented-normal and self-intersection tests on live and reloaded exports.
+
+**Evidence / reproduction:** measurements.json studio; default-book-design-types/models/threejs/geometry.mjs spineGeometry
+
+**Uncertainty:** No physical specimen was measured.
+
+### S02 · raised bands — rework
+
+**Affected:** book studio: all ranks. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Raised bands intended as solids need finished ends.
+
+**Observed / measured:** Each inspected band has 16 boundary edges.
+
+**Cause:** TubeGeometry endpoints are not capped.
+
+**Correction:** Use capped sweeps with deliberate roots; identify decorative versus structural bands.
+
+**Acceptance test:** Inspect end caps, intersections, and parent attachment at actual scale.
+
+**Evidence / reproduction:** measurements.json studio.spines
+
+**Uncertainty:** No physical specimen was measured.
+
+### S03 · live / JSON export — pass
+
+**Affected:** book studio: all ranks. **Severity:** info. **Confidence:** high.
+
+**Requirement:** Current exported geometry must reload at the same dimensions.
+
+**Observed / measured:** Live and exported XYZ bounds agree for the three tested default rank configurations.
+
+**Cause:** Shared source and export construction preserve dimensions.
+
+**Correction:** Preserve this regression while repairing the source geometry.
+
+**Acceptance test:** Reload exported geometry and compare bounds, units and identifiers.
+
+**Evidence / reproduction:** measurements.json studio
+
+**Uncertainty:** Matching bounds is not full geometry/material/animation parity. Reproducing an open spine reproduces the defect too.
+
+### R01 · lining / hinges / page roots — rework
+
+**Affected:** Gothic room central book. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Static open pose still needs plausible construction.
+
+**Observed / measured:** A 24 × 9 × 538 mm rounded box is called flexible spine lining; cylindrical hinge rolls and mirrored signature blocks do not establish a connected binding.
+
+**Cause:** Separate solid primitives suggest anatomy without shared attachment surfaces.
+
+**Correction:** Rebuild as a binding assembly rather than adding more trim to the box.
+
+**Acceptance test:** Head/tail sections must show how signatures, supports, boards, lining and covering meet.
+
+**Evidence / reproduction:** gothic-library-room/physical-assets.mjs buildBoundBook; extra-results.json roomReport
+
+**Uncertainty:** No physical specimen was measured.
+
+### R02 · pages / spine — rework
+
+**Affected:** Gothic miniature foreground book. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Pages intended for close inspection require thickness and a binding.
+
+**Observed / measured:** Four single-sided curved page surfaces per side and a central rod; no closed page-edge construction in this generator.
+
+**Cause:** Distant-view miniature construction.
+
+**Correction:** Declare distant-only scope or replace with closed leaves/page blocks and connected binding.
+
+**Acceptance test:** Side and underside inspection must not expose zero-thickness leaves.
+
+**Evidence / reproduction:** gothic-miniature-library/model.mjs buildOpenBook
+
+**Uncertainty:** No physical specimen was measured.
+
+### P01 · covers / paper / spine — rework
+
+**Affected:** woodland portal / hollow tree / Gothic miniature shelf books. **Severity:** medium. **Confidence:** high.
+
+**Requirement:** 5–10 cm inspection requires more than solid exterior boxes.
+
+**Observed / measured:** Portal uses overlapping cover/page boxes; hollow-tree and miniature books use coloured box instances with surface bands; separate page top hints do not form complete bindings.
+
+**Cause:** Composition-scale proxies were retained under later close-up expectations.
+
+**Correction:** Separate distance proxies from physically built hero books; clearly document supported inspection distance per family.
+
+**Acceptance test:** Inspect top, fore-edge, back and underside of representative upright/stacked/side-facing variants.
+
+**Evidence / reproduction:** respective model.mjs book builders
+
+**Uncertainty:** These proxies can remain suitable at intended distant scales; historical mechanics are not applicable to their original presentation purpose.
+
+### P02 · spine shell / boards — not established
+
+**Affected:** Gothic room / dragon shelf books. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Closed subparts must form one non-overlapping usable book.
+
+**Observed / measured:** Distinct boards and paper plus rounded spines exist; no complete binding interface or opening model. Dragon generators use different widths/offsets around similar half-ellipse spines.
+
+**Cause:** Independent constants and nonuniform instance scales.
+
+**Correction:** Define one local book frame and component interfaces; retain intentional static-book scope.
+
+**Acceptance test:** Test narrowest/widest books, lean/stack transforms, paper/spine containment and world-space normals.
+
+**Evidence / reproduction:** gothic-library-room/model.mjs; dragon-wing-bookcase/builders.mjs; dragon-carving-exemplar/assembly.mjs
+
+**Uncertainty:** No physical specimen was measured.
+
+### F01 · pose import — rework
+
+**Affected:** wizard viewer / public assembly. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Rejected import must preserve previous valid state.
+
+**Observed / measured:** turn:&quot;invalid&quot; throws Cannot read properties of undefined (reading x); stateUnchanged=false.
+
+**Cause:** Pose is applied before complete validation/transactional commit.
+
+**Correction:** Validate and construct candidate pose before mutation; reject or normalize invalid values under a documented contract.
+
+**Acceptance test:** Wrong types, missing fields, non-finite API values, version/unit mismatch must fail without state change.
+
+**Evidence / reproduction:** browser-results.json malformed pose import; measurements.json malformed
+
+**Uncertainty:** No physical specimen was measured.
+
+### F02 · camera persistence — rework
+
+**Affected:** wizard inline preview. **Severity:** medium. **Confidence:** high.
+
+**Requirement:** Saved camera state must restore.
+
+**Observed / measured:** Requested [0.19,0.21,0.23]; actual [0.37,0.42,0.47].
+
+**Cause:** Restore reads spread/pose but calls fit instead of restoring saved camera/target.
+
+**Correction:** Restore valid camera/target after model pose; default fit only when state is absent.
+
+**Acceptance test:** Orbit/pan, save globals, reload, compare camera and target numerically.
+
+**Evidence / reproduction:** browser-results.json inline camera restore
+
+**Uncertainty:** No physical specimen was measured.
+
+### F03 · bookmarks — rework
+
+**Affected:** wizard viewer. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Inspection must reveal the named surface.
+
+**Observed / measured:** Fold bookmark centre ray hits leaf.126; head/joint results and captures show occlusion. The Spine preset view also shows obstructing cover/support.
+
+**Cause:** Bookmark tests check anchor distance rather than intended visibility.
+
+**Correction:** Author object-aware camera directions and labelled isolation/sections for concealed features.
+
+**Acceptance test:** Named detail must be visible at 50–100 mm, with usable light, orbit and clipping.
+
+**Evidence / reproduction:** browser-results.json bookmarks; captures/bookmark-fold.png; captures/bookmark-joint.png
+
+**Uncertainty:** Centre-ray occlusion is a diagnostic witness, not a proof that the feature is invisible everywhere in the frame.
+
+### F04 · repeated transitions — pass
+
+**Affected:** wizard viewer / factory. **Severity:** info. **Confidence:** high.
+
+**Requirement:** Repeated permitted operations must not accumulate deterministic geometry drift.
+
+**Observed / measured:** 100 factory cycles have 0 mm profile drift; 100 reduced-motion UI open/turn/close cycles settle closed with released=0 and finite spine coordinates.
+
+**Cause:** Deterministic rebuilding avoids accumulated pose offsets in this sequence.
+
+**Correction:** Keep as regression; extend to animated adversarial actions.
+
+**Acceptance test:** Repeat with opening reversal, mid-turn close, spread selection and pause/resume.
+
+**Evidence / reproduction:** measurements.json cycles; browser-results.json UI cycles
+
+**Uncertainty:** Not proof of attachment validity, animated endurance or absence of all state-dependent failures.
+
+### F05 · Chrome / Edge layout — pass
+
+**Affected:** wizard runtime. **Severity:** info. **Confidence:** high.
+
+**Requirement:** Load on tested engines and narrow layouts without overflow.
+
+**Observed / measured:** Chrome 156 and Edge 155 load at tested desktop/DPR1 and 320px/DPR2 layouts; fonts loaded; no captured page exceptions in valid-state runs.
+
+**Cause:** Pinned local runtime works in both tested Chromium environments.
+
+**Correction:** Retain matrix with exact browser and drawing-buffer dimensions.
+
+**Acceptance test:** Repeat local and embedded workflows on each claimed environment.
+
+**Evidence / reproduction:** browser-results.json matrix
+
+**Uncertainty:** Two Chromium browsers are not two rendering-engine families. Physical touch, Firefox/WebKit and other GPUs remain untested.
+
+### F06 · performance / supersampling — pass
+
+**Affected:** wizard rendering. **Severity:** info. **Confidence:** high.
+
+**Requirement:** Measure 1080p orbit, turn and close independently.
+
+**Observed / measured:** New isolated 90-frame runs meet 30 fps in all three diagnostic 1080p modes; previous production 4K close remains 22.92 fps.
+
+**Cause:** Close inspection automatically raises pixel ratio; frame cost depends on buffer size.
+
+**Correction:** Expose quality/performance tradeoff if production close must meet 30 fps; never reduce physical construction silently.
+
+**Acceptance test:** Report buffer resolution, DPR, CPU/GPU and frame percentiles with each measurement.
+
+**Evidence / reproduction:** performance.json; measurements.json priorPerformance
+
+**Uncertainty:** 1080p close test pins pixel ratio to 1 in memory; production source is unchanged. Short samples do not establish sustained thermal performance.
+
+### Q01 · test adequacy — rework
+
+**Affected:** earlier verification reports. **Severity:** critical. **Confidence:** high.
+
+**Requirement:** A pass claim must match the property actually tested.
+
+**Observed / measured:** Clay test checks MeshStandardMaterial, which ordinary materials also use; bookmark test checks distance; half-turn check reads geometry metadata/groups. Topology fixture with overlapping closed shells passes despite actual crossings.
+
+**Cause:** Tests mirror implementation declarations and omit interface-level outcomes.
+
+**Correction:** Use negative fixtures and independent outcomes; split topology, collision, physical continuity, visibility and functionality gates.
+
+**Acceptance test:** Deliberately break each target property and demonstrate its specific test fails.
+
+**Evidence / reproduction:** wizard-grimoire/browser-qa.mjs; inline-qa.mjs; extra-results.json fixtures
+
+**Uncertainty:** No physical specimen was measured.
+
+### C01 · units / transforms — not established
+
+**Affected:** all reusable book components. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Shared components need an explicit dimensional contract.
+
+**Observed / measured:** Studio scene geometry and exports use mm; wizard and library geometry use metres; Gothic open-book surfaces include scale.x=-1.
+
+**Cause:** Independent local conventions with no common adapter.
+
+**Correction:** Specify unit conversion, axis basis, pivot, normal handling and invariant identifiers at component boundaries.
+
+**Acceptance test:** Compare equivalent scenes in m/mm and translated/rotated/reflected frames, including contact results.
+
+**Evidence / reproduction:** source inventory and geometry factories
+
+**Uncertainty:** SAT fixtures agree at scale 1/1000; full cross-project geometry/normal equivalence is not established. Reflections are not automatically defects.
+
+### C02 · representation parity — not established
+
+**Affected:** current SVG / inline / exports. **Severity:** medium. **Confidence:** high.
+
+**Requirement:** Simplified representations must state which properties they retain.
+
+**Observed / measured:** Studio SVG spine renderer emits a rounded rectangle while 3D emits an open elliptical shell. Wizard inline bundles the same source but uses different controls and restore behaviour.
+
+**Cause:** Shared broad dimensions are mistaken for full visual/mechanical parity.
+
+**Correction:** Document representation contracts and fingerprint source bundle; test dimensions/IDs/materials/pose separately.
+
+**Acceptance test:** Compare component inventory and silhouettes per supported view, then round-trip supported state.
+
+**Evidence / reproduction:** default-book-design-types/models/shared/svg.mjs; wizard-grimoire/build-inline.mjs; inline-template.html
+
+**Uncertainty:** No physical specimen was measured.
+
+### C03 · physical simulation / material validation — not established
+
+**Affected:** all studies. **Severity:** high. **Confidence:** high.
+
+**Requirement:** Physics claims need calibrated material behaviour and external validation.
+
+**Observed / measured:** Current wizard geometry has no gravity/friction/stress solver or measured anisotropic material properties.
+
+**Cause:** Controlled authored kinematics were used for a construction study.
+
+**Correction:** Retain that explicit scope; add constraints first and only select a solver after physical behaviour is specified.
+
+**Acceptance test:** Compare a physical binding model and measured opening/section curves before calling the result physically validated.
+
+**Evidence / reproduction:** wizard-grimoire/README.md; geometry.mjs
+
+**Uncertainty:** No strength, equilibrium, conservation-treatment suitability or historical fabrication certification is given.
+
+### F07 · CDN failure presentation — rework
+
+**Affected:** wizard inline preview. **Severity:** medium. **Confidence:** high.
+
+**Requirement:** Unavailable runtime must produce a meaningful error or fallback.
+
+**Observed / measured:** Blocking esm.sh leaves the preview unloaded and still saying Preparing the book… after the failure observation window.
+
+**Cause:** Static module import fails before the viewer catch block can present the intended error.
+
+**Correction:** Use an outer loading/error boundary that covers module retrieval as well as scene construction.
+
+**Acceptance test:** Block CDN, disconnect network, and force module failure; loading state must terminate with useful recovery guidance.
+
+**Evidence / reproduction:** followup-results.json cdn
+
+**Uncertainty:** Single controlled blocked-origin case, not every possible network failure.
+
+### F08 · materials / factory resource ownership — pass
+
+**Affected:** wizard runtime. **Severity:** info. **Confidence:** high.
+
+**Requirement:** Actual material mode identity and bounded factory GPU resources must be demonstrated.
+
+**Observed / measured:** Clay instance identity and original-material restoration pass. Six factory create/render/dispose cycles retain 315 geometry and 13 texture counters after cleanup. Blocked local storage still permits loading.
+
+**Cause:** Current materials and factory cleanup behave consistently in these tests.
+
+**Correction:** Keep instance-identity checks and warm-baseline resource observations.
+
+**Acceptance test:** Repeat ownership and full viewer remount tests; do not demand zero internal renderer cache entries.
+
+**Evidence / reproduction:** followup-results.json
+
+**Uncertainty:** Not a JS heap, full-viewer remount or prolonged lifetime leak proof.
+
+## Previous claims corrected
+
+| Previous claim | Actual test | Missing coverage | Correct conclusion |
+|---|---|---|---|
+| Solid geometry passes | Welded boundaries and positive aggregate volume | Self-crossing, containment, interfaces | Some source meshes are watertight; assembly correctness is not established. |
+| Attachment IDs resolve | Registry lookup | Actual distance, routing and bonding | Metadata links exist; cords can still stop short. |
+| Bookmark is 50–100 mm | Camera-to-target distance | Occlusion, surface distance, lighting | Named feature may be hidden. |
+| Clay works | Material class is MeshStandardMaterial | Comparison against intended clay instance | Non-discriminating assertion. |
+| Half turn is a solid leaf | Thickness metadata and material groups | Geometry and binding contact | Declaration needs separate geometry and interface tests. |
+| Inline state restores | Pose/spread restoration | Saved camera and target | Camera restore fails new outcome test. |
+| High FPS | Orbit/turn at 1080p | Production close at 4K | Ordinary target passes; 4K close is slower. |
+
+## Coverage and remaining obligations
+
+- **Actual-mesh interface crossing / containment fixtures — pass.** AABB hierarchy + segment-triangle witnesses and odd-ray containment; limited fixtures only.
+- **Coplanar overlap, exhaustive self-intersection, all attachment regions — not established.** Algorithm explicitly excludes robust coplanar/tangent classification; no exhaustive self-BVH on every source mesh.
+- **Paper/rigid tolerance thresholds in m and mm — pass.** 3/7 micrometre and 0.04/0.07 mm SAT fixtures agree under 1000× scaling.
+- **Fixtures with collisions missed between five slices — pass.** Off-slice box collision at Z=3.7 mm is detected by triangle witnesses and missed by nominal 0/5/10/15/20 mm slice planes; diagnostic fixture only.
+- **Seven openings × three leaf positions — pass.** 21 spine profiles; no claim of complete contact validity.
+- **2% page-turn grid at 110° / 130° × three leaf positions — pass.** 306 active-leaf topology and spine profile samples.
+- **Adaptive refinement / continuous contact proof — not established.** No full continuous collision proof or exhaustive adaptive contact search.
+- **100 factory and reduced-motion UI cycles — pass.** Stable deterministic profile and settled closed state.
+- **100 fully animated adversarial cycles / reproducible interruptions — not established.** Earlier normal animation smoke tests exist; new endurance suite is reduced-motion only.
+- **Full leaf content identity / gathering continuity / support route — not established.** Part names do not prove topology, content placement or continuous attachment.
+- **Chrome / Edge local DPR/layout matrix — pass.** Four measured combinations, not the full Cartesian product of all widths/DPRs.
+- **Firefox / WebKit / physical touch / other GPUs — not established.** Not executed.
+- **Context loss and restore — pass.** Chrome restored context and rendered again in this test.
+- **Blocked CDN/storage / lifecycle mount endurance / keyboard focus accessibility — rework.** Blocked storage loads; six factory cleanup cycles have stable GPU counters. Blocked CDN remains loading. Full viewer remount/heap and accessibility suite not established.
+- **JSON rejected atomically / inline camera round trip — rework.** Both fail new outcome checks.
+- **Static proxy opening mechanics — not applicable.** Not advertised; close-up solid construction evaluated separately.
+- **Craftsmanship at 50–100mm for every family — rework.** Representative wizard captures show obstructions; source-based proxies lack physical construction; all-family matched runtime capture not completed.
+- **All-family world-normal and SVG silhouette parity — not established.** Static implementation reviewed; not a complete perceptual/transform equivalence suite.
+- **Production supersampled close reaches 30fps — rework.** Recorded 22.92fps at 3840×2160. Diagnostic 1080p passes.
+- **Actual clay identity and material restoration — pass.** New independent instance-identity checks pass; old class-only test remains inadequate.
+- **Deterministic animated interruption sequence — pass.** Nine fixed actions at 95 ms spacing remain finite; not 100-cycle animated endurance.
+
+## Runtime and performance
+
+- chrome 156.0.8078.48; viewport 1920; DPR 1; buffer 1594×964; overflow-free=true.
+- chrome 156.0.8078.48; viewport 320; DPR 2; buffer 480×1053; overflow-free=true.
+- edge 155.0.4283.62; viewport 1920; DPR 1; buffer 1594×964; overflow-free=true.
+- edge 155.0.4283.62; viewport 320; DPR 2; buffer 480×1053; overflow-free=true.
+
+- orbit: 61.59 fps; median 16.60 ms / p95 17.70 ms; 1920×1080; 689 draw calls.
+- turn: 44.71 fps; median 22.70 ms / p95 30.40 ms; 1920×1080; 689 draw calls.
+- close: 60.37 fps; median 16.70 ms / p95 17.90 ms; 1920×1080; 1971 draw calls.
+
+Device: ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11). Close 1080p pins renderer ratio to 1 diagnostically; production is unchanged. Previous production close: 22.92fps, 3840×2160, median44.70ms/p9548.10ms. Short samples do not establish sustained performance.
+
+## Remediation order
+
+1. Choose and document the binding architecture; establish a common unit/frame contract and shared layer surfaces.
+2. Route complete gatherings/supports into boards; resolve joint zones, caps, lining and endpapers; constrain deformation in material coordinates.
+3. Repair invalid-input transactionality, state restore, visibility and representation contracts.
+4. Refine authored folds, wear, grain, lighting, inspection performance and distant-detail transitions.
+
+Do not begin with more ornament. A new cap or band cannot repair a disconnected load path.
+
+## References and proposal register
+
+- **LoB:** [Language of Bindings](https://lob.is.ed.ac.uk/) — Vocabulary; not a dimensional or mechanical specification.
+- **SHI:** [Science History Institute anatomy](https://www.sciencehistory.org/collections/blog/how-to-judge-a-book-by-its-cover/) — Components and sections/endleaves; does not substantiate our exact reconstruction.
+- **Conroy:** [The Movement of the Book Spine](https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v06/bp06-01.html) — Spine action, supports and joint interaction; preliminary analysis, not a calibrated constitutive model.
+- **Espinosa:** [Hard-board laced-in conservation binding](https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v02/bpga02-05.pdf) — Construction comparison; one conservation structure, not a universal medieval binding.
+- **LOC:** [Library of Congress rebacking](https://www.loc.gov/preservation/conservators/diderot/treatment.html) — Documented lining and attachment treatment; treatment context must not be mistaken for an original fantasy-book specification.
+- **Met:** [Headcaps and handling](https://www.metmuseum.org/ja/perspectives/fragility-of-headcaps) — Pared folded leather and protection of endbands; use-related damage evidence.
+- **ETH:** [Book simulation research](https://igl.ethz.ch/projects/book-simulation/) — Interactive pages and page-block separation; current fetch timed out, previously read during planning. No new source verification claimed.
+- **Three-colour:** [Three.js colour management](https://threejs.org/manual/pages/color-management.html) — Colour versus non-colour texture channels and rendering conventions.
+- **Three-dispose:** [Three.js disposal](https://threejs.org/manual/pages/how-to-dispose-of-objects.html) — Explicit resource ownership; warm internal caches are not automatically leaks.
+
+All eight viewpoints are analytical lenses, not independent professional consultations. Exact material properties, opening forces, concealed fabrication and historical fit are not measured. No solver, physical specimen or fabrication approval is provided. No existing model or existing verification report was edited. Source preservation manifest checks 272 files; changed=0.
+</pre></details><h2>Annotated web resources</h2><p><a href="https://lob.is.ed.ac.uk/">Language of Bindings</a> — Vocabulary; not a dimensional or mechanical specification.</p><p><a href="https://www.sciencehistory.org/collections/blog/how-to-judge-a-book-by-its-cover/">Science History Institute anatomy</a> — Components and sections/endleaves; does not substantiate our exact reconstruction.</p><p><a href="https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v06/bp06-01.html">The Movement of the Book Spine</a> — Spine action, supports and joint interaction; preliminary analysis, not a calibrated constitutive model.</p><p><a href="https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v02/bpga02-05.pdf">Hard-board laced-in conservation binding</a> — Construction comparison; one conservation structure, not a universal medieval binding.</p><p><a href="https://www.loc.gov/preservation/conservators/diderot/treatment.html">Library of Congress rebacking</a> — Documented lining and attachment treatment; treatment context must not be mistaken for an original fantasy-book specification.</p><p><a href="https://www.metmuseum.org/ja/perspectives/fragility-of-headcaps">Headcaps and handling</a> — Pared folded leather and protection of endbands; use-related damage evidence.</p><p><a href="https://igl.ethz.ch/projects/book-simulation/">Book simulation research</a> — Interactive pages and page-block separation; current fetch timed out, previously read during planning. No new source verification claimed.</p><p><a href="https://threejs.org/manual/pages/color-management.html">Three.js colour management</a> — Colour versus non-colour texture channels and rendering conventions.</p><p><a href="https://threejs.org/manual/pages/how-to-dispose-of-objects.html">Three.js disposal</a> — Explicit resource ownership; warm internal caches are not automatically leaks.</p><p>Historical evidence, proposed modelling choices and unknown properties are separated. No model repairs were made. 0 source-file changes detected.</p></main></html>

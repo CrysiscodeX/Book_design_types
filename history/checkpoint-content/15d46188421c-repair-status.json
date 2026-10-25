@@ -1,0 +1,170 @@
+{
+  "generated": "2026-10-23T14:04:14.815Z",
+  "fullBindingValidation": false,
+  "coverLiningSamples": 21,
+  "coverLiningCrossings": 0,
+  "neutralArcRangeMm": [
+    54.99979573314675,
+    54.999981035566684
+  ],
+  "minimumBookClearanceYmm": 25.563592091202736,
+  "studioSpineFailures": [],
+  "gatheringPoses": 33,
+  "gatheringMaxGapMm": 0.000003725403983564965,
+  "interpolationMaxErrorMm": 0.0008020412454242734,
+  "motion": {
+    "passed": true,
+    "states": 313,
+    "refinements": 36
+  },
+  "solids": {
+    "passed": true,
+    "meshes": 663
+  },
+  "ui": {
+    "passed": true,
+    "checks": 48
+  },
+  "browser": true,
+  "inline": true,
+  "performance": [
+    {
+      "mode": "orbit",
+      "width": 1920,
+      "height": 1080,
+      "frames": 90,
+      "fps": 57.8740916985049,
+      "medianMs": 16.69999998807907,
+      "p95Ms": 18,
+      "drawCalls": 690,
+      "triangles": 1273180,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "orbit"
+    },
+    {
+      "mode": "turn",
+      "width": 1920,
+      "height": 1080,
+      "frames": 90,
+      "fps": 51.017516013572845,
+      "medianMs": 17.600000008940697,
+      "p95Ms": 21.69999998807907,
+      "drawCalls": 690,
+      "triangles": 1273180,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "turn"
+    },
+    {
+      "mode": "close",
+      "width": 3840,
+      "height": 2160,
+      "frames": 90,
+      "fps": 23.132084200857367,
+      "medianMs": 44.29999999701977,
+      "p95Ms": 46.900000005960464,
+      "drawCalls": 1303,
+      "triangles": 1480936,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "close"
+    },
+    {
+      "mode": "close",
+      "width": 1920,
+      "height": 1080,
+      "frames": 90,
+      "fps": 43.20691310640607,
+      "medianMs": 24.5,
+      "p95Ms": 29.200000002980232,
+      "drawCalls": 1975,
+      "triangles": 2719460,
+      "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "label": "close-native"
+    }
+  ],
+  "statuses": [
+    [
+      "B01",
+      "Covering / lining",
+      "Corrected in sampled poses",
+      "Shared local surface frame, matched 2 mm longitudinal subdivisions and a proposed 0.05 mm adhesive film; no covering–lining crossing witnesses in 21 opening/leaf combinations."
+    ],
+    [
+      "B02",
+      "Support terminal gaps",
+      "Corrected at measured terminals",
+      "Tapered supports now end inside the board-lacing terminals. Centre-station endpoints are contained at 42 sampled ends; full cord/board routing and all five stations are not independently certified."
+    ],
+    [
+      "B03",
+      "Spine contraction",
+      "Geometric constraint corrected",
+      "A 55 mm neutral path replaces the unconstrained bulge. Circular arcs become tangent-continuous returns when the joints approach. This is authored kinematics, not calibrated material physics."
+    ],
+    [
+      "B04",
+      "Repair location",
+      "Corrected",
+      "The replacement patch and stitches belong to the repair assembly, follow the actual spine surface and have physical thickness."
+    ],
+    [
+      "B05",
+      "Gatherings / sewing",
+      "Partly established",
+      "Paired leaf roots and their returns meet in 33 sampled poses. Complete sewing-hole and support-to-gathering attachment construction is still not established."
+    ],
+    [
+      "B06",
+      "Caps / endbands",
+      "Further validation required",
+      "Their positions now use the shared surface frame. Historical paring, tiedowns and every cap interface remain proposed."
+    ],
+    [
+      "S01 / S02",
+      "Studio spines and bands",
+      "Corrected",
+      "Closed elliptical cylinders and capped sweeps replace open surfaces in Initial, Advanced and Meistro. Current JSON exports regenerated; historical snapshots unchanged."
+    ],
+    [
+      "F01",
+      "Invalid imports",
+      "Corrected for tested invalid states",
+      "Finite pose values, camera and saved cameras validate before mutation; tested rejected imports preserve state. Legacy v1 neutral-length omission defaults to 55 mm."
+    ],
+    [
+      "F02",
+      "Inline saved camera",
+      "Corrected",
+      "Camera and target restore; orbit/pan changes persist. Module imports are inside the error boundary."
+    ],
+    [
+      "F03",
+      "Inspection views",
+      "Improved and scoped",
+      "Joint and repair cameras now reach intended surfaces. Fold inspection explicitly isolates its complete return and persists through material changes. Other inspection framing remains a visual review topic."
+    ],
+    [
+      "F06",
+      "Runtime performance",
+      "Measured separately by resolution",
+      "Corrective poses reuse closed geometry; stable sweep frames prevent vertex correspondence flips. The final 1080p measurements and supersampled cost appear below."
+    ],
+    [
+      "F07",
+      "Blocked CDN",
+      "Corrected",
+      "Import failure terminates the loading state with a visible error. The local viewer continues to use local dependencies."
+    ],
+    [
+      "R01 / R02 / P01 / P02",
+      "Other library and dragon book families",
+      "Not changed in this pass",
+      "Their proxy/primitive and unresolved binding findings remain open. This repair does not silently replace scene props with a new hero book."
+    ],
+    [
+      "Q01 / C01 / C02 / C03",
+      "Whole-system validation",
+      "Still limited",
+      "Independent outcome tests were added. Complete binding mechanics, all representation parity, all transforms and physical material calibration remain unestablished."
+    ]
+  ]
+}

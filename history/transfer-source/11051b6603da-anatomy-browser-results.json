@@ -1,0 +1,155 @@
+{
+  "version": 2,
+  "passed": true,
+  "checks": [
+    {
+      "name": "V2 anatomy factory and 240 physical leaves",
+      "passed": true
+    },
+    {
+      "name": "Boards derived from the block",
+      "passed": true
+    },
+    {
+      "name": "Sequenced opening completes",
+      "passed": true
+    },
+    {
+      "name": "Case and text spines are distinct",
+      "passed": true
+    },
+    {
+      "name": "Solid leaf turns to an intermediate pose",
+      "passed": true
+    },
+    {
+      "name": "Closing settles the leaf and clasps",
+      "passed": true
+    },
+    {
+      "name": "Turning disabled below 110 degrees",
+      "passed": true
+    },
+    {
+      "name": "Physical dolly changes camera position",
+      "passed": true
+    },
+    {
+      "name": "Mouse orbit changes viewpoint",
+      "passed": true
+    },
+    {
+      "name": "Lighting and material changes preserve camera",
+      "passed": true
+    },
+    {
+      "name": "Material restores after clay",
+      "passed": true
+    },
+    {
+      "name": "Bookmark corner",
+      "passed": true
+    },
+    {
+      "name": "Bookmark turnin",
+      "passed": true
+    },
+    {
+      "name": "Bookmark joint",
+      "passed": true
+    },
+    {
+      "name": "Bookmark head",
+      "passed": true
+    },
+    {
+      "name": "Bookmark fold",
+      "passed": true
+    },
+    {
+      "name": "Bookmark edge",
+      "passed": true
+    },
+    {
+      "name": "Bookmark clasp",
+      "passed": true
+    },
+    {
+      "name": "Bookmark repair",
+      "passed": true
+    },
+    {
+      "name": "Bookmark gutter",
+      "passed": true
+    },
+    {
+      "name": "Bookmark underside",
+      "passed": true
+    },
+    {
+      "name": "Bookmark hollow",
+      "passed": true
+    },
+    {
+      "name": "Hollow isolates as a complete component",
+      "passed": true
+    },
+    {
+      "name": "Explosion does not accumulate transforms",
+      "passed": true
+    },
+    {
+      "name": "JSON specification / state round trip",
+      "passed": true
+    },
+    {
+      "name": "Legacy mechanics rejected before mutation",
+      "passed": true
+    },
+    {
+      "name": "Non-finite pose rejected",
+      "passed": true
+    },
+    {
+      "name": "Saved camera recalls exactly",
+      "passed": true
+    },
+    {
+      "name": "Emulated two-finger dolly and pan",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen opens",
+      "passed": true
+    },
+    {
+      "name": "Free inspection keyboard movement",
+      "passed": true
+    },
+    {
+      "name": "Layout 620 px",
+      "passed": true
+    },
+    {
+      "name": "Layout 360 px",
+      "passed": true
+    },
+    {
+      "name": "Layout 320 px",
+      "passed": true
+    },
+    {
+      "name": "Embedded loading",
+      "passed": true
+    },
+    {
+      "name": "Reload restores v2 specification and mechanical state",
+      "passed": true
+    },
+    {
+      "name": "No browser exceptions",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

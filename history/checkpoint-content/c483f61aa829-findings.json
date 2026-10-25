@@ -1,0 +1,722 @@
+{
+  "generated": "2026-10-23T11:50:18.326Z",
+  "overall": "rework",
+  "fullBindingValidation": false,
+  "findings": [
+    {
+      "id": "B01",
+      "affectedDesign": "wizard-grimoire",
+      "componentInterface": "spine / lining",
+      "status": "rework",
+      "severity": "critical",
+      "confidence": "high",
+      "requirement": "Lining must remain on its intended side of the covering with deliberate spacing.",
+      "observed": "At 60°, the 0.7 mm world-X shift projects from -0.694 to +0.561 mm onto the spine normal. Triangle crossing counts are 1788 / 4050 / 3104 at 0 / 60 / 130°.",
+      "cause": "Lining is translated on the world X axis instead of offset in the spine local surface frame.",
+      "correction": "Construct common layer interfaces from a shared reference surface and normals; define bonded regions and terminations.",
+      "acceptanceTest": "Check signed separation, thickness and contact regions for every sampled pose.",
+      "evidence": "wizard-grimoire/book.mjs: spinePoint and liner update; measurements.json pairs/poses",
+      "reproduction": "wizard-grimoire/book.mjs: spinePoint and liner update; measurements.json pairs/poses",
+      "measurement": "At 60°, the 0.7 mm world-X shift projects from -0.694 to +0.561 mm onto the spine normal. Triangle crossing counts are 1788 / 4050 / 3104 at 0 / 60 / 130°.",
+      "remainingUncertainty": "Crossing counts are triangle-pair witnesses, not unique collisions or penetration depth. Some contact may be intended; no explicit lining/cover attachment-region allowance establishes these crossings as valid."
+    },
+    {
+      "id": "B02",
+      "affectedDesign": "wizard-grimoire",
+      "componentInterface": "cord / board lacing",
+      "status": "rework",
+      "severity": "critical",
+      "confidence": "high",
+      "requirement": "Support ends must connect to board lacing.",
+      "observed": "At 130°, cord-end centre distances to front/rear lacing surfaces are 3.745 / 3.610 mm; cord radius is 1.2 mm. Broad-phase boxes are disjoint in tested centre-cord/lacing pairs.",
+      "cause": "Cords and lacing are authored independently; registry attachment is not physical continuity.",
+      "correction": "Create a single routed support per station, with board entry, channel, and visible terminal.",
+      "acceptanceTest": "Track both ends and board entry through all poses; check separation and local attachment containment.",
+      "evidence": "extra-results.json attachment; measurements.json pairs",
+      "reproduction": "extra-results.json attachment; measurements.json pairs",
+      "measurement": "At 130°, cord-end centre distances to front/rear lacing surfaces are 3.745 / 3.610 mm; cord radius is 1.2 mm. Broad-phase boxes are disjoint in tested centre-cord/lacing pairs.",
+      "remainingUncertainty": "Only centre station tested geometrically; other four stations share the generator but are not separately certified."
+    },
+    {
+      "id": "B03",
+      "affectedDesign": "wizard-grimoire",
+      "componentInterface": "spine deformation",
+      "status": "rework",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Surface deformation must agree with an explicit material-coordinate model.",
+      "observed": "Midline cross-section changes 50.668 → 43.011 mm at 60° (-15.11%); corresponding outer-face area changes 15212 → 12928 mm² (-15.01%).",
+      "cause": "Authored spine curve is rebuilt from independent cover positions with an added bulge; no strain/paring model.",
+      "correction": "Define a reference binding and neutral surface; distribute bending and compression by layer, with justified limits.",
+      "acceptanceTest": "Track consistent surface locations, local edge lengths and triangle areas; reject unexplained collapse or stretch.",
+      "evidence": "measurements.json poses leaf120",
+      "reproduction": "measurements.json poses leaf120",
+      "measurement": "Midline cross-section changes 50.668 → 43.011 mm at 60° (-15.11%); corresponding outer-face area changes 15212 → 12928 mm² (-15.01%).",
+      "remainingUncertainty": "This is geometric distortion, not a calibrated leather stress/strain result. Compression can be physically appropriate; magnitude alone is not proof of failure."
+    },
+    {
+      "id": "B04",
+      "affectedDesign": "wizard-grimoire",
+      "componentInterface": "repair / spine",
+      "status": "rework",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "A lower-spine repair must physically bridge the described region.",
+      "observed": "Patch and stitches are children of front-cover and reference its leather face.",
+      "cause": "Description and actual parent/attachment disagree.",
+      "correction": "Either relocate the repair across the actual spine with coordinated deformation, or describe it honestly as a cover repair.",
+      "acceptanceTest": "Inspect patch front/back, bonded perimeter and movement relative to its stated damaged region.",
+      "evidence": "wizard-grimoire/book.mjs repair.lower-spine-patch",
+      "reproduction": "wizard-grimoire/book.mjs repair.lower-spine-patch",
+      "measurement": "Patch and stitches are children of front-cover and reference its leather face.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "B05",
+      "affectedDesign": "wizard-grimoire",
+      "componentInterface": "gatherings / sewing",
+      "status": "not established",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Bifolia and stitch paths must remain connected at the fold and supports.",
+      "observed": "240 leaf identities and 120 closed return pieces exist; sewing loops are positioned on spinePoint, not verified through actual fold holes.",
+      "cause": "Independent geometric constructions and incomplete contact checks.",
+      "correction": "Define one gathering topology with paired leaves, fold and station paths; derive sewing from it.",
+      "acceptanceTest": "Measure all fold/leaf endpoints and stitch/support/board interfaces; do not accept metadata as continuity.",
+      "evidence": "wizard-grimoire/book.mjs folds/sewing; prior motion exclusions",
+      "reproduction": "wizard-grimoire/book.mjs folds/sewing; prior motion exclusions",
+      "measurement": "240 leaf identities and 120 closed return pieces exist; sewing loops are positioned on spinePoint, not verified through actual fold holes.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "B06",
+      "affectedDesign": "wizard-grimoire",
+      "componentInterface": "headcap / endband / shoulder",
+      "status": "not established",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Caps must fold around their layer stack and endbands must have defined seating/attachment.",
+      "observed": "Caps, cores and loops follow spinePoint independently. Closed geometry exists, but tiedowns, material-frame separation and shoulder transitions are not verified.",
+      "cause": "Anatomical suggestion replaces resolved construction interfaces.",
+      "correction": "Author a complete head/tail section with pared folds, endband attachment and board transitions.",
+      "acceptanceTest": "Inspect both end sections in clay and measure component interfaces through opening.",
+      "evidence": "wizard-grimoire/book.mjs caps/endbands; captures/bookmark-head.png",
+      "reproduction": "wizard-grimoire/book.mjs caps/endbands; captures/bookmark-head.png",
+      "measurement": "Caps, cores and loops follow spinePoint independently. Closed geometry exists, but tiedowns, material-frame separation and shoulder transitions are not verified.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "S01",
+      "affectedDesign": "book studio: Initial / Advanced / Meistro",
+      "componentInterface": "spine body",
+      "status": "rework",
+      "severity": "critical",
+      "confidence": "high",
+      "requirement": "Exported solids must have closed oriented boundaries.",
+      "observed": "Each live spine has 160 boundary edges. Open-surface signed volumes are negative; they are not physical volumes.",
+      "cause": "Generator connects elliptical rings but supplies no end caps; side winding also needs review.",
+      "correction": "Cap the shape and validate intended orientation; treat construction mechanics separately.",
+      "acceptanceTest": "Closed-boundary, oriented-normal and self-intersection tests on live and reloaded exports.",
+      "evidence": "measurements.json studio; default-book-design-types/models/threejs/geometry.mjs spineGeometry",
+      "reproduction": "measurements.json studio; default-book-design-types/models/threejs/geometry.mjs spineGeometry",
+      "measurement": "Each live spine has 160 boundary edges. Open-surface signed volumes are negative; they are not physical volumes.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "S02",
+      "affectedDesign": "book studio: all ranks",
+      "componentInterface": "raised bands",
+      "status": "rework",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Raised bands intended as solids need finished ends.",
+      "observed": "Each inspected band has 16 boundary edges.",
+      "cause": "TubeGeometry endpoints are not capped.",
+      "correction": "Use capped sweeps with deliberate roots; identify decorative versus structural bands.",
+      "acceptanceTest": "Inspect end caps, intersections, and parent attachment at actual scale.",
+      "evidence": "measurements.json studio.spines",
+      "reproduction": "measurements.json studio.spines",
+      "measurement": "Each inspected band has 16 boundary edges.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "S03",
+      "affectedDesign": "book studio: all ranks",
+      "componentInterface": "live / JSON export",
+      "status": "pass",
+      "severity": "info",
+      "confidence": "high",
+      "requirement": "Current exported geometry must reload at the same dimensions.",
+      "observed": "Live and exported XYZ bounds agree for the three tested default rank configurations.",
+      "cause": "Shared source and export construction preserve dimensions.",
+      "correction": "Preserve this regression while repairing the source geometry.",
+      "acceptanceTest": "Reload exported geometry and compare bounds, units and identifiers.",
+      "evidence": "measurements.json studio",
+      "reproduction": "measurements.json studio",
+      "measurement": "Live and exported XYZ bounds agree for the three tested default rank configurations.",
+      "remainingUncertainty": "Matching bounds is not full geometry/material/animation parity. Reproducing an open spine reproduces the defect too."
+    },
+    {
+      "id": "R01",
+      "affectedDesign": "Gothic room central book",
+      "componentInterface": "lining / hinges / page roots",
+      "status": "rework",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Static open pose still needs plausible construction.",
+      "observed": "A 24 × 9 × 538 mm rounded box is called flexible spine lining; cylindrical hinge rolls and mirrored signature blocks do not establish a connected binding.",
+      "cause": "Separate solid primitives suggest anatomy without shared attachment surfaces.",
+      "correction": "Rebuild as a binding assembly rather than adding more trim to the box.",
+      "acceptanceTest": "Head/tail sections must show how signatures, supports, boards, lining and covering meet.",
+      "evidence": "gothic-library-room/physical-assets.mjs buildBoundBook; extra-results.json roomReport",
+      "reproduction": "gothic-library-room/physical-assets.mjs buildBoundBook; extra-results.json roomReport",
+      "measurement": "A 24 × 9 × 538 mm rounded box is called flexible spine lining; cylindrical hinge rolls and mirrored signature blocks do not establish a connected binding.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "R02",
+      "affectedDesign": "Gothic miniature foreground book",
+      "componentInterface": "pages / spine",
+      "status": "rework",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Pages intended for close inspection require thickness and a binding.",
+      "observed": "Four single-sided curved page surfaces per side and a central rod; no closed page-edge construction in this generator.",
+      "cause": "Distant-view miniature construction.",
+      "correction": "Declare distant-only scope or replace with closed leaves/page blocks and connected binding.",
+      "acceptanceTest": "Side and underside inspection must not expose zero-thickness leaves.",
+      "evidence": "gothic-miniature-library/model.mjs buildOpenBook",
+      "reproduction": "gothic-miniature-library/model.mjs buildOpenBook",
+      "measurement": "Four single-sided curved page surfaces per side and a central rod; no closed page-edge construction in this generator.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "P01",
+      "affectedDesign": "woodland portal / hollow tree / Gothic miniature shelf books",
+      "componentInterface": "covers / paper / spine",
+      "status": "rework",
+      "severity": "medium",
+      "confidence": "high",
+      "requirement": "5–10 cm inspection requires more than solid exterior boxes.",
+      "observed": "Portal uses overlapping cover/page boxes; hollow-tree and miniature books use coloured box instances with surface bands; separate page top hints do not form complete bindings.",
+      "cause": "Composition-scale proxies were retained under later close-up expectations.",
+      "correction": "Separate distance proxies from physically built hero books; clearly document supported inspection distance per family.",
+      "acceptanceTest": "Inspect top, fore-edge, back and underside of representative upright/stacked/side-facing variants.",
+      "evidence": "respective model.mjs book builders",
+      "reproduction": "respective model.mjs book builders",
+      "measurement": "Portal uses overlapping cover/page boxes; hollow-tree and miniature books use coloured box instances with surface bands; separate page top hints do not form complete bindings.",
+      "remainingUncertainty": "These proxies can remain suitable at intended distant scales; historical mechanics are not applicable to their original presentation purpose."
+    },
+    {
+      "id": "P02",
+      "affectedDesign": "Gothic room / dragon shelf books",
+      "componentInterface": "spine shell / boards",
+      "status": "not established",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Closed subparts must form one non-overlapping usable book.",
+      "observed": "Distinct boards and paper plus rounded spines exist; no complete binding interface or opening model. Dragon generators use different widths/offsets around similar half-ellipse spines.",
+      "cause": "Independent constants and nonuniform instance scales.",
+      "correction": "Define one local book frame and component interfaces; retain intentional static-book scope.",
+      "acceptanceTest": "Test narrowest/widest books, lean/stack transforms, paper/spine containment and world-space normals.",
+      "evidence": "gothic-library-room/model.mjs; dragon-wing-bookcase/builders.mjs; dragon-carving-exemplar/assembly.mjs",
+      "reproduction": "gothic-library-room/model.mjs; dragon-wing-bookcase/builders.mjs; dragon-carving-exemplar/assembly.mjs",
+      "measurement": "Distinct boards and paper plus rounded spines exist; no complete binding interface or opening model. Dragon generators use different widths/offsets around similar half-ellipse spines.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "F01",
+      "affectedDesign": "wizard viewer / public assembly",
+      "componentInterface": "pose import",
+      "status": "rework",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Rejected import must preserve previous valid state.",
+      "observed": "turn:\"invalid\" throws Cannot read properties of undefined (reading x); stateUnchanged=false.",
+      "cause": "Pose is applied before complete validation/transactional commit.",
+      "correction": "Validate and construct candidate pose before mutation; reject or normalize invalid values under a documented contract.",
+      "acceptanceTest": "Wrong types, missing fields, non-finite API values, version/unit mismatch must fail without state change.",
+      "evidence": "browser-results.json malformed pose import; measurements.json malformed",
+      "reproduction": "browser-results.json malformed pose import; measurements.json malformed",
+      "measurement": "turn:\"invalid\" throws Cannot read properties of undefined (reading x); stateUnchanged=false.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "F02",
+      "affectedDesign": "wizard inline preview",
+      "componentInterface": "camera persistence",
+      "status": "rework",
+      "severity": "medium",
+      "confidence": "high",
+      "requirement": "Saved camera state must restore.",
+      "observed": "Requested [0.19,0.21,0.23]; actual [0.37,0.42,0.47].",
+      "cause": "Restore reads spread/pose but calls fit instead of restoring saved camera/target.",
+      "correction": "Restore valid camera/target after model pose; default fit only when state is absent.",
+      "acceptanceTest": "Orbit/pan, save globals, reload, compare camera and target numerically.",
+      "evidence": "browser-results.json inline camera restore",
+      "reproduction": "browser-results.json inline camera restore",
+      "measurement": "Requested [0.19,0.21,0.23]; actual [0.37,0.42,0.47].",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "F03",
+      "affectedDesign": "wizard viewer",
+      "componentInterface": "bookmarks",
+      "status": "rework",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Inspection must reveal the named surface.",
+      "observed": "Fold bookmark centre ray hits leaf.126; head/joint results and captures show occlusion. The Spine preset view also shows obstructing cover/support.",
+      "cause": "Bookmark tests check anchor distance rather than intended visibility.",
+      "correction": "Author object-aware camera directions and labelled isolation/sections for concealed features.",
+      "acceptanceTest": "Named detail must be visible at 50–100 mm, with usable light, orbit and clipping.",
+      "evidence": "browser-results.json bookmarks; captures/bookmark-fold.png; captures/bookmark-joint.png",
+      "reproduction": "browser-results.json bookmarks; captures/bookmark-fold.png; captures/bookmark-joint.png",
+      "measurement": "Fold bookmark centre ray hits leaf.126; head/joint results and captures show occlusion. The Spine preset view also shows obstructing cover/support.",
+      "remainingUncertainty": "Centre-ray occlusion is a diagnostic witness, not a proof that the feature is invisible everywhere in the frame."
+    },
+    {
+      "id": "F04",
+      "affectedDesign": "wizard viewer / factory",
+      "componentInterface": "repeated transitions",
+      "status": "pass",
+      "severity": "info",
+      "confidence": "high",
+      "requirement": "Repeated permitted operations must not accumulate deterministic geometry drift.",
+      "observed": "100 factory cycles have 0 mm profile drift; 100 reduced-motion UI open/turn/close cycles settle closed with released=0 and finite spine coordinates.",
+      "cause": "Deterministic rebuilding avoids accumulated pose offsets in this sequence.",
+      "correction": "Keep as regression; extend to animated adversarial actions.",
+      "acceptanceTest": "Repeat with opening reversal, mid-turn close, spread selection and pause/resume.",
+      "evidence": "measurements.json cycles; browser-results.json UI cycles",
+      "reproduction": "measurements.json cycles; browser-results.json UI cycles",
+      "measurement": "100 factory cycles have 0 mm profile drift; 100 reduced-motion UI open/turn/close cycles settle closed with released=0 and finite spine coordinates.",
+      "remainingUncertainty": "Not proof of attachment validity, animated endurance or absence of all state-dependent failures."
+    },
+    {
+      "id": "F05",
+      "affectedDesign": "wizard runtime",
+      "componentInterface": "Chrome / Edge layout",
+      "status": "pass",
+      "severity": "info",
+      "confidence": "high",
+      "requirement": "Load on tested engines and narrow layouts without overflow.",
+      "observed": "Chrome 156 and Edge 155 load at tested desktop/DPR1 and 320px/DPR2 layouts; fonts loaded; no captured page exceptions in valid-state runs.",
+      "cause": "Pinned local runtime works in both tested Chromium environments.",
+      "correction": "Retain matrix with exact browser and drawing-buffer dimensions.",
+      "acceptanceTest": "Repeat local and embedded workflows on each claimed environment.",
+      "evidence": "browser-results.json matrix",
+      "reproduction": "browser-results.json matrix",
+      "measurement": "Chrome 156 and Edge 155 load at tested desktop/DPR1 and 320px/DPR2 layouts; fonts loaded; no captured page exceptions in valid-state runs.",
+      "remainingUncertainty": "Two Chromium browsers are not two rendering-engine families. Physical touch, Firefox/WebKit and other GPUs remain untested."
+    },
+    {
+      "id": "F06",
+      "affectedDesign": "wizard rendering",
+      "componentInterface": "performance / supersampling",
+      "status": "pass",
+      "severity": "info",
+      "confidence": "high",
+      "requirement": "Measure 1080p orbit, turn and close independently.",
+      "observed": "New isolated 90-frame runs meet 30 fps in all three diagnostic 1080p modes; previous production 4K close remains 22.92 fps.",
+      "cause": "Close inspection automatically raises pixel ratio; frame cost depends on buffer size.",
+      "correction": "Expose quality/performance tradeoff if production close must meet 30 fps; never reduce physical construction silently.",
+      "acceptanceTest": "Report buffer resolution, DPR, CPU/GPU and frame percentiles with each measurement.",
+      "evidence": "performance.json; measurements.json priorPerformance",
+      "reproduction": "performance.json; measurements.json priorPerformance",
+      "measurement": "New isolated 90-frame runs meet 30 fps in all three diagnostic 1080p modes; previous production 4K close remains 22.92 fps.",
+      "remainingUncertainty": "1080p close test pins pixel ratio to 1 in memory; production source is unchanged. Short samples do not establish sustained thermal performance."
+    },
+    {
+      "id": "Q01",
+      "affectedDesign": "earlier verification reports",
+      "componentInterface": "test adequacy",
+      "status": "rework",
+      "severity": "critical",
+      "confidence": "high",
+      "requirement": "A pass claim must match the property actually tested.",
+      "observed": "Clay test checks MeshStandardMaterial, which ordinary materials also use; bookmark test checks distance; half-turn check reads geometry metadata/groups. Topology fixture with overlapping closed shells passes despite actual crossings.",
+      "cause": "Tests mirror implementation declarations and omit interface-level outcomes.",
+      "correction": "Use negative fixtures and independent outcomes; split topology, collision, physical continuity, visibility and functionality gates.",
+      "acceptanceTest": "Deliberately break each target property and demonstrate its specific test fails.",
+      "evidence": "wizard-grimoire/browser-qa.mjs; inline-qa.mjs; extra-results.json fixtures",
+      "reproduction": "wizard-grimoire/browser-qa.mjs; inline-qa.mjs; extra-results.json fixtures",
+      "measurement": "Clay test checks MeshStandardMaterial, which ordinary materials also use; bookmark test checks distance; half-turn check reads geometry metadata/groups. Topology fixture with overlapping closed shells passes despite actual crossings.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "C01",
+      "affectedDesign": "all reusable book components",
+      "componentInterface": "units / transforms",
+      "status": "not established",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Shared components need an explicit dimensional contract.",
+      "observed": "Studio scene geometry and exports use mm; wizard and library geometry use metres; Gothic open-book surfaces include scale.x=-1.",
+      "cause": "Independent local conventions with no common adapter.",
+      "correction": "Specify unit conversion, axis basis, pivot, normal handling and invariant identifiers at component boundaries.",
+      "acceptanceTest": "Compare equivalent scenes in m/mm and translated/rotated/reflected frames, including contact results.",
+      "evidence": "source inventory and geometry factories",
+      "reproduction": "source inventory and geometry factories",
+      "measurement": "Studio scene geometry and exports use mm; wizard and library geometry use metres; Gothic open-book surfaces include scale.x=-1.",
+      "remainingUncertainty": "SAT fixtures agree at scale 1/1000; full cross-project geometry/normal equivalence is not established. Reflections are not automatically defects."
+    },
+    {
+      "id": "C02",
+      "affectedDesign": "current SVG / inline / exports",
+      "componentInterface": "representation parity",
+      "status": "not established",
+      "severity": "medium",
+      "confidence": "high",
+      "requirement": "Simplified representations must state which properties they retain.",
+      "observed": "Studio SVG spine renderer emits a rounded rectangle while 3D emits an open elliptical shell. Wizard inline bundles the same source but uses different controls and restore behaviour.",
+      "cause": "Shared broad dimensions are mistaken for full visual/mechanical parity.",
+      "correction": "Document representation contracts and fingerprint source bundle; test dimensions/IDs/materials/pose separately.",
+      "acceptanceTest": "Compare component inventory and silhouettes per supported view, then round-trip supported state.",
+      "evidence": "default-book-design-types/models/shared/svg.mjs; wizard-grimoire/build-inline.mjs; inline-template.html",
+      "reproduction": "default-book-design-types/models/shared/svg.mjs; wizard-grimoire/build-inline.mjs; inline-template.html",
+      "measurement": "Studio SVG spine renderer emits a rounded rectangle while 3D emits an open elliptical shell. Wizard inline bundles the same source but uses different controls and restore behaviour.",
+      "remainingUncertainty": "No physical specimen was measured."
+    },
+    {
+      "id": "C03",
+      "affectedDesign": "all studies",
+      "componentInterface": "physical simulation / material validation",
+      "status": "not established",
+      "severity": "high",
+      "confidence": "high",
+      "requirement": "Physics claims need calibrated material behaviour and external validation.",
+      "observed": "Current wizard geometry has no gravity/friction/stress solver or measured anisotropic material properties.",
+      "cause": "Controlled authored kinematics were used for a construction study.",
+      "correction": "Retain that explicit scope; add constraints first and only select a solver after physical behaviour is specified.",
+      "acceptanceTest": "Compare a physical binding model and measured opening/section curves before calling the result physically validated.",
+      "evidence": "wizard-grimoire/README.md; geometry.mjs",
+      "reproduction": "wizard-grimoire/README.md; geometry.mjs",
+      "measurement": "Current wizard geometry has no gravity/friction/stress solver or measured anisotropic material properties.",
+      "remainingUncertainty": "No strength, equilibrium, conservation-treatment suitability or historical fabrication certification is given."
+    },
+    {
+      "id": "F07",
+      "affectedDesign": "wizard inline preview",
+      "componentInterface": "CDN failure presentation",
+      "status": "rework",
+      "severity": "medium",
+      "confidence": "high",
+      "requirement": "Unavailable runtime must produce a meaningful error or fallback.",
+      "observed": "Blocking esm.sh leaves the preview unloaded and still saying Preparing the book… after the failure observation window.",
+      "cause": "Static module import fails before the viewer catch block can present the intended error.",
+      "correction": "Use an outer loading/error boundary that covers module retrieval as well as scene construction.",
+      "acceptanceTest": "Block CDN, disconnect network, and force module failure; loading state must terminate with useful recovery guidance.",
+      "evidence": "followup-results.json cdn",
+      "reproduction": "followup-results.json cdn",
+      "measurement": "Blocking esm.sh leaves the preview unloaded and still saying Preparing the book… after the failure observation window.",
+      "remainingUncertainty": "Single controlled blocked-origin case, not every possible network failure."
+    },
+    {
+      "id": "F08",
+      "affectedDesign": "wizard runtime",
+      "componentInterface": "materials / factory resource ownership",
+      "status": "pass",
+      "severity": "info",
+      "confidence": "high",
+      "requirement": "Actual material mode identity and bounded factory GPU resources must be demonstrated.",
+      "observed": "Clay instance identity and original-material restoration pass. Six factory create/render/dispose cycles retain 315 geometry and 13 texture counters after cleanup. Blocked local storage still permits loading.",
+      "cause": "Current materials and factory cleanup behave consistently in these tests.",
+      "correction": "Keep instance-identity checks and warm-baseline resource observations.",
+      "acceptanceTest": "Repeat ownership and full viewer remount tests; do not demand zero internal renderer cache entries.",
+      "evidence": "followup-results.json",
+      "reproduction": "followup-results.json",
+      "measurement": "Clay instance identity and original-material restoration pass. Six factory create/render/dispose cycles retain 315 geometry and 13 texture counters after cleanup. Blocked local storage still permits loading.",
+      "remainingUncertainty": "Not a JS heap, full-viewer remount or prolonged lifetime leak proof."
+    }
+  ],
+  "coverage": [
+    [
+      "Actual-mesh interface crossing / containment fixtures",
+      "pass",
+      "AABB hierarchy + segment-triangle witnesses and odd-ray containment; limited fixtures only."
+    ],
+    [
+      "Coplanar overlap, exhaustive self-intersection, all attachment regions",
+      "not established",
+      "Algorithm explicitly excludes robust coplanar/tangent classification; no exhaustive self-BVH on every source mesh."
+    ],
+    [
+      "Paper/rigid tolerance thresholds in m and mm",
+      "pass",
+      "3/7 micrometre and 0.04/0.07 mm SAT fixtures agree under 1000× scaling."
+    ],
+    [
+      "Fixtures with collisions missed between five slices",
+      "pass",
+      "Off-slice box collision at Z=3.7 mm is detected by triangle witnesses and missed by nominal 0/5/10/15/20 mm slice planes; diagnostic fixture only."
+    ],
+    [
+      "Seven openings × three leaf positions",
+      "pass",
+      "21 spine profiles; no claim of complete contact validity."
+    ],
+    [
+      "2% page-turn grid at 110° / 130° × three leaf positions",
+      "pass",
+      "306 active-leaf topology and spine profile samples."
+    ],
+    [
+      "Adaptive refinement / continuous contact proof",
+      "not established",
+      "No full continuous collision proof or exhaustive adaptive contact search."
+    ],
+    [
+      "100 factory and reduced-motion UI cycles",
+      "pass",
+      "Stable deterministic profile and settled closed state."
+    ],
+    [
+      "100 fully animated adversarial cycles / reproducible interruptions",
+      "not established",
+      "Earlier normal animation smoke tests exist; new endurance suite is reduced-motion only."
+    ],
+    [
+      "Full leaf content identity / gathering continuity / support route",
+      "not established",
+      "Part names do not prove topology, content placement or continuous attachment."
+    ],
+    [
+      "Chrome / Edge local DPR/layout matrix",
+      "pass",
+      "Four measured combinations, not the full Cartesian product of all widths/DPRs."
+    ],
+    [
+      "Firefox / WebKit / physical touch / other GPUs",
+      "not established",
+      "Not executed."
+    ],
+    [
+      "Context loss and restore",
+      "pass",
+      "Chrome restored context and rendered again in this test."
+    ],
+    [
+      "Blocked CDN/storage / lifecycle mount endurance / keyboard focus accessibility",
+      "rework",
+      "Blocked storage loads; six factory cleanup cycles have stable GPU counters. Blocked CDN remains loading. Full viewer remount/heap and accessibility suite not established."
+    ],
+    [
+      "JSON rejected atomically / inline camera round trip",
+      "rework",
+      "Both fail new outcome checks."
+    ],
+    [
+      "Static proxy opening mechanics",
+      "not applicable",
+      "Not advertised; close-up solid construction evaluated separately."
+    ],
+    [
+      "Craftsmanship at 50–100mm for every family",
+      "rework",
+      "Representative wizard captures show obstructions; source-based proxies lack physical construction; all-family matched runtime capture not completed."
+    ],
+    [
+      "All-family world-normal and SVG silhouette parity",
+      "not established",
+      "Static implementation reviewed; not a complete perceptual/transform equivalence suite."
+    ],
+    [
+      "Production supersampled close reaches 30fps",
+      "rework",
+      "Recorded 22.92fps at 3840×2160. Diagnostic 1080p passes."
+    ],
+    [
+      "Actual clay identity and material restoration",
+      "pass",
+      "New independent instance-identity checks pass; old class-only test remains inadequate."
+    ],
+    [
+      "Deterministic animated interruption sequence",
+      "pass",
+      "Nine fixed actions at 95 ms spacing remain finite; not 100-cycle animated endurance."
+    ]
+  ],
+  "viewpoints": [
+    {
+      "name": "Hand bookbinder",
+      "findings": "B01, B02, B05, R01",
+      "text": "The first question is not whether the spine looks rounded, but whether the sections can actually be sewn, lined and attached to the boards in the order implied by the assembly. The centre cord does not meet its visible lacing terminal in the sampled closed and fully open states. Separate return pieces can be closed solids and still fail to form a folded sheet with their leaves. Build the gathering, support and board attachment as one construction sequence before embellishing bands.",
+      "sources": "Espinosa"
+    },
+    {
+      "name": "Book conservator",
+      "findings": "B04, B06, F03",
+      "text": "A repair should make its location and purpose legible. This patch follows the front board, so it cannot establish a lower-spine repair while the spine flexes independently. The cap and endband need an inspectable relationship: the Met describes a folded layer of pared leather protecting an endband. A rolled-looking strip and repeated torus loops alone do not establish that relationship. Concealed construction needs a labelled section, not an obstructed bookmark.",
+      "sources": "Met, LOC"
+    },
+    {
+      "name": "Binding historian / bibliographer",
+      "findings": "C03, B01, R02",
+      "text": "Keep the proposed supported tight-back identity distinct from later case-binding and hollow-back interpretations. A visible cavity is not by itself evidence of an intentional hollow. Record what is proposed, what is merely a display proxy, and what construction the cited object actually demonstrates. The old studio already says opening/fabrication are deferred; it should not be condemned for absent animation, but its advertised solid export still needs solid geometry.",
+      "sources": "LoB, SHI"
+    },
+    {
+      "name": "Mechanical engineer",
+      "findings": "B02, B03, C03",
+      "text": "Treat the cords, sewn sections, lining, covering and board attachments as a load path. Geometry that stops short cannot transmit the loads implied by the scene unless another attachment is specified. The 15% arc and area change is a strong modelling warning but cannot be converted into material stress without constitutive properties. Covers supported by pads do not prove the binding is in equilibrium. Gravity and external opening controls must remain explicit.",
+      "sources": "Conroy"
+    },
+    {
+      "name": "Computational geometry specialist",
+      "findings": "B01, S01, S02, Q01",
+      "text": "A watertight mesh is only one predicate. Multiple closed shells can overlap or be fully contained; both must be tested independently. Open studio spines make their signed-volume result unsuitable as a physical volume. The new hierarchy tests find surface-crossing witnesses between spine and lining, but do not solve coplanar contact or establish a penetration depth. Pair-level attachment regions are needed before contact can be accepted.",
+      "sources": "Three-dispose"
+    },
+    {
+      "name": "Animation / simulation specialist",
+      "findings": "B03, B05, F04",
+      "text": "The deterministic cycle result is useful, but it certifies only repeatability for that sequence. A moving binding needs material correspondence and connected roots, not independent shapes rebuilt at each angle. Reversal, a partly turned leaf, spread changes and a closing cover must all reach the same physical assembly. ETH page-block separation is relevant to runtime strategy, not evidence validating this spine.",
+      "sources": "ETH"
+    },
+    {
+      "name": "Technical artist / material specialist",
+      "findings": "F03, P01, B06",
+      "text": "The reviewed spine preset obscures the assembly behind a cover and cradle. The joint capture largely shows broad surfaces rather than the joint. This is a presentation defect independent of polygon count. Box-based shelf books may be effective scene props at distance but cannot inherit the hero book’s inspection promise. Neutral and grazing comparisons should show actual folds, layer edges and contact shadows before grain or warm light is used to sell age.",
+      "sources": "Three-colour"
+    },
+    {
+      "name": "QA / metrology specialist",
+      "findings": "Q01, F01, C01",
+      "text": "Tests must be able to fail when the named property is broken. The clay-class assertion is non-discriminating; a metadata thickness assertion does not inspect a solid; a resolving attachment ID does not test contact. The invalid-import test now demonstrates state mutation before failure. Unit-scaled tolerance fixtures pass, but this does not calibrate arbitrary mesh penetration, all coordinate transforms or real leather strain. Keep each limited pass bounded.",
+      "sources": "Three-dispose"
+    }
+  ],
+  "references": [
+    [
+      "LoB",
+      "Language of Bindings",
+      "https://lob.is.ed.ac.uk/",
+      "Vocabulary; not a dimensional or mechanical specification."
+    ],
+    [
+      "SHI",
+      "Science History Institute anatomy",
+      "https://www.sciencehistory.org/collections/blog/how-to-judge-a-book-by-its-cover/",
+      "Components and sections/endleaves; does not substantiate our exact reconstruction."
+    ],
+    [
+      "Conroy",
+      "The Movement of the Book Spine",
+      "https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v06/bp06-01.html",
+      "Spine action, supports and joint interaction; preliminary analysis, not a calibrated constitutive model."
+    ],
+    [
+      "Espinosa",
+      "Hard-board laced-in conservation binding",
+      "https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v02/bpga02-05.pdf",
+      "Construction comparison; one conservation structure, not a universal medieval binding."
+    ],
+    [
+      "LOC",
+      "Library of Congress rebacking",
+      "https://www.loc.gov/preservation/conservators/diderot/treatment.html",
+      "Documented lining and attachment treatment; treatment context must not be mistaken for an original fantasy-book specification."
+    ],
+    [
+      "Met",
+      "Headcaps and handling",
+      "https://www.metmuseum.org/ja/perspectives/fragility-of-headcaps",
+      "Pared folded leather and protection of endbands; use-related damage evidence."
+    ],
+    [
+      "ETH",
+      "Book simulation research",
+      "https://igl.ethz.ch/projects/book-simulation/",
+      "Interactive pages and page-block separation; current fetch timed out, previously read during planning. No new source verification claimed."
+    ],
+    [
+      "Three-colour",
+      "Three.js colour management",
+      "https://threejs.org/manual/pages/color-management.html",
+      "Colour versus non-colour texture channels and rendering conventions."
+    ],
+    [
+      "Three-dispose",
+      "Three.js disposal",
+      "https://threejs.org/manual/pages/how-to-dispose-of-objects.html",
+      "Explicit resource ownership; warm internal caches are not automatically leaks."
+    ]
+  ],
+  "families": [
+    [
+      "Wizard grimoire",
+      "connected but inconsistent proposed supported tight-back",
+      "B01–B06",
+      "rework"
+    ],
+    [
+      "Woodland portal shelf books",
+      "box cover/page instances and bands",
+      "P01",
+      "rework"
+    ],
+    [
+      "Hollow-tree shelf / return / stacks",
+      "boxes with partial page-edge hints",
+      "P01",
+      "rework"
+    ],
+    [
+      "Gothic miniature shelf books",
+      "miniature box instances",
+      "P01",
+      "rework"
+    ],
+    [
+      "Gothic miniature open book",
+      "open surfaces and central rod",
+      "R02",
+      "rework"
+    ],
+    [
+      "Gothic room shelf books",
+      "boards, paper, rounded spine",
+      "P02",
+      "not established"
+    ],
+    [
+      "Gothic room central book",
+      "closed blocks and leaves; primitive spine",
+      "R01",
+      "rework"
+    ],
+    [
+      "Dragon-wing shelf books",
+      "boards, paper, lining, scaled spine",
+      "P02",
+      "not established"
+    ],
+    [
+      "Dragon exemplar shelf books",
+      "similar construction with different transforms",
+      "P02",
+      "not established"
+    ],
+    [
+      "Initial studio",
+      "visual binding design, mechanics explicitly deferred",
+      "S01–S03",
+      "rework"
+    ],
+    [
+      "Advanced studio",
+      "visual binding design, mechanics explicitly deferred",
+      "S01–S03",
+      "rework"
+    ],
+    [
+      "Meistro studio",
+      "visual binding design, mechanics explicitly deferred",
+      "S01–S03",
+      "rework"
+    ]
+  ],
+  "sourcePreservation": {
+    "changed": []
+  }
+}

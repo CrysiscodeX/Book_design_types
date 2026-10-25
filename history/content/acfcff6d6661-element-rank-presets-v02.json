@@ -1,0 +1,799 @@
+{
+  "version": "0.2",
+  "evidenceStatus": "proposed",
+  "scope": "Human-authored specification records; not executed by a viewer",
+  "presets": [
+    {
+      "id": "element-fire-initial",
+      "elementId": "fire",
+      "rankId": "initial",
+      "effectId": "FX19",
+      "paletteId": "palette-element-fire",
+      "shaderProfile": "element-fire",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Quiet ember movement"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-fire-advanced",
+      "elementId": "fire",
+      "rankId": "advanced",
+      "effectId": "FX19",
+      "paletteId": "palette-element-fire",
+      "shaderProfile": "element-fire",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Directed flame channels",
+        "Ember-node echoes",
+        "Soft edge heat drift"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-fire-meistro",
+      "elementId": "fire",
+      "rankId": "meistro",
+      "effectId": "FX19",
+      "paletteId": "palette-element-fire",
+      "shaderProfile": "element-fire",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Nested flame circulation",
+        "Phase-linked ember nodes",
+        "Peripheral sparks",
+        "Restrained heat shimmer",
+        "Low warm edge aura"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-water-initial",
+      "elementId": "water",
+      "rankId": "initial",
+      "effectId": "FX20",
+      "paletteId": "palette-element-water",
+      "shaderProfile": "element-water",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Small surface ripple"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-water-advanced",
+      "elementId": "water",
+      "rankId": "advanced",
+      "effectId": "FX20",
+      "paletteId": "palette-element-water",
+      "shaderProfile": "element-water",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Rivulet workflow paths",
+        "Ripple-node echoes",
+        "Soft edge reflections"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-water-meistro",
+      "elementId": "water",
+      "rankId": "meistro",
+      "effectId": "FX20",
+      "paletteId": "palette-element-water",
+      "shaderProfile": "element-water",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Interwoven cover currents",
+        "Phase-linked ripple nodes",
+        "Suspended digital droplets",
+        "Caustic-like light patterns",
+        "Peripheral liquid-light aura"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-earth-initial",
+      "elementId": "earth",
+      "rankId": "initial",
+      "effectId": "FX21",
+      "paletteId": "palette-element-earth",
+      "shaderProfile": "element-earth",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Slow mineral-line illumination"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-earth-advanced",
+      "elementId": "earth",
+      "rankId": "advanced",
+      "effectId": "FX21",
+      "paletteId": "palette-element-earth",
+      "shaderProfile": "element-earth",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Sequential strata routes",
+        "Mineral-node echoes",
+        "Soft granular edge drift"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-earth-meistro",
+      "elementId": "earth",
+      "rankId": "meistro",
+      "effectId": "FX21",
+      "paletteId": "palette-element-earth",
+      "shaderProfile": "element-earth",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Nested fracture-path illumination",
+        "Phase-linked mineral nodes",
+        "Slow digital stone fragments",
+        "Strata-depth light gradients",
+        "Fine mineral dust halo"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-air-initial",
+      "elementId": "air",
+      "rankId": "initial",
+      "effectId": "FX22",
+      "paletteId": "palette-element-air",
+      "shaderProfile": "element-air",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Gentle line drift"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-air-advanced",
+      "elementId": "air",
+      "rankId": "advanced",
+      "effectId": "FX22",
+      "paletteId": "palette-element-air",
+      "shaderProfile": "element-air",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Directed stream paths",
+        "Breeze-node echoes",
+        "Light edge ribbons"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-air-meistro",
+      "elementId": "air",
+      "rankId": "meistro",
+      "effectId": "FX22",
+      "paletteId": "palette-element-air",
+      "shaderProfile": "element-air",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Layered ribbon vortices",
+        "Phase-linked stream crossings",
+        "Sparse edge motes",
+        "Soft moving feather highlights",
+        "Subtle surrounding air veil"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-ice-initial",
+      "elementId": "ice",
+      "rankId": "initial",
+      "effectId": "FX23",
+      "paletteId": "palette-element-ice",
+      "shaderProfile": "element-ice",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Localized frost shimmer"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-ice-advanced",
+      "elementId": "ice",
+      "rankId": "advanced",
+      "effectId": "FX23",
+      "paletteId": "palette-element-ice",
+      "shaderProfile": "element-ice",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Frost-traced workflow routes",
+        "Facet-node echoes",
+        "Shallow cool edge haze"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-ice-meistro",
+      "elementId": "ice",
+      "rankId": "meistro",
+      "effectId": "FX23",
+      "paletteId": "palette-element-ice",
+      "shaderProfile": "element-ice",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Nested faceted halos",
+        "Phase-linked frost fronts",
+        "Fine digital snowfall",
+        "Shallow mist",
+        "Slow crystalline highlight drift"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-lightning-initial",
+      "elementId": "lightning",
+      "rankId": "initial",
+      "effectId": "FX24",
+      "paletteId": "palette-element-lightning",
+      "shaderProfile": "element-lightning",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Small charge-point movement"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-lightning-advanced",
+      "elementId": "lightning",
+      "rankId": "advanced",
+      "effectId": "FX24",
+      "paletteId": "palette-element-lightning",
+      "shaderProfile": "element-lightning",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Controlled arc routes",
+        "Charge-node echoes",
+        "Steady conductor edge light"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-lightning-meistro",
+      "elementId": "lightning",
+      "rankId": "meistro",
+      "effectId": "FX24",
+      "paletteId": "palette-element-lightning",
+      "shaderProfile": "element-lightning",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Staggered branching arcs",
+        "Phase-linked charge paths",
+        "Sparse slow charge motes",
+        "Steady conductor highlights",
+        "Subtle blue field halo"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-metal-initial",
+      "elementId": "metal",
+      "rankId": "initial",
+      "effectId": "FX25",
+      "paletteId": "palette-element-metal",
+      "shaderProfile": "element-metal",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Moving reflective highlight"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-metal-advanced",
+      "elementId": "metal",
+      "rankId": "advanced",
+      "effectId": "FX25",
+      "paletteId": "palette-element-metal",
+      "shaderProfile": "element-metal",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Linked field-line patterns",
+        "Ordered node sheen",
+        "Ridge highlight travel"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-metal-meistro",
+      "elementId": "metal",
+      "rankId": "meistro",
+      "effectId": "FX25",
+      "paletteId": "palette-element-metal",
+      "shaderProfile": "element-metal",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Coordinated metallic sheen",
+        "Nested field-line patterns",
+        "Digital filings drift",
+        "Phase-linked ridge highlights",
+        "Subtle reflective perimeter response"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-crystal-initial",
+      "elementId": "crystal",
+      "rankId": "initial",
+      "effectId": "FX26",
+      "paletteId": "palette-element-crystal",
+      "shaderProfile": "element-crystal",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Single facet glint"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-crystal-advanced",
+      "elementId": "crystal",
+      "rankId": "advanced",
+      "effectId": "FX26",
+      "paletteId": "palette-element-crystal",
+      "shaderProfile": "element-crystal",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Light paths between facets",
+        "Crystal-node echoes",
+        "Subtle lattice highlights"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-crystal-meistro",
+      "elementId": "crystal",
+      "rankId": "meistro",
+      "effectId": "FX26",
+      "paletteId": "palette-element-crystal",
+      "shaderProfile": "element-crystal",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Layered refraction-like overlays",
+        "Nested spectral paths",
+        "Phase-linked crystal nodes",
+        "Luminous lattice gradients",
+        "Sparse prismatic motes"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-light-initial",
+      "elementId": "light",
+      "rankId": "initial",
+      "effectId": "FX27",
+      "paletteId": "palette-element-light",
+      "shaderProfile": "element-light",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Soft central glimmer"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-light-advanced",
+      "elementId": "light",
+      "rankId": "advanced",
+      "effectId": "FX27",
+      "paletteId": "palette-element-light",
+      "shaderProfile": "element-light",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Ray connections between sigils",
+        "Warm node echoes",
+        "Quiet radial edge glow"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-light-meistro",
+      "elementId": "light",
+      "rankId": "meistro",
+      "effectId": "FX27",
+      "paletteId": "palette-element-light",
+      "shaderProfile": "element-light",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Nested coronas",
+        "Phase-linked rays",
+        "Coordinated constellations",
+        "Soft radial gradients",
+        "Subtle warm perimeter aura"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-shadow-initial",
+      "elementId": "shadow",
+      "rankId": "initial",
+      "effectId": "FX28",
+      "paletteId": "palette-element-shadow",
+      "shaderProfile": "element-shadow",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Slow ink-like movement"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-shadow-advanced",
+      "elementId": "shadow",
+      "rankId": "advanced",
+      "effectId": "FX28",
+      "paletteId": "palette-element-shadow",
+      "shaderProfile": "element-shadow",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Silhouette workflow traces",
+        "Muted node echoes",
+        "Soft recess gradients"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-shadow-meistro",
+      "elementId": "shadow",
+      "rankId": "meistro",
+      "effectId": "FX28",
+      "paletteId": "palette-element-shadow",
+      "shaderProfile": "element-shadow",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Nested translucent veils",
+        "Phase-linked silhouette paths",
+        "Subtle contour light",
+        "Slow ink gradients",
+        "Sparse peripheral shadow motes"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-nature-initial",
+      "elementId": "nature",
+      "rankId": "initial",
+      "effectId": "FX29",
+      "paletteId": "palette-element-nature",
+      "shaderProfile": "element-nature",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Small leaf or bud glow"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-nature-advanced",
+      "elementId": "nature",
+      "rankId": "advanced",
+      "effectId": "FX29",
+      "paletteId": "palette-element-nature",
+      "shaderProfile": "element-nature",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Vine-like workflow routes",
+        "Bud-node echoes",
+        "Gentle leaf highlights"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-nature-meistro",
+      "elementId": "nature",
+      "rankId": "meistro",
+      "effectId": "FX29",
+      "paletteId": "palette-element-nature",
+      "shaderProfile": "element-nature",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Branching canopy overlays",
+        "Phase-linked vine routes",
+        "Pollen-like motes",
+        "Synchronized bud gradients",
+        "Subtle woodland perimeter aura"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-decay-initial",
+      "elementId": "decay",
+      "rankId": "initial",
+      "effectId": "FX30",
+      "paletteId": "palette-element-decay",
+      "shaderProfile": "element-decay",
+      "dimensionsMm": {
+        "spineLengthL": 260,
+        "coverWidthH": 160,
+        "closedThicknessB": 50
+      },
+      "layerCount": 1,
+      "layers": [
+        "Restrained patina shimmer"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-decay-advanced",
+      "elementId": "decay",
+      "rankId": "advanced",
+      "effectId": "FX30",
+      "paletteId": "palette-element-decay",
+      "shaderProfile": "element-decay",
+      "dimensionsMm": {
+        "spineLengthL": 310,
+        "coverWidthH": 210,
+        "closedThicknessB": 80
+      },
+      "layerCount": 3,
+      "layers": [
+        "Erosion-like light routes",
+        "Patina-node echoes",
+        "Fine weathering highlight travel"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    },
+    {
+      "id": "element-decay-meistro",
+      "elementId": "decay",
+      "rankId": "meistro",
+      "effectId": "FX30",
+      "paletteId": "palette-element-decay",
+      "shaderProfile": "element-decay",
+      "dimensionsMm": {
+        "spineLengthL": 380,
+        "coverWidthH": 280,
+        "closedThicknessB": 120
+      },
+      "layerCount": 5,
+      "layers": [
+        "Dissolving and reforming overlays",
+        "Nested patina routes",
+        "Slow ash-like digital motes",
+        "Phase-linked weathering gradients",
+        "Subtle verdigris edge aura"
+      ],
+      "ambientPolicy": "Restrained resting state; no result or archive assertion",
+      "motionPreference": "ambient",
+      "reducedMotion": "Static materials ornament and rank cues; no moving or changing-intensity effects"
+    }
+  ]
+}

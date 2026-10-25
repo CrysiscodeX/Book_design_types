@@ -1,0 +1,826 @@
+{
+  "version": 2,
+  "passed": true,
+  "states": [
+    {
+      "leaf": 1,
+      "opening": 0,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 1,
+      "opening": 15,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 1,
+      "opening": 30,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 1,
+      "opening": 60,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 1,
+      "opening": 90,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 1,
+      "opening": 110,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 1,
+      "opening": 130,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 120,
+      "opening": 0,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 120,
+      "opening": 15,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 120,
+      "opening": 30,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 120,
+      "opening": 60,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 120,
+      "opening": 90,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 120,
+      "opening": 110,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 120,
+      "opening": 130,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 238,
+      "opening": 0,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 238,
+      "opening": 15,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 238,
+      "opening": 30,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 238,
+      "opening": 60,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 238,
+      "opening": 90,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 238,
+      "opening": 110,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    },
+    {
+      "leaf": 238,
+      "opening": 130,
+      "boards": [
+        {
+          "id": "leaf.000",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "front.flyleaf",
+          "board": "front",
+          "penetrationMm": 0
+        },
+        {
+          "id": "leaf.239",
+          "board": "rear",
+          "penetrationMm": 0
+        },
+        {
+          "id": "rear.flyleaf",
+          "board": "rear",
+          "penetrationMm": 0
+        }
+      ],
+      "feet": [
+        {
+          "id": "cradle.rear.foot",
+          "bottomMm": -1.899898051382909e-7
+        },
+        {
+          "id": "cradle.front.foot",
+          "bottomMm": -1.899898051382909e-7
+        }
+      ]
+    }
+  ],
+  "straps": [
+    {
+      "opening": 0,
+      "release": 0,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 0,
+      "release": 0.1,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 0,
+      "release": 0.25,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 0,
+      "release": 0.5,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 0,
+      "release": 0.75,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 0,
+      "release": 1,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 30,
+      "release": 1,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 60,
+      "release": 1,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 90,
+      "release": 1,
+      "maximumMm": 0,
+      "hits": []
+    },
+    {
+      "opening": 130,
+      "release": 1,
+      "maximumMm": 0,
+      "hits": []
+    }
+  ],
+  "failures": [],
+  "coverage": "Actual writing-leaf and flyleaf vertices tested against the authored board inner profile in board coordinates at 21 angle/index combinations. Feet against slab plane. Actual strap/leaf cross-section SAT at ten release/opening combinations. Does not certify every concealed glue or sewing contact."
+}

@@ -1,0 +1,3064 @@
+{
+  "version": 2,
+  "passed": true,
+  "fixtures": [
+    {
+      "name": "8 micrometre paper gap",
+      "pass": true
+    },
+    {
+      "name": "7 micrometre paper penetration",
+      "pass": true
+    },
+    {
+      "name": "70 micrometre rigid penetration",
+      "pass": true
+    }
+  ],
+  "states": [
+    {
+      "pose": {
+        "opening": 0,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.02
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.04
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.06
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.08
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.12
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.14
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.16
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.18
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.2
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.22
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.24
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.26
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.28
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.3
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.32
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.34
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.36
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.38
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.4
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.42
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.44
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.46
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.48
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.5
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.52
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.54
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.56
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.58
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.6
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.62
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.64
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.66
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.68
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.7
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.72
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.74
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.76
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.78
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.8
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.82
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.84
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.86
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.88
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.9
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.92
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.94
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.96
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.98
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.02
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.04
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.06
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.08
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.12
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.14
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.16
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.18
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.2
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.22
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.24
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.26
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.28
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.3
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.32
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.34
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.36
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.38
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.4
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.42
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.44
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.46
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.48
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.5
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.52
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.54
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.56
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.58
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.6
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.62
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.64
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.66
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.68
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.7
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.72
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.74
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.76
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.78
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.8
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.82
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.84
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.86
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.88
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.9
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.92
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.94
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.96
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.98
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.02
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.04
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.06
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.08
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.12
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.14
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.16
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.18
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.2
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.22
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.24
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.26
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.28
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.3
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.32
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.34
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.36
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.38
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.4
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.42
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.44
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.46
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.48
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.5
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.52
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.54
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.56
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.58
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.6
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.62
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.64
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.66
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.68
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.7
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.72
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.74
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.76
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.78
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.8
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.82
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.84
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.86
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.88
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.9
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.92
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.94
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.96
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.98
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.02
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.04
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.06
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.08
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.12
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.14
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.16
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.18
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.2
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.22
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.24
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.26
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.28
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.3
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.32
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.34
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.36
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.38
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.4
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.42
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.44
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.46
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.48
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.5
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.52
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.54
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.56
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.58
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.6
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.62
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.64
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.66
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.68
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.7
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.72
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.74
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.76
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.78
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.8
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.82
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.84
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.86
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.88
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.9
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.92
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.94
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.96
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.98
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.02
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.04
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.06
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.08
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.12
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.14
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.16
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.18
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.2
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.22
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.24
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.26
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.28
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.3
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.32
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.34
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.36
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.38
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.4
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.42
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.44
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.46
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.48
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.5
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.52
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.54
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.56
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.58
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.6
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.62
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.64
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.66
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.68
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.7
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.72
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.74
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.76
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.78
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.8
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.82
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.84
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.86
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.88
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.9
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.92
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.94
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.96
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.98
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.02
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.04
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.06
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.08
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.12
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.14
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.16
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.18
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.2
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.22
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.24
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.26
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.28
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.3
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.32
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.34
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.36
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.38
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.4
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.42
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.44
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.46
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.48
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.5
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.52
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.54
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.56
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.58
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.6
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.62
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.64
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.66
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.68
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.7
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.72
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.74
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.76
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.78
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.8
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.82
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.84
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.86
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.88
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.9
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.92
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.94
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.96
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.98
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 1
+      },
+      "passed": true,
+      "maximumPaperPenetrationMm": 0
+    }
+  ],
+  "refinements": [
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.002,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.005,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.01,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.99,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.995,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.998,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.002,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.005,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.01,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.99,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.995,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.998,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.002,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.005,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.01,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.99,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.995,
+      "passed": true
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.998,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.002,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.005,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.01,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.99,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.995,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.998,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.002,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.005,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.01,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.99,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.995,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.998,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.002,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.005,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.01,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.99,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.995,
+      "passed": true
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.998,
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "thicknessMm": {
+    "min": 0.15998282239374415,
+    "max": 0.16001682700099415
+  },
+  "maximumWidthErrorPercent": 0.08052039380588683,
+  "extrusionErrorMm": 0,
+  "coverage": "313 sampled poses plus 36 endpoint refinements. Actual closed-mesh XY SAT: all adjacent leaves at seven opening angles, active leaf versus every other leaf at 2% turn intervals. Head/tail XY equality establishes the extrusion reduction for these writing leaves. Not continuous-in-time or whole-book 3D collision proof.",
+  "limits": "Board, adhesive, mull, endpaper and fitting contacts require independent checks. Source topology does not prove self-intersection freedom."
+}

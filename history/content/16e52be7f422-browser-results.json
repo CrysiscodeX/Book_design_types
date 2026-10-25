@@ -1,0 +1,201 @@
+{
+  "generated": "2026-10-23T13:54:32.523Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Local study loads",
+      "passed": true
+    },
+    {
+      "name": "240 stable writing-leaf identities",
+      "passed": true
+    },
+    {
+      "name": "All declared attachment identifiers resolve",
+      "passed": true
+    },
+    {
+      "name": "Wheel dollies physically with fixed lens",
+      "passed": true
+    },
+    {
+      "name": "Mouse orbit changes viewpoint",
+      "passed": true
+    },
+    {
+      "name": "Right drag pans",
+      "passed": true
+    },
+    {
+      "name": "Materials and lights preserve camera",
+      "passed": true
+    },
+    {
+      "name": "Material appearance restores after clay",
+      "passed": true
+    },
+    {
+      "name": "Repeated clay toggles retain original materials",
+      "passed": true
+    },
+    {
+      "name": "Clasp release precedes opening",
+      "passed": true
+    },
+    {
+      "name": "Opening reaches 130°",
+      "passed": true
+    },
+    {
+      "name": "Half-turn is a thick closed shell",
+      "passed": true
+    },
+    {
+      "name": "Closing settles leaf and re-engages straps",
+      "passed": true
+    },
+    {
+      "name": "Page turning constrained below 110°",
+      "passed": true
+    },
+    {
+      "name": "Pause freezes a partial turn",
+      "passed": true
+    },
+    {
+      "name": "Resume completes the turn",
+      "passed": true
+    },
+    {
+      "name": "Spread selection updates leaf count and artwork",
+      "passed": true
+    },
+    {
+      "name": "Lens changes independently",
+      "passed": true
+    },
+    {
+      "name": "Saved camera recalls exactly",
+      "passed": true
+    },
+    {
+      "name": "Keyboard free inspection translates",
+      "passed": true
+    },
+    {
+      "name": "Two-finger pinch and pan",
+      "passed": true
+    },
+    {
+      "name": "corner bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "turnin bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "joint bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "head bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "fold bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "edge bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "clasp bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "repair bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "gutter bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "underside bookmark at 50–100 mm",
+      "passed": true
+    },
+    {
+      "name": "Isolate exposes the complete repair",
+      "passed": true
+    },
+    {
+      "name": "Explosion moves complete closed assemblies",
+      "passed": true
+    },
+    {
+      "name": "Repeated display updates do not accumulate explosion offsets",
+      "passed": true
+    },
+    {
+      "name": "Distant paper proxy retains closed mass",
+      "passed": true
+    },
+    {
+      "name": "Paper inspection restores individual solids",
+      "passed": true
+    },
+    {
+      "name": "Invalid JSON rejected without state corruption",
+      "passed": true
+    },
+    {
+      "name": "Unsupported dimensions rejected",
+      "passed": true
+    },
+    {
+      "name": "Specification and pose round trip",
+      "passed": true
+    },
+    {
+      "name": "Reload restores camera and mechanical pose",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen works",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion uses a settled pose",
+      "passed": true
+    },
+    {
+      "name": "620 px layout has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "360 px layout has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "320 px layout has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Embedded study loads locally",
+      "passed": true
+    },
+    {
+      "name": "Runtime makes no external asset requests",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "No browser exceptions",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,151 @@
+﻿{
+    "version":  "0.2",
+    "date":  "2026-10-06",
+    "files":  [
+                  {
+                      "relative_path":  "README.md",
+                      "sha256":  "72F41C9B7E09E24D92BC30F34B179EEC749425170B05DBC1F3A34A8DD4A85E50",
+                      "bytes":  4855
+                  },
+                  {
+                      "relative_path":  "animations/presets/animation-presets-v01.md",
+                      "sha256":  "F862FC319ADFAF9E16AE9C9E346DF339693063C69B705D5F61D6C97E0E0A45D7",
+                      "bytes":  9510
+                  },
+                  {
+                      "relative_path":  "checks/documentation-checks-v02.json",
+                      "sha256":  "816DE4B6D6F7E747C4CD681D8A4AC5BF95DEFD90311B77041914F11969F5F176",
+                      "bytes":  860
+                  },
+                  {
+                      "relative_path":  "checks/verification.md",
+                      "sha256":  "B087B6AB1E241CB750A5FB6B52E6846CD56A85DABCEB0E2C246EB4CF997D2DE3",
+                      "bytes":  3168
+                  },
+                  {
+                      "relative_path":  "drafts/documents/project-design-v01.md",
+                      "sha256":  "938B3BCAA5EE21B77C8F4BE7B5EFFCEDD6A242B437466AE0030FA029B563BF3C",
+                      "bytes":  25637
+                  },
+                  {
+                      "relative_path":  "drafts/documents/water-botanical-sigilcraft-demo-v02.md",
+                      "sha256":  "6D5CC01759B18F6C18196598517092D6D20B5E24791CDAD165683D61B3D19BC9",
+                      "bytes":  5625
+                  },
+                  {
+                      "relative_path":  "effects/presets/effect-presets-v01.md",
+                      "sha256":  "B1033A44EC94A81BEDF6390D17A925EF25C1ABAD0E6517492901D7D8D6264CAB",
+                      "bytes":  3676
+                  },
+                  {
+                      "relative_path":  "effects/presets/element-rank-presets-v02.json",
+                      "sha256":  "ACFCFF6D6661A523952E8FFC66D429B4F9BB69FC9FAE9A4DEE5379BF81035EBD",
+                      "bytes":  26052
+                  },
+                  {
+                      "relative_path":  "lighting/presets/lighting-presets-v01.md",
+                      "sha256":  "1768E8873F9AC0D83085DC7BEF8FED840295E16F9E7879DE32D38787AF29B0AA",
+                      "bytes":  4934
+                  },
+                  {
+                      "relative_path":  "materials/material-catalog-v02.md",
+                      "sha256":  "2A7B7E892DA60949E4B87A98F6B9F09252E92D6DD53E65317D4E4B9B8B432DD1",
+                      "bytes":  4740
+                  },
+                  {
+                      "relative_path":  "materials/palettes/book-palettes-v01.json",
+                      "sha256":  "68B993E861D0DEEC3ACDB8622AC219549D75EBD4FF03D389C03079F23BEDAB73",
+                      "bytes":  3232
+                  },
+                  {
+                      "relative_path":  "materials/palettes/element-palettes-v02.json",
+                      "sha256":  "897812FDEF6FC4B9472AA03755F8DABFA641B481A1CFF8B4ED5E758086CBE01A",
+                      "bytes":  4281
+                  },
+                  {
+                      "relative_path":  "materials/shaders/shader-spec-v01.md",
+                      "sha256":  "6F8EE8622656CB8C4CD433B81C9F656A227D481458C78373E14DE9146F9B2A18",
+                      "bytes":  8122
+                  },
+                  {
+                      "relative_path":  "planning/aesthetic-catalog-v02.md",
+                      "sha256":  "2C9B079BDC8E65B3A16BF1D23D13C1694E3B767B378661331BD641939CA72C92",
+                      "bytes":  32343
+                  },
+                  {
+                      "relative_path":  "planning/component-inventory.csv",
+                      "sha256":  "E97F53616DC5D721AAC0238CFECBFF5245D7749071207278F9B1662F5336E72D",
+                      "bytes":  36545
+                  },
+                  {
+                      "relative_path":  "planning/design-system-v02.json",
+                      "sha256":  "A0D43E1CF21029B8C9E62A588168B06F7E9540330099CC3CD38E2973022C2D1B",
+                      "bytes":  54950
+                  },
+                  {
+                      "relative_path":  "planning/effects-breakdown.md",
+                      "sha256":  "7C0038CDD26C531D83CC88B4664ABA2B912C3611CE95BBB286969BBC077387DC",
+                      "bytes":  13582
+                  },
+                  {
+                      "relative_path":  "planning/outstanding-decisions.md",
+                      "sha256":  "6CDA7E80E5891AC27BC727B1C548C169C22DA46F97598CCD458284676F3C7B3B",
+                      "bytes":  5532
+                  },
+                  {
+                      "relative_path":  "planning/physical-construction-options.md",
+                      "sha256":  "DA06847DB3C0E9454299F53D52CD0872F362036E6B1E16333EE957E3694BEA94",
+                      "bytes":  9911
+                  },
+                  {
+                      "relative_path":  "planning/reference-breakdown.md",
+                      "sha256":  "A6861EC02484D31C355BBA4144335D31CD3EA7FF6398D1AF30A366F9F447CC11",
+                      "bytes":  13265
+                  },
+                  {
+                      "relative_path":  "references/reference-index.csv",
+                      "sha256":  "8226222D9E4E6167F11B8F3EF2AE5176F9FB96BF30FD4B789FEAB586E20DCBAD",
+                      "bytes":  2932
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-0ca795aa-76a2-4eb8-8d00-ff277b622c74.png",
+                      "sha256":  "69E354D11399573E5D2AA84089910C739344C61A92E793815DB345444555A01A",
+                      "bytes":  1079320
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-1367bc14-5f87-4d25-adc5-4ddb83ae6b04.png",
+                      "sha256":  "58B2597A55EF95495492ADF10631FBBD1CDF2009BE90985943526370BCEFA513",
+                      "bytes":  1056530
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-1d5ce6ff-b511-4346-a2a9-02f0c5cb8740.png",
+                      "sha256":  "682FE59EBF9795A8F229B4930D0BCCF86C95749027132CBC4938D29767845E44",
+                      "bytes":  1674652
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-81e778a4-b776-4433-892d-318853979157.png",
+                      "sha256":  "41EB4E6553D08F3C5069352175D18545397A5320460F9E4E0E7413C7524E171F",
+                      "bytes":  515255
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-bfd97874-dad1-40fa-8262-9bc74504d528.png",
+                      "sha256":  "05A5C29F9449C82D8F41A24FFA4F84552EEF3BE47411EE35A1A8C66DA5E6828A",
+                      "bytes":  834713
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-c926339d-b8f2-4f5c-9218-331c4c48ac4a.png",
+                      "sha256":  "9D8046BF1047A8C34705EFD4F7796137761ACA2E255990B5938AC8A7D4741238",
+                      "bytes":  1484276
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-dd241a80-e8ae-4430-ace9-a251067cebf9.png",
+                      "sha256":  "0697EB8CF4288164C9B61C72C040EB9325102A8950C732B5537880EF7976D692",
+                      "bytes":  1068342
+                  },
+                  {
+                      "relative_path":  "references/originals/codex-clipboard-f692b905-64be-420b-aaec-aef2ce803847.png",
+                      "sha256":  "AB0C20FA4D6B5DCF83663AE54DD744DBA9AE3154CE99EC61555546A529C4021C",
+                      "bytes":  1941894
+                  }
+              ]
+}

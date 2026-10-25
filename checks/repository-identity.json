@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/CrysiscodeX/Book_design_types",
+  "checkout": "Book_design_types",
+  "migrationDate": "2026-10-25",
+  "purpose": "Confirm that browser verification is served by the independent Books checkout, not the previous source workspace."
+}

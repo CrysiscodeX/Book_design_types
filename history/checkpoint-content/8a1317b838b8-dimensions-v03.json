@@ -1,0 +1,26 @@
+{
+  "version": "0.3",
+  "units": "mm",
+  "ranks": [
+    {
+      "id": "initial",
+      "spineLengthL": 260,
+      "coverWidthH": 160,
+      "closedThicknessB": 50
+    },
+    {
+      "id": "advanced",
+      "spineLengthL": 310,
+      "coverWidthH": 210,
+      "closedThicknessB": 80
+    },
+    {
+      "id": "meistro",
+      "spineLengthL": 380,
+      "coverWidthH": 280,
+      "closedThicknessB": 120
+    }
+  ],
+  "included": "Closed body and fixed ornament",
+  "excluded": "Loose accessories; supports; optical effects"
+}

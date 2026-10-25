@@ -1,0 +1,7239 @@
+{
+  "generated": "2026-10-24T15:48:44.810Z",
+  "passed": true,
+  "fixtures": [
+    {
+      "name": "8 µm separation",
+      "passed": true
+    },
+    {
+      "name": "3 µm overlap allowed at 5 µm threshold",
+      "passed": true
+    },
+    {
+      "name": "7 µm overlap detected",
+      "passed": true
+    },
+    {
+      "name": "50 µm rigid fixture",
+      "passed": true
+    }
+  ],
+  "states": [
+    {
+      "pose": {
+        "opening": 0,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.02
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.04
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.06
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.08
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.12
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.14
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.16
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.18
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.2
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.22
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.24
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.26
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.28
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.3
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.32
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.34
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.36
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.38
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.4
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.42
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.44
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.46
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.48
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.5
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.52
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.54
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.56
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.58
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.6
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.62
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.64
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.66
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.68
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.7
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.72
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.74
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.76
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.78
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.8
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.82
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.84
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.86
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.88
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.9
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.92
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.94
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.96
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.98
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.02
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.04
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.06
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.08
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.12
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.14
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.16
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.18
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.2
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.22
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.24
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.26
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.28
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.3
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.32
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.34
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.36
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.38
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.4
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.42
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.44
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.46
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.48
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.5
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.52
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.54
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.56
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.58
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.6
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.62
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.64
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.66
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.68
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.7
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.72
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.74
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.76
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.78
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.8
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.82
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.84
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.86
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.88
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.9
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.92
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.94
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.96
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.98
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.02
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.04
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.06
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.08
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.12
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.14
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.16
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.18
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.2
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.22
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.24
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.26
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.28
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.3
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.32
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.34
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.36
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.38
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.4
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.42
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.44
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.46
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.48
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.5
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.52
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.54
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.56
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.58
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.6
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.62
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.64
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.66
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.68
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.7
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.72
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.74
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.76
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.78
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.8
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.82
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.84
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.86
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.88
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.9
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.92
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.94
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.96
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.98
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.02
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.04
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.06
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.08
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.12
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.14
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.16
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.18
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.2
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.22
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.24
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.26
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.28
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.3
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.32
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.34
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.36
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.38
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.4
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.42
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.44
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.46
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.48
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.5
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.52
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.54
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.56
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.58
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.6
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.62
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.64
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.66
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.68
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.7
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.72
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.74
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.76
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.78
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.8
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.82
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.84
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.86
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.88
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.9
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.92
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.94
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.96
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.98
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.02
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.04
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.06
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.08
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.12
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.14
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.16
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.18
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.2
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.22
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.24
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.26
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.28
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.3
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.32
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.34
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.36
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.38
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.4
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.42
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.44
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.46
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.48
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.5
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.52
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.54
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.56
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.58
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.6
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.62
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.64
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.66
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.68
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.7
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.72
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.74
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.76
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.78
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.8
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.82
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.84
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.86
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.88
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.9
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.92
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.94
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.96
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.98
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.02
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.04
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.06
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.08
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.12
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.14
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.16
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.18
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.2
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.22
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.24
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.26
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.28
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.3
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.32
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.34
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.36
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.38
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.4
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.42
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.44
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.46
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.48
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.5
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.52
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.54
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.56
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.58
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.6
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.62
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.64
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.66
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.68
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.7
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.72
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.74
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.76
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.78
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.8
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.82
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.84
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.86
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.88
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.9
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.92
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.94
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.96
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.98
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 1
+      },
+      "passed": true,
+      "pairs": 1195,
+      "maximumPenetrationMm": 0
+    }
+  ],
+  "refinements": [
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.002
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.005
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.01
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.99
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.995
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.998
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.002
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.005
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.01
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.99
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.995
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.998
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.002
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.005
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.01
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.99
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.995
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.998
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.002
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.005
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.01
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.99
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.995
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.998
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.002
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.005
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.01
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.99
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.995
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.998
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.002
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.005
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.01
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.99
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.995
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.998
+      },
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "paperToleranceMm": 0.005,
+  "rigidToleranceMm": 0.05,
+  "maximumWidthErrorPercent": 0.002326414669475989,
+  "thicknessMm": {
+    "min": 0.1599756284287781,
+    "max": 0.16001946018610652
+  },
+  "geometryAudits": 14890,
+  "solids": [
+    {
+      "pose": {
+        "opening": 0,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904715293150644,
+      "changedGeometriesAudited": 312,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904639851759535,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904641477689213,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904634919101727,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904636425554267,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.00000990464636089514,
+      "changedGeometriesAudited": 50,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904644271990359,
+      "changedGeometriesAudited": 50,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904644564601572,
+      "changedGeometriesAudited": 50,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.02
+      },
+      "passed": true,
+      "activeVolume": 0.00000990466064042502,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.04
+      },
+      "passed": true,
+      "activeVolume": 0.00000990464988404576,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.06
+      },
+      "passed": true,
+      "activeVolume": 0.000009904626009072124,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.08
+      },
+      "passed": true,
+      "activeVolume": 0.000009904633135227741,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904618773221364,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.12
+      },
+      "passed": true,
+      "activeVolume": 0.000009904625562266601,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.14
+      },
+      "passed": true,
+      "activeVolume": 0.000009904608730614422,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.16
+      },
+      "passed": true,
+      "activeVolume": 0.000009904584285830736,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.18
+      },
+      "passed": true,
+      "activeVolume": 0.000009904585311947453,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.2
+      },
+      "passed": true,
+      "activeVolume": 0.000009904592151544201,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.22
+      },
+      "passed": true,
+      "activeVolume": 0.000009904570163796114,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.24
+      },
+      "passed": true,
+      "activeVolume": 0.000009904560440496295,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.26
+      },
+      "passed": true,
+      "activeVolume": 0.000009904541042171828,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.28
+      },
+      "passed": true,
+      "activeVolume": 0.000009904523504622448,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.3
+      },
+      "passed": true,
+      "activeVolume": 0.00000990451879957779,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.32
+      },
+      "passed": true,
+      "activeVolume": 0.000009904507426019148,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.34
+      },
+      "passed": true,
+      "activeVolume": 0.000009904490468954302,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.36
+      },
+      "passed": true,
+      "activeVolume": 0.000009904485483898226,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.38
+      },
+      "passed": true,
+      "activeVolume": 0.000009904474703112377,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.4
+      },
+      "passed": true,
+      "activeVolume": 0.000009904467095791884,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.42
+      },
+      "passed": true,
+      "activeVolume": 0.000009904460314378777,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.44
+      },
+      "passed": true,
+      "activeVolume": 0.000009904451303179869,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.46
+      },
+      "passed": true,
+      "activeVolume": 0.000009904450445579711,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.48
+      },
+      "passed": true,
+      "activeVolume": 0.000009904447560806794,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.5
+      },
+      "passed": true,
+      "activeVolume": 0.00000990442824829653,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.52
+      },
+      "passed": true,
+      "activeVolume": 0.00000990442762048106,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.54
+      },
+      "passed": true,
+      "activeVolume": 0.000009904426315039833,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.56
+      },
+      "passed": true,
+      "activeVolume": 0.00000990443161592493,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.58
+      },
+      "passed": true,
+      "activeVolume": 0.000009904432203878402,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.6
+      },
+      "passed": true,
+      "activeVolume": 0.00000990445005523662,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.62
+      },
+      "passed": true,
+      "activeVolume": 0.000009904456327919637,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.64
+      },
+      "passed": true,
+      "activeVolume": 0.000009904468368732953,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.66
+      },
+      "passed": true,
+      "activeVolume": 0.000009904483399107515,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.68
+      },
+      "passed": true,
+      "activeVolume": 0.000009904482164416624,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.7
+      },
+      "passed": true,
+      "activeVolume": 0.000009904506035913246,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.72
+      },
+      "passed": true,
+      "activeVolume": 0.000009904508050156453,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.74
+      },
+      "passed": true,
+      "activeVolume": 0.000009904519995391795,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.76
+      },
+      "passed": true,
+      "activeVolume": 0.000009904536362529163,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.78
+      },
+      "passed": true,
+      "activeVolume": 0.000009904549312429738,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.8
+      },
+      "passed": true,
+      "activeVolume": 0.000009904575813853582,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.82
+      },
+      "passed": true,
+      "activeVolume": 0.000009904581846140901,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.84
+      },
+      "passed": true,
+      "activeVolume": 0.000009904594184296614,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.86
+      },
+      "passed": true,
+      "activeVolume": 0.000009904607184559403,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.88
+      },
+      "passed": true,
+      "activeVolume": 0.000009904611097387005,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.9
+      },
+      "passed": true,
+      "activeVolume": 0.000009904623954050315,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.92
+      },
+      "passed": true,
+      "activeVolume": 0.000009904629216676677,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.94
+      },
+      "passed": true,
+      "activeVolume": 0.000009904636920836578,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.96
+      },
+      "passed": true,
+      "activeVolume": 0.000009904655796098978,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 0.98
+      },
+      "passed": true,
+      "activeVolume": 0.000009904636896881726,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 1,
+        "turn": 1
+      },
+      "passed": true,
+      "activeVolume": 0.00000990463478603818,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904646167590367,
+      "changedGeometriesAudited": 50,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.02
+      },
+      "passed": true,
+      "activeVolume": 0.000009904643771063097,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.04
+      },
+      "passed": true,
+      "activeVolume": 0.000009904652793217648,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.06
+      },
+      "passed": true,
+      "activeVolume": 0.000009904644322573726,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.08
+      },
+      "passed": true,
+      "activeVolume": 0.000009904637838583742,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.1
+      },
+      "passed": true,
+      "activeVolume": 0.00000990462584056534,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.12
+      },
+      "passed": true,
+      "activeVolume": 0.000009904624432425502,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.14
+      },
+      "passed": true,
+      "activeVolume": 0.000009904618846129193,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.16
+      },
+      "passed": true,
+      "activeVolume": 0.000009904605334548538,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.18
+      },
+      "passed": true,
+      "activeVolume": 0.000009904586738828466,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.2
+      },
+      "passed": true,
+      "activeVolume": 0.0000099045729793564,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.22
+      },
+      "passed": true,
+      "activeVolume": 0.000009904575099534989,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.24
+      },
+      "passed": true,
+      "activeVolume": 0.000009904560956283132,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.26
+      },
+      "passed": true,
+      "activeVolume": 0.000009904543944267838,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.28
+      },
+      "passed": true,
+      "activeVolume": 0.000009904529356681052,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.3
+      },
+      "passed": true,
+      "activeVolume": 0.000009904518736674226,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.32
+      },
+      "passed": true,
+      "activeVolume": 0.000009904508762199333,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.34
+      },
+      "passed": true,
+      "activeVolume": 0.000009904495313216227,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.36
+      },
+      "passed": true,
+      "activeVolume": 0.000009904482291581777,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.38
+      },
+      "passed": true,
+      "activeVolume": 0.000009904479429993302,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.4
+      },
+      "passed": true,
+      "activeVolume": 0.000009904462721247383,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.42
+      },
+      "passed": true,
+      "activeVolume": 0.000009904463569361458,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.44
+      },
+      "passed": true,
+      "activeVolume": 0.000009904458718938797,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.46
+      },
+      "passed": true,
+      "activeVolume": 0.000009904452322612746,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.48
+      },
+      "passed": true,
+      "activeVolume": 0.000009904451425273487,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.5
+      },
+      "passed": true,
+      "activeVolume": 0.000009904417660056019,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.52
+      },
+      "passed": true,
+      "activeVolume": 0.000009904439243440904,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.54
+      },
+      "passed": true,
+      "activeVolume": 0.000009904417625617885,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.56
+      },
+      "passed": true,
+      "activeVolume": 0.000009904435593732964,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.58
+      },
+      "passed": true,
+      "activeVolume": 0.000009904445469770452,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.6
+      },
+      "passed": true,
+      "activeVolume": 0.000009904446060320395,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.62
+      },
+      "passed": true,
+      "activeVolume": 0.000009904451872391962,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.64
+      },
+      "passed": true,
+      "activeVolume": 0.000009904488623317596,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.66
+      },
+      "passed": true,
+      "activeVolume": 0.000009904476573493903,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.68
+      },
+      "passed": true,
+      "activeVolume": 0.000009904492802845476,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.7
+      },
+      "passed": true,
+      "activeVolume": 0.00000990448859775218,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.72
+      },
+      "passed": true,
+      "activeVolume": 0.000009904498888893596,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.74
+      },
+      "passed": true,
+      "activeVolume": 0.000009904536421697789,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.76
+      },
+      "passed": true,
+      "activeVolume": 0.000009904547790165478,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.78
+      },
+      "passed": true,
+      "activeVolume": 0.000009904555835953792,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.8
+      },
+      "passed": true,
+      "activeVolume": 0.000009904561797247637,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.82
+      },
+      "passed": true,
+      "activeVolume": 0.000009904585915610794,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.84
+      },
+      "passed": true,
+      "activeVolume": 0.000009904593393679747,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.86
+      },
+      "passed": true,
+      "activeVolume": 0.000009904614678841987,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.88
+      },
+      "passed": true,
+      "activeVolume": 0.000009904618811057434,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.9
+      },
+      "passed": true,
+      "activeVolume": 0.000009904599805660801,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.92
+      },
+      "passed": true,
+      "activeVolume": 0.000009904625530514634,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.94
+      },
+      "passed": true,
+      "activeVolume": 0.000009904648037821564,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.96
+      },
+      "passed": true,
+      "activeVolume": 0.00000990463426785673,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 0.98
+      },
+      "passed": true,
+      "activeVolume": 0.000009904671080939618,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 1,
+        "turn": 1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904652511651603,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.00000990464636089514,
+      "changedGeometriesAudited": 50,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.02
+      },
+      "passed": true,
+      "activeVolume": 0.000009904653309830934,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.04
+      },
+      "passed": true,
+      "activeVolume": 0.000009904643773290372,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.06
+      },
+      "passed": true,
+      "activeVolume": 0.000009904648601503088,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.08
+      },
+      "passed": true,
+      "activeVolume": 0.000009904615105610227,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.1
+      },
+      "passed": true,
+      "activeVolume": 0.00000990463247614949,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.12
+      },
+      "passed": true,
+      "activeVolume": 0.000009904629632680199,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.14
+      },
+      "passed": true,
+      "activeVolume": 0.00000990461435685738,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.16
+      },
+      "passed": true,
+      "activeVolume": 0.000009904599060606578,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.18
+      },
+      "passed": true,
+      "activeVolume": 0.000009904578703349933,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.2
+      },
+      "passed": true,
+      "activeVolume": 0.000009904578566949135,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.22
+      },
+      "passed": true,
+      "activeVolume": 0.000009904577198116789,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.24
+      },
+      "passed": true,
+      "activeVolume": 0.000009904556053979952,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.26
+      },
+      "passed": true,
+      "activeVolume": 0.000009904544669184394,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.28
+      },
+      "passed": true,
+      "activeVolume": 0.000009904528704155733,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.3
+      },
+      "passed": true,
+      "activeVolume": 0.000009904508899445081,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.32
+      },
+      "passed": true,
+      "activeVolume": 0.000009904501458030707,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.34
+      },
+      "passed": true,
+      "activeVolume": 0.000009904486894816713,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.36
+      },
+      "passed": true,
+      "activeVolume": 0.000009904483008981405,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.38
+      },
+      "passed": true,
+      "activeVolume": 0.000009904472833247808,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.4
+      },
+      "passed": true,
+      "activeVolume": 0.000009904468461081472,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.42
+      },
+      "passed": true,
+      "activeVolume": 0.000009904457832899488,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.44
+      },
+      "passed": true,
+      "activeVolume": 0.00000990445487348689,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.46
+      },
+      "passed": true,
+      "activeVolume": 0.000009904447485552131,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.48
+      },
+      "passed": true,
+      "activeVolume": 0.000009904450481507595,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.5
+      },
+      "passed": true,
+      "activeVolume": 0.000009904427575151424,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.52
+      },
+      "passed": true,
+      "activeVolume": 0.000009904435246663294,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.54
+      },
+      "passed": true,
+      "activeVolume": 0.000009904428354071755,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.56
+      },
+      "passed": true,
+      "activeVolume": 0.00000990443227996522,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.58
+      },
+      "passed": true,
+      "activeVolume": 0.000009904438815320263,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.6
+      },
+      "passed": true,
+      "activeVolume": 0.000009904450219317274,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.62
+      },
+      "passed": true,
+      "activeVolume": 0.000009904448748514468,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.64
+      },
+      "passed": true,
+      "activeVolume": 0.000009904462184803847,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.66
+      },
+      "passed": true,
+      "activeVolume": 0.000009904476933080974,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.68
+      },
+      "passed": true,
+      "activeVolume": 0.000009904498884815634,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.7
+      },
+      "passed": true,
+      "activeVolume": 0.000009904503909901015,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.72
+      },
+      "passed": true,
+      "activeVolume": 0.00000990450500783097,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.74
+      },
+      "passed": true,
+      "activeVolume": 0.000009904530594883153,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.76
+      },
+      "passed": true,
+      "activeVolume": 0.000009904540961317547,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.78
+      },
+      "passed": true,
+      "activeVolume": 0.000009904557101464704,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.8
+      },
+      "passed": true,
+      "activeVolume": 0.000009904582229362862,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.82
+      },
+      "passed": true,
+      "activeVolume": 0.00000990457934311789,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.84
+      },
+      "passed": true,
+      "activeVolume": 0.000009904588484840426,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.86
+      },
+      "passed": true,
+      "activeVolume": 0.00000990460908453867,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.88
+      },
+      "passed": true,
+      "activeVolume": 0.000009904619223335898,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.9
+      },
+      "passed": true,
+      "activeVolume": 0.000009904614811706742,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.92
+      },
+      "passed": true,
+      "activeVolume": 0.000009904626016988145,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.94
+      },
+      "passed": true,
+      "activeVolume": 0.000009904635517535529,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.96
+      },
+      "passed": true,
+      "activeVolume": 0.000009904633885328506,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0.98
+      },
+      "passed": true,
+      "activeVolume": 0.000009904648761828895,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904650837049292,
+      "changedGeometriesAudited": 45,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904644271990359,
+      "changedGeometriesAudited": 50,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.02
+      },
+      "passed": true,
+      "activeVolume": 0.000009904636944085559,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.04
+      },
+      "passed": true,
+      "activeVolume": 0.000009904644697468274,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.06
+      },
+      "passed": true,
+      "activeVolume": 0.000009904648703735628,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.08
+      },
+      "passed": true,
+      "activeVolume": 0.00000990463475146105,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904630456776902,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.12
+      },
+      "passed": true,
+      "activeVolume": 0.000009904622029428376,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.14
+      },
+      "passed": true,
+      "activeVolume": 0.000009904622520510288,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.16
+      },
+      "passed": true,
+      "activeVolume": 0.000009904611911272136,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.18
+      },
+      "passed": true,
+      "activeVolume": 0.000009904592375581198,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.2
+      },
+      "passed": true,
+      "activeVolume": 0.000009904576115526454,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.22
+      },
+      "passed": true,
+      "activeVolume": 0.000009904559558152238,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.24
+      },
+      "passed": true,
+      "activeVolume": 0.000009904559330020761,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.26
+      },
+      "passed": true,
+      "activeVolume": 0.000009904547870796906,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.28
+      },
+      "passed": true,
+      "activeVolume": 0.000009904527579704247,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.3
+      },
+      "passed": true,
+      "activeVolume": 0.000009904518919827329,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.32
+      },
+      "passed": true,
+      "activeVolume": 0.000009904509262688904,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.34
+      },
+      "passed": true,
+      "activeVolume": 0.00000990449648608672,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.36
+      },
+      "passed": true,
+      "activeVolume": 0.000009904482698043933,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.38
+      },
+      "passed": true,
+      "activeVolume": 0.00000990448067044348,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.4
+      },
+      "passed": true,
+      "activeVolume": 0.000009904468138543478,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.42
+      },
+      "passed": true,
+      "activeVolume": 0.000009904457359710407,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.44
+      },
+      "passed": true,
+      "activeVolume": 0.000009904462320484588,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.46
+      },
+      "passed": true,
+      "activeVolume": 0.000009904457221499047,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.48
+      },
+      "passed": true,
+      "activeVolume": 0.000009904445327515124,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.5
+      },
+      "passed": true,
+      "activeVolume": 0.000009904422136953015,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.52
+      },
+      "passed": true,
+      "activeVolume": 0.000009904430924062259,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.54
+      },
+      "passed": true,
+      "activeVolume": 0.000009904416224083307,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.56
+      },
+      "passed": true,
+      "activeVolume": 0.000009904434636302723,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.58
+      },
+      "passed": true,
+      "activeVolume": 0.000009904440581094969,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.6
+      },
+      "passed": true,
+      "activeVolume": 0.000009904431078164642,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.62
+      },
+      "passed": true,
+      "activeVolume": 0.000009904453400760692,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.64
+      },
+      "passed": true,
+      "activeVolume": 0.000009904473139962571,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.66
+      },
+      "passed": true,
+      "activeVolume": 0.000009904484644400824,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.68
+      },
+      "passed": true,
+      "activeVolume": 0.00000990447424339573,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.7
+      },
+      "passed": true,
+      "activeVolume": 0.000009904503694026631,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.72
+      },
+      "passed": true,
+      "activeVolume": 0.000009904519623808315,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.74
+      },
+      "passed": true,
+      "activeVolume": 0.000009904527651136807,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.76
+      },
+      "passed": true,
+      "activeVolume": 0.000009904543320196076,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.78
+      },
+      "passed": true,
+      "activeVolume": 0.000009904550457955083,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.8
+      },
+      "passed": true,
+      "activeVolume": 0.000009904556746891936,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.82
+      },
+      "passed": true,
+      "activeVolume": 0.000009904582389503079,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.84
+      },
+      "passed": true,
+      "activeVolume": 0.000009904599473318839,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.86
+      },
+      "passed": true,
+      "activeVolume": 0.000009904592891370092,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.88
+      },
+      "passed": true,
+      "activeVolume": 0.000009904624492722852,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.9
+      },
+      "passed": true,
+      "activeVolume": 0.000009904609227180523,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.92
+      },
+      "passed": true,
+      "activeVolume": 0.000009904638768020139,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.94
+      },
+      "passed": true,
+      "activeVolume": 0.000009904646671793522,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.96
+      },
+      "passed": true,
+      "activeVolume": 0.000009904639238713478,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0.98
+      },
+      "passed": true,
+      "activeVolume": 0.000009904650095763505,
+      "changedGeometriesAudited": 46,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904651992262155,
+      "changedGeometriesAudited": 45,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904652816880752,
+      "changedGeometriesAudited": 49,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.02
+      },
+      "passed": true,
+      "activeVolume": 0.000009904644723945427,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.04
+      },
+      "passed": true,
+      "activeVolume": 0.00000990465865778623,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.06
+      },
+      "passed": true,
+      "activeVolume": 0.000009904648966146398,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.08
+      },
+      "passed": true,
+      "activeVolume": 0.00000990464191331708,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904641540215349,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.12
+      },
+      "passed": true,
+      "activeVolume": 0.000009904613216625287,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.14
+      },
+      "passed": true,
+      "activeVolume": 0.00000990459610227019,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.16
+      },
+      "passed": true,
+      "activeVolume": 0.000009904606288065229,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.18
+      },
+      "passed": true,
+      "activeVolume": 0.000009904587887129642,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.2
+      },
+      "passed": true,
+      "activeVolume": 0.00000990457424651746,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.22
+      },
+      "passed": true,
+      "activeVolume": 0.000009904574516260914,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.24
+      },
+      "passed": true,
+      "activeVolume": 0.000009904560597718368,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.26
+      },
+      "passed": true,
+      "activeVolume": 0.000009904546928963233,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.28
+      },
+      "passed": true,
+      "activeVolume": 0.000009904520208655978,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.3
+      },
+      "passed": true,
+      "activeVolume": 0.000009904521470109382,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.32
+      },
+      "passed": true,
+      "activeVolume": 0.00000990449289436154,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.34
+      },
+      "passed": true,
+      "activeVolume": 0.000009904496637548315,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.36
+      },
+      "passed": true,
+      "activeVolume": 0.000009904485632317104,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.38
+      },
+      "passed": true,
+      "activeVolume": 0.000009904470448775809,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.4
+      },
+      "passed": true,
+      "activeVolume": 0.000009904472523766263,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.42
+      },
+      "passed": true,
+      "activeVolume": 0.00000990446342900863,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.44
+      },
+      "passed": true,
+      "activeVolume": 0.00000990445382778575,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.46
+      },
+      "passed": true,
+      "activeVolume": 0.000009904451930096168,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.48
+      },
+      "passed": true,
+      "activeVolume": 0.000009904447208890183,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.5
+      },
+      "passed": true,
+      "activeVolume": 0.000009904428833052055,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.52
+      },
+      "passed": true,
+      "activeVolume": 0.000009904430325775846,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.54
+      },
+      "passed": true,
+      "activeVolume": 0.000009904432042935438,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.56
+      },
+      "passed": true,
+      "activeVolume": 0.000009904433896119594,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.58
+      },
+      "passed": true,
+      "activeVolume": 0.0000099044278563507,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.6
+      },
+      "passed": true,
+      "activeVolume": 0.000009904455044685704,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.62
+      },
+      "passed": true,
+      "activeVolume": 0.000009904444662393788,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.64
+      },
+      "passed": true,
+      "activeVolume": 0.000009904466818938952,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.66
+      },
+      "passed": true,
+      "activeVolume": 0.000009904482134511757,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.68
+      },
+      "passed": true,
+      "activeVolume": 0.000009904497283195974,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.7
+      },
+      "passed": true,
+      "activeVolume": 0.000009904518274461542,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.72
+      },
+      "passed": true,
+      "activeVolume": 0.000009904511801481917,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.74
+      },
+      "passed": true,
+      "activeVolume": 0.000009904533934005386,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.76
+      },
+      "passed": true,
+      "activeVolume": 0.000009904539800267118,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.78
+      },
+      "passed": true,
+      "activeVolume": 0.000009904556904888946,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.8
+      },
+      "passed": true,
+      "activeVolume": 0.000009904575619540779,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.82
+      },
+      "passed": true,
+      "activeVolume": 0.00000990458889169399,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.84
+      },
+      "passed": true,
+      "activeVolume": 0.000009904590272603228,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.86
+      },
+      "passed": true,
+      "activeVolume": 0.000009904617310231417,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.88
+      },
+      "passed": true,
+      "activeVolume": 0.000009904601875174624,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.9
+      },
+      "passed": true,
+      "activeVolume": 0.000009904610016142096,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.92
+      },
+      "passed": true,
+      "activeVolume": 0.000009904622075188413,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.94
+      },
+      "passed": true,
+      "activeVolume": 0.000009904648850941948,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.96
+      },
+      "passed": true,
+      "activeVolume": 0.000009904634936297348,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 0.98
+      },
+      "passed": true,
+      "activeVolume": 0.000009904648227257655,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 238,
+        "turn": 1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904646420311637,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0
+      },
+      "passed": true,
+      "activeVolume": 0.000009904651852912822,
+      "changedGeometriesAudited": 49,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.02
+      },
+      "passed": true,
+      "activeVolume": 0.000009904640619547068,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.04
+      },
+      "passed": true,
+      "activeVolume": 0.0000099046551061804,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.06
+      },
+      "passed": true,
+      "activeVolume": 0.000009904644693034357,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.08
+      },
+      "passed": true,
+      "activeVolume": 0.000009904620704238061,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.1
+      },
+      "passed": true,
+      "activeVolume": 0.00000990462880162426,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.12
+      },
+      "passed": true,
+      "activeVolume": 0.000009904637022257508,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.14
+      },
+      "passed": true,
+      "activeVolume": 0.000009904632631541356,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.16
+      },
+      "passed": true,
+      "activeVolume": 0.000009904606734777824,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.18
+      },
+      "passed": true,
+      "activeVolume": 0.000009904594910956766,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.2
+      },
+      "passed": true,
+      "activeVolume": 0.000009904572068483522,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.22
+      },
+      "passed": true,
+      "activeVolume": 0.000009904565991792083,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.24
+      },
+      "passed": true,
+      "activeVolume": 0.000009904570499921767,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.26
+      },
+      "passed": true,
+      "activeVolume": 0.000009904552362716246,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.28
+      },
+      "passed": true,
+      "activeVolume": 0.0000099045294967525,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.3
+      },
+      "passed": true,
+      "activeVolume": 0.000009904521775572195,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.32
+      },
+      "passed": true,
+      "activeVolume": 0.000009904508798496531,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.34
+      },
+      "passed": true,
+      "activeVolume": 0.000009904496093762785,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.36
+      },
+      "passed": true,
+      "activeVolume": 0.000009904486901189837,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.38
+      },
+      "passed": true,
+      "activeVolume": 0.000009904477456590539,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.4
+      },
+      "passed": true,
+      "activeVolume": 0.000009904469209748736,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.42
+      },
+      "passed": true,
+      "activeVolume": 0.000009904457797842131,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.44
+      },
+      "passed": true,
+      "activeVolume": 0.000009904457421400118,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.46
+      },
+      "passed": true,
+      "activeVolume": 0.000009904458398735078,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.48
+      },
+      "passed": true,
+      "activeVolume": 0.000009904445522185406,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.5
+      },
+      "passed": true,
+      "activeVolume": 0.000009904418541742616,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.52
+      },
+      "passed": true,
+      "activeVolume": 0.000009904435256380233,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.54
+      },
+      "passed": true,
+      "activeVolume": 0.00000990443672183067,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.56
+      },
+      "passed": true,
+      "activeVolume": 0.00000990444553181326,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.58
+      },
+      "passed": true,
+      "activeVolume": 0.000009904437818938676,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.6
+      },
+      "passed": true,
+      "activeVolume": 0.00000990445818580237,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.62
+      },
+      "passed": true,
+      "activeVolume": 0.000009904446547397336,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.64
+      },
+      "passed": true,
+      "activeVolume": 0.000009904463765430191,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.66
+      },
+      "passed": true,
+      "activeVolume": 0.00000990448438075198,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.68
+      },
+      "passed": true,
+      "activeVolume": 0.000009904489607706322,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.7
+      },
+      "passed": true,
+      "activeVolume": 0.000009904502773233864,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.72
+      },
+      "passed": true,
+      "activeVolume": 0.000009904529102697104,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.74
+      },
+      "passed": true,
+      "activeVolume": 0.000009904521310612353,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.76
+      },
+      "passed": true,
+      "activeVolume": 0.00000990455594325647,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.78
+      },
+      "passed": true,
+      "activeVolume": 0.00000990454660703933,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.8
+      },
+      "passed": true,
+      "activeVolume": 0.000009904564089555021,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.82
+      },
+      "passed": true,
+      "activeVolume": 0.000009904579455230216,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.84
+      },
+      "passed": true,
+      "activeVolume": 0.000009904602902214981,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.86
+      },
+      "passed": true,
+      "activeVolume": 0.000009904593587380919,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.88
+      },
+      "passed": true,
+      "activeVolume": 0.000009904613095392389,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.9
+      },
+      "passed": true,
+      "activeVolume": 0.000009904600858903447,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.92
+      },
+      "passed": true,
+      "activeVolume": 0.000009904621362136417,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.94
+      },
+      "passed": true,
+      "activeVolume": 0.000009904659085176339,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.96
+      },
+      "passed": true,
+      "activeVolume": 0.000009904639843592596,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 0.98
+      },
+      "passed": true,
+      "activeVolume": 0.000009904645876710727,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 238,
+        "turn": 1
+      },
+      "passed": true,
+      "activeVolume": 0.000009904653385590936,
+      "changedGeometriesAudited": 47,
+      "invalidSolids": []
+    }
+  ],
+  "details": [
+    {
+      "pose": {
+        "opening": 0,
+        "leaf": 120,
+        "turn": 0
+      },
+      "covers": {
+        "passed": true,
+        "measurements": [
+          {
+            "id": "leaf.000",
+            "board": "rear",
+            "clearanceMm": 0.5840000020209697
+          },
+          {
+            "id": "rear.flyleaf.0",
+            "board": "rear",
+            "clearanceMm": 0.39600075960158526
+          },
+          {
+            "id": "rear.flyleaf.1",
+            "board": "rear",
+            "clearanceMm": 0.2080002593994063
+          },
+          {
+            "id": "leaf.239",
+            "board": "front",
+            "clearanceMm": 0.5840000020209697
+          },
+          {
+            "id": "front.flyleaf.0",
+            "board": "front",
+            "clearanceMm": 0.3959986209869388
+          },
+          {
+            "id": "front.flyleaf.1",
+            "board": "front",
+            "clearanceMm": 0.20799812078475982
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "pose": {
+        "opening": 15,
+        "leaf": 120,
+        "turn": 0
+      },
+      "covers": {
+        "passed": true,
+        "measurements": [
+          {
+            "id": "leaf.000",
+            "board": "rear",
+            "clearanceMm": 0.5840006641330987
+          },
+          {
+            "id": "rear.flyleaf.0",
+            "board": "rear",
+            "clearanceMm": 0.3959994064216838
+          },
+          {
+            "id": "rear.flyleaf.1",
+            "board": "rear",
+            "clearanceMm": 0.2079969359561496
+          },
+          {
+            "id": "leaf.239",
+            "board": "front",
+            "clearanceMm": 0.5840006641330987
+          },
+          {
+            "id": "front.flyleaf.0",
+            "board": "front",
+            "clearanceMm": 0.3959921650124338
+          },
+          {
+            "id": "front.flyleaf.1",
+            "board": "front",
+            "clearanceMm": 0.20799340096383684
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "pose": {
+        "opening": 30,
+        "leaf": 120,
+        "turn": 0
+      },
+      "covers": {
+        "passed": true,
+        "measurements": [
+          {
+            "id": "leaf.000",
+            "board": "rear",
+            "clearanceMm": 0.5840026504695413
+          },
+          {
+            "id": "rear.flyleaf.0",
+            "board": "rear",
+            "clearanceMm": 0.3959965559982726
+          },
+          {
+            "id": "rear.flyleaf.1",
+            "board": "rear",
+            "clearanceMm": 0.20799653836376003
+          },
+          {
+            "id": "leaf.239",
+            "board": "front",
+            "clearanceMm": 0.5840026504695413
+          },
+          {
+            "id": "front.flyleaf.0",
+            "board": "front",
+            "clearanceMm": 0.3959926782683854
+          },
+          {
+            "id": "front.flyleaf.1",
+            "board": "front",
+            "clearanceMm": 0.20799331893145595
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "pose": {
+        "opening": 60,
+        "leaf": 120,
+        "turn": 0
+      },
+      "covers": {
+        "passed": true,
+        "measurements": [
+          {
+            "id": "leaf.000",
+            "board": "rear",
+            "clearanceMm": 0.5840106321950579
+          },
+          {
+            "id": "rear.flyleaf.0",
+            "board": "rear",
+            "clearanceMm": 0.39599623069958184
+          },
+          {
+            "id": "rear.flyleaf.1",
+            "board": "rear",
+            "clearanceMm": 0.2079958915312003
+          },
+          {
+            "id": "leaf.239",
+            "board": "front",
+            "clearanceMm": 0.584010632195044
+          },
+          {
+            "id": "front.flyleaf.0",
+            "board": "front",
+            "clearanceMm": 0.3959963534813874
+          },
+          {
+            "id": "front.flyleaf.1",
+            "board": "front",
+            "clearanceMm": 0.2079968578819983
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "pose": {
+        "opening": 90,
+        "leaf": 120,
+        "turn": 0
+      },
+      "covers": {
+        "passed": true,
+        "measurements": [
+          {
+            "id": "leaf.000",
+            "board": "rear",
+            "clearanceMm": 0.5840239981291813
+          },
+          {
+            "id": "rear.flyleaf.0",
+            "board": "rear",
+            "clearanceMm": 0.3959960436401861
+          },
+          {
+            "id": "rear.flyleaf.1",
+            "board": "rear",
+            "clearanceMm": 0.20799661686342513
+          },
+          {
+            "id": "leaf.239",
+            "board": "front",
+            "clearanceMm": 0.5840239981291795
+          },
+          {
+            "id": "front.flyleaf.0",
+            "board": "front",
+            "clearanceMm": 0.39599416394686326
+          },
+          {
+            "id": "front.flyleaf.1",
+            "board": "front",
+            "clearanceMm": 0.20799387137827516
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "pose": {
+        "opening": 110,
+        "leaf": 120,
+        "turn": 0
+      },
+      "covers": {
+        "passed": true,
+        "measurements": [
+          {
+            "id": "leaf.000",
+            "board": "rear",
+            "clearanceMm": 0.5840359525275344
+          },
+          {
+            "id": "rear.flyleaf.0",
+            "board": "rear",
+            "clearanceMm": 0.39599157087370945
+          },
+          {
+            "id": "rear.flyleaf.1",
+            "board": "rear",
+            "clearanceMm": 0.20799068211389998
+          },
+          {
+            "id": "leaf.239",
+            "board": "front",
+            "clearanceMm": 0.5840359525275344
+          },
+          {
+            "id": "front.flyleaf.0",
+            "board": "front",
+            "clearanceMm": 0.39599527898162046
+          },
+          {
+            "id": "front.flyleaf.1",
+            "board": "front",
+            "clearanceMm": 0.20799056108283287
+          }
+        ],
+        "failures": []
+      }
+    },
+    {
+      "pose": {
+        "opening": 130,
+        "leaf": 120,
+        "turn": 0
+      },
+      "covers": {
+        "passed": true,
+        "measurements": [
+          {
+            "id": "leaf.000",
+            "board": "rear",
+            "clearanceMm": 0.5840503880274409
+          },
+          {
+            "id": "rear.flyleaf.0",
+            "board": "rear",
+            "clearanceMm": 0.3959927110063644
+          },
+          {
+            "id": "rear.flyleaf.1",
+            "board": "rear",
+            "clearanceMm": 0.2079933939879725
+          },
+          {
+            "id": "leaf.239",
+            "board": "front",
+            "clearanceMm": 0.5840503880274479
+          },
+          {
+            "id": "front.flyleaf.0",
+            "board": "front",
+            "clearanceMm": 0.39599271100637135
+          },
+          {
+            "id": "front.flyleaf.1",
+            "board": "front",
+            "clearanceMm": 0.20799339398797945
+          }
+        ],
+        "failures": []
+      }
+    }
+  ],
+  "failures": [],
+  "coverage": "Independent actual-mesh cross-section SAT witnesses at five longitudinal positions: all adjacent leaves at seven opening angles; active leaf against every other writing leaf at 2% turn intervals, with endpoint refinement. Board-plane and floor witnesses are separate. This is sampled coverage, not continuous collision proof.",
+  "exclusions": "Render-only paper proxies intentionally replace the same volume at distance. Concealed adhesive, all decorative/sewing contacts, through-board lacing passages, and complete 3D self-intersection/containment are not certified by these witnesses."
+}

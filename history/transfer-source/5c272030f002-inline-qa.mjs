@@ -1,0 +1,10 @@
+import {resourceURL} from '../../../../shared/Part_2-Connectors/resources.mjs';
+import {chromium} from '@playwright/test';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--enable-webgl','--ignore-gpu-blocklist']}),page=await browser.newPage({viewport:{width:736,height:760}}),errors=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error'){errors.push(m.text());console.log(m.text().slice(0,250));}});
+await page.goto('http://127.0.0.1:4194/inline-test.html');const frame=page.frames().find(f=>f.parentFrame());await frame.waitForFunction(()=>document.getElementById('wizard-grimoire-inline')?.grimoire,{timeout:120000});
+await frame.locator('[data-pose="open"]').click();await frame.locator('[data-turn]').fill('0.5');await frame.locator('[data-turn]').dispatchEvent('input');const half=await frame.evaluate(()=>document.getElementById('wizard-grimoire-inline').grimoire.book.pose.turn===.5);await frame.locator('[data-clay]').check();const clay=await frame.evaluate(()=>(()=>{const b=document.getElementById('wizard-grimoire-inline').grimoire.book;return b.leaves[104].material.every(m=>m===b.materials.clay);})());
+await frame.locator('[data-pose="closed"]').click();await frame.locator('[data-clay]').uncheck();await page.screenshot({path:resourceURL('screenshots/inline.png',import.meta.url).pathname.replace(/^\/(\w:)/,'$1')});
+const widths=[];for(const width of [736,320]){await page.setViewportSize({width,height:760});widths.push({width,passed:await frame.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)});}
+const result={generated:new Date().toISOString(),passed:half&&clay&&!errors.length&&widths.every(v=>v.passed),half,clay,widths,errors};await fs.writeFile(resourceURL('inline-results.json',import.meta.url),JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));await browser.close();if(!result.passed)process.exitCode=1;

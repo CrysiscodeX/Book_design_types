@@ -1,0 +1,301 @@
+{
+  "rows": [
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.01,
+      "worst": "repair.stitch.11",
+      "maxErrorMm": 0.00001668601563868012
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.13,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00006335732099300232
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.37,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00006335732099300232
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.49,
+      "worst": "repair.stitch.10",
+      "maxErrorMm": 0.00001668601563868012
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.63,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.0002133602902523883
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.87,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.000596119202889698
+    },
+    {
+      "opening": 110,
+      "leaf": 1,
+      "turn": 0.99,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.0002566127493872423
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.01,
+      "worst": "repair.stitch.10",
+      "maxErrorMm": 0.000018995327925655187
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.13,
+      "worst": "repair.lower-spine-patch",
+      "maxErrorMm": 0.00009739781993648096
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.37,
+      "worst": "binding.tailcap",
+      "maxErrorMm": 0.00009767016553088748
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.49,
+      "worst": "repair.stitch.9",
+      "maxErrorMm": 0.00001883483344331075
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.63,
+      "worst": "repair.lower-spine-patch",
+      "maxErrorMm": 0.00009779441376425668
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.87,
+      "worst": "binding.tailcap",
+      "maxErrorMm": 0.00009900094766853981
+    },
+    {
+      "opening": 110,
+      "leaf": 120,
+      "turn": 0.99,
+      "worst": "repair.stitch.10",
+      "maxErrorMm": 0.000018995327925655187
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.01,
+      "worst": "repair.stitch.5",
+      "maxErrorMm": 0.000017725738054769373
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.13,
+      "worst": "repair.stitch.5",
+      "maxErrorMm": 0.00006190493517375867
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.37,
+      "worst": "repair.stitch.5",
+      "maxErrorMm": 0.00006190493517375867
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.49,
+      "worst": "repair.stitch.5",
+      "maxErrorMm": 0.000017725738054769373
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.63,
+      "worst": "repair.stitch.6",
+      "maxErrorMm": 0.00006234298635713592
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.87,
+      "worst": "repair.stitch.5",
+      "maxErrorMm": 0.00006234298635713592
+    },
+    {
+      "opening": 110,
+      "leaf": 238,
+      "turn": 0.99,
+      "worst": "repair.stitch.4",
+      "maxErrorMm": 0.000017725738054769373
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.01,
+      "worst": "repair.stitch.8",
+      "maxErrorMm": 0.000016873395938420145
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.13,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00007180853384063107
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.37,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00007163469049541495
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.49,
+      "worst": "repair.stitch.7",
+      "maxErrorMm": 0.000017071424778386354
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.63,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.0007134155845784625
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.87,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.0008020412454242734
+    },
+    {
+      "opening": 130,
+      "leaf": 1,
+      "turn": 0.99,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00006376669842237119
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.01,
+      "worst": "repair.stitch.9",
+      "maxErrorMm": 0.00003345720450041604
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.13,
+      "worst": "binding.tailcap",
+      "maxErrorMm": 0.00027214571530431107
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.37,
+      "worst": "binding.tailcap",
+      "maxErrorMm": 0.00027198556040308974
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.49,
+      "worst": "repair.stitch.9",
+      "maxErrorMm": 0.00003350254168067877
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.63,
+      "worst": "binding.tailcap",
+      "maxErrorMm": 0.0002721817501238
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.87,
+      "worst": "binding.tailcap",
+      "maxErrorMm": 0.00026954250142102184
+    },
+    {
+      "opening": 130,
+      "leaf": 120,
+      "turn": 0.99,
+      "worst": "repair.stitch.9",
+      "maxErrorMm": 0.000033582541592610614
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.01,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00006376669842237119
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.13,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.0008018833392297329
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.37,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.0007130945444481898
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.49,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00005494803190231323
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.63,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00007210423335429838
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.87,
+      "worst": "binding.cord.0",
+      "maxErrorMm": 0.00007186626245297979
+    },
+    {
+      "opening": 130,
+      "leaf": 238,
+      "turn": 0.99,
+      "worst": "repair.stitch.4",
+      "maxErrorMm": 0.000018065017407080925
+    }
+  ],
+  "maxErrorMm": 0.0008020412454242734,
+  "toleranceMm": 0.005,
+  "passed": true
+}

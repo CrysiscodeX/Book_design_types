@@ -1,0 +1,1402 @@
+[
+  {
+    "project": "wizard-grimoire",
+    "files": [
+      {
+        "path": "wizard-grimoire/audit.mjs",
+        "bytes": 1521,
+        "sha256": "59fbfdf6ec49bdac1a7559bdb03d2f18d591ec04b0b20886fbda2705e463d2dd"
+      },
+      {
+        "path": "wizard-grimoire/benchmark.mjs",
+        "bytes": 883,
+        "sha256": "3cbe673753eab97486dc00e362dc10130170fe9d1c0fcc3402b3a183553f2bc6"
+      },
+      {
+        "path": "wizard-grimoire/book.mjs",
+        "bytes": 29075,
+        "sha256": "c6fe896808f233ce9ab60e3f485f8aa470ab577793b21d4eb97e866598e07457"
+      },
+      {
+        "path": "wizard-grimoire/browser-qa.mjs",
+        "bytes": 11764,
+        "sha256": "aee4194c343acfa2d9c8a66de64b305982e5696bdfd23c322e609b2bb2a953d6"
+      },
+      {
+        "path": "wizard-grimoire/browser-results.json",
+        "bytes": 4235,
+        "sha256": "ac1509a021eb1d7a4bd7444323c070788dd532a203270f0bb228e8ac8a168d00"
+      },
+      {
+        "path": "wizard-grimoire/build-inline.mjs",
+        "bytes": 2464,
+        "sha256": "6261e2cc8793ca222213a70e53ce3b32f6c5ea30fe869e738ca7bdb4d63b5329"
+      },
+      {
+        "path": "wizard-grimoire/capture-errors.json",
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "wizard-grimoire/capture.mjs",
+        "bytes": 4236,
+        "sha256": "b2ebc5dfe17bcc6cc197da65e742d17c66b9d83fca2fb2051c8e28fe8fdbfc67"
+      },
+      {
+        "path": "wizard-grimoire/checks.mjs",
+        "bytes": 755,
+        "sha256": "4a73a98550d41663ba4f80c03a146bfeb63566b0c5feb5cdb399540d28cf53a4"
+      },
+      {
+        "path": "wizard-grimoire/component-spec.json",
+        "bytes": 909192,
+        "sha256": "c6b9fdde0a3b3b6b20aae918d392adcdb1a2dce705c7a3a53a2fe6be688e0d98"
+      },
+      {
+        "path": "wizard-grimoire/content.mjs",
+        "bytes": 10460,
+        "sha256": "f537a87fccc9ed34ccc7f642186ffdb97e52e821e40c5c85d2f2ec486ada4a94"
+      },
+      {
+        "path": "wizard-grimoire/documents.mjs",
+        "bytes": 10656,
+        "sha256": "519d98bba75fc690db1552a95a078553d59464248850b3f8b6b0603032111ec4"
+      },
+      {
+        "path": "wizard-grimoire/drawings.svg",
+        "bytes": 39360,
+        "sha256": "79b8a0e1006b3765d3921e984d17c5b01d8c089f2fdcdb8dd42d1f5d42061d6c"
+      },
+      {
+        "path": "wizard-grimoire/extraction-prompt.md",
+        "bytes": 5418,
+        "sha256": "95abf1e784090615fa8ad15456345532b7b6e78e096e18b09a1fd4635ba228cc"
+      },
+      {
+        "path": "wizard-grimoire/fittings-checks.mjs",
+        "bytes": 3922,
+        "sha256": "14d9bd4ba3dd54bb5dff941d59f38560cc7e693905c4d6b8b398c2ff2146718f"
+      },
+      {
+        "path": "wizard-grimoire/fittings-results.json",
+        "bytes": 17886,
+        "sha256": "e85b7299c38efc9eae83b4a89fc0aef17b0aba3b2c9c90d3ad8168106bf26b38"
+      },
+      {
+        "path": "wizard-grimoire/geometry.mjs",
+        "bytes": 8665,
+        "sha256": "130e160ed900cfa8d244011c5573ce32f1abe5d9488d9b5127304ff7ce4d256a"
+      },
+      {
+        "path": "wizard-grimoire/index.html",
+        "bytes": 6603,
+        "sha256": "4fe882ee0408408770706bdd8732ca7a7df16a70e4abfd87f4280c6759aab524"
+      },
+      {
+        "path": "wizard-grimoire/inline-preview.html",
+        "bytes": 405,
+        "sha256": "7e1014e32ddd1c652ab3f3c08227ae50bc7512b19aca9347c67d873bfa0668c0"
+      },
+      {
+        "path": "wizard-grimoire/inline-qa.mjs",
+        "bytes": 1910,
+        "sha256": "a2f18f1fe8d3e1f24776cdeb65480e09648413cd133aa07f7f862ca5d7f684ac"
+      },
+      {
+        "path": "wizard-grimoire/inline-results.json",
+        "bytes": 237,
+        "sha256": "c4fc3c1831bf083329814eec348d0ffe79cc13b2842e121491f539fb17b101ad"
+      },
+      {
+        "path": "wizard-grimoire/inline-template.html",
+        "bytes": 5617,
+        "sha256": "c3d507d57f35a20285465e2fe3a33c6fd43ab6ce49635505e6eab2cd95e1f8b6"
+      },
+      {
+        "path": "wizard-grimoire/inline-test.html",
+        "bytes": 135285,
+        "sha256": "b661f346bafafaba6dbc4200339efbb87b4cdeeaab88d6d04b04d3e6a235286f"
+      },
+      {
+        "path": "wizard-grimoire/material-study.html",
+        "bytes": 4454,
+        "sha256": "f2edde8c57f7ba5b207f98c03ae5d8d5d2dfc40167f318bf6ac4e773fc1c1773"
+      },
+      {
+        "path": "wizard-grimoire/materials.mjs",
+        "bytes": 4932,
+        "sha256": "c9f850d2ed6988d2a39f8dc4eb5357c0b92cd84493acff78b89c2209de55ee98"
+      },
+      {
+        "path": "wizard-grimoire/motion-checks.mjs",
+        "bytes": 5145,
+        "sha256": "0244c19ddb67e2724b64f60d46f9cdfd036c5dede2e6bab4188fffdc66b0e8cd"
+      },
+      {
+        "path": "wizard-grimoire/motion-results.json",
+        "bytes": 143250,
+        "sha256": "203f9d97c146b30a9a704e430a347835763ae1051677174879519c0c9926d975"
+      },
+      {
+        "path": "wizard-grimoire/navigation.mjs",
+        "bytes": 7214,
+        "sha256": "f40b8cf3d95d0f27892e336cb8d9f9c05d4d98c6160ca27ec2af50111a5be7e8"
+      },
+      {
+        "path": "wizard-grimoire/package-lock.json",
+        "bytes": 2048,
+        "sha256": "af20d0b74370d8b2760957142130a1ebf1901f534cc44ff66dcfb39ab9441f76"
+      },
+      {
+        "path": "wizard-grimoire/package.json",
+        "bytes": 534,
+        "sha256": "1ac7f7ada64aa0573340e9f7a1ef03fd4d0fac8244890a27387079761b3d9409"
+      },
+      {
+        "path": "wizard-grimoire/performance-results.json",
+        "bytes": 1151,
+        "sha256": "248f821567ae05228aa5267befb4a774bd54e0657d08dd66ca66c8ad6c4935f3"
+      },
+      {
+        "path": "wizard-grimoire/placement.mjs",
+        "bytes": 3741,
+        "sha256": "decacaa7fee6dca6aea3ae7549741a6d3c0fb143381d2ef56f577fd5d3d0a309"
+      },
+      {
+        "path": "wizard-grimoire/README.md",
+        "bytes": 4960,
+        "sha256": "f03d62789801287706ed9580a37ab0036f926f311a23e222a0ea6dd5325e7dd0"
+      },
+      {
+        "path": "wizard-grimoire/review.html",
+        "bytes": 11221,
+        "sha256": "74bd05be2703e8c8830402ec1f0b5dd97aa470f08eebbe00a8a9d91044a76230"
+      },
+      {
+        "path": "wizard-grimoire/server.mjs",
+        "bytes": 1210,
+        "sha256": "0b5927ae31fac6c7bd11148a99aab59a5dfa6037fd4e89696c0bbe783b1042b9"
+      },
+      {
+        "path": "wizard-grimoire/solid-results.json",
+        "bytes": 194508,
+        "sha256": "5ed868c2238ff5bc30d44c9f3af960469c149cca860a555604d8a1793f298300"
+      },
+      {
+        "path": "wizard-grimoire/specification.mjs",
+        "bytes": 4079,
+        "sha256": "3c730af9f2328a1e0db7f9fdc39372000e6080051ca6128a5d86454557bb57a9"
+      },
+      {
+        "path": "wizard-grimoire/verification-results.json",
+        "bytes": 6807,
+        "sha256": "2711bacc9b3171b797a14d42124b364b0c4edd4e20dbcb3619ab6bc5b32724ef"
+      },
+      {
+        "path": "wizard-grimoire/verification.md",
+        "bytes": 6479,
+        "sha256": "c2a291158853e6c7cd0d73ffa7f5fb0a1c73fb2ffcdfadf3e7e31b9adff50903"
+      },
+      {
+        "path": "wizard-grimoire/viewer.mjs",
+        "bytes": 16230,
+        "sha256": "28f44d8ff22dc186f463d30444a81d7ed4960623b760d0f51b3f0f3f0b97cb55"
+      },
+      {
+        "path": "wizard-grimoire/write-review.mjs",
+        "bytes": 13703,
+        "sha256": "aadbc2c4f182269eb133e0aa73bee7718c2d3308134593383e4d313ce5bbce04"
+      }
+    ]
+  },
+  {
+    "project": "woodland-library-portal",
+    "files": [
+      {
+        "path": "woodland-library-portal/build-preview.mjs",
+        "bytes": 2100,
+        "sha256": "6be855a4aea99642bdee120abdb0b7caa7ba5bd1e0dfb79467c8544e5a9ca2b4"
+      },
+      {
+        "path": "woodland-library-portal/check-preview.mjs",
+        "bytes": 6168,
+        "sha256": "22f6682469c30807b18c28a47b866daa20b8bd8bd798ae1d2c59725aae051395"
+      },
+      {
+        "path": "woodland-library-portal/controls.html",
+        "bytes": 2441,
+        "sha256": "f17f5a9ef438f1dcee7f3a0476392d36f0e6fb9c7317cc92b44cb15d15a98116"
+      },
+      {
+        "path": "woodland-library-portal/extraction-spec.json",
+        "bytes": 3226,
+        "sha256": "6eacccb0c0c4a4eb0f6d5729698efa548df33b6355ccaffafd448c2bc1c03dee"
+      },
+      {
+        "path": "woodland-library-portal/index.html",
+        "bytes": 3262,
+        "sha256": "e61613f481432720741f76900fa98eb4f1d0ff345cc7ff060de91e6a0df9108c"
+      },
+      {
+        "path": "woodland-library-portal/inline-preview.html",
+        "bytes": 29971,
+        "sha256": "529113f4031df7796243eb5d24ac5ebdb19df91df88e32e870c5c7e01cdebe3f"
+      },
+      {
+        "path": "woodland-library-portal/model.mjs",
+        "bytes": 26550,
+        "sha256": "36ae5380b911c069775b10850bdabe804b3504ac5f0e450ecaedb21fc1049b84"
+      },
+      {
+        "path": "woodland-library-portal/prompt-audit.md",
+        "bytes": 9952,
+        "sha256": "c0971124ea40193a380ce06ef2f01d55579356b694670a7bc121e7f1253f435b"
+      },
+      {
+        "path": "woodland-library-portal/server.mjs",
+        "bytes": 2722,
+        "sha256": "16290949dfee8d1507f8bd4c9ee39c6653a9fc22aa81c7ac9b0ca3f74f589648"
+      },
+      {
+        "path": "woodland-library-portal/verification.json",
+        "bytes": 758,
+        "sha256": "bd447b014599f23c3a2f7361c7562045fe646eedf05d598bb49f207f083d1e99"
+      }
+    ]
+  },
+  {
+    "project": "hollow-tree-library",
+    "files": [
+      {
+        "path": "hollow-tree-library/build-preview.mjs",
+        "bytes": 1975,
+        "sha256": "bdbba07e360993269efd97af7fe176cef34f994b15564f69936a16c27c5308d4"
+      },
+      {
+        "path": "hollow-tree-library/check-preview.mjs",
+        "bytes": 7143,
+        "sha256": "98be3d7fdf4e5c23e647a46b3d65dd559c759f521a6a2cfc1e86d5dce67bb0e7"
+      },
+      {
+        "path": "hollow-tree-library/controls.html",
+        "bytes": 2610,
+        "sha256": "86fc200badfd2817dcc85cab18560e221a25e4718a30e3eacd9f761cc026c0f4"
+      },
+      {
+        "path": "hollow-tree-library/extraction-spec.json",
+        "bytes": 3962,
+        "sha256": "d099331f592c7b74529fc478d0887d9dd6a92cfb7579e60cbef1c7cc42c3e815"
+      },
+      {
+        "path": "hollow-tree-library/index.html",
+        "bytes": 3335,
+        "sha256": "779b1dd320033ee313cbb0a875564b23be97fdc1ba6e63c6adb09750b8630493"
+      },
+      {
+        "path": "hollow-tree-library/inline-preview.html",
+        "bytes": 29811,
+        "sha256": "f0a1e8c82c4a3a1c262fd70d799b4a6dd278066f1363563379ec1335974475cc"
+      },
+      {
+        "path": "hollow-tree-library/inspect-preview.mjs",
+        "bytes": 1319,
+        "sha256": "a0acef41d4e5455cb2711c4af82e1e77e5a47541f7465e6b271e75ef4dde412b"
+      },
+      {
+        "path": "hollow-tree-library/model.mjs",
+        "bytes": 26318,
+        "sha256": "4e6b11e18ecd546f22cd147207fbdf2d7bdd9db57328eeea0fc5a97f7f513491"
+      },
+      {
+        "path": "hollow-tree-library/prompt-audit.md",
+        "bytes": 13425,
+        "sha256": "5bb5100396d85b52cb97b5aa63f9fb0f685c9c52e97d2bfc821dec112fb59e84"
+      },
+      {
+        "path": "hollow-tree-library/server.mjs",
+        "bytes": 2648,
+        "sha256": "9bc2dfcc3b006a776e795ef83e17f73ddaf1b20f1821be9cf517176e8dfd2260"
+      },
+      {
+        "path": "hollow-tree-library/verification.json",
+        "bytes": 1568,
+        "sha256": "eecbfb703503e0dffa8baec9c1ec462d44bd18a7f69ae54f05c510c9cb90705d"
+      }
+    ]
+  },
+  {
+    "project": "gothic-miniature-library",
+    "files": [
+      {
+        "path": "gothic-miniature-library/build-preview.mjs",
+        "bytes": 1996,
+        "sha256": "5ec30e445d7829006e58392844a760f19fc161fd1da5ccc834f8a66d476f0092"
+      },
+      {
+        "path": "gothic-miniature-library/check-preview.mjs",
+        "bytes": 8575,
+        "sha256": "3358f3b9358f022d25f206f4f56d48b6b62409f4d60081bdd1a2e329c363a38c"
+      },
+      {
+        "path": "gothic-miniature-library/controls.html",
+        "bytes": 2847,
+        "sha256": "9573d7130ebca8e8399ca9dbc85881828149a8a4493aa9675b8cb33156e993d3"
+      },
+      {
+        "path": "gothic-miniature-library/extraction-spec.json",
+        "bytes": 5588,
+        "sha256": "81642e19ba8ad4ca689647c4c499ee719dac568e74ee4c9335aa21e735c6b896"
+      },
+      {
+        "path": "gothic-miniature-library/index.html",
+        "bytes": 3590,
+        "sha256": "d905b34e2d625d5f0acfa1753c57b3b410860df1ef8419a192828c958b9b7e9c"
+      },
+      {
+        "path": "gothic-miniature-library/inline-preview.html",
+        "bytes": 44376,
+        "sha256": "3cf4422d8e5556af865928bbba80a91a17b52d93b4614517fb27512a001b00c9"
+      },
+      {
+        "path": "gothic-miniature-library/inspect-preview.mjs",
+        "bytes": 1363,
+        "sha256": "a4f2311c64110c812094cfb64d7f5aa7d23e87fb7814a5f64e92bb95da1cca2f"
+      },
+      {
+        "path": "gothic-miniature-library/model.mjs",
+        "bytes": 40619,
+        "sha256": "7b812b3786b212a8678ac8f3b056725d5aae035afa75221588da9356f3a7efb1"
+      },
+      {
+        "path": "gothic-miniature-library/prompt-audit.md",
+        "bytes": 15749,
+        "sha256": "54ed317201f69d9be05bbdd9abaf4227bb6946361c87d714315acf0038800f48"
+      },
+      {
+        "path": "gothic-miniature-library/server.mjs",
+        "bytes": 2668,
+        "sha256": "885e627ab0033f42c6358df899245dc30deae44a7e41e1099ec5359aecb34493"
+      },
+      {
+        "path": "gothic-miniature-library/verification.json",
+        "bytes": 1307,
+        "sha256": "a648c16af9c2408e3215a40ecbe79dfc92ec99fb40de49c3a82f6a2385494d2e"
+      }
+    ]
+  },
+  {
+    "project": "gothic-library-room",
+    "files": [
+      {
+        "path": "gothic-library-room/build-preview.mjs",
+        "bytes": 2099,
+        "sha256": "2c4dc4c7da7fbce2d49975a2a076d6c3b961e4532cdc7119e1ab0b00c17846f2"
+      },
+      {
+        "path": "gothic-library-room/check-placement.mjs",
+        "bytes": 3120,
+        "sha256": "3f4f0858d02fe6e73507889c85a5fb3c1137393e907d738ac1cd31f05a2c6d7b"
+      },
+      {
+        "path": "gothic-library-room/check-preview.mjs",
+        "bytes": 12769,
+        "sha256": "082b0aa1a4b24bbc537150397e92a47ead42947db92d75ffd032b84ca181f5e6"
+      },
+      {
+        "path": "gothic-library-room/controls.html",
+        "bytes": 8510,
+        "sha256": "aa164e391185c498cc9dcd75a37e69f15ad73604846dcbee8acd96a2ca16f2db"
+      },
+      {
+        "path": "gothic-library-room/extraction-spec.json",
+        "bytes": 9833,
+        "sha256": "8d05b915022746f85f07caf050a92c3cece9b51844f8219929b4764b92bc6a10"
+      },
+      {
+        "path": "gothic-library-room/geometry-audit.mjs",
+        "bytes": 1457,
+        "sha256": "d936d851693f74da0e4c4b5e8cc5ceaadc46fc02ecfcefc52be1c1dcfc3f3b49"
+      },
+      {
+        "path": "gothic-library-room/geometry-kit.mjs",
+        "bytes": 5960,
+        "sha256": "4b06d689fc822b2b933a5cf874c1b4d5d0ecf5b3cdd8808e6e1cc3042482f35f"
+      },
+      {
+        "path": "gothic-library-room/index.html",
+        "bytes": 9243,
+        "sha256": "ad5309433d86b1121153c641d143e322fe48f3a880e92f629464c11e07212e47"
+      },
+      {
+        "path": "gothic-library-room/inline-preview.html",
+        "bytes": 92048,
+        "sha256": "0c5ed6fe7114ee3567adffd614c51d2426bc05896431f2b121bac72ceed11f12"
+      },
+      {
+        "path": "gothic-library-room/inspect-preview.mjs",
+        "bytes": 1191,
+        "sha256": "a270ef6481e3f378c14af242b7336f1b2f82f23e26331f58d501e9fbcaa59d55"
+      },
+      {
+        "path": "gothic-library-room/model.mjs",
+        "bytes": 55559,
+        "sha256": "f4ff84320bf746cb339333db6b48e17e1670fd88ca6137ffd76be547d1831659"
+      },
+      {
+        "path": "gothic-library-room/navigation.mjs",
+        "bytes": 7214,
+        "sha256": "f40b8cf3d95d0f27892e336cb8d9f9c05d4d98c6160ca27ec2af50111a5be7e8"
+      },
+      {
+        "path": "gothic-library-room/physical-assets.mjs",
+        "bytes": 5120,
+        "sha256": "175e0a6061aec80cffe06c71437a7b79c3e51ec5fc422b9f1b66ce93c3f86338"
+      },
+      {
+        "path": "gothic-library-room/placement-audit.mjs",
+        "bytes": 5447,
+        "sha256": "122a2d5936355b35a5fdf70801b3006d6eec014e25402aa888e5a4be467df91b"
+      },
+      {
+        "path": "gothic-library-room/placement-before.json",
+        "bytes": 2798,
+        "sha256": "286a9525414b1ed0aa101489c28d5195a4a9c8e22c8a34aaf093f61171e6a16a"
+      },
+      {
+        "path": "gothic-library-room/placement-verification.json",
+        "bytes": 9070,
+        "sha256": "91972158ae1b7004f08404bc8420a0c19c97fc9095ba99f2f3cf197a26615d6d"
+      },
+      {
+        "path": "gothic-library-room/prompt-audit.md",
+        "bytes": 14525,
+        "sha256": "d5813710fcd770fa3693a872f5ba0765bcc99a15e45cecbd8510e008d89a491b"
+      },
+      {
+        "path": "gothic-library-room/server.mjs",
+        "bytes": 2648,
+        "sha256": "1f9ce43d42a4369b945ad65454954fd425b436e9dd1bb613eda98bb0c619a215"
+      },
+      {
+        "path": "gothic-library-room/verification.json",
+        "bytes": 7904,
+        "sha256": "148e2fb54a60791f3a4601c8659f48cb71489c3be494c3e65811650732bcc222"
+      },
+      {
+        "path": "gothic-library-room/window-assembly.mjs",
+        "bytes": 9117,
+        "sha256": "2afc7862b04b9f1793e0f9494af04f2a81884f077e082b96254055c6910e31ec"
+      },
+      {
+        "path": "gothic-library-room/window-reuse.md",
+        "bytes": 3291,
+        "sha256": "10ec86acad1d094036db3cda1ccab1bc6c4943b7e5e314b6c2f3afa0285ec0e8"
+      }
+    ]
+  },
+  {
+    "project": "dragon-wing-bookcase",
+    "files": [
+      {
+        "path": "dragon-wing-bookcase/anatomy-check.mjs",
+        "bytes": 2010,
+        "sha256": "286210128a9b9992794ea8a53c4b69955bf77a946e25651510f702416dbe0c46"
+      },
+      {
+        "path": "dragon-wing-bookcase/anatomy-results.json",
+        "bytes": 148,
+        "sha256": "d2b478f274a49f597566c13ef2977a2747094fdc2f14ee7b795516c0d3870d3e"
+      },
+      {
+        "path": "dragon-wing-bookcase/browser-qa.mjs",
+        "bytes": 7755,
+        "sha256": "b7818eb617a532d8edaabc6349e7d7681b920dee52c6708920a685563d253a7b"
+      },
+      {
+        "path": "dragon-wing-bookcase/browser-results.json",
+        "bytes": 2674,
+        "sha256": "29b71c2cab9b63fa5fc42de99f6ee40c7dffa7e142b95fba0ab62a3017d18550"
+      },
+      {
+        "path": "dragon-wing-bookcase/build.mjs",
+        "bytes": 1634,
+        "sha256": "4e4e96494ca34aef1178e6783d96dfe3b17046534a7a70f416869e692e597f2f"
+      },
+      {
+        "path": "dragon-wing-bookcase/builders.mjs",
+        "bytes": 26707,
+        "sha256": "8bca27a3f4c50c5348aa8becf3434541e31269742033434379bd3e930fe58a62"
+      },
+      {
+        "path": "dragon-wing-bookcase/capture.mjs",
+        "bytes": 1310,
+        "sha256": "4d8a454489132e2853208eea8b36cd06fdd15242016bb12e22195390d74a32e6"
+      },
+      {
+        "path": "dragon-wing-bookcase/check-mesh-intersections.mjs",
+        "bytes": 634,
+        "sha256": "66999884da6edfe542a3d466c37fd69696bbab6bd7755ab18cb4ce52f737a682"
+      },
+      {
+        "path": "dragon-wing-bookcase/check-placement.mjs",
+        "bytes": 635,
+        "sha256": "b1469d56fac907b11ab48cb7aa4ca77d42bd88819877a049e0f6dd027038bb16"
+      },
+      {
+        "path": "dragon-wing-bookcase/component-review.mjs",
+        "bytes": 2167,
+        "sha256": "949fd19f21a1759a0df9a1f470393f28529b3e57149def0435fc4fe2be4a00c2"
+      },
+      {
+        "path": "dragon-wing-bookcase/component-spec.json",
+        "bytes": 12533,
+        "sha256": "fdcaae00a1e684f4868561b776b9e0fb53142c113f9761e6ce5ce0edab946485"
+      },
+      {
+        "path": "dragon-wing-bookcase/component-spec.mjs",
+        "bytes": 10357,
+        "sha256": "4c78e80dcee5d3f302ce6beb412c17638723a8d09eda7afb556cf845f8ae7962"
+      },
+      {
+        "path": "dragon-wing-bookcase/extra-browser-results.json",
+        "bytes": 600,
+        "sha256": "8f29ac5b6a1f5c2f8fa6e71acbfbe9a986010c247cf6d7b7377fec4bd8ab22dd"
+      },
+      {
+        "path": "dragon-wing-bookcase/extra-qa.mjs",
+        "bytes": 4572,
+        "sha256": "3ccdcb742d6fb58a2f4c0c1947f6732bb80c504e3cc1a29b157357be838d9c6a"
+      },
+      {
+        "path": "dragon-wing-bookcase/extraction-audit.md",
+        "bytes": 4724,
+        "sha256": "4e2a27d1e49a0b3f7673d4166b2bcd28c1462cfd000f1e74cd0a926b312bcd9a"
+      },
+      {
+        "path": "dragon-wing-bookcase/extraction-prompt.md",
+        "bytes": 5677,
+        "sha256": "8353029fe45e66b8fe0164320de9bc4491e74b890c62cb3394e968ec0970f064"
+      },
+      {
+        "path": "dragon-wing-bookcase/fragment.html",
+        "bytes": 5097,
+        "sha256": "81d6cd73b2a7980f9bf92bd12190b54b11977f3f4a3d3dfcbf91ca8dd0a693a9"
+      },
+      {
+        "path": "dragon-wing-bookcase/geometry-audit.mjs",
+        "bytes": 1457,
+        "sha256": "8978e153babdbed674050c9760fddfeacecc6db6a13668a80e34d73b9e59eff7"
+      },
+      {
+        "path": "dragon-wing-bookcase/geometry-kit.mjs",
+        "bytes": 6033,
+        "sha256": "b1a12b5a01f85d106ca95e3bec5504b284de1d0c2f79dce0fefaee6d61202441"
+      },
+      {
+        "path": "dragon-wing-bookcase/index.html",
+        "bytes": 5736,
+        "sha256": "588864fda98bb80f27cc7a0e7d4e1c8c049115cc53c2e060341e17cae33c38b8"
+      },
+      {
+        "path": "dragon-wing-bookcase/materials.mjs",
+        "bytes": 1734,
+        "sha256": "c2bc2d3f529778f45205721ff00a628b371d13e0d1bbd8d68a44839fcd6fcb57"
+      },
+      {
+        "path": "dragon-wing-bookcase/mesh-intersections.mjs",
+        "bytes": 2906,
+        "sha256": "e6507497140d638a2ac1702ff5c7c2f26a9491d2aac36052f8435a025dd095d6"
+      },
+      {
+        "path": "dragon-wing-bookcase/model.mjs",
+        "bytes": 13146,
+        "sha256": "f460bea4695b3064918f55a1cbb721c2fc909bdf67e764ea6fdf929af68fca48"
+      },
+      {
+        "path": "dragon-wing-bookcase/navigation.mjs",
+        "bytes": 7214,
+        "sha256": "f40b8cf3d95d0f27892e336cb8d9f9c05d4d98c6160ca27ec2af50111a5be7e8"
+      },
+      {
+        "path": "dragon-wing-bookcase/part-registry.json",
+        "bytes": 655202,
+        "sha256": "74611bdf7a81909b6b87243144eb15a1a12be1e1c384c0b42fd2f4ae7592319f"
+      },
+      {
+        "path": "dragon-wing-bookcase/placement-audit.mjs",
+        "bytes": 5573,
+        "sha256": "3aaa20c667cfc9b48478a354228561d243ad6d0efc139467ab2ddd31a7ab3c0a"
+      },
+      {
+        "path": "dragon-wing-bookcase/README.md",
+        "bytes": 3505,
+        "sha256": "31f0313974b03bcd450c92e7bc89b57ebbb072e1c23d581b7eef0a039d076d36"
+      },
+      {
+        "path": "dragon-wing-bookcase/review.html",
+        "bytes": 6819,
+        "sha256": "b0834de802caadd9abd3ad885137751a1983a39b5a99f2230ec8de737b2fd14f"
+      },
+      {
+        "path": "dragon-wing-bookcase/run-audits.mjs",
+        "bytes": 3443,
+        "sha256": "6375d1fb4cf4f72567a9b1ea8627de48555a0e59ad41048b9b645677090b3d56"
+      },
+      {
+        "path": "dragon-wing-bookcase/scale-mesh-results.json",
+        "bytes": 283,
+        "sha256": "4d5aa034aab9b63a13548ab5594500f1df0282ac91a4a6bd7757cf37951fc673"
+      },
+      {
+        "path": "dragon-wing-bookcase/sculpture.mjs",
+        "bytes": 9660,
+        "sha256": "1cb3d5bb5dd8f1a1b0e9994329d81b9d53f44b470822e44692059f69114d420a"
+      },
+      {
+        "path": "dragon-wing-bookcase/server.mjs",
+        "bytes": 2325,
+        "sha256": "326d2ea533e6c13c3af76ed43f56d01579bae33ad7b2a18acffe2870382f521f"
+      },
+      {
+        "path": "dragon-wing-bookcase/solid-check.mjs",
+        "bytes": 1074,
+        "sha256": "d1fce7dba3ea896bccb1dff0203a26c8a5a4a33562b46f53d8b6afe96663fceb"
+      },
+      {
+        "path": "dragon-wing-bookcase/source-description.md",
+        "bytes": 4801,
+        "sha256": "82c49a718d4e496e0f3ac0ddd6c4cfc85aa734d713e2e14d74336ca8f6490e37"
+      },
+      {
+        "path": "dragon-wing-bookcase/specification.mjs",
+        "bytes": 1545,
+        "sha256": "bfa96372ba01960ff95f167e7ae38ea2d9d4b945257cf2368686ecf76060326d"
+      },
+      {
+        "path": "dragon-wing-bookcase/verification-results.json",
+        "bytes": 28957,
+        "sha256": "45e9f144012b5a9f290d0f23b12d6fe6696a5825ea76c2f0131443e51a9e45d9"
+      },
+      {
+        "path": "dragon-wing-bookcase/verification.md",
+        "bytes": 6023,
+        "sha256": "378a08506be807c56f52acc43c8612274fc5fe15e4574ec09c0351838854f8cf"
+      },
+      {
+        "path": "dragon-wing-bookcase/write-verification.mjs",
+        "bytes": 7351,
+        "sha256": "8cbe6819784d296dac9c00932bf2df8f9d5850d86433c1c49306059f526c3ec1"
+      }
+    ]
+  },
+  {
+    "project": "dragon-carving-exemplar",
+    "files": [
+      {
+        "path": "dragon-carving-exemplar/assembly.mjs",
+        "bytes": 23016,
+        "sha256": "1131c0158485e201d4a93cbbb7d309f0ab3ec67b64dc1809c5d3998e60565c5c"
+      },
+      {
+        "path": "dragon-carving-exemplar/assets/head-build.json",
+        "bytes": 594,
+        "sha256": "693d1191f5618c62d276def21386103fd8837cdbc063547f2b6175a4c11c338d"
+      },
+      {
+        "path": "dragon-carving-exemplar/assets/source-description.md",
+        "bytes": 4801,
+        "sha256": "82c49a718d4e496e0f3ac0ddd6c4cfc85aa734d713e2e14d74336ca8f6490e37"
+      },
+      {
+        "path": "dragon-carving-exemplar/bake.mjs",
+        "bytes": 1425,
+        "sha256": "96f6f9dc251dab4ccb808d14e7cee2f5e727acbd8bd219076e89a49961fd6ed0"
+      },
+      {
+        "path": "dragon-carving-exemplar/browser-qa.mjs",
+        "bytes": 8887,
+        "sha256": "5227c5e6674b6b63a9dbafbd9a309a0ff222fce2ee7692f77119816ec00cd6a7"
+      },
+      {
+        "path": "dragon-carving-exemplar/browser-results.json",
+        "bytes": 4328,
+        "sha256": "ce55e6f47c8e55649f9661ac4bf51aef199bc80276c69f77cd6a703e9eac1657"
+      },
+      {
+        "path": "dragon-carving-exemplar/capture-errors.json",
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "dragon-carving-exemplar/capture.mjs",
+        "bytes": 2155,
+        "sha256": "a4d66e2775a6f536e80bcc09ca75044768131766eee5a29dea210c7f0bec4461"
+      },
+      {
+        "path": "dragon-carving-exemplar/check.mjs",
+        "bytes": 1330,
+        "sha256": "e1d4f743e6f84c50b41cef677ecc182e73b3ad832474753ccafef3b33bdcd20e"
+      },
+      {
+        "path": "dragon-carving-exemplar/component-spec.json",
+        "bytes": 8796,
+        "sha256": "b5eab1be8e1f8474246904e26503b346b9225b4d3f456248e400423edbafd490"
+      },
+      {
+        "path": "dragon-carving-exemplar/extraction-prompt.md",
+        "bytes": 3207,
+        "sha256": "64d78d86e6339b836fd56aebc147057e8faa049d844d38c711cdce463757080d"
+      },
+      {
+        "path": "dragon-carving-exemplar/geometry-audit.mjs",
+        "bytes": 1457,
+        "sha256": "8978e153babdbed674050c9760fddfeacecc6db6a13668a80e34d73b9e59eff7"
+      },
+      {
+        "path": "dragon-carving-exemplar/head-assets.mjs",
+        "bytes": 506,
+        "sha256": "1136eded38cdabfbd3f67546a7e2caa9515a2f7e82112c5461ddfb25229e5246"
+      },
+      {
+        "path": "dragon-carving-exemplar/index.html",
+        "bytes": 7012,
+        "sha256": "de74605e229d3e1137fc854407d5474554e715560c3ac1f767f2b00493848f32"
+      },
+      {
+        "path": "dragon-carving-exemplar/materials.mjs",
+        "bytes": 2952,
+        "sha256": "360445a49938a8b3981b8367d23bcfe0869ac15a7fe3cd4894424a6993a68a54"
+      },
+      {
+        "path": "dragon-carving-exemplar/mesh-intersections.mjs",
+        "bytes": 2906,
+        "sha256": "e6507497140d638a2ac1702ff5c7c2f26a9491d2aac36052f8435a025dd095d6"
+      },
+      {
+        "path": "dragon-carving-exemplar/navigation.mjs",
+        "bytes": 7214,
+        "sha256": "f40b8cf3d95d0f27892e336cb8d9f9c05d4d98c6160ca27ec2af50111a5be7e8"
+      },
+      {
+        "path": "dragon-carving-exemplar/part-registry.json",
+        "bytes": 559657,
+        "sha256": "9bac9332bab0cd1baeda51ba3b677e685c7207262a5d57107ec0c5e0fa945cd0"
+      },
+      {
+        "path": "dragon-carving-exemplar/placement-audit.mjs",
+        "bytes": 3546,
+        "sha256": "998d236e51f694dbcd48dc067d5f9647cb77b97cda2d2f13cb59fa03f9386005"
+      },
+      {
+        "path": "dragon-carving-exemplar/placement-results.json",
+        "bytes": 713,
+        "sha256": "7036bf82a6d016d78cfcee280a47f557116e5e86fcef18343985515001ef6a09"
+      },
+      {
+        "path": "dragon-carving-exemplar/placement.mjs",
+        "bytes": 881,
+        "sha256": "052ad879242f58d3df24635447b2f57d38fe71aae005a63c34e69d0df8825bdf"
+      },
+      {
+        "path": "dragon-carving-exemplar/README.md",
+        "bytes": 5186,
+        "sha256": "10d55afe897a71c75f0e91910c9566a4f52d20f5cbb779ddf4eeebd287f19735"
+      },
+      {
+        "path": "dragon-carving-exemplar/review.html",
+        "bytes": 3156,
+        "sha256": "64370d6c25ac2c576742c7f84ef3bfc0a9691dedfde519d0cb99633029639695"
+      },
+      {
+        "path": "dragon-carving-exemplar/run-audits.mjs",
+        "bytes": 3822,
+        "sha256": "7522ce674c807ab2b536d0f5bf2323c174e4ccce114eaa9440ef5e99b45f74ec"
+      },
+      {
+        "path": "dragon-carving-exemplar/sculpt.mjs",
+        "bytes": 11427,
+        "sha256": "93e18b0eafdc5f82230387e73d7735061886a43780eddafa93b99a52a55780e0"
+      },
+      {
+        "path": "dragon-carving-exemplar/server.mjs",
+        "bytes": 1232,
+        "sha256": "ab1f5880d93a91c725555d9309008b5a17e03935313486e6fe14d2a266f0b245"
+      },
+      {
+        "path": "dragon-carving-exemplar/solid-results.json",
+        "bytes": 112009,
+        "sha256": "434e901b3b741afc0a07f35a5877a5b0bcb007ee5ecf2f5f6b0a2939a6f08f03"
+      },
+      {
+        "path": "dragon-carving-exemplar/solid-tools.mjs",
+        "bytes": 6033,
+        "sha256": "b1a12b5a01f85d106ca95e3bec5504b284de1d0c2f79dce0fefaee6d61202441"
+      },
+      {
+        "path": "dragon-carving-exemplar/specification.mjs",
+        "bytes": 1204,
+        "sha256": "e343925b99aca7b20e754e79106e2e2b729870bc8742125e7425a1635567bbd6"
+      },
+      {
+        "path": "dragon-carving-exemplar/verification-results.json",
+        "bytes": 45882,
+        "sha256": "ac3f657852995c67140617f8d2a74f547964374f2cd6508751e1ff774290a549"
+      },
+      {
+        "path": "dragon-carving-exemplar/verification.md",
+        "bytes": 3683,
+        "sha256": "96de30b79d66d836d1000d17163feefa2d61ca4a231b01040c18d3e2918f85cf"
+      },
+      {
+        "path": "dragon-carving-exemplar/viewer.mjs",
+        "bytes": 14848,
+        "sha256": "d87750fd829f589c5a86df587d85e82b5f50211ceced6e689d097790694cab4f"
+      },
+      {
+        "path": "dragon-carving-exemplar/write-review.mjs",
+        "bytes": 10687,
+        "sha256": "23e16f8b8f1f725d6e138bdd5d85a2071cfdc0e17a793c989397ce49e89baad5"
+      }
+    ]
+  },
+  {
+    "project": "default-book-design-types",
+    "files": [
+      {
+        "path": "default-book-design-types/animations/presets/animation-presets-v01.md",
+        "bytes": 10138,
+        "sha256": "1de58ca71456a1ec6dea7b7ea0b1c098a1e6f2d023cc37c937e8ecd6b893437f"
+      },
+      {
+        "path": "default-book-design-types/checks/browser-element-results.json",
+        "bytes": 6034,
+        "sha256": "21b09f4786f3790eeeee8ceeaa85db326a7dac5e9c85dbd54653272fda172b0c"
+      },
+      {
+        "path": "default-book-design-types/checks/browser-results.json",
+        "bytes": 6358,
+        "sha256": "8f4cb97f2c67807bf8352651afd55bfb80c204f898b9561e30f27f8164140c85"
+      },
+      {
+        "path": "default-book-design-types/checks/config.json",
+        "bytes": 735,
+        "sha256": "c0a342a63cdbb9d173d935331ed9a2d37e59c4b49d7c70bd291863383fffc621"
+      },
+      {
+        "path": "default-book-design-types/checks/design.svg",
+        "bytes": 53592,
+        "sha256": "554b6aaec07e185a79509039b929023bc4d602956e54f281fdb2e5245f192dc7"
+      },
+      {
+        "path": "default-book-design-types/checks/design.test.mjs",
+        "bytes": 6224,
+        "sha256": "dda36bf9f6456294760c20986a1993b5c06006a661eaa0a46f04cc742f8e0f03"
+      },
+      {
+        "path": "default-book-design-types/checks/documentation-checks-v02.json",
+        "bytes": 860,
+        "sha256": "816de4b6d6f7e747c4cd681d8a4ac5bf95defd90311b77041914f11969f5f176"
+      },
+      {
+        "path": "default-book-design-types/checks/documentation-checks-v03.json",
+        "bytes": 574,
+        "sha256": "ebc0e660b83aa045154f87d99575644ec8f9bdeabb3bfc61eb6b66662e5e592b"
+      },
+      {
+        "path": "default-book-design-types/checks/geometry-results.json",
+        "bytes": 25192,
+        "sha256": "06935b9d84e6b36fd395382879314def8ee255ab76908d4aba461a0a60b85865"
+      },
+      {
+        "path": "default-book-design-types/checks/model.json",
+        "bytes": 574523,
+        "sha256": "cf94ad08874c4b20a575c4a2967a6f720afd92d21eb9c4ecbff66513f5a25054"
+      },
+      {
+        "path": "default-book-design-types/checks/resource-results.json",
+        "bytes": 1398,
+        "sha256": "3ba3c04bd2f2147c69070bd4169921bebf4cb5fc6e97d58755f857d23dce57b6"
+      },
+      {
+        "path": "default-book-design-types/checks/studio.spec.mjs",
+        "bytes": 10799,
+        "sha256": "ddb48460f915fbc00f28ac9ffce12f94e5c95edefeefeef1ee99d4db2dc9c3eb"
+      },
+      {
+        "path": "default-book-design-types/checks/verification.md",
+        "bytes": 7500,
+        "sha256": "038e9ac007172da23e4fd969856abecacfa47872e7ec02618cee6a30e7fbf6b3"
+      },
+      {
+        "path": "default-book-design-types/drafts/documents/project-design-v01.md",
+        "bytes": 33967,
+        "sha256": "5b91279e154a6d8221a8b8c17e11169100ce7be3519bf3bf950d181e9cbc3a68"
+      },
+      {
+        "path": "default-book-design-types/drafts/documents/water-botanical-sigilcraft-demo-v02.md",
+        "bytes": 6119,
+        "sha256": "deaa6646d831d497f9a58c6e9f5952e2776260b9dc6522a69030d72763a0d9e2"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/advanced-back.svg",
+        "bytes": 34344,
+        "sha256": "feaf4fb658b231a73996c7f43690d2c631ff617fc9e4d2de2513de2174779553"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/advanced-exploded.svg",
+        "bytes": 180756,
+        "sha256": "d98c81598aac640c7268b914dbb7f8a41ffa45b37fa254ca12418fe89777f004"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/advanced-fore-edge.svg",
+        "bytes": 179694,
+        "sha256": "98a66815c716210a3094cb3378cd2e6917ed5f4ffca534057f1f5eebeefd5f7d"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/advanced-front.svg",
+        "bytes": 48556,
+        "sha256": "aa078f774526886574bfd413929ae639c3b92b9b670cd25edcb09f330f672577"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/advanced-spine.svg",
+        "bytes": 177722,
+        "sha256": "29ac6e91f0ee78104a8ec3b55adb4ad532eac4dac314052c6bca4dd07aa815c8"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/advanced-three-quarter.svg",
+        "bytes": 180257,
+        "sha256": "19e5518ce04e6c42a1254f8d2fcbeb553df86be1b5a6db478031372121d7d248"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/advanced-top.svg",
+        "bytes": 178028,
+        "sha256": "0cb01d10b539696786e651ab7d9e258cd79fc22737d98ea3725da835a05b32e1"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/elemental-reference.svg",
+        "bytes": 526212,
+        "sha256": "fb9e70d41925a1f15cf2f90b9b7460e1232f0b4675082d5835dd227ec067b89e"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/generate.mjs",
+        "bytes": 1777,
+        "sha256": "cf4afb65aefdfbd2c61ff0f413ac9b3304dcfd98d361c74a841a4f813860f246"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/initial-back.svg",
+        "bytes": 24072,
+        "sha256": "19b2be95b19d3022c26e1457795b7cb8ae7fb1579e93f624a53bc0158b205fd0"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/initial-exploded.svg",
+        "bytes": 134612,
+        "sha256": "b2f4033d3091545cfd21c547bbd74f6a41bbe5b025438f189a0760cf00d94af3"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/initial-fore-edge.svg",
+        "bytes": 137912,
+        "sha256": "c6ed4b52a58681768d575607a7a3701d982f443ea8235ae72d282a67d8339e74"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/initial-front.svg",
+        "bytes": 34710,
+        "sha256": "f9b567c0d9a250fb5afd78577b70224387a753666977356dfe98769c46773938"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/initial-spine.svg",
+        "bytes": 136486,
+        "sha256": "d85f3d1995cb3fbdaf65635f23f3df1c816f87831a9aea0e0e54e2ec3de1c796"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/initial-three-quarter.svg",
+        "bytes": 134809,
+        "sha256": "30b534077d6cf4b3095f4b08fa9dcf1e2798f901d9906c211b091a723ee50864"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/initial-top.svg",
+        "bytes": 136359,
+        "sha256": "46d4b15a9dfae95f9a5eb90768a7d829a9c173ee2fe8595ea985966a5ce096d8"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/meistro-back.svg",
+        "bytes": 46941,
+        "sha256": "d4a1154d904e7cf516a4b97c4e0c0ed12bd8e9d0a1642cff056d4a8cb198ea39"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/meistro-exploded.svg",
+        "bytes": 222574,
+        "sha256": "822373af3352796169d4c79e9c9bd0281d732ee946a1b4b50f10ccd95fbd4bb3"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/meistro-fore-edge.svg",
+        "bytes": 221967,
+        "sha256": "e1323f78140d2b08e91d50cbe28c4ce878f18f6b72c46fef55a264c88adeb83f"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/meistro-front.svg",
+        "bytes": 65204,
+        "sha256": "30002fcc2ba6aa561cecb493989b0dea9012e424155c9c3a875ecd43378df89e"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/meistro-spine.svg",
+        "bytes": 219488,
+        "sha256": "918dfcaa1dd50bb4bc4b3f9006d84fa8b39ea6e907e904bbb1060eb82f756e36"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/meistro-three-quarter.svg",
+        "bytes": 222284,
+        "sha256": "d256c4cc48be30f1e6ebd677e07018a1ddd259d2ddc0dff365624bf54a90377e"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/meistro-top.svg",
+        "bytes": 219826,
+        "sha256": "6a8a1423bbbf701a1aef1dfa949d7eb6f375f5126755d06cb83b32c994a87530"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/motif-style-study.svg",
+        "bytes": 640663,
+        "sha256": "43666cc6869020e7e599db66f268aea3b4f134b8e25af96d2857092276c2d37b"
+      },
+      {
+        "path": "default-book-design-types/drafts/svg/rank-comparison.svg",
+        "bytes": 152449,
+        "sha256": "e4e93679ed73bbe734ceaad68df864ade460f6944f453ad66fe3970932c3061c"
+      },
+      {
+        "path": "default-book-design-types/effects/presets/effect-presets-v01.md",
+        "bytes": 4246,
+        "sha256": "d80d67dff82e1c9163f940459ca0db031188dd94a407cb2743ff14dede8b6cfe"
+      },
+      {
+        "path": "default-book-design-types/effects/presets/element-rank-presets-v02.json",
+        "bytes": 26052,
+        "sha256": "acfcff6d6661a523952e8ffc66d429b4f9bb69fc9fae9a4dee5379bf81035ebd"
+      },
+      {
+        "path": "default-book-design-types/exports/configurations/defaults.json",
+        "bytes": 415,
+        "sha256": "37ee789880ca4beb25436f95b1adc70c6313593110a425331b51dff9bf39428b"
+      },
+      {
+        "path": "default-book-design-types/exports/configurations/water-advanced.json",
+        "bytes": 681,
+        "sha256": "172c6f7c5d703cd1a0b35857a2ce462bb35ef06f6f07d27e4de51cfbf0cbf3db"
+      },
+      {
+        "path": "default-book-design-types/exports/configurations/water-initial.json",
+        "bytes": 680,
+        "sha256": "1f2a77b3ac95de8c73e872cc747f69cfe2883404f7b4d8cd6f20e5ecd1e47198"
+      },
+      {
+        "path": "default-book-design-types/exports/configurations/water-meistro.json",
+        "bytes": 680,
+        "sha256": "81f8759082bd3e651be908153dba56c0572d35812ff744d87ec198d7c65c20ab"
+      },
+      {
+        "path": "default-book-design-types/exports/documents/project-design-v03.md",
+        "bytes": 33967,
+        "sha256": "5b91279e154a6d8221a8b8c17e11169100ce7be3519bf3bf950d181e9cbc3a68"
+      },
+      {
+        "path": "default-book-design-types/exports/documents/water-botanical-sigilcraft-demo-v02.md",
+        "bytes": 6119,
+        "sha256": "95a2f57b05d936c99d114ae3375c8e7316f35c5bb75d6bdb1ecfcde5f1db1288"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/advanced-back.svg",
+        "bytes": 34344,
+        "sha256": "feaf4fb658b231a73996c7f43690d2c631ff617fc9e4d2de2513de2174779553"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/advanced-exploded.svg",
+        "bytes": 180756,
+        "sha256": "d98c81598aac640c7268b914dbb7f8a41ffa45b37fa254ca12418fe89777f004"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/advanced-fore-edge.svg",
+        "bytes": 179694,
+        "sha256": "98a66815c716210a3094cb3378cd2e6917ed5f4ffca534057f1f5eebeefd5f7d"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/advanced-front.svg",
+        "bytes": 48556,
+        "sha256": "aa078f774526886574bfd413929ae639c3b92b9b670cd25edcb09f330f672577"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/advanced-spine.svg",
+        "bytes": 177722,
+        "sha256": "29ac6e91f0ee78104a8ec3b55adb4ad532eac4dac314052c6bca4dd07aa815c8"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/advanced-three-quarter.svg",
+        "bytes": 180257,
+        "sha256": "19e5518ce04e6c42a1254f8d2fcbeb553df86be1b5a6db478031372121d7d248"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/advanced-top.svg",
+        "bytes": 178028,
+        "sha256": "0cb01d10b539696786e651ab7d9e258cd79fc22737d98ea3725da835a05b32e1"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/elemental-reference.svg",
+        "bytes": 526212,
+        "sha256": "fb9e70d41925a1f15cf2f90b9b7460e1232f0b4675082d5835dd227ec067b89e"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/initial-back.svg",
+        "bytes": 24072,
+        "sha256": "19b2be95b19d3022c26e1457795b7cb8ae7fb1579e93f624a53bc0158b205fd0"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/initial-exploded.svg",
+        "bytes": 134612,
+        "sha256": "b2f4033d3091545cfd21c547bbd74f6a41bbe5b025438f189a0760cf00d94af3"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/initial-fore-edge.svg",
+        "bytes": 137912,
+        "sha256": "c6ed4b52a58681768d575607a7a3701d982f443ea8235ae72d282a67d8339e74"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/initial-front.svg",
+        "bytes": 34710,
+        "sha256": "f9b567c0d9a250fb5afd78577b70224387a753666977356dfe98769c46773938"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/initial-spine.svg",
+        "bytes": 136486,
+        "sha256": "d85f3d1995cb3fbdaf65635f23f3df1c816f87831a9aea0e0e54e2ec3de1c796"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/initial-three-quarter.svg",
+        "bytes": 134809,
+        "sha256": "30b534077d6cf4b3095f4b08fa9dcf1e2798f901d9906c211b091a723ee50864"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/initial-top.svg",
+        "bytes": 136359,
+        "sha256": "46d4b15a9dfae95f9a5eb90768a7d829a9c173ee2fe8595ea985966a5ce096d8"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/meistro-back.svg",
+        "bytes": 46941,
+        "sha256": "d4a1154d904e7cf516a4b97c4e0c0ed12bd8e9d0a1642cff056d4a8cb198ea39"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/meistro-exploded.svg",
+        "bytes": 222574,
+        "sha256": "822373af3352796169d4c79e9c9bd0281d732ee946a1b4b50f10ccd95fbd4bb3"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/meistro-fore-edge.svg",
+        "bytes": 221967,
+        "sha256": "e1323f78140d2b08e91d50cbe28c4ce878f18f6b72c46fef55a264c88adeb83f"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/meistro-front.svg",
+        "bytes": 65204,
+        "sha256": "30002fcc2ba6aa561cecb493989b0dea9012e424155c9c3a875ecd43378df89e"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/meistro-spine.svg",
+        "bytes": 219488,
+        "sha256": "918dfcaa1dd50bb4bc4b3f9006d84fa8b39ea6e907e904bbb1060eb82f756e36"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/meistro-three-quarter.svg",
+        "bytes": 222284,
+        "sha256": "d256c4cc48be30f1e6ebd677e07018a1ddd259d2ddc0dff365624bf54a90377e"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/meistro-top.svg",
+        "bytes": 219826,
+        "sha256": "6a8a1423bbbf701a1aef1dfa949d7eb6f375f5126755d06cb83b32c994a87530"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/motif-style-study.svg",
+        "bytes": 640663,
+        "sha256": "43666cc6869020e7e599db66f268aea3b4f134b8e25af96d2857092276c2d37b"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/rank-comparison.svg",
+        "bytes": 152449,
+        "sha256": "e4e93679ed73bbe734ceaad68df864ade460f6944f453ad66fe3970932c3061c"
+      },
+      {
+        "path": "default-book-design-types/exports/svg/README.md",
+        "bytes": 1277,
+        "sha256": "83838174ee87972ecd7077f96ee70a3a8f932032fd33683f513586eb3b1b3340"
+      },
+      {
+        "path": "default-book-design-types/exports/threejs/book-advanced.json",
+        "bytes": 550493,
+        "sha256": "e1f2af8bb8168a0bdb0a2ee9f285ac34ffbef52393a510e89ea84057fe863ca7"
+      },
+      {
+        "path": "default-book-design-types/exports/threejs/book-initial.json",
+        "bytes": 475831,
+        "sha256": "40665284114930805a5f048e86ccdf4f26224d25cee6b74ac75b850f429ba5a2"
+      },
+      {
+        "path": "default-book-design-types/exports/threejs/book-meistro.json",
+        "bytes": 644205,
+        "sha256": "e9b739ec9341eb144d4817b4fb9d3d5f53011d5aa775a79317470962f5ae6d94"
+      },
+      {
+        "path": "default-book-design-types/exports/threejs/export-model.mjs",
+        "bytes": 507,
+        "sha256": "131c033a1cdf8b23946d851885705c2321f142d921dd1c159f09f316813a1289"
+      },
+      {
+        "path": "default-book-design-types/lighting/presets/lighting-presets-v01.md",
+        "bytes": 5504,
+        "sha256": "1d9b44f7dabf06c7e6e3b04d004bc275be1d032095fd41e254767ae5cf1b1c57"
+      },
+      {
+        "path": "default-book-design-types/materials/material-catalog-v02.md",
+        "bytes": 5310,
+        "sha256": "99319d8bac1b5002cdc155f615e32034a5d58245f0df49f8ef8ca14a2b14a361"
+      },
+      {
+        "path": "default-book-design-types/materials/palettes/book-palettes-v01.json",
+        "bytes": 3232,
+        "sha256": "68b993e861d0deec3acdb8622ac219549d75ebd4ff03d389c03079f23bedab73"
+      },
+      {
+        "path": "default-book-design-types/materials/palettes/element-palettes-v02.json",
+        "bytes": 4281,
+        "sha256": "897812fdef6fc4b9472aa03755f8dabfa641b481a1cff8b4ed5e758086cbe01a"
+      },
+      {
+        "path": "default-book-design-types/materials/shaders/shader-spec-v01.md",
+        "bytes": 8780,
+        "sha256": "6808f643cb3e293182c531fd77ff591352a5131bf2f78cfa05bf59071dcc7aa3"
+      },
+      {
+        "path": "default-book-design-types/models/shared/catalog.mjs",
+        "bytes": 45233,
+        "sha256": "af222013133083245234653c750cecd0a040d910d6f351a39f8631b2f96c37c2"
+      },
+      {
+        "path": "default-book-design-types/models/shared/design.mjs",
+        "bytes": 15872,
+        "sha256": "87419c7e924ae30b642158f667d3565381842d2dc7e3536cefd488b41169dcde"
+      },
+      {
+        "path": "default-book-design-types/models/shared/svg.mjs",
+        "bytes": 8027,
+        "sha256": "bbb67016ff634e52a8ddd1e5d3152b03bc1c57c1c8fe08f6ac1185be38b95f29"
+      },
+      {
+        "path": "default-book-design-types/models/threejs/effects.mjs",
+        "bytes": 7513,
+        "sha256": "fdd12e27fce85c3ca1b01106dd064af276d12d1fd88c347d2232979800918126"
+      },
+      {
+        "path": "default-book-design-types/models/threejs/geometry.mjs",
+        "bytes": 8944,
+        "sha256": "45de2e8a4822b9751c34a66c8b738eaf4edda68348a78adb8b48c514ce341348"
+      },
+      {
+        "path": "default-book-design-types/models/threejs/index.html",
+        "bytes": 6761,
+        "sha256": "61593fd1fd2754e29068c4f54b86994e1d3249ce15f3da75cd14411b84107444"
+      },
+      {
+        "path": "default-book-design-types/models/threejs/README.md",
+        "bytes": 4818,
+        "sha256": "7f4fc3abf9283a09bdb7db61eb64a9fbf2f471d9afe698176ff5b02236195b52"
+      },
+      {
+        "path": "default-book-design-types/models/threejs/server.mjs",
+        "bytes": 1227,
+        "sha256": "9d774e0104a283828f4676d76ac0b31562f223f2d9b97dba3b08f0db08c27a32"
+      },
+      {
+        "path": "default-book-design-types/models/threejs/viewer.mjs",
+        "bytes": 17193,
+        "sha256": "b73a3d7032377e1781be1500b4241651c291d11b42c0dc0ad700aaaaef738adf"
+      },
+      {
+        "path": "default-book-design-types/package-lock.json",
+        "bytes": 2052,
+        "sha256": "34134976b6204a6e468bce44e3c1912d6a5cd0c9f65c39b79a424f234c426204"
+      },
+      {
+        "path": "default-book-design-types/package.json",
+        "bytes": 939,
+        "sha256": "124b64ecf266ae8f8bf291cfe1baf161509b20733f86cb8cbeb5274b11ea411c"
+      },
+      {
+        "path": "default-book-design-types/planning/aesthetic-catalog-v02.md",
+        "bytes": 32374,
+        "sha256": "864da29d92b72d3af96367c7c5f313fe43060d1c247610ecea74e9934f23e445"
+      },
+      {
+        "path": "default-book-design-types/planning/design-system-v02.json",
+        "bytes": 55510,
+        "sha256": "0739206349eda31ac72a6fd6392c6533482b9a379100aa0fea32114296f66491"
+      },
+      {
+        "path": "default-book-design-types/planning/dimensions-v03.json",
+        "bytes": 522,
+        "sha256": "8a1317b838b8ff3b8adfd71bbba2701ba34a8dc202d3dbc7597e1a146c64eb04"
+      },
+      {
+        "path": "default-book-design-types/planning/effects-breakdown.md",
+        "bytes": 14152,
+        "sha256": "bd365ddfb9bd5ce2ffa285190693e890ef376fc78ab7614dbe1874a784a0e053"
+      },
+      {
+        "path": "default-book-design-types/planning/outstanding-decisions.md",
+        "bytes": 5754,
+        "sha256": "e38d168cd37f8b1e9b81d59d2c410867a4de0743ba133d391ad6b892f1671db2"
+      },
+      {
+        "path": "default-book-design-types/planning/physical-construction-options.md",
+        "bytes": 9911,
+        "sha256": "da06847db3c0e9454299f53d52cd0872f362036e6b1e16333ee957e3694bea94"
+      },
+      {
+        "path": "default-book-design-types/planning/reference-breakdown.md",
+        "bytes": 13265,
+        "sha256": "a6861ec02484d31c355bba4144335d31cd3ea7ff6398d1af30a366f9f447cc11"
+      },
+      {
+        "path": "default-book-design-types/playwright.config.mjs",
+        "bytes": 707,
+        "sha256": "bbc25e319dfda4786e623fd2331f99cbacc945992764b637cbb943e694efbed2"
+      },
+      {
+        "path": "default-book-design-types/README.md",
+        "bytes": 4732,
+        "sha256": "3d12c81918a8a18a9c74aae124637b7e32740aceab1e6b4dee3765d15f410e4e"
+      },
+      {
+        "path": "default-book-design-types/scripts/check-documents.mjs",
+        "bytes": 5152,
+        "sha256": "14e6ae205c245a0adb036d2666ca1ab8925d2853c7eaacc410afe75644e145e1"
+      },
+      {
+        "path": "default-book-design-types/scripts/record-verification.mjs",
+        "bytes": 9898,
+        "sha256": "e139eb325bbe6f21f75b118cee9a1633d5b1666d459f6f3a110013e316c02286"
+      },
+      {
+        "path": "default-book-design-types/scripts/release-docs.mjs",
+        "bytes": 27676,
+        "sha256": "ce17b2456aaff177176dbdf139642f6bf36718276d99ada1466c7f096f7e69f6"
+      },
+      {
+        "path": "default-book-design-types/scripts/sync-catalog.mjs",
+        "bytes": 350,
+        "sha256": "4bdfa4f280b94e83cea08500f1817697a8112f3ab816239623b86218d72ce57e"
+      },
+      {
+        "path": "default-book-design-types/test-results/.last-run.json",
+        "bytes": 45,
+        "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+      }
+    ]
+  }
+]

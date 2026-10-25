@@ -1,0 +1,464 @@
+<div id="wizard-grimoire-inline">
+  <div class="viz-controls">
+    <button type="button" class="btn" data-pose="closed" aria-pressed="true">Closed</button>
+    <button type="button" class="btn" data-pose="open" aria-pressed="false">Open</button>
+    <label class="form-check"><input class="form-check-input" type="checkbox" data-clay><span class="form-check-label">Clay</span></label>
+    <label class="form-label">Spread<select class="form-select" data-spread aria-label="Reading spread"></select></label>
+  </div>
+  <div data-scene role="img" aria-label="Orbitable solid wizard grimoire, with covers, individual leaves, binding, clasps and reading cradle."></div>
+  <label class="form-label">Page turn <span class="tabular-nums" data-progress>0%</span><input class="form-range" data-turn aria-label="Solid page turn" type="range" min="0" max="1" step=".01" value="0" disabled></label>
+  <div class="text-small" data-status aria-live="polite">Preparing the book…</div>
+</div>
+<style>
+#wizard-grimoire-inline [data-scene]{width:100%;height:430px;position:relative;overflow:hidden}
+#wizard-grimoire-inline canvas{display:block;max-width:100%;touch-action:none}
+@media(max-width:450px){#wizard-grimoire-inline [data-scene]{height:350px}}
+</style>
+<script type="module">
+let T,OrbitControls,RoomEnvironment;
+
+// Governing user brief: Andre Olivier, The Anatomy & Physics of the Book, 24 October 2026.
+// Workshop dimensions are starting points. Binding families must not be combined implicitly.
+const BOOK_KNOWLEDGE = {
+  version:2, authority:{title:'The Anatomy & Physics of the Book',author:'Andre Olivier',date:'2026-10-24',kind:'user-supplied governing design brief'},
+  assemblies:{textBlock:['folded bifolia','gatherings','through-fold sewing','kettle stitches','supports','spine adhesive','mull','kraft lining','endbands','free endpapers'],case:['boards','covering','turn-ins','spine stiffener','exterior joints','pastedowns'],interface:['mull flanges','endpaper hinges']},
+  structures:{
+    'hollow-back-case':{separateCase:true,coverBondedToBlock:false,hollow:true,loadPath:'gatherings → sewing/lining → mull flanges and endpaper hinges → boards',opening:'text-block spine throws up; case spine bows separately',supports:'tapes; no board lacing in this configuration'},
+    'tight-back':{separateCase:false,coverBondedToBlock:true,hollow:false,loadPath:'sewing and linings into board attachment',opening:'lined text-block spine and covering flex together'},
+    'laced-board-flexible':{separateCase:false,coverBondedToBlock:true,hollow:false,loadPath:'raised sewing cords → actual board holes/channels → boards',opening:'flexible tight back; board lacing is an additional structural attachment'},
+    limp:{boards:false,opening:'flexible cover and laced supports'},
+    perfect:{foldsRetained:false,attachment:'adhesive-only leaves; adhesive and grain govern opening'},
+    coptic:{coveringSpine:false,opening:'exposed chain sewing; can approach 180°'}
+  },
+  rules:[
+    'Size from the sewn, rounded and backed text block outward; do not force the block into a preselected cover envelope.',
+    'A leaf has two pages. A gathering may contain several nested folded sheets; do not equate every gathering with one loose sheet.',
+    'Keep paper, endpaper, board and applicable lining grain parallel to the spine; leather has directional response rather than a machine-paper grain.',
+    'Sewing swell belongs at the fold, not as a uniform air gap across every leaf.',
+    'Rounding creates a convex spine and concave fore-edge; backing creates shoulders matched to board thickness.',
+    'Boards rotate at their joint lines, outside the shoulder. A case spine is not an extra cover board or a long hanging loop.',
+    'Endbands follow the text-block spine. A stuck-on endband is decorative; a structural endband requires gathering tie-downs.',
+    'In case binding, mull flanges and endpaper hinges transfer the block load. Laced boards have an additional support-to-board load path.',
+    'Tight-back covering and spine flex together; hollow-back case and text-block spines are distinct surfaces separated by a tube/space.',
+    'A normal-offset closed leaf is required for inspection. Edge textures may replace subpixel rendering only when individual physical leaf identities remain.',
+    'Material response, moisture and gravity are not proved by an authored pose or a closed-mesh report.'
+  ],
+  formulas:{caliper:'leafCount × leafCaliper',ppi:'pageCount / pagesPerInch × 25.4 mm',sewingSwell:'gatheringCount × threadDiameter × proposed compression factor',boardHeight:'blockHeight + 2 × square',boardWidth:'blockWidth − shoulderAllowance + foreEdgeSquare',jointGap:'5 mm + boardThickness + 1 mm (workshop starting rule)',shoulder:'boardThickness',plateBending:'D = E t³ / (12 (1 − ν²)); anisotropic paper needs directional E'},
+  workshop:{boardMm:[2,3],squareMm:3,jointBaseMm:6,mullFlangeMm:[25,40],turnInMm:15,roundArcDeg:120,humidityRH:[40,50],crossGrainExpansionRatio:[1.5,4],status:'approximate workshop values; not standards or constitutive calibration'},
+  failureModes:[
+    ['inward board warp','unbalanced pastedown/cover drying','balance layers, grain and restrained drying'],
+    ['gutter rippling','cross grain or moisture mismatch','spine-parallel grain and conditioning'],
+    ['springing shut','overlining, heavy paper or cross grain','correct drape and flexible lining'],
+    ['sprung block','excess swell or collapsing sections','control thread/swell; round and back'],
+    ['starting hinge','heavy block or weak/narrow flanges','adequate flange load path and endpaper hinge'],
+    ['cracked outer joint','local flex fatigue or brittle leather','spread bending and pare joints deliberately'],
+    ['torn headcap','pulling from head','handle at mid spine; heavy books stored flat'],
+    ['loose paperback leaves','adhesive failure','suitable adhesive or through-fold sewing'],
+    ['skewed block','leaning storage','support upright or store flat'],
+    ['cracked spine tooling','tight-back decoration flexing','choose structure and decoration together']
+  ],
+  supersedes:['independent board rotations about the spine centre','fixed 55 mm leather return as universal spine law','mixed case and laced-board load paths','uniform sewing swell at the fore-edge','one endband following the case spine','topology/FPS used as a craftsmanship score'],
+  evidence:[
+    {url:'https://cool.culturalheritage.org/don/dt/dt1763.html',use:'hollow-back separation and case construction'},
+    {url:'https://cool.culturalheritage.org/don/dt/dt2916.html',use:'rounding, concave fore-edge, preparation for backing'},
+    {url:'https://cool.culturalheritage.org/don/dt/dt0198.html',use:'backing shoulders'},
+    {url:'https://conservation-wiki.com/wiki/Endbands',use:'endband terminology and tie-down distinction'}
+  ]
+};
+
+const DEFAULT_SPEC={version:2,units:'mm',title:'The Field Observations of Elian Vey',
+  paper:{width:212,height:292,leaves:240,thickness:.16,gatherings:24,leavesPerGathering:10},
+  board:{thickness:3,cornerRadius:1.4,square:3,material:'balanced binder’s board'},
+  leather:{thickness:.7,jointThickness:.45,turnIn:15,colour:'#503125',toolingDepth:.12},
+  binding:{type:'hollow-back-case',threadDiameter:.25,swellCompression:.55,roundArcDeg:120,shoulder:3,jointGap:9,mullFlange:30,mullThickness:.18,kraftThickness:.14,adhesiveThickness:.06,hollowWall:.16,stiffener:.45,endpaperThickness:.18,endpaperLeaves:2,pastedownThickness:.18},
+  motion:{maximumOpening:130,minimumTurnOpening:110},evidence:'proposed dimensions derived from governing user anatomy brief'};
+const SPREADS=[{id:'botanical',leaf:24,label:'01 · The winter garden',heading:'Botanical observation'},{id:'mineral',leaf:60,label:'02 · Stones that remember',heading:'Mineral study'},{id:'lunar',leaf:104,label:'03 · The patient moon',heading:'Lunar calculation'},{id:'experiment',leaf:144,label:'04 · A measured distillation',heading:'Experimental procedure'},{id:'corrections',leaf:188,label:'05 · Errors & amendments',heading:'Corrected working notes'},{id:'ownership',leaf:232,label:'06 · A book passed onward',heading:'Ownership & history'}];
+const REFERENCES=BOOK_KNOWLEDGE.evidence.map((r,i)=>({id:'anatomy-'+i,title:BOOK_KNOWLEDGE.authority.title+' · reference '+(i+1),...r}));
+function validateSpec(s=DEFAULT_SPEC){if(!s||s.version!==2||s.units!=='mm')throw Error('Expected v2 anatomy specification in millimetres. V1 mechanics are retired.');for(const g of ['paper','board','leather','binding','motion'])for(const[k,v]of Object.entries(DEFAULT_SPEC[g]))if(typeof v==='number'&&s[g]?.[k]!==v)throw Error(g+'.'+k+' is fixed in the validated anatomy study.');if(s.binding.type!=='hollow-back-case')throw Error('This assembly is the hollow-back case configuration. Tight-back lacing requires another assembly.');if(!/^#[0-9a-f]{6}$/i.test(s.leather.colour))throw Error('Invalid leather colour.');return structuredClone(s);}
+function deriveDimensions(s=DEFAULT_SPEC){const writing=s.paper.leaves*s.paper.thickness,endpapers=s.binding.endpaperLeaves*s.binding.endpaperThickness,flat=writing+endpapers,swelling=s.paper.gatherings*s.binding.threadDiameter*s.binding.swellCompression,spine=flat+swelling;return{writing,endpapers,flat,swelling,spine,boardHeight:s.paper.height+2*s.board.square,boardWidth:s.paper.width-s.binding.shoulder+s.board.square,boardThickness:s.board.thickness,square:s.board.square,joint:s.binding.jointGap,nominalClosed:spine+2*(s.board.thickness+s.leather.thickness+s.binding.pastedownThickness+.35),spineRadius:spine/(2*Math.sin(s.binding.roundArcDeg*Math.PI/360)),note:'Thread swell is concentrated at the folds. Envelope measured from actual posed solids. Endpapers are separate.'};}
+
+const clamp=(x,a,b)=>Math.max(a,Math.min(b,x)),smooth=x=>{x=clamp(x,0,1);return x*x*(3-2*x);};
+function makeBindingPose(s=DEFAULT_SPEC,p={}){for(const k of ['opening','leaf','turn','release'])if(p[k]!==undefined&&!Number.isFinite(p[k]))throw Error('Non-finite pose '+k);const opening=clamp(p.opening??130,0,130),turn=opening<110?((p.turn??0)<.5?0:1):clamp(p.turn??0,0,1);return{opening,a:opening*Math.PI/180,tilt:25*Math.PI/180*smooth(opening/130),leaf:Math.round(clamp(p.leaf??104,1,s.paper.leaves-2)),turn,release:opening>0?1:clamp(p.release??0,0,1),f:smooth(opening/130)};}
+function createBindingMath(s=DEFAULT_SPEC){const d=deriveDimensions(s),A=s.binding.roundArcDeg*Math.PI/360,R=d.spineRadius/1000,L=2*A*R,N=s.paper.leaves,W=s.paper.width/1000,H=s.paper.height/1000;
+  const rawFor=i=>1-2*(i+.5)/N,mapRaw=r=>Math.asin(clamp(r*Math.sin(A),-.9999,.9999))/A;
+  let cache=null;
+  const fan=(r,p)=>p.tilt+p.a*smooth((r-rawFor(p.leaf))/.18+.5);
+  const delta=r=>Math.asin(clamp(r*Math.sin(A),-.9999,.9999));
+  function path(p){const key=p.opening+'/'+p.leaf;if(cache?.key===key)return cache;const steps=2048,points=[[0,0]],min=-1.012,max=1.012,dr=(max-min)/steps;
+    for(let k=1;k<=steps;k++){const r=min+(k-.5)*dr,alpha=fan(r,p)-delta(r),ds=R*Math.sin(A)/Math.sqrt(1-(r*Math.sin(A))**2)*dr,last=points[k-1];points.push([last[0]-Math.sin(alpha)*ds,last[1]+Math.cos(alpha)*ds]);}
+    const sample=r=>{const f=clamp((r-min)/dr,0,steps),j=Math.min(steps-1,Math.floor(f)),t=f-j;return[points[j][0]*(1-t)+points[j+1][0]*t,points[j][1]*(1-t)+points[j+1][1]*t];};
+    const split=rawFor(p.leaf),origin=sample(split),q=mapRaw(split),closed=[R*(Math.cos(A)-Math.cos(q*A)),R*Math.sin(q*A)];return cache={key,sample,origin,base:[closed[0]*(1-p.f),.074+closed[1]*(1-p.f)+.012*p.f]};}
+  function spine(q,p){const r=Math.sin(q*A)/Math.sin(A),c=path(p),v=c.sample(r);return[c.base[0]+v[0]-c.origin[0],c.base[1]+v[1]-c.origin[1],0];}
+  function frame(q,p){const raw=Math.sin(q*A)/Math.sin(A),alpha=fan(raw,p)-delta(raw);return{point:spine(q,p),tangent:[-Math.sin(alpha),Math.cos(alpha),0],out:[-Math.cos(alpha),-Math.sin(alpha),0],phi:alpha+Math.PI/2};}
+  function board(name,p){const sign=name==='front'?1:-1,angle=p.tilt+(sign===1?p.a:0),dir=[Math.cos(angle),Math.sin(angle),0],normal=[-dir[1],dir[0],0],root=spine(sign,p),shoulder=s.binding.shoulder/1000,clear=.00053-d.swelling/2000;return{sign,angle,dir,normal,pivot:[root[0]+dir[0]*shoulder+normal[0]*sign*clear,root[1]+dir[1]*shoulder+normal[1]*sign*clear,0]};}
+  function boardPoint(name,x,y,z,p){const b=board(name,p);return[b.pivot[0]+x*b.dir[0]+y*b.normal[0],b.pivot[1]+x*b.dir[1]+y*b.normal[1],z];}
+  const arcLength=(chord,sag)=>sag<1e-10?chord:.5*Math.hypot(chord,4*sag)+chord*chord/(8*sag)*Math.asinh(4*sag/chord);
+  const closedChord=d.spine/1000+2*(.00053-d.swelling/2000+s.board.thickness/1000+.00035),caseNeutralLength=arcLength(closedChord,.0085);
+  let caseCache=null;
+  function caseShape(p){const key=p.opening+'/'+p.leaf;if(caseCache?.key===key)return caseCache;const ends=['rear','front'].map(name=>{const b=board(name,p);return[b.pivot[0]-b.dir[0]*s.binding.jointGap/1000+b.normal[0]*b.sign*(s.board.thickness/1000+.00035),b.pivot[1]-b.dir[1]*s.binding.jointGap/1000+b.normal[1]*b.sign*(s.board.thickness/1000+.00035)];}),[a,b]=ends,chord=Math.hypot(b[0]-a[0],b[1]-a[1]);if(chord>caseNeutralLength+1e-7)throw Error('Joint separation exceeds the available case stiffener length.');let lo=0,hi=caseNeutralLength;for(let k=0;k<44;k++){const m=(lo+hi)/2;if(arcLength(chord,m)>caseNeutralLength)hi=m;else lo=m;}return caseCache={key,a,b,sag:(lo+hi)/2,normal:[-(b[1]-a[1])/chord,(b[0]-a[0])/chord]};}
+  function caseSpine(q,p){const c=caseShape(p),t=(q+1)/2,bow=4*c.sag*t*(1-t);return[c.a[0]+t*(c.b[0]-c.a[0])+c.normal[0]*bow,c.a[1]+t*(c.b[1]-c.a[1])+c.normal[1]*bow,0];}
+  function caseFrame(q,p){const h=.0001,a=caseSpine(Math.max(-1,q-h),p),b=caseSpine(Math.min(1,q+h),p),len=Math.hypot(b[0]-a[0],b[1]-a[1]);return{point:caseSpine(q,p),out:[-(b[1]-a[1])/len,(b[0]-a[0])/len,0]};}
+  const mapQ=q=>Math.asin(clamp(q*Math.sin(A),-.9999,.9999))/A;
+  const qFor=i=>mapQ(1-2*(i+.5)/N);
+  function leafSurface(i,p,{quality=64,endpaper=null}={}){const raw=endpaper===null?rawFor(i):endpaper,q=mapRaw(raw),root=spine(q,p),active=endpaper===null&&i===p.leaf,left=endpaper===null?i<p.leaf:endpaper>0,t=active?p.turn:(left?1:0),theta=p.tilt+p.a*t,near=fan(raw,p),xy=[root],lengths=[0],extra=active?Math.sin(Math.PI*p.turn)*.28:0;
+    const grid=[...Array.from({length:257},(_,k)=>k/256*.020),...Array.from({length:129},(_,k)=>.020+k/128*(W-.020)).slice(1)];
+    for(let k=1;k<grid.length;k++){const arc=(grid[k]+grid[k-1])/2,angle=theta-delta(raw)*Math.exp(-arc/.0015)+(near-theta)*Math.exp(-arc/.020)+extra*Math.sin(Math.PI*arc/W),ds=grid[k]-grid[k-1];xy.push([xy[k-1][0]+Math.cos(angle)*ds,xy[k-1][1]+Math.sin(angle)*ds,0]);lengths.push(grid[k]);}
+    return(u,v)=>{const target=u*W;let lo=0,hi=lengths.length-1;while(hi-lo>1){const m=(lo+hi)>>1;if(lengths[m]<target)lo=m;else hi=m;}const t=(target-lengths[lo])/(lengths[hi]-lengths[lo]);return[xy[lo][0]*(1-t)+xy[hi][0]*t,xy[lo][1]*(1-t)+xy[hi][1]*t,(v-.5)*H];};
+  }
+  return{dimensions:d,spine,frame,board,boardPoint,caseSpine,caseFrame,leafSurface,qFor,neutralArcLength:L,caseNeutralLength};
+}
+
+function createGeometryTools(T) {
+  function shell(nu,nv,surface,thickness,options={}) {
+    const N=(nu+1)*(nv+1),centres=new Float64Array(N*3),baseNormals=new Float32Array(N*3),p=[],uv=[],normals=[];
+    for(let i=0;i<=nu;i++)for(let j=0;j<=nv;j++){const k=i*(nv+1)+j,c=surface(i/nu,j/nv);centres.set(c,k*3);}
+    for(let i=0;i<=nu;i++)for(let j=0;j<=nv;j++){
+      const k=i*(nv+1)+j,a=(Math.max(0,i-1)*(nv+1)+j)*3,b=(Math.min(nu,i+1)*(nv+1)+j)*3,c=(i*(nv+1)+Math.max(0,j-1))*3,d=(i*(nv+1)+Math.min(nv,j+1))*3;
+      const ux=centres[b]-centres[a],uy=centres[b+1]-centres[a+1],uz=centres[b+2]-centres[a+2],vx=centres[d]-centres[c],vy=centres[d+1]-centres[c+1],vz=centres[d+2]-centres[c+2];
+      const nx=vy*uz-vz*uy,ny=vz*ux-vx*uz,nz=vx*uy-vy*ux,len=Math.hypot(nx,ny,nz)||1;baseNormals.set([nx/len,ny/len,nz/len],k*3);
+    }
+    for(let side=0;side<2;side++)for(let i=0;i<=nu;i++)for(let j=0;j<=nv;j++){
+      const k=(i*(nv+1)+j)*3,t=typeof thickness==='function'?thickness(i/nu,j/nv):thickness,sign=side?-1:1;
+      for(let c=0;c<3;c++){p.push(centres[k+c]+sign*baseNormals[k+c]*t/2);normals.push(sign*baseNormals[k+c]);}uv.push(side?1-i/nu:i/nu,1-j/nv);
+    }
+    const front=[],back=[],edges=[],edgeSource=[];
+    for(let i=0;i<nu;i++)for(let j=0;j<nv;j++){
+      const a=i*(nv+1)+j,b=a+nv+1;
+      front.push(a,a+1,b,a+1,b+1,b);back.push(a+N,b+N,a+1+N,a+1+N,b+N,b+1+N);
+    }
+    const rim=[];
+    for(let j=0;j<=nv;j++)rim.push(j);
+    for(let i=1;i<=nu;i++)rim.push(i*(nv+1)+nv);
+    for(let j=nv-1;j>=0;j--)rim.push(nu*(nv+1)+j);
+    for(let i=nu-1;i>0;i--)rim.push(i*(nv+1));
+    for(let i=0;i<rim.length;i++){
+      const a=rim[i],b=rim[(i+1)%rim.length],start=p.length/3,sources=[a,b,b+N,a+N];
+      const ax=p[a*3],ay=p[a*3+1],az=p[a*3+2],ux=p[b*3]-ax,uy=p[b*3+1]-ay,uz=p[b*3+2]-az,vx=p[(a+N)*3]-ax,vy=p[(a+N)*3+1]-ay,vz=p[(a+N)*3+2]-az;
+      const nx=vy*uz-vz*uy,ny=vz*ux-vx*uz,nz=vx*uy-vy*ux,len=Math.hypot(nx,ny,nz)||1;
+      for(let j=0;j<sources.length;j++){const source=sources[j];p.push(p[source*3],p[source*3+1],p[source*3+2]);uv.push(i/rim.length,j<2?0:1);normals.push(nx/len,ny/len,nz/len);edgeSource.push(source);}
+      edges.push(start,start+2,start+1,start,start+3,start+2);
+    }
+    const idx=front.concat(back,edges);
+    const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(p,3));g.setAttribute('uv',new T.Float32BufferAttribute(uv,2));g.setAttribute('normal',new T.Float32BufferAttribute(normals,3));g.setIndex(idx);g.clearGroups();g.addGroup(0,front.length,0);g.addGroup(front.length,back.length,1);g.addGroup(front.length+back.length,edges.length,2);g.userData={solid:true,method:'normal-offset closed parametric shell',nu,nv,thickness:typeof thickness==='number'?thickness:'variable',edgeSource,...options};
+    return g;
+  }
+  function box(w,h,d,bevel=.0003){
+    const r=Math.min(bevel,w*.2,h*.2,d*.2),s=new T.Shape(),x=w/2-r,z=d/2-r;
+    s.moveTo(-x,-d/2);s.lineTo(x,-d/2);s.quadraticCurveTo(w/2,-d/2,w/2,-z);s.lineTo(w/2,z);s.quadraticCurveTo(w/2,d/2,x,d/2);s.lineTo(-x,d/2);s.quadraticCurveTo(-w/2,d/2,-w/2,z);s.lineTo(-w/2,-z);s.quadraticCurveTo(-w/2,-d/2,-x,-d/2);
+    const g=new T.ExtrudeGeometry(s,{depth:Math.max(.000001,h-2*r),bevelEnabled:r>0,bevelThickness:r,bevelSize:r*.4,bevelSegments:3,curveSegments:6});
+    g.rotateX(-Math.PI/2);g.translate(0,-h/2+r,0);const P=g.attributes.position,U=g.attributes.uv;for(let i=0;i<U.count;i++)U.setXY(i,(P.getX(i)+w/2)/w,(P.getZ(i)+d/2)/d);g.userData={solid:true,method:'bevelled solid'};return g;
+  }
+  function tube(points,radius,segments=48,sides=10){
+    const curve=new T.CatmullRomCurve3(points.map(p=>new T.Vector3(...p))),variable=typeof radius==='function',g=new T.TubeGeometry(curve,segments,variable?1:radius,sides,false);
+    // A stable reference prevents Frenet-frame flips between corrective poses.
+    const reference=Math.abs(curve.getTangentAt(0).z)>.9?new T.Vector3(0,1,0):new T.Vector3(0,0,1),P=g.attributes.position;
+    for(let i=0;i<=segments;i++){const t=i/segments,c=curve.getPointAt(t),tangent=curve.getTangentAt(t),n=reference.clone().addScaledVector(tangent,-reference.dot(tangent)).normalize(),b=new T.Vector3().crossVectors(tangent,n),r=variable?radius(t):radius;for(let j=0;j<=sides;j++){const a=j/sides*Math.PI*2,k=i*(sides+1)+j;P.setXYZ(k,c.x+r*(Math.cos(a)*n.x+Math.sin(a)*b.x),c.y+r*(Math.cos(a)*n.y+Math.sin(a)*b.y),c.z+r*(Math.cos(a)*n.z+Math.sin(a)*b.z));}}
+    const p=Array.from(g.attributes.position.array),uv=Array.from(g.attributes.uv.array),idx=Array.from(g.index.array);
+    for(const end of [0,1]){const point=curve.getPointAt(end),c=p.length/3;p.push(...point.toArray());uv.push(.5,.5);for(let j=0;j<sides;j++){const a=end*segments*(sides+1)+j,b=a+1;idx.push(...(end?[c,b,a]:[c,a,b]));}}
+    g.setAttribute('position',new T.Float32BufferAttribute(p,3));g.setAttribute('uv',new T.Float32BufferAttribute(uv,2));g.setIndex(idx);g.computeVertexNormals();g.userData={solid:true,method:'capped swept solid'};return g;
+  }
+  function mirrorY(g){const p=g.attributes.position;for(let i=0;i<p.count;i++)p.setY(i,-p.getY(i));const idx=g.index?.array;if(idx)for(let i=0;i<idx.length;i+=3)[idx[i+1],idx[i+2]]=[idx[i+2],idx[i+1]];else{for(let i=0;i<p.count;i+=3)for(const a of Object.values(g.attributes)){const n=a.itemSize;for(let k=0;k<n;k++){const j=(i+1)*n+k,l=(i+2)*n+k,tmp=a.array[j];a.array[j]=a.array[l];a.array[l]=tmp;}}}g.computeVertexNormals();return g;}
+  function updateShell(g,nu,nv,surface,t){const next=shell(nu,nv,surface,t,g.userData);g.attributes.position.array.set(next.attributes.position.array);g.attributes.position.needsUpdate=true;g.attributes.normal.array.set(next.attributes.normal.array);g.attributes.normal.needsUpdate=true;g.computeBoundingSphere();next.dispose();}
+  function between(nu,nv,front,back,options={}) {
+    const g=shell(nu,nv,front,.0001,options),p=g.attributes.position,N=(nu+1)*(nv+1);
+    for(let i=0;i<=nu;i++)for(let j=0;j<=nv;j++){const k=i*(nv+1)+j;p.setXYZ(k,...front(i/nu,j/nv));p.setXYZ(k+N,...back(i/nu,j/nv));}
+    for(let i=0;i<g.userData.edgeSource.length;i++){const source=g.userData.edgeSource[i];p.setXYZ(2*N+i,p.getX(source),p.getY(source),p.getZ(source));}
+    p.needsUpdate=true;g.computeVertexNormals();g.userData={...g.userData,solid:true,method:'closed paired surfaces',...options};return g;
+  }
+  function sweepSection(contour,section,segments=128) {
+    const p=[],uv=[],idx=[],N=section.length;
+    for(let i=0;i<segments;i++)for(let j=0;j<N;j++){const [d,y]=section[j],[x,z]=contour(i/segments,d);p.push(x,y,z);uv.push(i/segments,j/N);}
+    for(let i=0;i<segments;i++)for(let j=0;j<N;j++){const a=i*N+j,b=((i+1)%segments)*N+j,c=i*N+(j+1)%N,d=((i+1)%segments)*N+(j+1)%N;idx.push(a,c,b,b,c,d);}
+    const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(p,3));g.setAttribute('uv',new T.Float32BufferAttribute(uv,2));g.setIndex(idx);g.computeVertexNormals();g.userData={solid:true,method:'closed periodic profile sweep'};return g;
+  }
+  return {shell,between,sweepSection,box,tube,mirrorY,updateShell};
+}
+
+
+const fract=x=>x-Math.floor(x);
+const hash=(x,y)=>fract(Math.sin(x*127.1+y*311.7)*43758.5453123);
+function noise(x,y){const a=Math.floor(x),b=Math.floor(y),u=fract(x),v=fract(y),s=u*u*(3-2*u),t=v*v*(3-2*v);return (hash(a,b)*(1-s)+hash(a+1,b)*s)*(1-t)+(hash(a,b+1)*(1-s)+hash(a+1,b+1)*s)*t;}
+
+function createMaterials(T,spec) {
+  const textures=[],materials=[];
+  const texture=(data,n,colour=false)=>{const t=new T.DataTexture(data,n,n,T.RGBAFormat);t.colorSpace=colour?T.SRGBColorSpace:T.NoColorSpace;t.wrapS=t.wrapT=T.RepeatWrapping;t.generateMipmaps=true;t.minFilter=T.LinearMipmapLinearFilter;t.magFilter=T.LinearFilter;t.needsUpdate=true;textures.push(t);return t;};
+  const N=768,height=new Float32Array(N*N),colour=new Uint8Array(N*N*4),rough=new Uint8Array(N*N*4),normal=new Uint8Array(N*N*4);
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++){
+    const u=i/N,v=j/N,k=j*N+i;
+    const pores=noise(u*230,v*230),wrinkle=Math.abs(Math.sin(u*680+noise(u*13,v*18)*9+Math.sin(v*140)*.7));
+    height[k]=pores*.60+noise(u*85,v*110)*.25+Math.pow(wrinkle,14)*.15;
+    const corner=Math.pow(Math.abs(u-.5)*2,8)*Math.pow(Math.abs(v-.5)*2,5),handling=Math.exp(-((u-.86)**2/.012+(v-.24)**2/.018));
+    const tone=38+noise(u*6,v*8)*20+pores*10+corner*19;
+    colour[k*4]=tone*1.45;colour[k*4+1]=tone*.86;colour[k*4+2]=tone*.59;colour[k*4+3]=255;
+    rough[k*4]=rough[k*4+1]=rough[k*4+2]=Math.round(176+pores*24-corner*28-handling*35);rough[k*4+3]=255;
+  }
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++){
+    const k=(j*N+i)*4,dx=height[j*N+(i+1)%N]-height[j*N+(i+N-1)%N],dy=height[((j+1)%N)*N+i]-height[((j+N-1)%N)*N+i];
+    normal[k]=128-dx*92;normal[k+1]=128-dy*92;normal[k+2]=250;normal[k+3]=255;
+  }
+  const leatherMap=texture(colour,N,true),roughnessMap=texture(rough,N),normalMap=texture(normal,N);
+  // Proposed 0.12 mm micrograin; unique colour and handling wear remain at cover scale.
+  normalMap.repeat.set(8,8);
+  const standard=o=>{const m=new T.MeshStandardMaterial(o);materials.push(m);return m;};
+  const leather=standard({color:'#b89c84',map:leatherMap,roughness:.86,roughnessMap,normalMap,normalScale:new T.Vector2(.24,.24),metalness:0});
+  const original=new T.Color('#503125'),requested=new T.Color(spec.leather.colour);leather.color.multiply(new T.Color(requested.r/original.r,requested.g/original.g,requested.b/original.b));
+  const coverColour=colour.slice();
+  const coverWidth=(spec.paper.width-spec.binding.shoulder+spec.board.square)/1000,coverHeight=(spec.paper.height+2*spec.board.square)/1000;
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++){
+    const x=i/N*coverWidth,z=(.5-j/N)*coverHeight,d=Math.min(x,coverWidth-x,coverHeight/2-Math.abs(z));
+    const border=Math.exp(-Math.pow((d-.009)/.00075,2))+.65*Math.exp(-Math.pow((d-.013)/.00055,2)),cx=x-coverWidth*.5,cz=z;
+    const circle=Math.exp(-Math.pow((Math.hypot(cx,cz)-.026)/.0007,2)),stem=Math.exp(-Math.pow((cx-.002*Math.sin(cz*110))/.0007,2))*Math.max(0,1-Math.max(0,Math.abs(cz)-.018)/.003);
+    const tool=Math.min(1,border+circle*.8+stem*.6),k=(j*N+i)*4;
+    for(let c=0;c<3;c++)coverColour[k+c]*=1-tool*.32;
+  }
+  const cover=leather.clone();cover.map=texture(coverColour,N,true);materials.push(cover);
+  const patch=leather.clone();patch.color.set('#987d5b');patch.roughness=.92;patch.normalScale.set(.16,.16);materials.push(patch);
+  const woodData=new Uint8Array(512*512*4);
+  for(let j=0;j<512;j++)for(let i=0;i<512;i++){const k=(j*512+i)*4,grain=noise(i*.09+Math.sin(j*.02)*2,j*.007),f=Math.sin(i*.29+noise(i*.02,j*.006)*10),c=90+grain*35+f*7;woodData[k]=c*1.18;woodData[k+1]=c*.88;woodData[k+2]=c*.56;woodData[k+3]=255;}
+  const wood=standard({color:'#a58b65',map:texture(woodData,512,true),roughness:.8});
+  const paper=standard({color:'#d4c6a0',roughness:.94});
+  const paperEdge=standard({color:'#c5b68d',roughness:1});
+  const edgeData=new Uint8Array(512*512*4);for(let j=0;j<512;j++)for(let i=0;i<512;i++){const k=(j*512+i)*4,value=236+Math.sin(j/512*Math.PI*480)*8+noise(i*.15,j*.08)*8;edgeData[k]=edgeData[k+1]=edgeData[k+2]=value;edgeData[k+3]=255;}
+  const proxyEdges=[0,1].map(()=>standard({color:'#c5b68d',roughness:1,map:texture(edgeData.slice(),512,true)}));
+  const paperVariants=Array.from({length:7},(_,i)=>standard({color:new T.Color('#d4c6a0').multiplyScalar(.92+i*.014),roughness:.95}));
+  const endpaper=standard({color:'#c1b18b',roughness:.98});
+  const board=standard({color:'#858475',roughness:1}),kraft=standard({color:'#a68c61',roughness:.98}),stiffener=standard({color:'#a09b82',roughness:1}),hollow=standard({color:'#cbb68e',roughness:.97});
+  const linen=standard({color:'#a49169',roughness:.96});
+  const brass=standard({color:'#9d7941',metalness:.88,roughness:.52});
+  const darkBrass=standard({color:'#5d4d31',metalness:.68,roughness:.76});
+  const lining=standard({color:'#655340',roughness:1});
+  const cradle=standard({color:'#8b7862',roughness:.83,map:wood.map});
+  const pad=standard({color:'#695d4e',roughness:1});
+  const stone=standard({color:'#b4ada0',roughness:.91});
+  const clay=standard({color:'#aca596',roughness:.78});
+  return {leather,cover,patch,wood,board,kraft,stiffener,hollow,paper,paperEdge,proxyEdges,paperVariants,endpaper,linen,brass,darkBrass,lining,cradle,pad,stone,clay,materials,textures,
+    dispose(){for(const m of materials)m.dispose();for(const t of textures)t.dispose();}};
+}
+
+const CONTENT = [
+  {title:'The winter garden',subtitle:'Observations made beyond the north wall',date:'Second winter · waning moon',lines:[
+    'The silverleaf keeps its scent after the first frost.',
+    'Gather the lower leaves before the morning light.',
+    'The pale veins must be whole; reject a bruised stem.',
+    'Rain changes the measure. Dry upon linen, never iron.',
+    'A specimen from the west bed yielded little colour.',
+    'The same plant, kept in shade, was notably stronger.',
+    'I have marked the sheltered beds upon the next leaf.',
+    'Do not confuse the young shoot with bitter rue.'
+  ],notes:['Compare the small veins.','The root is not required.','M. found three by the well.']},
+  {title:'Stones that remember',subtitle:'A small cabinet of mineral observations',date:'Third year · after the thaw',lines:[
+    'The grey specimen takes a pale line when scratched.',
+    'Its broken face is brighter than the weathered skin.',
+    'I weighed it dry, then again after a night in water.',
+    'No change was found beyond the error of the balance.',
+    'The green stone leaves a stain upon damp linen.',
+    'Keep it apart from the white salts in the lower tray.',
+    'Crystal from the quarry cleaves along three planes.',
+    'A glass likeness lacks both the grain and the weight.'
+  ],notes:['Repeat with a smaller weight.','No silver is present.','Edges drawn at twice their size.']},
+  {title:'The patient moon',subtitle:'Tables for the return of a familiar light',date:'Fifth year · clear nights',lines:[
+    'The eastern ridge obscures the first observation.',
+    'Take the measure from the brass line on the sill.',
+    'Clouds delayed the third reading by half an hour.',
+    'An interval is entered here rather than a false point.',
+    'The narrow crescent returned beneath the old star.',
+    'Correct the clock before comparing these columns.',
+    'The garden work follows the season before the moon.',
+    'A pleasing pattern alone is insufficient evidence.'
+  ],notes:['Clock was slow this night.','Leave the doubtful entry blank.','Return here at the next new moon.']},
+  {title:'A measured distillation',subtitle:'Concerning clear water and a patient fire',date:'Sixth year · first attempt',lines:[
+    'Set the clean vessel upon a bed of fine dry sand.',
+    'Raise the warmth slowly and watch the upper neck.',
+    'The first drops carried the scent of the old stopper.',
+    'I discarded them and washed the receiver once more.',
+    'The second measure was clear, without a green cast.',
+    'The drawing records the height of the cooling tube.',
+    'At dusk the yield was less than the winter trial.',
+    'A small leak was later found beneath the binding.'
+  ],notes:['Replace this cracked stopper.','A gentler warmth sufficed.','Record the failed trials also.']},
+  {title:'Errors and amendments',subtitle:'Notes worth keeping because they were wrong',date:'Ninth year · revised in brown ink',lines:[
+    'The former conclusion depended on a single trial.',
+    'I mistook a stain on the glass for a change of colour.',
+    'With a new vessel the expected mark did not appear.',
+    'The table opposite replaces the earlier reckoning.',
+    'A second hand has confirmed the smaller measure.',
+    'Do not erase the old account: it explains the error.',
+    'The folded note was added after the autumn journey.',
+    'A useful book must have room to contradict its owner.'
+  ],notes:['Wrong vessel, not wrong season.','E. V. · checked twice.','See the mineral notes.']},
+  {title:'A book passed onward',subtitle:'Names, repairs, and the keeping of observations',date:'Fourteenth year · at the south window',lines:[
+    'These leaves were first gathered for Elian Vey.',
+    'The lower joint was repaired after the river journey.',
+    'The new leather is firmer and lighter than the old.',
+    'Mara added the garden notes during the long winter.',
+    'The little brass catch was renewed in the eighth year.',
+    'Keep the loose measures with their original account.',
+    'Whoever receives this book: add what you have seen.',
+    'Leave enough margin for the person who follows you.'
+  ],notes:['Mara · keeper of the west beds.','The repair holds well.','Returned to the study, year fourteen.']},
+];
+
+function botanical(c,x,y,s){
+  c.save();c.translate(x,y);c.scale(s,s);c.strokeStyle='#4f5440';c.lineWidth=3;
+  c.beginPath();c.moveTo(0,220);c.bezierCurveTo(-35,80,35,-100,5,-270);c.stroke();
+  for(let i=0;i<7;i++){const yy=150-i*58,side=i%2?1:-1;c.save();c.translate(i%2?8:-7,yy);c.scale(side,1);c.beginPath();c.moveTo(0,0);c.bezierCurveTo(70,-90,170,-90,160,-160);c.bezierCurveTo(35,-135,15,-65,0,0);c.fillStyle=i%2?'#89917655':'#777f6b55';c.fill();c.stroke();c.beginPath();c.moveTo(0,0);c.quadraticCurveTo(100,-90,160,-160);c.stroke();for(let j=1;j<5;j++){c.beginPath();c.moveTo(j*24,-j*23);c.lineTo(j*24+15,-j*23-34);c.stroke();}c.restore();}
+  c.beginPath();c.ellipse(5,-290,35,18,-.6,0,Math.PI*2);c.stroke();c.restore();
+}
+function mineral(c,x,y,s){c.save();c.translate(x,y);c.scale(s,s);c.lineWidth=3;c.strokeStyle='#575950';for(let k=0;k<3;k++){c.save();c.translate((k-1)*170,k%2*90);c.rotate((k-1)*.25);c.beginPath();c.moveTo(-65,140);c.lineTo(-70,-80);c.lineTo(-10,-160);c.lineTo(65,-100);c.lineTo(70,140);c.closePath();c.fillStyle=['#6e76682a','#a08a592a','#6681782a'][k];c.fill();c.stroke();c.beginPath();c.moveTo(-70,-80);c.lineTo(0,-30);c.lineTo(65,-100);c.moveTo(0,-30);c.lineTo(0,140);c.moveTo(-10,-160);c.lineTo(0,-30);c.stroke();c.restore();}c.restore();}
+function lunar(c,x,y,s){c.save();c.translate(x,y);c.scale(s,s);c.strokeStyle='#55564a';c.lineWidth=2.5;for(let k=0;k<8;k++){const a=k/8*Math.PI*2,xx=Math.cos(a)*210,yy=Math.sin(a)*210;c.beginPath();c.arc(xx,yy,32,0,Math.PI*2);c.stroke();c.save();c.beginPath();c.arc(xx,yy,31,0,Math.PI*2);c.clip();c.fillStyle='#55564a99';c.beginPath();c.ellipse(xx+(k-3.5)*9,yy,31,34,0,0,Math.PI*2);c.fill();c.restore();}c.setLineDash([8,8]);c.beginPath();c.arc(0,0,210,0,Math.PI*2);c.stroke();c.setLineDash([]);c.beginPath();c.arc(0,0,85,0,Math.PI*2);c.stroke();for(let i=0;i<36;i++){const a=i/36*Math.PI*2;c.beginPath();c.moveTo(Math.cos(a)*88,Math.sin(a)*88);c.lineTo(Math.cos(a)*100,Math.sin(a)*100);c.stroke();}c.restore();}
+function vessel(c,x,y,s){c.save();c.translate(x,y);c.scale(s,s);c.strokeStyle='#57554b';c.lineWidth=3;c.beginPath();c.moveTo(-150,130);c.bezierCurveTo(-280,0,-130,-60,-125,-160);c.lineTo(-90,-160);c.bezierCurveTo(-80,-45,35,-5,-15,130);c.closePath();c.fillStyle='#9eaf9a22';c.fill();c.stroke();c.beginPath();c.moveTo(-110,-160);c.lineTo(-110,-220);c.lineTo(110,-120);c.lineTo(140,90);c.stroke();c.beginPath();c.moveTo(65,90);c.lineTo(190,90);c.lineTo(195,180);c.lineTo(65,180);c.closePath();c.stroke();c.beginPath();c.moveTo(-240,155);c.lineTo(30,155);c.moveTo(-235,170);c.lineTo(25,170);c.stroke();c.restore();}
+
+function createPageArt(T) {
+  const textures=[],materials=[],canvases=[];
+  function make(index,side) {
+    const data=CONTENT[index],canvas=document.createElement('canvas');canvas.width=1536;canvas.height=2112;const c=canvas.getContext('2d');
+    c.fillStyle='#d9cfaf';c.fillRect(0,0,1536,2112);
+    let seed=433+index*17;const rnd=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
+    const image=c.getImageData(0,0,1536,2112);for(let i=0;i<image.data.length;i+=4){const n=(rnd()-.5)*9;image.data[i]+=n;image.data[i+1]+=n;image.data[i+2]+=n;}c.putImageData(image,0,0);
+    const edge=c.createLinearGradient(0,0,1536,0);edge.addColorStop(0,'#77634733');edge.addColorStop(.045,'#77634700');edge.addColorStop(.95,'#77634700');edge.addColorStop(1,'#77634722');c.fillStyle=edge;c.fillRect(0,0,1536,2112);
+    const thumb=c.createRadialGradient(side?100:1440,1730,1,side?100:1440,1730,150);thumb.addColorStop(0,'#77614019');thumb.addColorStop(1,'#77614000');c.fillStyle=thumb;c.fillRect(0,0,1536,2112);
+    c.save();c.translate(1536,0);c.scale(-1,1);c.fillStyle='#51483509';c.font='italic 24px Georgia';for(let i=0;i<12;i++)c.fillText(data.lines[(i+3)%8],180,1050+i*49);c.restore();
+    c.strokeStyle='#8b7c5d45';c.lineWidth=1;c.beginPath();c.moveTo(155,150);c.lineTo(155,1910);c.stroke();
+    c.fillStyle='#2d251b';c.font='20px Georgia';c.letterSpacing='3px';c.fillText('FIELD OBSERVATIONS · E. VEY',180,130);c.letterSpacing='0px';
+    c.font='italic 56px Georgia';c.fillText(side?data.subtitle.split(' ').slice(0,4).join(' '):data.title,180,245);
+    c.font='italic 25px Georgia';c.fillStyle='#766048';c.fillText(data.date,184,300);
+    c.strokeStyle='#8a654b';c.lineWidth=2;c.beginPath();c.moveTo(180,335);c.lineTo(1360,335);c.stroke();
+    c.fillStyle='#2d251d';c.font='italic 29px Georgia';
+    for(let i=0;i<8;i++){c.save();c.translate(185,1055+i*59);c.rotate(Math.sin(i*2.5+index)*.003);c.fillText(data.lines[(i+(side?3:0))%8],0,0);c.restore();}
+    if(index===0)botanical(c,760,710,side?.63:.75);
+    if(index===1)mineral(c,790,690,.85);
+    if(index===2)lunar(c,790,690,.90);
+    if(index===3)vessel(c,830,720,1.02);
+    if(index===4){mineral(c,800,650,.65);c.strokeStyle='#975b45';c.lineWidth=2;c.beginPath();c.moveTo(184,1183);c.lineTo(1180,1171);c.stroke();c.font='italic 28px Georgia';c.fillStyle='#87543e';c.fillText('Replace this observation with the second trial.',255,1550);}
+    if(index===5){c.save();c.translate(790,700);c.strokeStyle='#635541';c.lineWidth=3;for(const r of [135,150]){c.beginPath();c.arc(0,0,r,0,Math.PI*2);c.stroke();}c.font='italic 67px Georgia';c.fillStyle='#635541';c.fillText('E. V.',-75,20);c.font='24px Georgia';c.fillText('IN THE FOURTEENTH YEAR',-160,205);c.restore();}
+    c.fillStyle='#6d3f2a';c.font='24px "Segoe Script", "Segoe Print", Georgia, serif';for(let i=0;i<3;i++){c.save();c.translate(260+i%2*90,1680+i*70);c.rotate(-.035+i*.018);c.fillText(data.notes[i],0,0);c.restore();}
+    c.fillStyle='#716044';c.font='23px Georgia';c.textAlign='center';c.fillText(String(SPREADS[index].leaf*2+(side?0:1)),768,1995);c.textAlign='left';
+    const t=new T.CanvasTexture(canvas);t.colorSpace=T.SRGBColorSpace;t.anisotropy=8;textures.push(t);canvases.push(canvas);
+    const m=new T.MeshStandardMaterial({map:t,color:'#ffffff',roughness:.94});materials.push(m);return m;
+  }
+  const spreads=SPREADS.map((_,i)=>({left:make(i,1),right:make(i,0)}));
+  return {spreads,canvases,materials,textures,dispose(){materials.forEach(m=>m.dispose());textures.forEach(t=>t.dispose());}};
+}
+
+
+function createWizardBook(T,input=DEFAULT_SPEC){
+  const spec=validateSpec(input),dimensions=deriveDimensions(spec),math=createBindingMath(spec),kit=createGeometryTools(T),root=new T.Group(),parts=new Map(),groups={},leaves=[],anchors={},dynamic=[];
+  root.name='Fieldwork v2 · rounded, backed, hollow-back case';
+  const browser=typeof document!=='undefined',keys=['leather','cover','patch','board','wood','paper','paperEdge','endpaper','linen','brass','darkBrass','lining','kraft','stiffener','hollow','cradle','pad','stone','clay'];
+  const materials=browser?createMaterials(T,spec):Object.fromEntries(keys.map(k=>[k,new T.MeshStandardMaterial()]));
+  materials.board??=new T.MeshStandardMaterial({color:'#8f8c7a',roughness:1});materials.kraft??=new T.MeshStandardMaterial({color:'#9b7e54',roughness:1});materials.stiffener??=materials.board;materials.hollow??=materials.kraft;
+  for(const id of ['front-cover','rear-cover','paper','binding','case-spine','hollow','endpapers','clasps','repair','support','ground']){groups[id]=new T.Group();groups[id].name=id;root.add(groups[id]);}
+  function orient(g){const P=g.attributes.position,I=g.index?.array;let vol=0;for(let j=0;j<(I?.length||P.count);j+=3){const a=I?I[j]:j,b=I?I[j+1]:j+1,c=I?I[j+2]:j+2;vol+=P.getX(a)*(P.getY(b)*P.getZ(c)-P.getZ(b)*P.getY(c))+P.getY(a)*(P.getZ(b)*P.getX(c)-P.getX(b)*P.getZ(c))+P.getZ(a)*(P.getX(b)*P.getY(c)-P.getY(b)*P.getX(c));}if(vol<0&&I){for(let j=0;j<I.length;j+=3)[I[j+1],I[j+2]]=[I[j+2],I[j+1]];g.computeVertexNormals();}return g;}
+  function add(id,g,mat,category,info={},parent=groups[category]){const mesh=new T.Mesh(orient(g),mat);mesh.name=id;mesh.castShadow=true;mesh.receiveShadow=true;mesh.userData={partId:id,category};parent.add(mesh);parts.set(id,{id,mesh,category,material:info.material||category,evidence:'proposed geometry; user-derived anatomical role',attachment:info.attachment||[],grain:['paper','endpapers'].includes(category)?'parallel to Z/spine':null,geometryDetail:g.userData.method||'closed solid',...info});return mesh;}
+  function replace(mesh,g){orient(g);const old=mesh.geometry;if(!old.userData.shared&&old.attributes.position.count===g.attributes.position.count&&old.index?.count===g.index?.count){for(const attr of ['position','normal','uv'].filter(k=>old.attributes[k]&&g.attributes[k])){old.attributes[attr].array.set(g.attributes[attr].array);old.attributes[attr].needsUpdate=true;}if(old.index){old.index.array.set(g.index.array);old.index.needsUpdate=true;}old.boundingBox=null;old.boundingSphere=null;g.dispose();}else{if(!old.userData.shared)old.dispose();mesh.geometry=g;}}
+  const warp=u=>u<.5?u*.15:.075+(u-.5)*1.85;
+  function leafGeo(nu,nv,surface){const g=kit.shell(nu,nv,(u,v)=>surface(warp(u),v),.00016),N=(nu+1)*(nv+1),uv=g.attributes.uv;for(let i=0;i<=nu;i++)for(let j=0;j<=nv;j++){const k=i*(nv+1)+j;uv.setX(k,warp(i/nu));uv.setX(k+N,1-warp(i/nu));}return g;}
+  const W=dimensions.boardWidth/1000,H=dimensions.boardHeight/1000,B=spec.board.thickness/1000,C=spec.leather.thickness/1000,PH=spec.paper.height/1000;
+  function skinUV(g,length,height=H){const uv=g.attributes.uv;if(uv)for(let i=0;i<uv.count;i++)uv.setXY(i,uv.getX(i)*length/W,uv.getY(i)*height/H);return g;}
+  const covers={};
+  const plan=(u,v)=>{const r=spec.board.cornerRadius/1000,x=u*W,dx=Math.max(0,Math.abs(x-W/2)-(W/2-r));return[x,(v-.5)*2*(H/2-r+Math.sqrt(Math.max(0,r*r-dx*dx)))];};
+  const edge=(x,z)=>Math.min(x,W-x,H/2-Math.abs(z));
+  function perimeter(t,d=0){const w=W+2*d,h=H+2*d,r=Math.max(.00015,spec.board.cornerRadius/1000+d),k=Math.min(7,Math.floor(t*8)),f=t*8-k,l=-d,right=W+d,top=h/2,bottom=-h/2;
+    if(k===0)return[l+r+f*(w-2*r),top];if(k===1){const a=Math.PI/2-f*Math.PI/2;return[right-r+Math.cos(a)*r,top-r+Math.sin(a)*r];}if(k===2)return[right,top-r-f*(h-2*r)];if(k===3){const a=-f*Math.PI/2;return[right-r+Math.cos(a)*r,bottom+r+Math.sin(a)*r];}if(k===4)return[right-r-f*(w-2*r),bottom];if(k===5){const a=-Math.PI/2-f*Math.PI/2;return[l+r+Math.cos(a)*r,bottom+r+Math.sin(a)*r];}if(k===6)return[l,bottom+r+f*(h-2*r)];const a=Math.PI-f*Math.PI/2;return[l+r+Math.cos(a)*r,top-r+Math.sin(a)*r];}
+  const tooling=(x,z)=>{const d=edge(x,z),border=Math.exp(-Math.pow((d-.009)/.00075,2))+.65*Math.exp(-Math.pow((d-.013)/.00055,2)),cx=x-W*.5,cz=z,mark=Math.exp(-Math.pow((Math.hypot(cx,cz)-.026)/.0007,2)),stem=Math.exp(-Math.pow((cx-.002*Math.sin(cz*110))/.0007,2))*(1-smooth((Math.abs(cz)-.018)/.003));return spec.leather.toolingDepth/1000*Math.min(1,border+mark*.65+stem*.5);};
+  for(const name of ['rear','front']){const sign=name==='front'?1:-1,g=groups[name+'-cover'],flip=geo=>sign<0?kit.mirrorY(geo):geo;
+    add(name+'.board',flip(kit.between(48,72,(u,v)=>{const[x,z]=plan(u,v);return[x,B-.0002*(1-smooth(edge(x,z)/.0005)),z];},(u,v)=>{const[x,z]=plan(u,v),recess=.00058*(1-smooth((edge(x,z)-.013)/.002));return[x,recess,z];})),materials.board,name+'-cover',{material:'3 mm balanced binder’s board',attachment:[name+'.pastedown',name+'.covering'],grain:'Z / spine parallel'});
+    add(name+'.covering',flip(kit.between(160,240,(u,v)=>{const[x,z]=plan(u,v);return[x,B+C-tooling(x,z),z];},(u,v)=>{const[x,z]=plan(u,v);return[x,B,z];})),materials.cover,name+'-cover',{material:'0.7 mm calfskin appearance',attachment:[name+'.board',name+'.edge-wrap']});
+    const profile=[[0,B+C],[.00035,B+.0005],[.00055,B],[.0006,.0008],[.0005,.0003],[0,0],[-.014,0],[-.015,.00006],[-.015,.00015],[-.013,.00055],[0,.0006],[0,B]];
+    add(name+'.edge-wrap',flip(kit.sweepSection(perimeter,profile,384)),materials.leather,name+'-cover',{material:'pared calfskin turn-in',attachment:[name+'.board',name+'.covering'],description:'Closed perimeter fold; 15 mm tapered turn-in seated in an inner perimeter recess. Corner fold interpretation remains proposed.'});
+    const lining=add(name+'.pastedown',kit.box(W-.006,.00018,H-.006,.00005),materials.endpaper,'endpapers',{material:'rag-paper pastedown',attachment:[name+'.board',name+'.hinge']},g);lining.position.set(W/2,-sign*.00013,0);
+    const balance=add(name+'.balancing-paper',kit.box(W-.006,.00008,H-.006,.00002),materials.endpaper,name+'-cover',{material:'board balancing liner',attachment:[name+'.board']},g);balance.position.set(W/2,sign*.00004,0);
+    covers[name]={g,sign,lining};
+    if(name==='rear')for(let i=0;i<4;i++){const x=i%2?W-.025:.025,z=i<2?.118:-.118,pad=add('rear.boss-pad.'+i,kit.box(.011,.0006,.011,.0002),materials.darkBrass,'rear-cover',{material:'brass pad',attachment:['rear.board']},g);pad.position.set(x,-B-C-.0003,z);const boss=add('rear.boss.'+i,new T.CylinderGeometry(.003,.004,.0018,24),materials.brass,'rear-cover',{material:'protective brass boss',attachment:['rear.boss-pad.'+i]},g);boss.position.set(x,-B-C-.0015,z);}
+  }
+  let pose=makeBindingPose(spec),art=null,displayState={appearance:'material',selected:'front-cover',isolate:false,exploded:false,exposeLining:false},disposed=false;
+  const curves={};
+  function surfaceSpine(p,offset=0){return(u,v)=>{const f=math.frame(2*u-1,p);return[f.point[0]+f.out[0]*offset,f.point[1]+f.out[1]*offset,(v-.5)*(PH-.006)];};}
+  for(const[id,offset,t,mat]of [['adhesive',.00003,.00006,materials.lining],['mull',.00015,.00018,materials.linen],['kraft',.00031,.00014,materials.kraft]]){curves[id]=add('text-spine.'+id,kit.shell(80,6,surfaceSpine(pose,offset),t),mat,'binding',{material:id,attachment:id==='adhesive'?['gathering.00']:['text-spine.'+(id==='mull'?'adhesive':'mull')]});}
+  const spines={};for(const[id,offset,t,mat]of [['stiffener',0,.00045,materials.stiffener],['covering',.000575,.0007,materials.leather]]){const surf=(u,v)=>{const f=math.caseFrame(2*u-1,pose);return[f.point[0]+f.out[0]*offset,f.point[1]+f.out[1]*offset,(v-.5)*H];};spines[id]=add('case-spine.'+id,kit.shell(96,8,surf,t),mat,'case-spine',{material:id==='stiffener'?'thin card spine stiffener':'leather case spine',attachment:id==='stiffener'?['hollow.tube','case-spine.covering']:['front.joint','rear.joint']});}
+  // Cross-section paper tube: a closed extrusion with an actual hole, never a filled black wedge.
+  function hollowGeometry(p){const points=[];for(let k=0;k<=60;k++){const f=math.frame(-1+2*k/60,p);points.push(new T.Vector2(f.point[0]+f.out[0]*.00053,f.point[1]+f.out[1]*.00053));}for(let k=60;k>=0;k--){const f=math.caseFrame(-1+2*k/60,p);points.push(new T.Vector2(f.point[0]-f.out[0]*.00048,f.point[1]-f.out[1]*.00048));}
+    const outer=[],inner=[],t=spec.binding.hollowWall/2000;for(let k=0;k<points.length;k++){const a=points[(k+points.length-1)%points.length],b=points[(k+1)%points.length],n=new T.Vector2(-(b.y-a.y),b.x-a.x).normalize();outer.push(points[k].clone().addScaledVector(n,t));inner.push(points[k].clone().addScaledVector(n,-t));}
+    const P=[],I=[],n=outer.length,h=PH-.010;for(const[loop,z]of[[outer,-h/2],[outer,h/2],[inner,-h/2],[inner,h/2]])for(const p of loop)P.push(p.x,p.y,z);
+    for(let j=0;j<n;j++){const k=(j+1)%n;I.push(j,k,n+j,k,n+k,n+j,2*n+j,3*n+j,2*n+k,2*n+k,3*n+j,3*n+k,j,2*n+j,k,k,2*n+j,2*n+k,n+j,n+k,3*n+j,n+k,3*n+k,3*n+j);}
+    const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(P,3));g.setIndex(I);g.computeVertexNormals();g.userData={method:'closed annular paper wall; explicit inner/outer surfaces and head/tail rims'};return g;}
+  const hollow=add('hollow.tube',hollowGeometry(pose),materials.hollow,'hollow',{material:'0.16 mm paper hollow',attachment:['text-spine.kraft','case-spine.stiffener'],description:'Separate front and back walls connected at side folds; observable airspace, attached by defined contact faces.'});
+  for(const name of ['rear','front']){
+    const id=name+'.joint',joint=add(id,kit.shell(32,8,(u,v)=>[u*.01,0,(v-.5)*H],spec.leather.jointThickness/1000),materials.leather,'case-spine',{material:'pared flexible leather joint',attachment:['case-spine.covering',name+'.covering']});
+    const flange=add(name+'.mull-flange',kit.shell(40,6,(u,v)=>[u*.04,0,(v-.5)*(PH-.006)],.00018),materials.linen,'binding',{material:'mull flange',attachment:['text-spine.mull',name+'.board'],contactRegion:'30 mm flange on inside of board'});
+    const hinge=add(name+'.hinge',kit.shell(36,6,(u,v)=>[u*.02,0,(v-.5)*PH],.00018),materials.endpaper,'endpapers',{material:'folded endpaper hinge',attachment:[name+'.pastedown',name+'.flyleaf']});
+    const fly=add(name+'.flyleaf',kit.shell(64,8,math.leafSurface(0,pose,{endpaper:name==='front'?1.006:-1.006}),.00018),[materials.endpaper,materials.endpaper,materials.paperEdge],'endpapers',{material:'free endpaper leaf',attachment:[name+'.hinge','text-spine.adhesive']});
+    dynamic.push({kind:'cover-interfaces',name,joint,flange,hinge,fly});
+  }
+  for(let i=0;i<spec.paper.leaves;i++){const mesh=add('leaf.'+String(i).padStart(3,'0'),leafGeo(96,4,math.leafSurface(i,pose,{quality:128})),[materials.paper,materials.paper,materials.paperEdge],'paper',{material:'0.16 mm rag-paper leaf',attachment:['gathering.'+String(Math.floor(i/10)).padStart(2,'0')],leaf:i,gathering:Math.floor(i/10),thicknessMm:.16});leaves.push(mesh);}
+  const proxies=[0,1].map(k=>add('render.stack.'+k,kit.box(.212,.02,PH),[materials.paper,materials.paper,materials.paperEdge],'paper',{renderOnly:true,material:'closed filtered page-stack representation',attachment:[]}));
+  const folds=[];for(let g=0;g<24;g++)for(let j=0;j<5;j++){const mesh=add('gathering.'+String(g).padStart(2,'0')+(j?'.bifolium.'+j:''),kit.shell(16,4,(u,v)=>[.001*u,0,(v-.5)*PH],.00016),[materials.paper,materials.paper,materials.paperEdge],'binding',{material:'folded bifolium return',attachment:['leaf.'+String(g*10+j).padStart(3,'0'),'leaf.'+String(g*10+9-j).padStart(3,'0')]});folds.push({mesh,g,j});}
+  const tapes=[];for(let k=0;k<5;k++){const tape=add('sewing.tape.'+k,kit.shell(64,2,(u,v)=>[u*.05,0,(v-.5)*.006],.00025),materials.linen,'binding',{material:'6 mm linen tape',attachment:['text-spine.mull','front.mull-flange','rear.mull-flange']});tapes.push(tape);}
+  const stitches=[];for(let g=0;g<24;g++)for(const z of [-.132,.132]){const mesh=add('sewing.kettle.'+g+'.'+(z>0?'head':'tail'),kit.tube([[0,0,z],[.001,.001,z],[.002,0,z]],.000125,12,8),materials.linen,'binding',{material:'linen link stitch',attachment:['gathering.'+String(g).padStart(2,'0'),'text-spine.mull']});stitches.push({mesh,g,z});}
+  const bandMaterial=materials.linen.clone();bandMaterial.color.set('#ffffff');bandMaterial.vertexColors=true;materials.endbandThread=bandMaterial;
+  const endbands=[];for(const sign of [-1,1]){const core=add('endband.'+sign+'.core',kit.tube([[0,0,0],[.01,0,0]],.0006,80,12),materials.linen,'binding',{material:'endband core',attachment:['text-spine.adhesive']});const winding=add('endband.'+sign+'.thread',kit.tube([[0,0,0],[.01,0,0]],.0002,720,8),bandMaterial,'binding',{material:'alternating linen winding; tie-down routing proposed',attachment:['endband.'+sign+'.core',...Array.from({length:24},(_,i)=>'gathering.'+String(i).padStart(2,'0'))]});endbands.push({sign,core,winding});}
+  const headcaps=[-1,1].map(sign=>({sign,mesh:add('case-spine.'+(sign>0?'headcap':'tailcap'),kit.tube([[0,0,0],[.01,0,0]],.00038,80,12),materials.leather,'case-spine',{material:'rolled leather termination',attachment:['case-spine.covering','front.joint','rear.joint']})}));
+  const repair=add('repair.case-tail-patch',kit.shell(40,12,(u,v)=>[u*.04,0,(v-.5)*.036],.00038),materials.patch,'repair',{material:'replacement leather patch',attachment:['case-spine.covering'],description:'Tapered repair follows case spine only; does not bridge the hollow or bind it to the text spine.'});
+  const clasps=[];for(let i=0;i<2;i++){const z=(i?1:-1)*.095,strap=add('clasp.'+i+'.strap',kit.shell(40,4,(u,v)=>[u*.05,0,z+(v-.5)*.012],.001),materials.leather,'clasps',{material:'leather strap',attachment:['rear.board','clasp.'+i+'.hook']});const hook=add('clasp.'+i+'.hook',kit.tube([[0,0,0],[.008,0,0],[.010,-.002,0],[.007,-.003,0]],.0007,24,10),materials.brass,'clasps',{material:'bent brass hook',attachment:['clasp.'+i+'.strap']});const catchPart=add('clasp.'+i+'.catch',kit.box(.009,.0013,.013,.0002),materials.brass,'front-cover',{material:'catch plate',attachment:['front.board']},covers.front.g);catchPart.position.set(W-.010,B+C+.00065,z);const anchor=add('clasp.'+i+'.anchor',kit.box(.012,.0008,.014,.0002),materials.brass,'rear-cover',{material:'strap anchor plate',attachment:['rear.board']},covers.rear.g);anchor.position.set(W-.012,-B-C-.0004,z);clasps.push({i,z,strap,hook});}
+  const pads=[];for(const name of ['rear','front']){const pad=add('cradle.'+name+'.pad',kit.box(.11,.004,.235,.001),materials.pad,'support',{material:'felt-faced support pad',attachment:['cradle.'+name+'.post']});const post=add('cradle.'+name+'.post',kit.box(.045,.03,.16,.0005),materials.cradle,'support',{material:'adjustable cradle support',attachment:['cradle.'+name+'.foot']});const foot=add('cradle.'+name+'.foot',kit.box(.14,.008,.25,.001),materials.cradle,'support',{material:'cradle foot',attachment:['studio.slab']});foot.position.y=.004;pads.push({name,pad,post,foot});}
+  const slab=add('studio.slab',kit.box(1,.02,.8,.003),materials.stone,'ground',{material:'solid neutral studio slab'});slab.position.y=-.01;
+  function hermite(a,b,ta,tb,u){const h00=2*u**3-3*u*u+1,h10=u**3-2*u*u+u,h01=-2*u**3+3*u*u,h11=u**3-u*u;return a.map((n,i)=>h00*n+h10*ta[i]+h01*b[i]+h11*tb[i]);}
+  function setPose(value={}){const previous=pose;pose=makeBindingPose(spec,{...pose,...value});
+    if(parts.get('leaf.000').mesh.userData.initialized&&previous.opening===pose.opening&&previous.leaf===pose.leaf&&previous.release===pose.release){replace(leaves[pose.leaf],leafGeo(96,16,math.leafSurface(pose.leaf,pose,{quality:128})));anchors.edge=new T.Vector3(...math.leafSurface(pose.leaf,pose)(1,.65));return pose;}
+    for(const[name,{g}]of Object.entries(covers)){const f=math.board(name,pose);g.rotation.z=f.angle;g.position.fromArray(f.pivot);}
+    for(const[id,offset,t]of [['adhesive',.00003,.00006],['mull',.00015,.00018],['kraft',.00031,.00014]])replace(curves[id],kit.shell(80,6,surfaceSpine(pose,offset),t));
+    for(const[id,offset,t]of [['stiffener',0,.00045],['covering',.000575,.0007]])replace(spines[id],skinUV(kit.shell(96,8,(u,v)=>{const f=math.caseFrame(2*u-1,pose);return[f.point[0]+f.out[0]*offset,f.point[1]+f.out[1]*offset,(v-.5)*H];},t),math.caseNeutralLength));
+    replace(hollow,hollowGeometry(pose));
+    for(const x of dynamic){const b=math.board(x.name,pose),f=math.caseFrame(b.sign,pose),end=math.boardPoint(x.name,0,b.sign*(B+.00035),0,pose),tangent=math.frame(b.sign,pose).tangent;
+      replace(x.joint,kit.shell(32,8,(u,v)=>{const a=f.point,c=hermite(a,end,[.009*b.dir[0],.009*b.dir[1],0],[.009*b.dir[0],.009*b.dir[1],0],u);return[c[0],c[1],(v-.5)*H];},spec.leather.jointThickness/1000));
+      const root=math.spine(b.sign,pose),onto=math.boardPoint(x.name,.030,-b.sign*.0002,0,pose);
+      replace(x.flange,kit.shell(40,6,(u,v)=>{const c=hermite(root,onto,[.012*b.dir[0],.012*b.dir[1],0],[.03*b.dir[0],.03*b.dir[1],0],u);return[c[0],c[1],(v-.5)*(PH-.006)];},.00018));
+      const start=math.boardPoint(x.name,.012,-b.sign*.00035,0,pose),finish=math.leafSurface(0,pose,{endpaper:b.sign*1.006})(.045,.5);
+      replace(x.hinge,kit.shell(36,6,(u,v)=>{const c=hermite(start,finish,[-.012*b.dir[0],-.012*b.dir[1],0],[.008*b.dir[0],.008*b.dir[1],0],u);return[c[0],c[1],(v-.5)*PH];},.00018));
+      replace(x.fly,kit.shell(64,8,math.leafSurface(0,pose,{endpaper:b.sign*1.006}),.00018));
+    }
+    for(let i=0;i<leaves.length;i++)replace(leaves[i],leafGeo(96,i===pose.leaf?16:4,math.leafSurface(i,pose,{quality:128})));
+    for(let k=0;k<2;k++){const a=k?pose.leaf+1:0,b=k?239:pose.leaf-1,fa=math.leafSurface(a,pose),fb=math.leafSurface(b,pose),outer=(f,sign)=>(u,v)=>{const p=f(u,v),a=f(Math.max(0,u-.0001),v),b=f(Math.min(1,u+.0001),v),l=Math.hypot(b[0]-a[0],b[1]-a[1]);return[p[0]-(b[1]-a[1])/l*.00008*sign,p[1]+(b[0]-a[0])/l*.00008*sign,p[2]];};const top=outer(k?fa:fb,k?1:-1),bottom=outer(k?fb:fa,k?-1:1),g=kit.between(96,8,(u,v)=>top(warp(u),v),(u,v)=>bottom(warp(u),v)),P=g.attributes.uv,N=97*9;for(let i=0;i<=96;i++)for(let j=0;j<=8;j++){const x=i*9+j;P.setX(x,k?warp(i/96):1-warp(i/96));P.setX(x+N,k?1-warp(i/96):warp(i/96));}replace(proxies[k],g);}
+    for(const f of folds){const q1=math.qFor(f.g*10+f.j),q2=math.qFor(f.g*10+9-f.j);replace(f.mesh,kit.shell(20,4,(u,v)=>{const q=q1+(q2-q1)*u,fr=math.frame(q,pose),p=fr.point,bulge=.00025*Math.sin(Math.PI*u);return[p[0]+fr.out[0]*bulge,p[1]+fr.out[1]*bulge,(v-.5)*PH];},.00016));}
+    for(let k=0;k<tapes.length;k++)replace(tapes[k],kit.shell(64,2,(u,v)=>{const f=math.frame(2*u-1,pose);return[f.point[0]+f.out[0]*.0007,f.point[1]+f.out[1]*.0007,(k-2)*.052+(v-.5)*.006];},.00025));
+    for(const st of stitches){const q1=1-2*(st.g+.5)/24,q2=1-2*Math.max(0,st.g-.5)/24,pts=Array.from({length:5},(_,k)=>{const f=math.frame(q1+(q2-q1)*k/4,pose),o=.0005+.00045*Math.sin(k/4*Math.PI);return[f.point[0]+f.out[0]*o,f.point[1]+f.out[1]*o,st.z+.0007*Math.sin(k/4*Math.PI)];});replace(st.mesh,kit.tube(pts,.000125,16,8));}
+    for(const e of endbands){const z=e.sign*(PH/2+.0006),pts=Array.from({length:41},(_,k)=>{const f=math.frame(2*k/40-1,pose);return[f.point[0]+f.out[0]*.0009,f.point[1]+f.out[1]*.0009,z];});replace(e.core,kit.tube(pts,.00055,80,12));const wind=Array.from({length:721},(_,k)=>{const t=k/720,f=math.frame(2*t-1,pose),a=t*Math.PI*2*62;return[f.point[0]+f.out[0]*(.0009+.00062*Math.cos(a)),f.point[1]+f.out[1]*(.0009+.00062*Math.cos(a)),z+.00062*Math.sin(a)];});const g=kit.tube(wind,.00016,720,8),colours=[];for(let j=0;j<g.attributes.position.count;j++){const stripe=Math.floor(Math.min(720,Math.floor(j/9))/720*62)%2,c=new T.Color(stripe?'#53614b':'#c4ad7f');colours.push(c.r,c.g,c.b);}g.setAttribute('color',new T.Float32BufferAttribute(colours,3));replace(e.winding,g);if(!e.winding.geometry.attributes.color)e.winding.geometry.setAttribute('color',new T.Float32BufferAttribute(colours,3));}
+    for(const c of headcaps){const pts=Array.from({length:41},(_,k)=>{const f=math.caseFrame(2*k/40-1,pose);return[f.point[0]+f.out[0]*.00085,f.point[1]+f.out[1]*.00085,c.sign*(H/2+.00005)];});replace(c.mesh,kit.tube(pts,.00038,80,12));}
+    replace(repair,kit.shell(40,12,(u,v)=>{const f=math.caseFrame((u-.5)*1.25,pose),o=.00104+.00012*Math.sin(Math.PI*u)*Math.sin(Math.PI*v);return[f.point[0]+f.out[0]*o,f.point[1]+f.out[1]*o,-.120+(v-.5)*.035];},(u,v)=>.00008+.00028*Math.sin(Math.PI*u)*Math.sin(Math.PI*v)));
+    for(const c of clasps){const start=math.boardPoint('rear',W-.012,-B-C-.001,c.z,pose),closedEnd=math.boardPoint('front',W-.010,B+C+.002,c.z,pose),b=math.board('rear',pose),release=pose.release,pull=smooth(release/.25),drop=smooth((release-.25)/.75),end=closedEnd.map((n,i)=>n*(1-drop)+(start[i]+(i===0?.025*b.dir[0]:i===1?-.025:.0))*drop+(i<2?b.dir[i]*.026*pull*(1-drop):0)),curve=new T.CubicBezierCurve3(new T.Vector3(...start),new T.Vector3(start[0]+.028,start[1]-.002,c.z),new T.Vector3(end[0]+.025,end[1],c.z),new T.Vector3(...end));replace(c.strap,kit.shell(40,4,(u,v)=>{const p=curve.getPoint(u);return[p.x,p.y,c.z+(v-.5)*.012];},.001));c.hook.position.fromArray(end);c.hook.rotation.z=-release*.7;}
+    for(const p of pads){const b=math.board(p.name,pose),out=b.sign,pt=math.boardPoint(p.name,W*.54,out*(B+C+.002),0,pose);p.pad.position.fromArray(pt);p.pad.rotation.z=b.angle;p.pad.visible=p.post.visible=p.foot.visible=p.name==='rear'||pose.opening>70;p.foot.position.x=pt[0];replace(p.post,kit.between(2,2,(u,v)=>{const x=(u-.5)*.045;return[x,pt[1]-.002/Math.abs(Math.cos(b.angle))+Math.tan(b.angle)*x,(v-.5)*.16];},(u,v)=>[(u-.5)*.045,.008,(v-.5)*.16]));p.post.position.set(pt[0],0,0);}
+    root.updateMatrixWorld(true);Object.assign(anchors,{corner:new T.Vector3(...math.boardPoint('front',W-.004,B+C,.140,pose)),turnin:new T.Vector3(...math.boardPoint('front',W-.010,0,.130,pose)),joint:new T.Vector3(...math.boardPoint('front',-.004,B*.5,.060,pose)),head:new T.Vector3(...math.spine(0,pose)).setZ(PH/2+.001),fold:new T.Vector3(...math.spine(.2,pose)).setZ(.12),edge:new T.Vector3(...math.leafSurface(pose.leaf,pose)(1,.65)),clasp:clasps[1].hook.position.clone(),repair:new T.Vector3(...math.caseSpine(0,pose)).setZ(-.12),gutter:new T.Vector3(...math.spine(0,pose)),underside:new T.Vector3(...math.boardPoint('rear',W*.5,-B-C,0,pose)),hollow:new T.Vector3(...math.spine(0,pose)).add(new T.Vector3(0,-.007,PH/2))});
+    parts.get('leaf.000').mesh.userData.initialized=true;applyArt();setDisplay(displayState);return pose;
+  }
+  function applyArt(){for(let i=0;i<leaves.length;i++){const mesh=leaves[i];mesh.userData.materialOriginal=[materials.paperVariants?.[i%7]||materials.paper,materials.paperVariants?.[i%7]||materials.paper,materials.paperEdge];}if(art){const n=Math.max(0,SPREADS.findIndex(x=>x.leaf===pose.leaf)),a=art.materials?.[n*2],b=art.materials?.[n*2+1];if(a&&b){leaves[pose.leaf].userData.materialOriginal=[b,a,materials.paperEdge];if(leaves[pose.leaf-1])leaves[pose.leaf-1].userData.materialOriginal=[a,a,materials.paperEdge];if(leaves[pose.leaf+1])leaves[pose.leaf+1].userData.materialOriginal=[b,b,materials.paperEdge];proxies[0].userData.materialOriginal=[a,materials.paper,materials.paperEdge];proxies[1].userData.materialOriginal=[b,materials.paper,materials.paperEdge];}}}
+  function setDisplay(next={}){displayState={...displayState,...next};for(const[id,g]of Object.entries(groups)){g.visible=!displayState.isolate||id===displayState.selected||(displayState.selected==='endpapers'&&['front-cover','rear-cover'].includes(id));const name=id==='front-cover'?'front':id==='rear-cover'?'rear':null;g.position.fromArray(name?math.board(name,pose).pivot:[0,0,0]);if(displayState.exploded){const shift={'front-cover':.055,'rear-cover':-.035,'case-spine':-.08,hollow:-.04,binding:.03,endpapers:.045};g.position.y+=shift[id]||0;}}
+    for(const p of parts.values()){if(!['paper','support'].includes(p.category))p.mesh.visible=!displayState.isolate||p.category===displayState.selected;p.mesh.userData.materialOriginal??=p.mesh.material;p.mesh.material=displayState.appearance==='clay'?(Array.isArray(p.mesh.userData.materialOriginal)?p.mesh.userData.materialOriginal.map(()=>materials.clay):materials.clay):p.mesh.userData.materialOriginal;}
+    for(const[name,c]of Object.entries(covers)){const lifted=displayState.exposeLining&&displayState.selected===name+'-cover';c.lining.position.set(W/2-(lifted?.035:0),-c.sign*(.00013+(lifted?.008:0)),0);c.lining.visible=!displayState.isolate||displayState.selected===name+'-cover'||displayState.selected==='endpapers';}
+    root.updateMatrixWorld(true);
+  }
+  function updateLOD(eye,pin=false){const center=new T.Vector3(0,.085,0),near=pin||eye.distanceTo(center)<.29;for(let i=0;i<leaves.length;i++)leaves[i].visible=near||i===pose.leaf;for(const p of proxies)p.visible=!near;}
+  function bounds(){const box=new T.Box3();for(const p of parts.values())if(!['support','ground'].includes(p.category)&&!p.renderOnly)box.union(new T.Box3().setFromObject(p.mesh));return box;}
+  function registry(){return[...parts.values()].map(({mesh,...r})=>r);}
+  function dispose(){if(disposed)return;disposed=true;const gs=new Set(),ms=new Set(),ts=new Set();root.traverse(o=>{if(o.geometry)gs.add(o.geometry);for(const m of(Array.isArray(o.material)?o.material:[o.material]))if(m)ms.add(m);});for(const m of Object.values(materials).flat())if(m?.isMaterial)ms.add(m);for(const m of ms){for(const v of Object.values(m))if(v?.isTexture)ts.add(v);m.dispose();}for(const g of gs)g.dispose();for(const t of ts)t.dispose();root.clear();parts.clear();}
+  setPose();return{root,parts,groups,leaves,materials,anchors,spec,dimensions,budget:{...dimensions,body:dimensions.nominalClosed,spineMaximum:dimensions.nominalClosed},math,get pose(){return pose;},setPose,setDisplay,setArt(a){art=a;applyArt();setDisplay(displayState);},updateLOD,bounds,registry,dispose};
+}
+
+const container=document.getElementById('wizard-grimoire-inline'),q=s=>container.querySelector(s),host=q('[data-scene]');
+try {
+[T,{OrbitControls},{RoomEnvironment}]=await Promise.all([import('https://esm.sh/three@0.186.1'),import('https://esm.sh/three@0.186.1/examples/jsm/controls/OrbitControls.js'),import('https://esm.sh/three@0.186.1/examples/jsm/environments/RoomEnvironment.js')]);
+const scene=new T.Scene(),camera=new T.PerspectiveCamera(45,1,.0005,5),renderer=new T.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.02;host.append(renderer.domElement);
+const generator=new T.PMREMGenerator(renderer),environmentScene=new RoomEnvironment(),environment=generator.fromScene(environmentScene,.04);scene.environment=environment.texture;scene.environmentIntensity=.32;environmentScene.dispose();generator.dispose();
+const key=new T.DirectionalLight('#fff5dd',2.6),hemi=new T.HemisphereLight('#f5efdc','#76634f',.65);key.position.set(-.4,.9,.55);scene.add(key,hemi);
+const book=createWizardBook(T),art=createPageArt(T);book.setArt(art);scene.add(book.root);book.groups.ground.visible=false;
+const controls=new OrbitControls(camera,renderer.domElement);controls.minDistance=.025;controls.maxDistance=1.5;let opened=false,clay=false,spread=2,restoring=true;
+function render(){book.updateLOD(camera.position,false);renderer.render(scene,camera);}
+function fit(){camera.position.set(...(opened?[.37,.42,.47]:[.42,.32,.43]));controls.target.set(...(opened?[0,.085,0]:[.10,.065,0]));controls.update();render();}
+function apply(p={},remember=true){book.setPose(p);book.setDisplay({appearance:clay?'clay':'material'});book.groups.ground.visible=false;q('[data-turn]').disabled=!opened;q('[data-turn]').value=book.pose.turn;q('[data-progress]').textContent=Math.round(book.pose.turn*100)+'%';q('[data-status]').textContent=opened?'240 leaves · 0.16 mm paper · drag to orbit, wheel to approach':'Closed binding · drag to orbit, wheel to approach';render();if(remember)rememberState();}
+function rememberState(){if(!restoring)window.openai?.setWidgetState?.({modelContent:{study:'wizard-grimoire-v2',opening:book.pose.opening,leaf:book.pose.leaf,turn:book.pose.turn,clay},privateContent:{spread,camera:camera.position.toArray(),target:controls.target.toArray()}}).catch(()=>{});}
+for(const [i,s]of SPREADS.entries()){const o=document.createElement('option');o.value=i;o.textContent=s.heading;q('[data-spread]').append(o);}q('[data-spread]').value=spread;
+for(const b of container.querySelectorAll('[data-pose]'))b.onclick=()=>{opened=b.dataset.pose==='open';for(const other of container.querySelectorAll('[data-pose]'))other.setAttribute('aria-pressed',String(other===b));apply({opening:opened?130:0,turn:0,release:opened?1:0});fit();};
+q('[data-turn]').oninput=e=>apply({turn:+e.target.value});q('[data-clay]').onchange=e=>{clay=e.target.checked;apply();};q('[data-spread]').onchange=e=>{spread=+e.target.value;apply({leaf:SPREADS[spread].leaf,turn:0});};controls.addEventListener('change',()=>{render();rememberState();});
+function restore(s){if(!s?.modelContent||s.modelContent.study!=='wizard-grimoire-v2')return;restoring=true;opened=s.modelContent.opening>=110;clay=!!s.modelContent.clay;spread=Number.isInteger(s.privateContent?.spread)?Math.max(0,Math.min(5,s.privateContent.spread)):2;q('[data-spread]').value=spread;q('[data-clay]').checked=clay;for(const b of container.querySelectorAll('[data-pose]'))b.setAttribute('aria-pressed',String((b.dataset.pose==='open')===opened));apply({opening:opened?130:0,leaf:SPREADS[spread].leaf,turn:typeof s.modelContent.turn==='number'&&Number.isFinite(s.modelContent.turn)?s.modelContent.turn:0},false);const valid=v=>Array.isArray(v)&&v.length===3&&v.every(Number.isFinite);if(valid(s.privateContent?.camera)&&valid(s.privateContent?.target)){camera.position.fromArray(s.privateContent.camera);controls.target.fromArray(s.privateContent.target);controls.update();render();}else fit();restoring=false;}
+const observer=new ResizeObserver(()=>{const r=host.getBoundingClientRect();renderer.setSize(r.width,r.height);camera.aspect=r.width/r.height;camera.updateProjectionMatrix();render();});observer.observe(host);apply({opening:0,turn:0,release:0},false);fit();restore(window.openai?.widgetState);restoring=false;addEventListener('openai:set_globals',e=>restore(e.detail?.globals?.widgetState));addEventListener('pagehide',()=>{observer.disconnect();controls.dispose();book.dispose();art.dispose();environment.dispose();renderer.dispose();},{once:true});container.grimoire={book,renderer,camera,controls};
+} catch(error){q('[data-status]').textContent='The 3D preview could not load: '+error.message;q('[data-status]').setAttribute('role','alert');}
+</script>

@@ -1,0 +1,92 @@
+[
+  {
+    "source": "default-table-design/drafts/documents/project-design-v01.md",
+    "destination": "objects/desks/default-table-design/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "default-book-design-types/drafts/documents/project-design-v01.md",
+    "destination": "objects/books/default-book-design-types/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "default-book-design-types/exports/documents/project-design-v03.md",
+    "destination": "objects/books/default-book-design-types/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "wizard-grimoire/README.md",
+    "destination": "objects/books/wizard-grimoire/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "wizard-grimoire/extraction-prompt.md",
+    "destination": "objects/books/wizard-grimoire/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "dragon-wing-bookcase/README.md",
+    "destination": "objects/bookcases/dragon-wing-bookcase/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "dragon-wing-bookcase/extraction-audit.md",
+    "destination": "objects/bookcases/dragon-wing-bookcase/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "dragon-wing-bookcase/extraction-prompt.md",
+    "destination": "objects/bookcases/dragon-wing-bookcase/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "dragon-carving-exemplar/README.md",
+    "destination": "objects/bookcases/dragon-carving-exemplar/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "dragon-carving-exemplar/extraction-prompt.md",
+    "destination": "objects/bookcases/dragon-carving-exemplar/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "hollow-tree-library/prompt-audit.md",
+    "destination": "objects/bookcases/hollow-tree-library/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "gothic-library-room/prompt-audit.md",
+    "destination": "objects/architecture/gothic-library-room/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "gothic-library-room/window-reuse.md",
+    "destination": "objects/architecture/gothic-library-room/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "gothic-miniature-library/prompt-audit.md",
+    "destination": "objects/displays/gothic-miniature-library/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "woodland-library-portal/prompt-audit.md",
+    "destination": "objects/portals/woodland-library-portal/design.md",
+    "method": "Distinct source paragraphs retained; byte-identical repeated paragraphs merged; relative links relocated."
+  },
+  {
+    "source": "default-table-design/README.md",
+    "destination": "objects/desks/default-table-design/design.md",
+    "method": "Original handoff paragraphs retained alongside the master design; executable commands replaced by the current README commands."
+  },
+  {
+    "source": "default-book-design-types/README.md",
+    "destination": "objects/books/default-book-design-types/design.md",
+    "method": "Original handoff paragraphs retained alongside the master design; executable commands replaced by the current README commands."
+  },
+  {
+    "source": "default-book-design-types/planning/outstanding-decisions.md",
+    "destination": "objects/books/default-book-design-types/design.md",
+    "method": "Complete decision ledger and provenance merged into the canonical design record."
+  }
+]

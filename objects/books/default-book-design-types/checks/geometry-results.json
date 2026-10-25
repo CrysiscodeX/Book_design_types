@@ -1,0 +1,1268 @@
+{
+  "version": "0.3",
+  "cases": [
+    {
+      "rank": "initial",
+      "element": "fire",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 38004,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 44284,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "earth",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 36284,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "air",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 44284,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "ice",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 39444,
+      "components": 102
+    },
+    {
+      "rank": "initial",
+      "element": "lightning",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 36284,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "metal",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 41284,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "crystal",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 34964,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "light",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 34924,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "shadow",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 44284,
+      "components": 92
+    },
+    {
+      "rank": "initial",
+      "element": "nature",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 44948,
+      "components": 110
+    },
+    {
+      "rank": "initial",
+      "element": "decay",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 36284,
+      "components": 92
+    },
+    {
+      "rank": "advanced",
+      "element": "fire",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 57056,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 64592,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "earth",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 54992,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "air",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 64592,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "ice",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 58784,
+      "components": 149
+    },
+    {
+      "rank": "advanced",
+      "element": "lightning",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 54992,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "metal",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 60992,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "crystal",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 53408,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "light",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 53360,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "shadow",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 64592,
+      "components": 137
+    },
+    {
+      "rank": "advanced",
+      "element": "nature",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 64632,
+      "components": 157
+    },
+    {
+      "rank": "advanced",
+      "element": "decay",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 54992,
+      "components": 137
+    },
+    {
+      "rank": "meistro",
+      "element": "fire",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 82322,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 91114,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "earth",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 79914,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "air",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 91114,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "ice",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 84338,
+      "components": 204
+    },
+    {
+      "rank": "meistro",
+      "element": "lightning",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 79914,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "metal",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 86914,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "crystal",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 78066,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "light",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 78010,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "shadow",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 91114,
+      "components": 190
+    },
+    {
+      "rank": "meistro",
+      "element": "nature",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 90530,
+      "components": 212
+    },
+    {
+      "rank": "meistro",
+      "element": "decay",
+      "motif": "neutral",
+      "style": "neutral",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 79914,
+      "components": 190
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "draconic",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 57452,
+      "components": 127
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "fae",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 60076,
+      "components": 127
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "beast-guardian",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 56860,
+      "components": 123
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "celestial",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 69820,
+      "components": 119
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "underworld",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 56380,
+      "components": 115
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "ancestral-spirit",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 72220,
+      "components": 119
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 55020,
+      "components": 111
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "evocation-channeling",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 51516,
+      "components": 111
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "alchemy-transformation",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 52236,
+      "components": 111
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "illusion-glamour",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 58812,
+      "components": 112
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "enchantment-binding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 58556,
+      "components": 112
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "divination-temporal",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 56620,
+      "components": 123
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "summoning-spatial",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 58812,
+      "components": 112
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "soulcraft-necromancy",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 58556,
+      "components": 112
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "draconic",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 78392,
+      "components": 174
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "fae",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 81016,
+      "components": 174
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "beast-guardian",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 77800,
+      "components": 170
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "celestial",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 90760,
+      "components": 166
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "underworld",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 77320,
+      "components": 162
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "ancestral-spirit",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 93160,
+      "components": 166
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 75960,
+      "components": 158
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "evocation-channeling",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 72456,
+      "components": 158
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "alchemy-transformation",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 73176,
+      "components": 158
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "illusion-glamour",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 79752,
+      "components": 159
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "enchantment-binding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 79496,
+      "components": 159
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "divination-temporal",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 77560,
+      "components": 170
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "summoning-spatial",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 79752,
+      "components": 159
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "soulcraft-necromancy",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 79496,
+      "components": 159
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "draconic",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 105546,
+      "components": 229
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "fae",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 108170,
+      "components": 229
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "beast-guardian",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 104954,
+      "components": 225
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "celestial",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 117914,
+      "components": 221
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "underworld",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 104474,
+      "components": 217
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "ancestral-spirit",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 120314,
+      "components": 221
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 103114,
+      "components": 213
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "evocation-channeling",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 99610,
+      "components": 213
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "alchemy-transformation",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 100330,
+      "components": 213
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "illusion-glamour",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 106906,
+      "components": 214
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "enchantment-binding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 106650,
+      "components": 214
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "divination-temporal",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 104714,
+      "components": 225
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "summoning-spatial",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 106906,
+      "components": 214
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "soulcraft-necromancy",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 106650,
+      "components": 214
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 58684,
+      "components": 112
+    },
+    {
+      "rank": "initial",
+      "element": "fire",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 52404,
+      "components": 112
+    },
+    {
+      "rank": "initial",
+      "element": "earth",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 50684,
+      "components": 112
+    },
+    {
+      "rank": "initial",
+      "element": "air",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 62348,
+      "components": 113
+    },
+    {
+      "rank": "initial",
+      "element": "nature",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 52404,
+      "components": 112
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 79624,
+      "components": 159
+    },
+    {
+      "rank": "advanced",
+      "element": "fire",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 72088,
+      "components": 159
+    },
+    {
+      "rank": "advanced",
+      "element": "earth",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 70024,
+      "components": 159
+    },
+    {
+      "rank": "advanced",
+      "element": "air",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 83288,
+      "components": 160
+    },
+    {
+      "rank": "advanced",
+      "element": "nature",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 72088,
+      "components": 159
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 106778,
+      "components": 214
+    },
+    {
+      "rank": "meistro",
+      "element": "fire",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 97986,
+      "components": 214
+    },
+    {
+      "rank": "meistro",
+      "element": "earth",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 95578,
+      "components": 214
+    },
+    {
+      "rank": "meistro",
+      "element": "air",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 110442,
+      "components": 215
+    },
+    {
+      "rank": "meistro",
+      "element": "nature",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 97986,
+      "components": 214
+    },
+    {
+      "rank": "meistro",
+      "element": "shadow",
+      "motif": "draconic",
+      "style": "summoning-spatial",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 116666,
+      "components": 232
+    },
+    {
+      "rank": "initial",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 260,
+        "H": 160,
+        "B": 50
+      },
+      "triangles": 55036,
+      "components": 112
+    },
+    {
+      "rank": "advanced",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 310,
+        "H": 210,
+        "B": 80
+      },
+      "triangles": 75976,
+      "components": 159
+    },
+    {
+      "rank": "meistro",
+      "element": "water",
+      "motif": "neutral",
+      "style": "sigilcraft-warding",
+      "dimensions": {
+        "L": 380,
+        "H": 280,
+        "B": 120
+      },
+      "triangles": 103130,
+      "components": 214
+    }
+  ],
+  "coverage": "36 base masters; every motif/style at each rank; 15 recipes; mixed case; optional bookmark at every rank",
+  "limits": "Visual meshes; not fabrication tolerances"
+}

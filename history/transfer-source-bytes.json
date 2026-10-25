@@ -1,0 +1,2376 @@
+{
+  "date": "2026-10-25",
+  "scope": "Immutable source copies from this Books transfer, independent of mutable canonical exports and root scope adapters",
+  "files": [
+    {
+      "source": "objects/books/bound-open-book/design.md",
+      "destination": "history/transfer-source/1402f8ed0e02-design.md",
+      "sha256": "1402f8ed0e02281167cf64b7e23da4280bd78a2ba823db7d020cbab2b0d33884",
+      "bytes": 435
+    },
+    {
+      "source": "objects/books/bound-open-book/Part_1-Engine-Root/bound-book.mjs",
+      "destination": "history/transfer-source/3afeb645abca-bound-book.mjs",
+      "sha256": "3afeb645abca344d3ac933e796fe2c858bb537a25970acf8c2b4d2629436675c",
+      "bytes": 2130
+    },
+    {
+      "source": "objects/books/default-book-design-types/.gitignore",
+      "destination": "history/checkpoint-content/7f17bdc8d739-.gitignore",
+      "sha256": "7f17bdc8d739e345a58b3fa62c1cb3943810dd3850095eb2742eb7819353b4e0",
+      "bytes": 36
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/browser-element-results.json",
+      "destination": "history/checkpoint-content/21b09f4786f3-browser-element-results.json",
+      "sha256": "21b09f4786f3790eeeee8ceeaa85db326a7dac5e9c85dbd54653272fda172b0c",
+      "bytes": 6034
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/browser-results.json",
+      "destination": "history/transfer-source/6274b07fe5f7-browser-results.json",
+      "sha256": "6274b07fe5f7f5079b75b569dc4793a13db3755349d1a3c5b5b94d14e7a24001",
+      "bytes": 6389
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/check-documents.mjs",
+      "destination": "history/transfer-source/1c24673cf8e6-check-documents.mjs",
+      "sha256": "1c24673cf8e6b47c6b2becf33ad903c7849b4a84b03f3001dde66c5fb4d64ab8",
+      "bytes": 103
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/design.test.mjs",
+      "destination": "history/transfer-source/6daa3965eda6-design.test.mjs",
+      "sha256": "6daa3965eda6815525d273ee66ad86cc3df52262d99809487b9d3a15f180d29e",
+      "bytes": 5700
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/documentation-checks-v02.json",
+      "destination": "history/content/816de4b6d6f7-documentation-checks-v02.json",
+      "sha256": "816de4b6d6f7e747c4cd681d8a4ac5bf95defd90311b77041914f11969f5f176",
+      "bytes": 860
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/documentation-checks-v03.json",
+      "destination": "history/checkpoint-content/ebc0e660b83a-documentation-checks-v03.json",
+      "sha256": "ebc0e660b83aa045154f87d99575644ec8f9bdeabb3bfc61eb6b66662e5e592b",
+      "bytes": 574
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/geometry-results.json",
+      "destination": "history/checkpoint-content/3d32b4152cde-geometry-results.json",
+      "sha256": "3d32b4152cde097bb67c23d221212ddcae3d683831960db7884e81cc7b79ba3e",
+      "bytes": 25193
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/resource-results.json",
+      "destination": "history/transfer-source/fce63096b855-resource-results.json",
+      "sha256": "fce63096b8553ebc1f4d8ee3a6c85cbd79eca85d7e7593dbec5e33726ab6a3ab",
+      "bytes": 1402
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/studio.spec.mjs",
+      "destination": "history/transfer-source/557d1bb79579-studio.spec.mjs",
+      "sha256": "557d1bb79579d0347576729620b87d838668927b50da4ee98e7ee9287a8311cd",
+      "bytes": 10911
+    },
+    {
+      "source": "objects/books/default-book-design-types/checks/verification.md",
+      "destination": "history/transfer-source/e8c24c1c0108-verification.md",
+      "sha256": "e8c24c1c010811ceb767bcab4ae848b2a7d279a4043c51185cd13a8fc5809049",
+      "bytes": 7514
+    },
+    {
+      "source": "objects/books/default-book-design-types/design.md",
+      "destination": "history/transfer-source/0b76518b0487-design.md",
+      "sha256": "0b76518b0487bb8a0d760daebc78c5d2516d94ab3a4a128c9aed35b2b336c8c1",
+      "bytes": 45269
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/configurations/defaults.json",
+      "destination": "history/checkpoint-content/37ee789880ca-defaults.json",
+      "sha256": "37ee789880ca4beb25436f95b1adc70c6313593110a425331b51dff9bf39428b",
+      "bytes": 415
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/configurations/water-advanced.json",
+      "destination": "history/checkpoint-content/172c6f7c5d70-water-advanced.json",
+      "sha256": "172c6f7c5d703cd1a0b35857a2ce462bb35ef06f6f07d27e4de51cfbf0cbf3db",
+      "bytes": 681
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/configurations/water-initial.json",
+      "destination": "history/checkpoint-content/1f2a77b3ac95-water-initial.json",
+      "sha256": "1f2a77b3ac95de8c73e872cc747f69cfe2883404f7b4d8cd6f20e5ecd1e47198",
+      "bytes": 680
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/configurations/water-meistro.json",
+      "destination": "history/checkpoint-content/81f8759082bd-water-meistro.json",
+      "sha256": "81f8759082bd3e651be908153dba56c0572d35812ff744d87ec198d7c65c20ab",
+      "bytes": 680
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/elemental-reference-sheet.png",
+      "destination": "history/transfer-source/c50a5f735e23-elemental-reference-sheet.png",
+      "sha256": "c50a5f735e23bdba8837571cfc66d66a1112d3e05a017581b1eb9296c327aa9f",
+      "bytes": 219807
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/meistro-exploded.png",
+      "destination": "history/transfer-source/0b6652edca68-meistro-exploded.png",
+      "sha256": "0b6652edca68ea339362675f78f6a740043f27f800fd21d2112b3879449839e2",
+      "bytes": 589706
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/meistro-water-front.png",
+      "destination": "history/transfer-source/744da064238f-meistro-water-front.png",
+      "sha256": "744da064238f2d5f187c912f684ee5ab0d33f6e204ce7bb764b79c947484b313",
+      "bytes": 596928
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/mobile-studio.png",
+      "destination": "history/transfer-source/33771a17f9d0-mobile-studio.png",
+      "sha256": "33771a17f9d0fa06babed2d2db9f66b4988f51ced14f7412556127cfbe6a5ee4",
+      "bytes": 240893
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/README.md",
+      "destination": "history/transfer-source/2dc1c6e727c1-README.md",
+      "sha256": "2dc1c6e727c1563314134a4b3b88f9430fcb92b821c28b9413581a906f81071d",
+      "bytes": 829
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/three-rank-grayscale.png",
+      "destination": "history/transfer-source/7738b876b46a-three-rank-grayscale.png",
+      "sha256": "7738b876b46acb12f6dfc5411aa6d3a4e37b02e4c1365a4941d5a9e996008e0d",
+      "bytes": 371971
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/three-rank-neutral.png",
+      "destination": "history/transfer-source/a72f8bc8b031-three-rank-neutral.png",
+      "sha256": "a72f8bc8b0317b01d74b8268491246f645b44da16c6039df736846e790ec1358",
+      "bytes": 495143
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/three-rank-water-studio.png",
+      "destination": "history/transfer-source/185f42e95322-three-rank-water-studio.png",
+      "sha256": "185f42e95322676875fc6d4def9787ddbce8331a67f91ae296cdd43af5479865",
+      "bytes": 519884
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/screenshots/title-review.png",
+      "destination": "history/checkpoint-content/1eb5bf6dccf6-title-review.png",
+      "sha256": "1eb5bf6dccf68654bf40f07cee91083769930954567636fea20a2c5fa38550a3",
+      "bytes": 608241
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/advanced-back.svg",
+      "destination": "history/checkpoint-content/feaf4fb658b2-advanced-back.svg",
+      "sha256": "feaf4fb658b231a73996c7f43690d2c631ff617fc9e4d2de2513de2174779553",
+      "bytes": 34344
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/advanced-exploded.svg",
+      "destination": "history/checkpoint-content/d98c81598aac-advanced-exploded.svg",
+      "sha256": "d98c81598aac640c7268b914dbb7f8a41ffa45b37fa254ca12418fe89777f004",
+      "bytes": 180756
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/advanced-fore-edge.svg",
+      "destination": "history/checkpoint-content/98a66815c716-advanced-fore-edge.svg",
+      "sha256": "98a66815c716210a3094cb3378cd2e6917ed5f4ffca534057f1f5eebeefd5f7d",
+      "bytes": 179694
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/advanced-front.svg",
+      "destination": "history/checkpoint-content/aa078f774526-advanced-front.svg",
+      "sha256": "aa078f774526886574bfd413929ae639c3b92b9b670cd25edcb09f330f672577",
+      "bytes": 48556
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/advanced-spine.svg",
+      "destination": "history/checkpoint-content/29ac6e91f0ee-advanced-spine.svg",
+      "sha256": "29ac6e91f0ee78104a8ec3b55adb4ad532eac4dac314052c6bca4dd07aa815c8",
+      "bytes": 177722
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/advanced-three-quarter.svg",
+      "destination": "history/checkpoint-content/19e5518ce04e-advanced-three-quarter.svg",
+      "sha256": "19e5518ce04e6c42a1254f8d2fcbeb553df86be1b5a6db478031372121d7d248",
+      "bytes": 180257
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/advanced-top.svg",
+      "destination": "history/checkpoint-content/0cb01d10b539-advanced-top.svg",
+      "sha256": "0cb01d10b539696786e651ab7d9e258cd79fc22737d98ea3725da835a05b32e1",
+      "bytes": 178028
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/elemental-reference.svg",
+      "destination": "history/transfer-source/2c9ae321ebbd-elemental-reference.svg",
+      "sha256": "2c9ae321ebbddbc8abe5807455e0d48b6bdbd51983efc710fcbc1f2acc8748f2",
+      "bytes": 526222
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/initial-back.svg",
+      "destination": "history/checkpoint-content/19b2be95b19d-initial-back.svg",
+      "sha256": "19b2be95b19d3022c26e1457795b7cb8ae7fb1579e93f624a53bc0158b205fd0",
+      "bytes": 24072
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/initial-exploded.svg",
+      "destination": "history/checkpoint-content/b2f4033d3091-initial-exploded.svg",
+      "sha256": "b2f4033d3091545cfd21c547bbd74f6a41bbe5b025438f189a0760cf00d94af3",
+      "bytes": 134612
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/initial-fore-edge.svg",
+      "destination": "history/checkpoint-content/c6ed4b52a586-initial-fore-edge.svg",
+      "sha256": "c6ed4b52a58681768d575607a7a3701d982f443ea8235ae72d282a67d8339e74",
+      "bytes": 137912
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/initial-front.svg",
+      "destination": "history/checkpoint-content/f9b567c0d9a2-initial-front.svg",
+      "sha256": "f9b567c0d9a250fb5afd78577b70224387a753666977356dfe98769c46773938",
+      "bytes": 34710
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/initial-spine.svg",
+      "destination": "history/checkpoint-content/d85f3d1995cb-initial-spine.svg",
+      "sha256": "d85f3d1995cb3fbdaf65635f23f3df1c816f87831a9aea0e0e54e2ec3de1c796",
+      "bytes": 136486
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/initial-three-quarter.svg",
+      "destination": "history/checkpoint-content/30b534077d6c-initial-three-quarter.svg",
+      "sha256": "30b534077d6cf4b3095f4b08fa9dcf1e2798f901d9906c211b091a723ee50864",
+      "bytes": 134809
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/initial-top.svg",
+      "destination": "history/checkpoint-content/46d4b15a9dfa-initial-top.svg",
+      "sha256": "46d4b15a9dfae95f9a5eb90768a7d829a9c173ee2fe8595ea985966a5ce096d8",
+      "bytes": 136359
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/meistro-back.svg",
+      "destination": "history/checkpoint-content/d4a1154d904e-meistro-back.svg",
+      "sha256": "d4a1154d904e7cf516a4b97c4e0c0ed12bd8e9d0a1642cff056d4a8cb198ea39",
+      "bytes": 46941
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/meistro-exploded.svg",
+      "destination": "history/checkpoint-content/822373af3352-meistro-exploded.svg",
+      "sha256": "822373af3352796169d4c79e9c9bd0281d732ee946a1b4b50f10ccd95fbd4bb3",
+      "bytes": 222574
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/meistro-fore-edge.svg",
+      "destination": "history/checkpoint-content/e1323f78140d-meistro-fore-edge.svg",
+      "sha256": "e1323f78140d2b08e91d50cbe28c4ce878f18f6b72c46fef55a264c88adeb83f",
+      "bytes": 221967
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/meistro-front.svg",
+      "destination": "history/checkpoint-content/30002fcc2ba6-meistro-front.svg",
+      "sha256": "30002fcc2ba6aa561cecb493989b0dea9012e424155c9c3a875ecd43378df89e",
+      "bytes": 65204
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/meistro-spine.svg",
+      "destination": "history/checkpoint-content/918dfcaa1dd5-meistro-spine.svg",
+      "sha256": "918dfcaa1dd50bb4bc4b3f9006d84fa8b39ea6e907e904bbb1060eb82f756e36",
+      "bytes": 219488
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/meistro-three-quarter.svg",
+      "destination": "history/checkpoint-content/d256c4cc48be-meistro-three-quarter.svg",
+      "sha256": "d256c4cc48be30f1e6ebd677e07018a1ddd259d2ddc0dff365624bf54a90377e",
+      "bytes": 222284
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/meistro-top.svg",
+      "destination": "history/checkpoint-content/6a8a1423bbbf-meistro-top.svg",
+      "sha256": "6a8a1423bbbf701a1aef1dfa949d7eb6f375f5126755d06cb83b32c994a87530",
+      "bytes": 219826
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/motif-style-study.svg",
+      "destination": "history/checkpoint-content/43666cc68690-motif-style-study.svg",
+      "sha256": "43666cc6869020e7e599db66f268aea3b4f134b8e25af96d2857092276c2d37b",
+      "bytes": 640663
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/rank-comparison.svg",
+      "destination": "history/transfer-source/1ab9605bdb11-rank-comparison.svg",
+      "sha256": "1ab9605bdb1187a2a90fcde3be67a282cc01b3ddebf4d3381dd79b1a8aea3ae1",
+      "bytes": 152467
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/svg/README.md",
+      "destination": "history/transfer-source/d65855e702c6-README.md",
+      "sha256": "d65855e702c6115fef2b82e26bdf5495e13345d44e8f938540ce0eab674bc99c",
+      "bytes": 1283
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/threejs/book-advanced.json",
+      "destination": "history/transfer-source/d734dfd0cfbc-book-advanced.json",
+      "sha256": "d734dfd0cfbc76c50ddb670a79e19b466cfc0fab21287dbf114069ea784fce19",
+      "bytes": 575962
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/threejs/book-initial.json",
+      "destination": "history/transfer-source/074505d7b78c-book-initial.json",
+      "sha256": "074505d7b78c613de9c8109e01ad9aa5295de7ac3163ffe53b00398f4d1dbafe",
+      "bytes": 501279
+    },
+    {
+      "source": "objects/books/default-book-design-types/exports/threejs/book-meistro.json",
+      "destination": "history/transfer-source/9c327a45c84d-book-meistro.json",
+      "sha256": "9c327a45c84d6c30ff1354fbcf6252e62b06d350f25630bfbab581233fbce722",
+      "bytes": 669724
+    },
+    {
+      "source": "objects/books/default-book-design-types/package.json",
+      "destination": "history/transfer-source/28531baa4292-package.json",
+      "sha256": "28531baa4292ad0639ce1f5bad52ee4e22cec9e81aae80c0b19f2dd89592eb9d",
+      "bytes": 996
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/catalog.mjs",
+      "destination": "history/checkpoint-content/af2220131330-catalog.mjs",
+      "sha256": "af222013133083245234653c750cecd0a040d910d6f351a39f8631b2f96c37c2",
+      "bytes": 45233
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/design.mjs",
+      "destination": "history/checkpoint-content/87419c7e924a-design.mjs",
+      "sha256": "87419c7e924ae30b642158f667d3565381842d2dc7e3536cefd488b41169dcde",
+      "bytes": 15872
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/documents/water-botanical-sigilcraft-demo-v02.md",
+      "destination": "history/transfer-source/d2a6d523e78c-water-botanical-sigilcraft-demo-v02.md",
+      "sha256": "d2a6d523e78c711133fff1191353e074ffb60986aea9dd317e3a6d601a67b876",
+      "bytes": 6107
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/geometry.mjs",
+      "destination": "history/transfer-source/967cb213261e-geometry.mjs",
+      "sha256": "967cb213261e7860ef3928944f459002668849fc44723166a901016e1a3af4f4",
+      "bytes": 9201
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/aesthetic-catalog-v02.md",
+      "destination": "history/transfer-source/626f6b4ab3c5-aesthetic-catalog-v02.md",
+      "sha256": "626f6b4ab3c50bacf98814a1194b7fc3d91e82a5cc1e7bff03363a5372326c1d",
+      "bytes": 32352
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/component-inventory.csv",
+      "destination": "history/checkpoint-content/b8e2846e4bf4-component-inventory.csv",
+      "sha256": "b8e2846e4bf4f1118015a4c36579ef403ea7a166b30df48e9bc2e1e38617c2ef",
+      "bytes": 37461
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/design-system-v02.json",
+      "destination": "history/checkpoint-content/0739206349ed-design-system-v02.json",
+      "sha256": "0739206349eda31ac72a6fd6392c6533482b9a379100aa0fea32114296f66491",
+      "bytes": 55510
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/dimensions-v03.json",
+      "destination": "history/checkpoint-content/8a1317b838b8-dimensions-v03.json",
+      "sha256": "8a1317b838b8ff3b8adfd71bbba2701ba34a8dc202d3dbc7597e1a146c64eb04",
+      "bytes": 522
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/effects-breakdown.md",
+      "destination": "history/transfer-source/15fc8739520f-effects-breakdown.md",
+      "sha256": "15fc8739520f6c26d9a1a19f66d546eb3fd43bbd33445bea8b4c73e660cd23e6",
+      "bytes": 14156
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/model-component-inventory-v03.csv",
+      "destination": "history/checkpoint-content/ea9a55ead777-model-component-inventory-v03.csv",
+      "sha256": "ea9a55ead777c368bdf0874e30cbc029fbf4475117f774f9b7b83a3f026e0df7",
+      "bytes": 48055
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/physical-construction-options.md",
+      "destination": "history/transfer-source/ad0edd6d31f0-physical-construction-options.md",
+      "sha256": "ad0edd6d31f04c88ec06f4918de90f37cf9cfbbe3256bece735888159d1348d7",
+      "bytes": 9906
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_1-Engine-Root/planning/reference-breakdown.md",
+      "destination": "history/transfer-source/bff653a30983-reference-breakdown.md",
+      "sha256": "bff653a30983f2fc2407da9a4fe733d3da8f3f4e70ea0b0d6691a6c856d7e7b4",
+      "bytes": 13289
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_2-Connectors/export-model.mjs",
+      "destination": "history/transfer-source/6b4772744454-export-model.mjs",
+      "sha256": "6b47727444544ae4f30beba994e139dee61c1e15b60884a9a93ffac6628d8a93",
+      "bytes": 594
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_2-Connectors/generate-svg.mjs",
+      "destination": "history/transfer-source/c8bc948e3e23-generate-svg.mjs",
+      "sha256": "c8bc948e3e23eba5d44cbb336b79185a3af2ac67c9cf2df7eae9b44d1fb4edc2",
+      "bytes": 1882
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_2-Connectors/server.mjs",
+      "destination": "history/transfer-source/1d2ca099dbf1-server.mjs",
+      "sha256": "1d2ca099dbf16c76c03cfe31e81566a27115cd7933bb708687504f4f2d68ace9",
+      "bytes": 119
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_2-Connectors/sync-catalog.mjs",
+      "destination": "history/transfer-source/9024fe3ce9fe-sync-catalog.mjs",
+      "sha256": "9024fe3ce9febadfe785bf16bcb168ea1473f4d0ff7f58bab522ba3182c6f084",
+      "bytes": 442
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_2-Connectors/viewer.mjs",
+      "destination": "history/transfer-source/ec4f79675f1e-viewer.mjs",
+      "sha256": "ec4f79675f1ed728b5759c6782090d07cd8bea4b2391d4f639269ff5a9a68f67",
+      "bytes": 17267
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/effects.mjs",
+      "destination": "history/transfer-source/86ad6232a395-effects.mjs",
+      "sha256": "86ad6232a395e363f67730c39a617af4c015f90ddb6dfb902ed372b3435ec07a",
+      "bytes": 7545
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/guides/animations-presets-animation-presets-v01.md",
+      "destination": "history/transfer-source/271ebec4b583-animations-presets-animation-presets-v01.md",
+      "sha256": "271ebec4b583b362caa17f85d9b162fce005dd3cae5baac2007beaffe789d6dd",
+      "bytes": 10127
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/guides/effects-presets-effect-presets-v01.md",
+      "destination": "history/transfer-source/f7c7bd180fae-effects-presets-effect-presets-v01.md",
+      "sha256": "f7c7bd180fae563d1da31f48140c8f05c36bb806a34bea2e84efaff81fc389b4",
+      "bytes": 4257
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/guides/lighting-presets-lighting-presets-v01.md",
+      "destination": "history/transfer-source/4cb03a1a34c1-lighting-presets-lighting-presets-v01.md",
+      "sha256": "4cb03a1a34c1eecb46dac92127f6473c5c52fb0cf0203e0799ed48ea190a2209",
+      "bytes": 5542
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/guides/materials-material-catalog-v02.md",
+      "destination": "history/transfer-source/87fc4f10c016-materials-material-catalog-v02.md",
+      "sha256": "87fc4f10c0163ca0f93aa091f78e0bcd02206c63e8a4eb2f8a966d450d455b95",
+      "bytes": 5347
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/guides/materials-shaders-shader-spec-v01.md",
+      "destination": "history/transfer-source/09d3ad6cd1b9-materials-shaders-shader-spec-v01.md",
+      "sha256": "09d3ad6cd1b9cc82bc0070a9c223eaa55a7404d414b8a087483e2b0940169f16",
+      "bytes": 8778
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/guides/models-threejs-README.md",
+      "destination": "history/transfer-source/2b9199a0674a-models-threejs-README.md",
+      "sha256": "2b9199a0674adca4713b6cbe6893ad3a8282a72ffca53a7244e869cebe2b1c9c",
+      "bytes": 4837
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/models/threejs/index.html",
+      "destination": "history/checkpoint-content/61593fd1fd27-index.html",
+      "sha256": "61593fd1fd2754e29068c4f54b86994e1d3249ce15f3da75cd14411b84107444",
+      "bytes": 6761
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/models/threejs/style.css",
+      "destination": "history/checkpoint-content/bb50f8be0fe9-style.css",
+      "sha256": "bb50f8be0fe9e6231f46371aac6662d700663ce60080681172fb7d3ea8ea6a8a",
+      "bytes": 5012
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/palettes/book-palettes-v01.json",
+      "destination": "history/content/68b993e861d0-book-palettes-v01.json",
+      "sha256": "68b993e861d0deec3acdb8622ac219549d75ebd4ff03d389c03079f23bedab73",
+      "bytes": 3232
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/palettes/element-palettes-v02.json",
+      "destination": "history/content/897812fdef6f-element-palettes-v02.json",
+      "sha256": "897812fdef6fc4b9472aa03755f8dabfa641b481a1cff8b4ed5e758086cbe01a",
+      "bytes": 4281
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/presets/element-rank-presets-v02.json",
+      "destination": "history/content/acfcff6d6661-element-rank-presets-v02.json",
+      "sha256": "acfcff6d6661a523952e8ffc66d429b4f9bb69fc9fae9a4dee5379bf81035ebd",
+      "bytes": 26052
+    },
+    {
+      "source": "objects/books/default-book-design-types/Part_3-Outer-Look-Shell/svg.mjs",
+      "destination": "history/transfer-source/979a803bd8f2-svg.mjs",
+      "sha256": "979a803bd8f2938efd7350323a95de7b171b8fc917f042f6251cbbeed3ec7df4",
+      "bytes": 8047
+    },
+    {
+      "source": "objects/books/default-book-design-types/playwright.config.mjs",
+      "destination": "history/checkpoint-content/bbc25e319dfd-playwright.config.mjs",
+      "sha256": "bbc25e319dfda4786e623fd2331f99cbacc945992764b637cbb943e694efbed2",
+      "bytes": 707
+    },
+    {
+      "source": "objects/books/default-book-design-types/README.md",
+      "destination": "history/transfer-source/a2f2ad8b04e6-README.md",
+      "sha256": "a2f2ad8b04e60cb25573265505f450b90de4ecb7aeefdb99f46e4a02c408ae81",
+      "bytes": 680
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-0ca795aa-76a2-4eb8-8d00-ff277b622c74.png",
+      "destination": "history/checkpoint-content/69e354d11399-codex-clipboard-0ca795aa-76a2-4eb8-8d00-ff277b622c74.png",
+      "sha256": "69e354d11399573e5d2aa84089910c739344c61a92e793815db345444555a01a",
+      "bytes": 1079320
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-1367bc14-5f87-4d25-adc5-4ddb83ae6b04.png",
+      "destination": "history/checkpoint-content/58b2597a55ef-codex-clipboard-1367bc14-5f87-4d25-adc5-4ddb83ae6b04.png",
+      "sha256": "58b2597a55ef95495492adf10631fbbd1cdf2009be90985943526370bcefa513",
+      "bytes": 1056530
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-1d5ce6ff-b511-4346-a2a9-02f0c5cb8740.png",
+      "destination": "history/checkpoint-content/682fe59ebf97-codex-clipboard-1d5ce6ff-b511-4346-a2a9-02f0c5cb8740.png",
+      "sha256": "682fe59ebf9795a8f229b4930d0bccf86c95749027132cbc4938d29767845e44",
+      "bytes": 1674652
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-81e778a4-b776-4433-892d-318853979157.png",
+      "destination": "history/checkpoint-content/41eb4e6553d0-codex-clipboard-81e778a4-b776-4433-892d-318853979157.png",
+      "sha256": "41eb4e6553d08f3c5069352175d18545397a5320460f9e4e0e7413c7524e171f",
+      "bytes": 515255
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-bfd97874-dad1-40fa-8262-9bc74504d528.png",
+      "destination": "history/checkpoint-content/05a5c29f9449-codex-clipboard-bfd97874-dad1-40fa-8262-9bc74504d528.png",
+      "sha256": "05a5c29f9449c82d8f41a24ffa4f84552eef3be47411ee35a1a8c66da5e6828a",
+      "bytes": 834713
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-c926339d-b8f2-4f5c-9218-331c4c48ac4a.png",
+      "destination": "history/checkpoint-content/9d8046bf1047-codex-clipboard-c926339d-b8f2-4f5c-9218-331c4c48ac4a.png",
+      "sha256": "9d8046bf1047a8c34705efd4f7796137761aca2e255990b5938ac8a7d4741238",
+      "bytes": 1484276
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-dd241a80-e8ae-4430-ace9-a251067cebf9.png",
+      "destination": "history/checkpoint-content/0697eb8cf428-codex-clipboard-dd241a80-e8ae-4430-ace9-a251067cebf9.png",
+      "sha256": "0697eb8cf4288164c9b61c72c040eb9325102a8950c732b5537880ef7976d692",
+      "bytes": 1068342
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/originals/codex-clipboard-f692b905-64be-420b-aaec-aef2ce803847.png",
+      "destination": "history/checkpoint-content/ab0c20fa4d6b-codex-clipboard-f692b905-64be-420b-aaec-aef2ce803847.png",
+      "sha256": "ab0c20fa4d6b5dcf83663ae54dd744dba9ae3154ce99ec61555546a529c4021c",
+      "bytes": 1941894
+    },
+    {
+      "source": "objects/books/default-book-design-types/references/reference-index.csv",
+      "destination": "history/checkpoint-content/8226222d9e4e-reference-index.csv",
+      "sha256": "8226222d9e4e6167f11b8f3ef2ae5176f9fb96bf30fd4b789feab586e20dcbad",
+      "bytes": 2932
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/anatomy-browser-results.json",
+      "destination": "history/transfer-source/11051b6603da-anatomy-browser-results.json",
+      "sha256": "11051b6603dad7d3d19f8021876d71bea4cc6ffd239a968e898e82279b9f8d66",
+      "bytes": 2954
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/anatomy-browser.mjs",
+      "destination": "history/transfer-source/b3fdce197897-anatomy-browser.mjs",
+      "sha256": "b3fdce1978977092577c9620db5160fe10080bbac46016c5319b955913e8b693",
+      "bytes": 7532
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/anatomy-interface-results.json",
+      "destination": "history/transfer-source/76ad0e269e18-anatomy-interface-results.json",
+      "sha256": "76ad0e269e1810d0b86692051199a116c5b7a6025a88f6c6c7da0cf4ecb10c03",
+      "bytes": 16784
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/anatomy-interfaces.mjs",
+      "destination": "history/transfer-source/28140ce124cb-anatomy-interfaces.mjs",
+      "sha256": "28140ce124cbb3ad2a8731ec0072fd3d08c482528f56632e1ed17062608520aa",
+      "bytes": 2804
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/anatomy-motion-results.json",
+      "destination": "history/transfer-source/77428e59f0d2-anatomy-motion-results.json",
+      "sha256": "77428e59f0d28bca0fd709fc3fdb3c5b157e0cc57f17b72dcb5b9e56bb3e64bd",
+      "bytes": 55119
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/anatomy-motion.mjs",
+      "destination": "history/transfer-source/38395de02509-anatomy-motion.mjs",
+      "sha256": "38395de0250982b25bd5a6bcc844b812c779b547acd74f039494f4146bbd2dc9",
+      "bytes": 3788
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/audit.mjs",
+      "destination": "history/content/59fbfdf6ec49-audit.mjs",
+      "sha256": "59fbfdf6ec49bdac1a7559bdb03d2f18d591ec04b0b20886fbda2705e463d2dd",
+      "bytes": 1521
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/benchmark.mjs",
+      "destination": "history/content/4e701d0ea6be-benchmark.mjs",
+      "sha256": "4e701d0ea6beb72a6a6bbc86f7411d0e768c1448e15666db4848ee5f900f5c40",
+      "bytes": 967
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/browser-qa.mjs",
+      "destination": "history/transfer-source/397fc2f0b476-browser-qa.mjs",
+      "sha256": "397fc2f0b47655944c22181200d21aaede2d274d49f1d4d21beee547e50c09fc",
+      "bytes": 102
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/capture.mjs",
+      "destination": "history/transfer-source/1765e5645c98-capture.mjs",
+      "sha256": "1765e5645c98606a8c8030274e91a09b52160ae8934e104f8dc8578ab312b228",
+      "bytes": 102
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/checks.mjs",
+      "destination": "history/transfer-source/2148eb29dedd-checks.mjs",
+      "sha256": "2148eb29dedd9403f17b643385695a4b9b43e9742637e5f71a0e84eb610ee5df",
+      "bytes": 100
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/fittings-checks.mjs",
+      "destination": "history/transfer-source/7066d5fcd124-fittings-checks.mjs",
+      "sha256": "7066d5fcd1240f51d9bef8b7dd77a6dbb9414b49a7eeaf292a3ae8c36c3c8582",
+      "bytes": 105
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/inline-qa.mjs",
+      "destination": "history/transfer-source/5c272030f002-inline-qa.mjs",
+      "sha256": "5c272030f002098ad066c7709726ac3820184ac2a127294840943de4ed9533f2",
+      "bytes": 2027
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/inline-results.json",
+      "destination": "history/transfer-source/ce82b15fdf1a-inline-results.json",
+      "sha256": "ce82b15fdf1a56ec3900c2cd757a42fbf5faf2deafc02f94175e7c5b6a04e491",
+      "bytes": 237
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/motion-checks.mjs",
+      "destination": "history/transfer-source/309beea37e25-motion-checks.mjs",
+      "sha256": "309beea37e25ba04634e7f9b8573ce27f56ca37a0a4d2ede85c27108e000c5a7",
+      "bytes": 101
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/performance-results.json",
+      "destination": "history/transfer-source/7d59986d4d0b-performance-results.json",
+      "sha256": "7d59986d4d0b0688e5f35361c8fb1c94eb846935b17894abeac8f4e75950ae4b",
+      "bytes": 1151
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/rebuild-browser-errors.json",
+      "destination": "history/content/4f53cda18c2b-capture-errors.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/rebuild-capture.mjs",
+      "destination": "history/transfer-source/b29f0ffdd897-rebuild-capture.mjs",
+      "sha256": "b29f0ffdd89741e60529ddd20904271855128e5fa248f795ab6c06c787cdca61",
+      "bytes": 2590
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/rebuild-check.mjs",
+      "destination": "history/transfer-source/87cd899804c1-rebuild-check.mjs",
+      "sha256": "87cd899804c16cc3e91d5916205058cee1bdfeaa3b0a39b86c850fbc110b0ccc",
+      "bytes": 1718
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/rebuild-results.json",
+      "destination": "history/transfer-source/75c96e5b581f-rebuild-results.json",
+      "sha256": "75c96e5b581f259f1be3d1fdd12eab2eb908705820f1920d7e00503abfa43ea6",
+      "bytes": 139264
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/verification-results.json",
+      "destination": "history/transfer-source/c3800b730619-verification-results.json",
+      "sha256": "c3800b730619f8a637feaa6d71daaf578ddaf91a3eb20bb770a66ef4c7a55ab6",
+      "bytes": 4564
+    },
+    {
+      "source": "objects/books/wizard-grimoire/checks/verification.md",
+      "destination": "history/transfer-source/3f91d2e490eb-verification.md",
+      "sha256": "3f91d2e490ebd2f280dc80e426891bf4e8beb81073f465d0bcc51e1f04d7ec8a",
+      "bytes": 2131
+    },
+    {
+      "source": "objects/books/wizard-grimoire/design.md",
+      "destination": "history/transfer-source/008057fca0c8-design.md",
+      "sha256": "008057fca0c888660df2d5582c7708d4c1f15c228f46b274e325ab7e556d84e2",
+      "bytes": 7114
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/anatomy.html",
+      "destination": "history/transfer-source/f81936502281-anatomy.html",
+      "sha256": "f81936502281920fc42c3765243827ef222144bb3e3346e1ea9a45839ab75e43",
+      "bytes": 9629
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/inline-fragment.html",
+      "destination": "history/transfer-source/e1d84a374c7b-inline-fragment.html",
+      "sha256": "e1d84a374c7bddf37957673b482f8a04963e2bb2b115c1be39d690907fbf290b",
+      "bytes": 68465
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/review.html",
+      "destination": "history/transfer-source/0be38f3d6f7b-review.html",
+      "sha256": "0be38f3d6f7b53fc925b2b49bde83466708bd2a62d715dd58af67e3a07a9e40e",
+      "bytes": 12782
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/inline.png",
+      "destination": "history/transfer-source/27c061ea2664-inline.png",
+      "sha256": "27c061ea2664b9f2e6e5de51a6fa6682b91241206e27189b5421b97437a6d359",
+      "bytes": 50198
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/clay-corner.png",
+      "destination": "history/transfer-source/fc6219524de3-clay-corner.png",
+      "sha256": "fc6219524de3632988890fd31ffda5fd40a10deab248da65b6037a1ff4df8779",
+      "bytes": 166677
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/clay-head.png",
+      "destination": "history/transfer-source/7ad961b3797d-clay-head.png",
+      "sha256": "7ad961b3797d6ed0a06540508dff2cf20c2dbc082509cfb84859027ed46b6be7",
+      "bytes": 635795
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/clay-hollow.png",
+      "destination": "history/transfer-source/3ec7f54b81ef-clay-hollow.png",
+      "sha256": "3ec7f54b81efd097191444c5f7ccdbbc5e36ababc5cb698e8c55c15867130282",
+      "bytes": 70334
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/clay-joint.png",
+      "destination": "history/transfer-source/a0247b5645ac-clay-joint.png",
+      "sha256": "a0247b5645aca5407c4c62f0e9a93460bd5a1f1872aa084c2ab610ca7cde3ef0",
+      "bytes": 73557
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/closed.png",
+      "destination": "history/transfer-source/88c330f79224-closed.png",
+      "sha256": "88c330f79224232636fd6985bdb09d572517e379f3f8566a33977106bfdb5fa6",
+      "bytes": 176105
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-clasp.png",
+      "destination": "history/transfer-source/3a2fc2075232-detail-clasp.png",
+      "sha256": "3a2fc207523202bdafd0448f70920f15e47c09ee6324087ddeb83fc149027836",
+      "bytes": 664147
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-corner.png",
+      "destination": "history/transfer-source/ab26c8561306-detail-corner.png",
+      "sha256": "ab26c8561306e24461dd654214b81f2f4660b836188e73c7333b60d143ad5edc",
+      "bytes": 399554
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-fold.png",
+      "destination": "history/transfer-source/8447825a4c80-detail-fold.png",
+      "sha256": "8447825a4c8035335cf4e89300db653c4710993d40e81aac1f74cc1ccf5c51be",
+      "bytes": 1454639
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-gutter.png",
+      "destination": "history/transfer-source/561bb102c0b5-detail-gutter.png",
+      "sha256": "561bb102c0b5988a1a81560f6abdb52a3306380c947538fd2224bbf6b0122c7f",
+      "bytes": 1209582
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-head.png",
+      "destination": "history/transfer-source/33d0947df766-detail-head.png",
+      "sha256": "33d0947df7667eaf4596ca587c34e7e819708a8fcf4289459964618297086f64",
+      "bytes": 753629
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-hollow.png",
+      "destination": "history/transfer-source/3d525da190a5-detail-hollow.png",
+      "sha256": "3d525da190a5ee55ad1225d73f8ce80dd15a44d13f70fd46405b8f864dc1de65",
+      "bytes": 113818
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-joint.png",
+      "destination": "history/transfer-source/2ba8d38071ed-detail-joint.png",
+      "sha256": "2ba8d38071ed14d39975314715a8686e093a839880b6acc5296f3e70772e801b",
+      "bytes": 1016172
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-repair.png",
+      "destination": "history/transfer-source/2e62fa478913-detail-repair.png",
+      "sha256": "2e62fa4789138c15f46bfd9c3331dcb560d6672fabd7443f5632a441a252b1bb",
+      "bytes": 480756
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/detail-turnin.png",
+      "destination": "history/transfer-source/bbba8dafa607-detail-turnin.png",
+      "sha256": "bbba8dafa607f8af261f53714b38a79c37b855d62009aa5926f8e355814ee195",
+      "bytes": 772096
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/head.png",
+      "destination": "history/transfer-source/1b325994ebb8-head.png",
+      "sha256": "1b325994ebb83bc4330f0ffb8160163bd6092ae185504cde37b27c21ae3ecc54",
+      "bytes": 599146
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/material-swatches.png",
+      "destination": "history/transfer-source/c7bc751638cd-material-swatches.png",
+      "sha256": "c7bc751638cd2bc410df1564d5ab704bafa30c3568c74906dd197436f9da0180",
+      "bytes": 63091
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/open.png",
+      "destination": "history/transfer-source/5538814996d0-open.png",
+      "sha256": "5538814996d07831c92af2c7137f71881c439129eba0ab54f160314a09eddf8b",
+      "bytes": 251014
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/spine.png",
+      "destination": "history/transfer-source/e37cea416d9f-spine.png",
+      "sha256": "e37cea416d9f3e791184a413f1ffa80bef31cc723bcb135a94ed35628f933b28",
+      "bytes": 303216
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/spread-1.png",
+      "destination": "history/transfer-source/1430a5890240-spread-1.png",
+      "sha256": "1430a5890240deff4d73b4799d53d583b3842daf1f16749c11d61c01aec03bb9",
+      "bytes": 343609
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/spread-2.png",
+      "destination": "history/transfer-source/454c84a13841-spread-2.png",
+      "sha256": "454c84a13841d38d7fb72727db95f499a46182cf4964856e77f80655de4dbdd1",
+      "bytes": 250230
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/spread-3.png",
+      "destination": "history/transfer-source/5538814996d0-open.png",
+      "sha256": "5538814996d07831c92af2c7137f71881c439129eba0ab54f160314a09eddf8b",
+      "bytes": 251014
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/spread-4.png",
+      "destination": "history/transfer-source/01029214cdad-spread-4.png",
+      "sha256": "01029214cdaddfedf8b21433b115d57301bbfb6cab13eb7329efbc2da4f2f0f0",
+      "bytes": 253153
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/spread-5.png",
+      "destination": "history/transfer-source/13d5de00d5b1-spread-5.png",
+      "sha256": "13d5de00d5b18d213855630401ae55d912c76e24cfa5bc4d12364ad0bec985a0",
+      "bytes": 254409
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/spread-6.png",
+      "destination": "history/transfer-source/33bd2fbd2c7b-spread-6.png",
+      "sha256": "33bd2fbd2c7bd2044699c84b78410603a4368c568e47b5c15054d8490538375a",
+      "bytes": 256531
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/turn.png",
+      "destination": "history/transfer-source/930895da7b56-turn.png",
+      "sha256": "930895da7b562ef4520568b17cb7d88c3783b33e208208c6863e85a74b63737f",
+      "bytes": 279403
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/screenshots/v2/underside.png",
+      "destination": "history/transfer-source/48e52e15f20f-underside.png",
+      "sha256": "48e52e15f20fa7cf0f643256777bb1c9aca7823a2c083da1b315331ad1f23aa1",
+      "bytes": 314800
+    },
+    {
+      "source": "objects/books/wizard-grimoire/exports/svg/drawings.svg",
+      "destination": "history/transfer-source/d8e99859d3e3-drawings.svg",
+      "sha256": "d8e99859d3e3dc783c11448bd6b7d443ce8aca4a52fee53d86bac0d86192b7af",
+      "bytes": 1418819
+    },
+    {
+      "source": "objects/books/wizard-grimoire/handoff.json",
+      "destination": "history/transfer-source/664e10dc09cf-handoff.json",
+      "sha256": "664e10dc09cfa29bb66fdd90c1da112f05103cf4bcba9f25e46420047ae64445",
+      "bytes": 3768
+    },
+    {
+      "source": "objects/books/wizard-grimoire/package.json",
+      "destination": "history/transfer-source/2cf59b65edd3-package.json",
+      "sha256": "2cf59b65edd3535f294b2a056fe3a0058fca7edc2800b0a125bf339e0ff40de1",
+      "bytes": 769
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/binding-kinematics.mjs",
+      "destination": "history/transfer-source/f9a99d84fc72-binding-kinematics.mjs",
+      "sha256": "f9a99d84fc725a19529caf86b3431876dfbe0730587b8b9943e95c61f9776193",
+      "bytes": 5387
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/book-v2.mjs",
+      "destination": "history/transfer-source/e2e6fcd9c11e-book-v2.mjs",
+      "sha256": "e2e6fcd9c11eb37c78eb8660cdaa9b8950b64a5271256e0015628c6f8c0281e0",
+      "bytes": 26119
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/book.mjs",
+      "destination": "history/transfer-source/ce28de9d2fe4-book.mjs",
+      "sha256": "ce28de9d2fe46e65ee1fe9e20922601708df461c3b85eb07f205bc37000bbf49",
+      "bytes": 145
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/component-spec.json",
+      "destination": "history/transfer-source/f0c4a2075f50-component-spec.json",
+      "sha256": "f0c4a2075f506bf7edf4d36ba4af9e557827049680ee7257cd175404689e7afe",
+      "bytes": 563821
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/geometry-v2.mjs",
+      "destination": "history/transfer-source/40268ad2acf5-geometry-v2.mjs",
+      "sha256": "40268ad2acf5450a869a058b087ebde6750c81ddba6070478e51e158c882bee7",
+      "bytes": 7073
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/geometry.mjs",
+      "destination": "history/transfer-source/fa1b145b1bee-geometry.mjs",
+      "sha256": "fa1b145b1bee6648d27a8d0b03efa227ab82113a23193d2b7cea12753dd8e7af",
+      "bytes": 221
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/specification-v2.mjs",
+      "destination": "history/content/b22ea32216a3-specification-v2.mjs",
+      "sha256": "b22ea32216a380e55895d3322191bcf5b8180c8d64a75995e7e16d16d42d4296",
+      "bytes": 3015
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_1-Engine-Root/specification.mjs",
+      "destination": "history/transfer-source/6427647911be-specification.mjs",
+      "sha256": "6427647911be96f50d1eb98d066ef7556a00da693ce2fbe3c1260cc7e9dd5440",
+      "bytes": 91
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/build-inline.mjs",
+      "destination": "history/transfer-source/cb396da85dc9-build-inline.mjs",
+      "sha256": "cb396da85dc944b35309da2061b5629d9cd26f13a3e89d7637d012144b9b6fa6",
+      "bytes": 2588
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/documents-v2.mjs",
+      "destination": "history/transfer-source/16e5161faacd-documents-v2.mjs",
+      "sha256": "16e5161faacd8e85224440c1115dc05a6265e661c718ebdbeb8ee754a7955347",
+      "bytes": 11474
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/documents.mjs",
+      "destination": "history/transfer-source/71d7f6e777bf-documents.mjs",
+      "sha256": "71d7f6e777bfe9ee46223ff87e20ea2702e8e866a2f8491d0bec9d48af07d976",
+      "bytes": 100
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/inline-recipe.mjs",
+      "destination": "history/transfer-source/464a31004ddc-inline-recipe.mjs",
+      "sha256": "464a31004ddc465270635141b813e8dde98c7e1398235b8acd74fdc9e41079c9",
+      "bytes": 461
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/placement.mjs",
+      "destination": "history/content/decacaa7fee6-placement.mjs",
+      "sha256": "decacaa7fee6dca6aea3ae7549741a6d3c0fb143381d2ef56f577fd5d3d0a309",
+      "bytes": 3741
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/review-v2.mjs",
+      "destination": "history/transfer-source/adb4a6107704-review-v2.mjs",
+      "sha256": "adb4a61077046cec73eaa3dc850efd2982c3b107535533354016cc9e44b2488e",
+      "bytes": 8204
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/server.mjs",
+      "destination": "history/content/431cbef855fa-server.mjs",
+      "sha256": "431cbef855fab6d89a0cba1c9b82ad14e7e51e3184b51d089fe29205d5279391",
+      "bytes": 109
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/viewer.mjs",
+      "destination": "history/transfer-source/8f53a6fe756c-viewer.mjs",
+      "sha256": "8f53a6fe756cad6ecc47ee29990baf06c878015967bdebf756a231fd39559f2e",
+      "bytes": 18126
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_2-Connectors/write-review.mjs",
+      "destination": "history/transfer-source/5cf436f7d0a2-write-review.mjs",
+      "sha256": "5cf436f7d0a2b1ab3c775188df28e772385fc367524e0552967618fc3aa52955",
+      "bytes": 115
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/content.mjs",
+      "destination": "history/content/f82af34a01df-content.mjs",
+      "sha256": "f82af34a01df240e9009158ecf4990723311587e1b82fc49131dc56d90c508a4",
+      "bytes": 10480
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/index.html",
+      "destination": "history/transfer-source/10cf269813fa-index.html",
+      "sha256": "10cf269813fa9adcd55ba9b3e1bc214b3bd198785218cfdd72f0238d40482a4d",
+      "bytes": 6905
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/inline-preview.html",
+      "destination": "history/content/7e1014e32ddd-inline-preview.html",
+      "sha256": "7e1014e32ddd1c652ab3f3c08227ae50bc7512b19aca9347c67d873bfa0668c0",
+      "bytes": 405
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/inline-template.html",
+      "destination": "history/transfer-source/df6871831838-inline-template.html",
+      "sha256": "df6871831838ecad3018b44edf5540a43bcea45a7f3f10064a9d55e1a1fb455c",
+      "bytes": 6155
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/inline-test.html",
+      "destination": "history/transfer-source/f86e153f5248-inline-test.html",
+      "sha256": "f86e153f52489c998f599ab2a6e082abb29c8bd28ff6bd49bb7537cedfd9c9d7",
+      "bytes": 141338
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/material-study.html",
+      "destination": "history/transfer-source/5ea46836a3bf-material-study.html",
+      "sha256": "5ea46836a3bfdb51562fcd740ace381e5083ba71b60438d1f904e9e1158b99e5",
+      "bytes": 4431
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/materials.mjs",
+      "destination": "history/transfer-source/13c0a2f8cb4d-materials.mjs",
+      "sha256": "13c0a2f8cb4dfaefa4fbe76b8946751b06156aa8a43449881a598b75ed3924c1",
+      "bytes": 5328
+    },
+    {
+      "source": "objects/books/wizard-grimoire/Part_3-Outer-Look-Shell/style.css",
+      "destination": "history/content/b96fef20755f-style.css",
+      "sha256": "b96fef20755f78f1bdb405b872208306ce63eadf3c4970c13ffd30ec486c9751",
+      "bytes": 6023
+    },
+    {
+      "source": "objects/books/wizard-grimoire/README.md",
+      "destination": "history/transfer-source/430f11eea1df-README.md",
+      "sha256": "430f11eea1dfc007ed0b94cb65bc4907ec452cdb4429f33e7d19e254838e205b",
+      "bytes": 675
+    },
+    {
+      "source": "history/content/02c41a4e6e03-component-inventory.csv",
+      "destination": "history/content/02c41a4e6e03-component-inventory.csv",
+      "sha256": "02c41a4e6e0342dcce52ddb786f72efac7275d065f0d622b74cf503b85261297",
+      "bytes": 21047
+    },
+    {
+      "source": "history/content/0439e69deb2b-binding-kinematics.mjs",
+      "destination": "history/content/0439e69deb2b-binding-kinematics.mjs",
+      "sha256": "0439e69deb2bff407b47bc353a957e0aa397aa2549cd392031759c842b490210",
+      "bytes": 3634
+    },
+    {
+      "source": "history/content/082631715748-lighting-presets-v01.md",
+      "destination": "history/content/082631715748-lighting-presets-v01.md",
+      "sha256": "082631715748cff6432a3588c889a4f99d3df84af7b1bf69b9737f2468602cda",
+      "bytes": 2546
+    },
+    {
+      "source": "history/content/0a7c1e8aa18d-underside.png",
+      "destination": "history/content/0a7c1e8aa18d-underside.png",
+      "sha256": "0a7c1e8aa18d383972bc141b62ca60805672e3f3280d5fd7777c858ba0170cda",
+      "bytes": 343242
+    },
+    {
+      "source": "history/content/0b01c0b997f2-page-04.png",
+      "destination": "history/content/0b01c0b997f2-page-04.png",
+      "sha256": "0b01c0b997f22e7aa560ed97544595427c1a1dff6aee7d82a81b0923b86b4c0d",
+      "bytes": 4417619
+    },
+    {
+      "source": "history/content/0eb1e55e4a23-page-11.png",
+      "destination": "history/content/0eb1e55e4a23-page-11.png",
+      "sha256": "0eb1e55e4a236a42f7afd8284f897d761d09dba9be8a2015240141d04bef1795",
+      "bytes": 4394056
+    },
+    {
+      "source": "history/content/0ffde2435a30-inline-qa.mjs",
+      "destination": "history/content/0ffde2435a30-inline-qa.mjs",
+      "sha256": "0ffde2435a30936a9b0bd849df90076a3e687d49812c077492ba55dfd54063b9",
+      "bytes": 1998
+    },
+    {
+      "source": "history/content/16e52be7f422-browser-results.json",
+      "destination": "history/content/16e52be7f422-browser-results.json",
+      "sha256": "16e52be7f42241d58184611879c8843a5419435916c860950eb6bef6d3a0adfc",
+      "bytes": 4235
+    },
+    {
+      "source": "history/content/1768e8873f9a-lighting-presets-v01.md",
+      "destination": "history/content/1768e8873f9a-lighting-presets-v01.md",
+      "sha256": "1768e8873f9ac0d83085dc7bef8fed840295e16f9e7879de32d38787af29b0aa",
+      "bytes": 4934
+    },
+    {
+      "source": "history/content/217a5207f7ec-specification.mjs",
+      "destination": "history/content/217a5207f7ec-specification.mjs",
+      "sha256": "217a5207f7ec97f838972116794c1ed3038386eb972cf1d13316c7a498fa89dd",
+      "bytes": 4186
+    },
+    {
+      "source": "history/content/23262b8bde31-book.mjs",
+      "destination": "history/content/23262b8bde31-book.mjs",
+      "sha256": "23262b8bde31bd85b59f0ade5dbf675fc1fedc6cea2b42a3eada340f4bb4fa33",
+      "bytes": 34369
+    },
+    {
+      "source": "history/content/233dbf4dbf60-verification.md",
+      "destination": "history/content/233dbf4dbf60-verification.md",
+      "sha256": "233dbf4dbf606f5a1a99c1205175bd2a936346f78feaef9a6c7d1b75dc690f4f",
+      "bytes": 6480
+    },
+    {
+      "source": "history/content/25d6bc31d2d3-inline-template.html",
+      "destination": "history/content/25d6bc31d2d3-inline-template.html",
+      "sha256": "25d6bc31d2d383f1f03ecc24b75841d63eeb5bc9c7c41754650843a146de3f23",
+      "bytes": 6149
+    },
+    {
+      "source": "history/content/27835094ea98-page-03.png",
+      "destination": "history/content/27835094ea98-page-03.png",
+      "sha256": "27835094ea988e083e07f36c63ed4e31c0d5f34e593b530b9e10aba03d404d7a",
+      "bytes": 4415023
+    },
+    {
+      "source": "history/content/29d285dd8108-page-01.png",
+      "destination": "history/content/29d285dd8108-page-01.png",
+      "sha256": "29d285dd8108ce9d1063ada6666fa67c44db3fa54e360ae4e89ded9387d895be",
+      "bytes": 4411869
+    },
+    {
+      "source": "history/content/2a7b7e892da6-material-catalog-v02.md",
+      "destination": "history/content/2a7b7e892da6-material-catalog-v02.md",
+      "sha256": "2a7b7e892da60949e4b87a98f6b9f09252e92d6dd53e65317d4e4b9b8b432dd1",
+      "bytes": 4740
+    },
+    {
+      "source": "history/content/2c9b079bdc8e-aesthetic-catalog-v02.md",
+      "destination": "history/content/2c9b079bdc8e-aesthetic-catalog-v02.md",
+      "sha256": "2c9b079bdc8e65b3a16bf1d23d13c1694e3b767b378661331bd641939ca72c92",
+      "bytes": 32343
+    },
+    {
+      "source": "history/content/2ca5c6d59f48-motion-checks.mjs",
+      "destination": "history/content/2ca5c6d59f48-motion-checks.mjs",
+      "sha256": "2ca5c6d59f489289fa1134b4a35abe5451e429fc0f87672af89dc668ea5db5e2",
+      "bytes": 5268
+    },
+    {
+      "source": "history/content/31407db14586-README.md",
+      "destination": "history/content/31407db14586-README.md",
+      "sha256": "31407db145863a3ba0b0bfc9ca039cf109454aa5dd82db6ede952e725587d854",
+      "bytes": 660
+    },
+    {
+      "source": "history/content/37130804c76e-fittings-checks.mjs",
+      "destination": "history/content/37130804c76e-fittings-checks.mjs",
+      "sha256": "37130804c76eeba74e1b1f9a23fb9864422c56209801b30222c31b70b246eeef",
+      "bytes": 4045
+    },
+    {
+      "source": "history/content/3734ba4b3a5c-page-02.png",
+      "destination": "history/content/3734ba4b3a5c-page-02.png",
+      "sha256": "3734ba4b3a5c34c8983a248288fd82ca0af881bf66c39d2c7ff05f90ebb14242",
+      "bytes": 4413544
+    },
+    {
+      "source": "history/content/38314bc99ed7-open.png",
+      "destination": "history/content/38314bc99ed7-open.png",
+      "sha256": "38314bc99ed751ae7692036c40a8d8517cda495c395cca7539d810004a78680f",
+      "bytes": 262305
+    },
+    {
+      "source": "history/content/38519eab2c29-detail-corner.png",
+      "destination": "history/content/38519eab2c29-detail-corner.png",
+      "sha256": "38519eab2c29832d79dc2456a2749cae54fc0694a6b009120af9f30028a3a255",
+      "bytes": 228293
+    },
+    {
+      "source": "history/content/387c7dbaa223-spread-6.png",
+      "destination": "history/content/387c7dbaa223-spread-6.png",
+      "sha256": "387c7dbaa223bf986e46b47335a903a9cc3302a0a1f14dce39f0a9d8d47d9af9",
+      "bytes": 517161
+    },
+    {
+      "source": "history/content/391c09510066-detail-turnin.png",
+      "destination": "history/content/391c09510066-detail-turnin.png",
+      "sha256": "391c09510066fe391d705a3d7a6db79ea65c33770a564c5371275d7d0205d084",
+      "bytes": 128618
+    },
+    {
+      "source": "history/content/3ace6ef01ce8-rear.png",
+      "destination": "history/content/3ace6ef01ce8-rear.png",
+      "sha256": "3ace6ef01ce84041566d607c781aec5ef13f5c7f910759fe9595ef7f239e8348",
+      "bytes": 290286
+    },
+    {
+      "source": "history/content/3bb3e7d11845-side.png",
+      "destination": "history/content/3bb3e7d11845-side.png",
+      "sha256": "3bb3e7d11845eaebd40b5592c884b168c5c6019b88783bc3696d1cbd981c37df",
+      "bytes": 147081
+    },
+    {
+      "source": "history/content/3bbf1db0e46b-page-08.png",
+      "destination": "history/content/3bbf1db0e46b-page-08.png",
+      "sha256": "3bbf1db0e46bc12d4becd8197d033fd873225345a2ae018edeca089cfec4c7ca",
+      "bytes": 4400478
+    },
+    {
+      "source": "history/content/3e53599ae2f0-page-09.png",
+      "destination": "history/content/3e53599ae2f0-page-09.png",
+      "sha256": "3e53599ae2f0d8b3c49344f81cedbed686b1a1aa2d158eb6ba15a13aaaf83736",
+      "bytes": 4422397
+    },
+    {
+      "source": "history/content/40120e4c0939-detail-edge.png",
+      "destination": "history/content/40120e4c0939-detail-edge.png",
+      "sha256": "40120e4c0939593a54a40c2961042650c11e1d5f9417134ac6bd23c51d93dff7",
+      "bytes": 112209
+    },
+    {
+      "source": "history/content/408a989fbc06-documents.mjs",
+      "destination": "history/content/408a989fbc06-documents.mjs",
+      "sha256": "408a989fbc0623a86099bf31028aa4f54527d0a4899175dc34c9255fa2e2c596",
+      "bytes": 11134
+    },
+    {
+      "source": "history/content/431cbef855fa-server.mjs",
+      "destination": "history/content/431cbef855fa-server.mjs",
+      "sha256": "431cbef855fab6d89a0cba1c9b82ad14e7e51e3184b51d089fe29205d5279391",
+      "bytes": 109
+    },
+    {
+      "source": "history/content/4aa81c0c62c5-drawings.svg",
+      "destination": "history/content/4aa81c0c62c5-drawings.svg",
+      "sha256": "4aa81c0c62c5207ff81cdda03f730e0eba1ce3bba079c90e51ead9722377e05d",
+      "bytes": 41014
+    },
+    {
+      "source": "history/content/4e701d0ea6be-benchmark.mjs",
+      "destination": "history/content/4e701d0ea6be-benchmark.mjs",
+      "sha256": "4e701d0ea6beb72a6a6bbc86f7411d0e768c1448e15666db4848ee5f900f5c40",
+      "bytes": 967
+    },
+    {
+      "source": "history/content/4ef6f1766974-capture.mjs",
+      "destination": "history/content/4ef6f1766974-capture.mjs",
+      "sha256": "4ef6f1766974c9b2b703623d67e0e80f3a5f8bcd4e7088cf1cb587b461b2c32b",
+      "bytes": 4332
+    },
+    {
+      "source": "history/content/4f53cda18c2b-capture-errors.json",
+      "destination": "history/content/4f53cda18c2b-capture-errors.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "source": "history/content/4f8c1af6d444-review.html",
+      "destination": "history/content/4f8c1af6d444-review.html",
+      "sha256": "4f8c1af6d444feb6598cae698f06149c68320e62695627242462a6dd92f2061b",
+      "bytes": 11221
+    },
+    {
+      "source": "history/content/563fe0e65a7b-page-10.png",
+      "destination": "history/content/563fe0e65a7b-page-10.png",
+      "sha256": "563fe0e65a7bcd61ff3d5ebf4ecc15f676d2658d3bb68414f9329e661baa21a0",
+      "bytes": 4415452
+    },
+    {
+      "source": "history/content/56d85b68b540-inline.png",
+      "destination": "history/content/56d85b68b540-inline.png",
+      "sha256": "56d85b68b5404506567fd21243baf297a04ebf38be2588a36bc4391093ebdba7",
+      "bytes": 64849
+    },
+    {
+      "source": "history/content/59fbfdf6ec49-audit.mjs",
+      "destination": "history/content/59fbfdf6ec49-audit.mjs",
+      "sha256": "59fbfdf6ec49bdac1a7559bdb03d2f18d591ec04b0b20886fbda2705e463d2dd",
+      "bytes": 1521
+    },
+    {
+      "source": "history/content/5e189bbfac2a-spread-4.png",
+      "destination": "history/content/5e189bbfac2a-spread-4.png",
+      "sha256": "5e189bbfac2aeebac36b8d1bd486a66dc8e210c2a627a688e65017bf87a86f9f",
+      "bytes": 471333
+    },
+    {
+      "source": "history/content/5fb434613680-design.md",
+      "destination": "history/content/5fb434613680-design.md",
+      "sha256": "5fb434613680c109963ffc4929a59b0a3440d6d5941ffb6f071f2d59a2ba1755",
+      "bytes": 12047
+    },
+    {
+      "source": "history/content/5fd93c71c2ee-detail-underside.png",
+      "destination": "history/content/5fd93c71c2ee-detail-underside.png",
+      "sha256": "5fd93c71c2eee2e3b009d93adaa50175954c8c23e4ec8e5c41c6017229311a41",
+      "bytes": 32613
+    },
+    {
+      "source": "history/content/611bc734bed9-page-07.png",
+      "destination": "history/content/611bc734bed9-page-07.png",
+      "sha256": "611bc734bed9f926f851fd41fcdb69c29ff587737086495c8948c95e90bb9977",
+      "bytes": 4402816
+    },
+    {
+      "source": "history/content/63c15d574810-build-inline.mjs",
+      "destination": "history/content/63c15d574810-build-inline.mjs",
+      "sha256": "63c15d574810ea6332c09c928116f9311b956ae76152ad4b563b1657e49a7da4",
+      "bytes": 95
+    },
+    {
+      "source": "history/content/65b63a174b6f-geometry.mjs",
+      "destination": "history/content/65b63a174b6f-geometry.mjs",
+      "sha256": "65b63a174b6f5ea905b410ff2f370f1803cf9b5ba648834742ef1e50587606cf",
+      "bytes": 9736
+    },
+    {
+      "source": "history/content/68ac62475086-detail-clasp.png",
+      "destination": "history/content/68ac62475086-detail-clasp.png",
+      "sha256": "68ac62475086fb699180a6de5602c305b80bf8e0f983c8c98175467d51eb03fe",
+      "bytes": 230137
+    },
+    {
+      "source": "history/content/68b993e861d0-book-palettes-v01.json",
+      "destination": "history/content/68b993e861d0-book-palettes-v01.json",
+      "sha256": "68b993e861d0deec3acdb8622ac219549d75ebd4ff03d389c03079f23bedab73",
+      "bytes": 3232
+    },
+    {
+      "source": "history/content/6c6850b4a3a2-page-05.png",
+      "destination": "history/content/6c6850b4a3a2-page-05.png",
+      "sha256": "6c6850b4a3a22f7e469611aa62993a440283d3110ede75ad19f1e53987f58563",
+      "bytes": 4407099
+    },
+    {
+      "source": "history/content/6cda7e80e589-outstanding-decisions.md",
+      "destination": "history/content/6cda7e80e589-outstanding-decisions.md",
+      "sha256": "6cda7e80e5891ac27bc727b1c548c169c22da46f97598ccd458284676f3c7b3b",
+      "bytes": 5532
+    },
+    {
+      "source": "history/content/6d5cc01759b1-water-botanical-sigilcraft-demo-v02.md",
+      "destination": "history/content/6d5cc01759b1-water-botanical-sigilcraft-demo-v02.md",
+      "sha256": "6d5cc01759b18f6c18196598517092d6d20b5e24791cdad165683d61b3d19bc9",
+      "bytes": 5625
+    },
+    {
+      "source": "history/content/6f8ee8622656-shader-spec-v01.md",
+      "destination": "history/content/6f8ee8622656-shader-spec-v01.md",
+      "sha256": "6f8ee8622656cb8c4cd433b81c9f656a227d481458c78373e14de9146f9b2a18",
+      "bytes": 8122
+    },
+    {
+      "source": "history/content/7150ae272ae1-viewer.mjs",
+      "destination": "history/content/7150ae272ae1-viewer.mjs",
+      "sha256": "7150ae272ae1ef6f3c5519ba6cf553a02e20170b39fd685459b9089738e5ccc4",
+      "bytes": 17944
+    },
+    {
+      "source": "history/content/71817f0667bc-inline-results.json",
+      "destination": "history/content/71817f0667bc-inline-results.json",
+      "sha256": "71817f0667bcaada70392134e53a4cc783773cf36dc9e46f98658fbf635f7772",
+      "bytes": 237
+    },
+    {
+      "source": "history/content/71c252d8a1f7-motion-results.json",
+      "destination": "history/content/71c252d8a1f7-motion-results.json",
+      "sha256": "71c252d8a1f72ac21be5bd8e55511d2353b0a60b394529023ad52c36d6eced0e",
+      "bytes": 143266
+    },
+    {
+      "source": "history/content/72f41c9b7e09-README.md",
+      "destination": "history/content/72f41c9b7e09-README.md",
+      "sha256": "72f41c9b7e09e24d92bc30f34b179eec749425170b05dbc1f3a34a8dd4a85e50",
+      "bytes": 4855
+    },
+    {
+      "source": "history/content/742eb642b255-detail-repair.png",
+      "destination": "history/content/742eb642b255-detail-repair.png",
+      "sha256": "742eb642b255ed251e9edf105ed9592816697ddbe48ecedb193440ada43392b2",
+      "bytes": 101974
+    },
+    {
+      "source": "history/content/77beb28f03ff-page-06.png",
+      "destination": "history/content/77beb28f03ff-page-06.png",
+      "sha256": "77beb28f03ff9ac04805bd4933c7caa3d536c4b621c8f79eec6cae05b931ceef",
+      "bytes": 4403291
+    },
+    {
+      "source": "history/content/77ec59fd9128-browser-qa.mjs",
+      "destination": "history/content/77ec59fd9128-browser-qa.mjs",
+      "sha256": "77ec59fd912857149757a08dd65817c7c3360943eca0863bfee22558fefdd0c0",
+      "bytes": 11848
+    },
+    {
+      "source": "history/content/79be3d7a0f35-closed.png",
+      "destination": "history/content/79be3d7a0f35-closed.png",
+      "sha256": "79be3d7a0f35a19e9ad6fdb0ea5a575f8f8342d0d22bd0af6f1f6fe5b879f7c5",
+      "bytes": 242200
+    },
+    {
+      "source": "history/content/7a1085d6cb71-fittings-results.json",
+      "destination": "history/content/7a1085d6cb71-fittings-results.json",
+      "sha256": "7a1085d6cb717d06f25e5cc36787e5ce13d32a4ff8a91775477fdbed960aaf0d",
+      "bytes": 17912
+    },
+    {
+      "source": "history/content/7b7d0c9088bb-shader-spec-v01.md",
+      "destination": "history/content/7b7d0c9088bb-shader-spec-v01.md",
+      "sha256": "7b7d0c9088bb276f661099d42d02496fbda91a284cb9ce24599116e0196686ac",
+      "bytes": 4225
+    },
+    {
+      "source": "history/content/7c0038cdd26c-effects-breakdown.md",
+      "destination": "history/content/7c0038cdd26c-effects-breakdown.md",
+      "sha256": "7c0038cdd26c531d83cc88b4664aba2b912c3611ce95bbb286969bbc077387dc",
+      "bytes": 13582
+    },
+    {
+      "source": "history/content/7e1014e32ddd-inline-preview.html",
+      "destination": "history/content/7e1014e32ddd-inline-preview.html",
+      "sha256": "7e1014e32ddd1c652ab3f3c08227ae50bc7512b19aca9347c67d873bfa0668c0",
+      "bytes": 405
+    },
+    {
+      "source": "history/content/816de4b6d6f7-documentation-checks-v02.json",
+      "destination": "history/content/816de4b6d6f7-documentation-checks-v02.json",
+      "sha256": "816de4b6d6f7e747c4cd681d8a4ac5bf95defd90311b77041914f11969f5f176",
+      "bytes": 860
+    },
+    {
+      "source": "history/content/843b707b083d-spread-3.png",
+      "destination": "history/content/843b707b083d-spread-3.png",
+      "sha256": "843b707b083de727ecdde029f23b6338c238d1e5834e0e433d7ed1bd3f8cbbb9",
+      "bytes": 465877
+    },
+    {
+      "source": "history/content/86b53eaab2a4-effect-presets-v01.md",
+      "destination": "history/content/86b53eaab2a4-effect-presets-v01.md",
+      "sha256": "86b53eaab2a45c0f26e7a6d9403b096d3e10a342852d0714246ea5055845087d",
+      "bytes": 2490
+    },
+    {
+      "source": "history/content/88f83ee700d9-effects-breakdown.md",
+      "destination": "history/content/88f83ee700d9-effects-breakdown.md",
+      "sha256": "88f83ee700d90e055d446cdc4a4055abb418a314241210a6bf288b4837ffc5e0",
+      "bytes": 6466
+    },
+    {
+      "source": "history/content/897812fdef6f-element-palettes-v02.json",
+      "destination": "history/content/897812fdef6f-element-palettes-v02.json",
+      "sha256": "897812fdef6fc4b9472aa03755f8dabfa641b481a1cff8b4ed5e758086cbe01a",
+      "bytes": 4281
+    },
+    {
+      "source": "history/content/8c1c21ee71f2-checks.mjs",
+      "destination": "history/content/8c1c21ee71f2-checks.mjs",
+      "sha256": "8c1c21ee71f247f432708632fd62e78196864f184a36b4a6b2df3df596e5f388",
+      "bytes": 859
+    },
+    {
+      "source": "history/content/8eb100465034-spread-1.png",
+      "destination": "history/content/8eb100465034-spread-1.png",
+      "sha256": "8eb100465034c988db3b74fc013f83bede718208e92ebf4a7aa8ff587d6832f0",
+      "bytes": 447564
+    },
+    {
+      "source": "history/content/938b3bcaa5ee-project-design-v01.md",
+      "destination": "history/content/938b3bcaa5ee-project-design-v01.md",
+      "sha256": "938b3bcaa5ee21b77c8f4be7b5effcedd6a242b437466ae0030fa029b563bf3c",
+      "bytes": 25637
+    },
+    {
+      "source": "history/content/9586e6c99581-outstanding-decisions.md",
+      "destination": "history/content/9586e6c99581-outstanding-decisions.md",
+      "sha256": "9586e6c995815250bb5b42e1327fdaa7de3939110d934edf624c74ca9f9d5ad2",
+      "bytes": 3096
+    },
+    {
+      "source": "history/content/9e0bfc5e4168-material-grazing.png",
+      "destination": "history/content/9e0bfc5e4168-material-grazing.png",
+      "sha256": "9e0bfc5e41684a1f4c72d4b58791572160e0e75732a19edd1b73386f1a7754c7",
+      "bytes": 485810
+    },
+    {
+      "source": "history/content/a0d43e1cf210-design-system-v02.json",
+      "destination": "history/content/a0d43e1cf210-design-system-v02.json",
+      "sha256": "a0d43e1cf21029b8c9e62a588168b06f7e9540330099cc3cd38e2973022c2d1b",
+      "bytes": 54950
+    },
+    {
+      "source": "history/content/a1fd6ee1e1bd-package.json",
+      "destination": "history/content/a1fd6ee1e1bd-package.json",
+      "sha256": "a1fd6ee1e1bd4db695fc1ede0ceb8109f553a9049117c38de75e74086bf682d9",
+      "bytes": 632
+    },
+    {
+      "source": "history/content/a6861ec02484-reference-breakdown.md",
+      "destination": "history/content/a6861ec02484-reference-breakdown.md",
+      "sha256": "a6861ec02484d31c355bba4144335d31cd3ea7ff6398d1af30a366f9f447cc11",
+      "bytes": 13265
+    },
+    {
+      "source": "history/content/a6b5a880cbf1-performance-results.json",
+      "destination": "history/content/a6b5a880cbf1-performance-results.json",
+      "sha256": "a6b5a880cbf165b248040c07298c6af19f306fc3df7e67b72eae380357090a7a",
+      "bytes": 1222
+    },
+    {
+      "source": "history/content/a8298e0862e1-material-neutral.png",
+      "destination": "history/content/a8298e0862e1-material-neutral.png",
+      "sha256": "a8298e0862e1e9cfbe50cd198ddc79f65977b1af509a01feef963672fbc709eb",
+      "bytes": 525886
+    },
+    {
+      "source": "history/content/aa08d61a1bbb-physical-construction-options.md",
+      "destination": "history/content/aa08d61a1bbb-physical-construction-options.md",
+      "sha256": "aa08d61a1bbb2fc1c759631c254925a08cc611a832d2364829f6eedd92ce37f5",
+      "bytes": 5960
+    },
+    {
+      "source": "history/content/acfcff6d6661-element-rank-presets-v02.json",
+      "destination": "history/content/acfcff6d6661-element-rank-presets-v02.json",
+      "sha256": "acfcff6d6661a523952e8ffc66d429b4f9bb69fc9fae9a4dee5379bf81035ebd",
+      "bytes": 26052
+    },
+    {
+      "source": "history/content/add858482cf8-solid-results.json",
+      "destination": "history/content/add858482cf8-solid-results.json",
+      "sha256": "add858482cf8e0cb49441930a43d0d52ea66c6663bed5a28916bbcf2b7108f73",
+      "bytes": 194801
+    },
+    {
+      "source": "history/content/b01a520285be-project-design-v01.md",
+      "destination": "history/content/b01a520285be-project-design-v01.md",
+      "sha256": "b01a520285bec5d4bf83c507f983e31cf7d0e2ba3d8e0378757c14f9ca7953e7",
+      "bytes": 32470
+    },
+    {
+      "source": "history/content/b087b6ab1e24-verification.md",
+      "destination": "history/content/b087b6ab1e24-verification.md",
+      "sha256": "b087b6ab1e241cb750a5fb6b52e6846cd56a85dabceb0e2c246eb4cf997d2de3",
+      "bytes": 3168
+    },
+    {
+      "source": "history/content/b095e0b73365-interface.png",
+      "destination": "history/content/b095e0b73365-interface.png",
+      "sha256": "b095e0b73365cbd03dedc6e383ef4017533c0d72b637343f98dd522d1b1ac742",
+      "bytes": 297684
+    },
+    {
+      "source": "history/content/b1033a44ec94-effect-presets-v01.md",
+      "destination": "history/content/b1033a44ec94-effect-presets-v01.md",
+      "sha256": "b1033a44ec94a81bedf6390d17a925ef25c1abad0e6517492901d7d8d6264cab",
+      "bytes": 3676
+    },
+    {
+      "source": "history/content/b22ea32216a3-specification-v2.mjs",
+      "destination": "history/content/b22ea32216a3-specification-v2.mjs",
+      "sha256": "b22ea32216a380e55895d3322191bcf5b8180c8d64a75995e7e16d16d42d4296",
+      "bytes": 3015
+    },
+    {
+      "source": "history/content/b490cf5aa31f-detail-fold.png",
+      "destination": "history/content/b490cf5aa31f-detail-fold.png",
+      "sha256": "b490cf5aa31f1acb2e5361fc6b32d932633ba16b90ed31dd0528c01bb55cbf52",
+      "bytes": 53054
+    },
+    {
+      "source": "history/content/b4cc4e52377a-mid-turn.png",
+      "destination": "history/content/b4cc4e52377a-mid-turn.png",
+      "sha256": "b4cc4e52377aa131770ded166770d306a01f1305ea94b81381b0e861c6982763",
+      "bytes": 336572
+    },
+    {
+      "source": "history/content/b96fef20755f-style.css",
+      "destination": "history/content/b96fef20755f-style.css",
+      "sha256": "b96fef20755f78f1bdb405b872208306ce63eadf3c4970c13ffd30ec486c9751",
+      "bytes": 6023
+    },
+    {
+      "source": "history/content/bce909545450-inline-test.html",
+      "destination": "history/content/bce909545450-inline-test.html",
+      "sha256": "bce90954545096ee4f7f386e4cd8df73df26735f81ec0010bf8e92269e87a76d",
+      "bytes": 142448
+    },
+    {
+      "source": "history/content/c9f850d2ed69-materials.mjs",
+      "destination": "history/content/c9f850d2ed69-materials.mjs",
+      "sha256": "c9f850d2ed6988d2a39f8dc4eb5357c0b92cd84493acff78b89c2209de55ee98",
+      "bytes": 4932
+    },
+    {
+      "source": "history/content/ca9653adeb12-write-review.mjs",
+      "destination": "history/content/ca9653adeb12-write-review.mjs",
+      "sha256": "ca9653adeb12bbb9086a7e2ab72f15372cae7375c8380bddff507c43ec61fb30",
+      "bytes": 13819
+    },
+    {
+      "source": "history/content/cce846804249-component-spec.json",
+      "destination": "history/content/cce846804249-component-spec.json",
+      "sha256": "cce8468042492f966e57a9c1da0337c69dd1f3eef873419f3de5d90148cd2d82",
+      "bytes": 914302
+    },
+    {
+      "source": "history/content/ce27f7110c04-spread-2.png",
+      "destination": "history/content/ce27f7110c04-spread-2.png",
+      "sha256": "ce27f7110c04245b5f8f491381dcce5896485146eb3c8cf0c462d447b3be374e",
+      "bytes": 451933
+    },
+    {
+      "source": "history/content/cf3d6b021a5a-page-12.png",
+      "destination": "history/content/cf3d6b021a5a-page-12.png",
+      "sha256": "cf3d6b021a5a98605b2cdeb982d1a1adaecda1235cec5a65bc7f5de353af0163",
+      "bytes": 4391572
+    },
+    {
+      "source": "history/content/d63dec8bb3b8-front.png",
+      "destination": "history/content/d63dec8bb3b8-front.png",
+      "sha256": "d63dec8bb3b88f13d32cdf0139993b7f69aa7c44d05f143fafaca04b6165f58b",
+      "bytes": 511922
+    },
+    {
+      "source": "history/content/d96d51175d66-detail-gutter.png",
+      "destination": "history/content/d96d51175d66-detail-gutter.png",
+      "sha256": "d96d51175d66d4fad2dafe68085a77708f37d8c0f41c9e38d3ffe8802b889fae",
+      "bytes": 55004
+    },
+    {
+      "source": "history/content/da06847db3c0-physical-construction-options.md",
+      "destination": "history/content/da06847db3c0-physical-construction-options.md",
+      "sha256": "da06847db3c0e9454299f53d52cd0872f362036e6b1e16333ee957e3694bea94",
+      "bytes": 9911
+    },
+    {
+      "source": "history/content/decacaa7fee6-placement.mjs",
+      "destination": "history/content/decacaa7fee6-placement.mjs",
+      "sha256": "decacaa7fee6dca6aea3ae7549741a6d3c0fb143381d2ef56f577fd5d3d0a309",
+      "bytes": 3741
+    },
+    {
+      "source": "history/content/e5e2d4e46e30-verification.md",
+      "destination": "history/content/e5e2d4e46e30-verification.md",
+      "sha256": "e5e2d4e46e30fdab6c0a015fc76bd0aaeb9bd22ca4d6b3c9ae24c2b5582dfad2",
+      "bytes": 2505
+    },
+    {
+      "source": "history/content/e6cc3cc36e59-verification-results.json",
+      "destination": "history/content/e6cc3cc36e59-verification-results.json",
+      "sha256": "e6cc3cc36e59dea45b90329254bd19fbd34aea1c745d44f040d48c6e494ea23a",
+      "bytes": 6886
+    },
+    {
+      "source": "history/content/e7741522ecb6-animation-presets-v01.md",
+      "destination": "history/content/e7741522ecb6-animation-presets-v01.md",
+      "sha256": "e7741522ecb68982765768f0fda7d4d6f00e5037d368e6763c79d73e20cde438",
+      "bytes": 2840
+    },
+    {
+      "source": "history/content/e8c86fd0bdf6-index.html",
+      "destination": "history/content/e8c86fd0bdf6-index.html",
+      "sha256": "e8c86fd0bdf6aec67973b91e6ed2caf6a98dedcffeb98dd0bc03a91d40935b0f",
+      "bytes": 6725
+    },
+    {
+      "source": "history/content/e97f53616dc5-component-inventory.csv",
+      "destination": "history/content/e97f53616dc5-component-inventory.csv",
+      "sha256": "e97f53616dc5d721aac0238cfecbff5245d7749071207278f9b1662f5336e72d",
+      "bytes": 36545
+    },
+    {
+      "source": "history/content/eaabc1b58094-README.md",
+      "destination": "history/content/eaabc1b58094-README.md",
+      "sha256": "eaabc1b580940106f05deae46cea938494b0d22d12ccd7806fc18eaf7f9f23c9",
+      "bytes": 3824
+    },
+    {
+      "source": "history/content/edbdde03dc2e-material-swatches.png",
+      "destination": "history/content/edbdde03dc2e-material-swatches.png",
+      "sha256": "edbdde03dc2e2887cdb3f587679fa1e235c0a3084ac8fd66795a6ad6925eb7f1",
+      "bytes": 100788
+    },
+    {
+      "source": "history/content/f2edde8c57f7-material-study.html",
+      "destination": "history/content/f2edde8c57f7-material-study.html",
+      "sha256": "f2edde8c57f7ba5b207f98c03ae5d8d5d2dfc40167f318bf6ac4e773fc1c1773",
+      "bytes": 4454
+    },
+    {
+      "source": "history/content/f2f269b977fa-detail-joint.png",
+      "destination": "history/content/f2f269b977fa-detail-joint.png",
+      "sha256": "f2f269b977fa2f0db842764a9db473e7ddf0928e53c799363581012648d1981b",
+      "bytes": 170156
+    },
+    {
+      "source": "history/content/f4257a697c14-detail-head.png",
+      "destination": "history/content/f4257a697c14-detail-head.png",
+      "sha256": "f4257a697c14313ebc226126bed79a104339d1fee64bdecb859d7668aa5cc423",
+      "bytes": 133678
+    },
+    {
+      "source": "history/content/f82af34a01df-content.mjs",
+      "destination": "history/content/f82af34a01df-content.mjs",
+      "sha256": "f82af34a01df240e9009158ecf4990723311587e1b82fc49131dc56d90c508a4",
+      "bytes": 10480
+    },
+    {
+      "source": "history/content/f862fc319adf-animation-presets-v01.md",
+      "destination": "history/content/f862fc319adf-animation-presets-v01.md",
+      "sha256": "f862fc319adfaf9e16ae9c9e346df339693063c69b705d5f61d6c97e0e0a45d7",
+      "bytes": 9510
+    },
+    {
+      "source": "history/content/fd422b4514ac-spread-5.png",
+      "destination": "history/content/fd422b4514ac-spread-5.png",
+      "sha256": "fd422b4514aca82f4bedeff0db1e2e216c76f7b0068590eab89f8a6bdd899aa7",
+      "bytes": 496925
+    },
+    {
+      "source": "history/book-ranks/v0.1-manifest.json",
+      "destination": "history/checkpoint-content/01c472ecd669-snapshot-manifest.json",
+      "sha256": "01c472ecd669bf10ca506f1bf0c7cdba726a70fc2ea50b3ffba072f05a9ee814",
+      "bytes": 6254
+    },
+    {
+      "source": "history/book-ranks/v0.2-manifest.json",
+      "destination": "history/checkpoint-content/5db03c20992b-snapshot-manifest.json",
+      "sha256": "5db03c20992bbfe23a6e769050a1935ffe1548a1a4551fee8ee1f69ed603f96b",
+      "bytes": 8089
+    },
+    {
+      "source": "history/spine-system/before/annotated-edge.svg",
+      "destination": "history/checkpoint-content/39eb95cd09f5-annotated-edge.svg",
+      "sha256": "39eb95cd09f50067d9036b636a603a7e77003a6f513a57cab3c23414b9e5bb5e",
+      "bytes": 666
+    },
+    {
+      "source": "history/spine-system/before/annotated-fold.svg",
+      "destination": "history/checkpoint-content/94000c477dbb-annotated-fold.svg",
+      "sha256": "94000c477dbbd67a34e5713a618931231bf5a26855e06dc9e4cde9858b3e904b",
+      "bytes": 666
+    },
+    {
+      "source": "history/spine-system/before/annotated-head.svg",
+      "destination": "history/checkpoint-content/c29595cd5ec4-annotated-head.svg",
+      "sha256": "c29595cd5ec46a36e43a21f0b0e7365a731e1b0f24bef9fe8923186e53cbc736",
+      "bytes": 679
+    },
+    {
+      "source": "history/spine-system/before/annotated-joint.svg",
+      "destination": "history/checkpoint-content/9d23a830c3d8-annotated-joint.svg",
+      "sha256": "9d23a830c3d8bbd96f9cdbd9d0ff46ee71956fdd89611c649a5be6e848f4ab2b",
+      "bytes": 667
+    },
+    {
+      "source": "history/spine-system/before/annotated-turnin.svg",
+      "destination": "history/checkpoint-content/b9726fd406aa-annotated-turnin.svg",
+      "sha256": "b9726fd406aa031b8a203e3a5fd0151ccd68983bcc53f53669a842a57b358755",
+      "bytes": 692
+    },
+    {
+      "source": "history/spine-system/before/annotated-underside.svg",
+      "destination": "history/checkpoint-content/389a5e0d277c-annotated-underside.svg",
+      "sha256": "389a5e0d277c8d6c938c15df974896b7afb0f3838b91641229401c1a17a0dd93",
+      "bytes": 685
+    },
+    {
+      "source": "history/spine-system/before/browser-results.json",
+      "destination": "history/checkpoint-content/f4b69e6846e6-browser-results.json",
+      "sha256": "f4b69e6846e6642cf5df75ab36c3b16cd90fd6661be70d306ee15bbd09e1e20c",
+      "bytes": 3472
+    },
+    {
+      "source": "history/spine-system/before/captures/bookmark-edge.png",
+      "destination": "history/checkpoint-content/b5b1b940c5e5-bookmark-edge.png",
+      "sha256": "b5b1b940c5e579b88206f8485808fa7ecc00bc03dbac06ba96f727fcb3281771",
+      "bytes": 153477
+    },
+    {
+      "source": "history/spine-system/before/captures/bookmark-fold.png",
+      "destination": "history/checkpoint-content/14a9c396fa4d-bookmark-fold.png",
+      "sha256": "14a9c396fa4d203ca39af519dc4aeb48bbf2af472e3599863a3da9fa88bc9ca4",
+      "bytes": 342277
+    },
+    {
+      "source": "history/spine-system/before/captures/bookmark-head.png",
+      "destination": "history/checkpoint-content/31a8f82e27db-bookmark-head.png",
+      "sha256": "31a8f82e27db8a7a886eb34ffab623e418f8e06cdc9f554e833df7843737ad4d",
+      "bytes": 312173
+    },
+    {
+      "source": "history/spine-system/before/captures/bookmark-joint.png",
+      "destination": "history/checkpoint-content/aeaa23ffdfa0-bookmark-joint.png",
+      "sha256": "aeaa23ffdfa05e709d413f4d6a947536d59086f58525d227694fc9827930865e",
+      "bytes": 27184
+    },
+    {
+      "source": "history/spine-system/before/captures/bookmark-turnin.png",
+      "destination": "history/checkpoint-content/edac15be5334-bookmark-turnin.png",
+      "sha256": "edac15be53348497c4edd39a02cc3f45b43eec9d94d30e16892e59682503f741",
+      "bytes": 178293
+    },
+    {
+      "source": "history/spine-system/before/captures/bookmark-underside.png",
+      "destination": "history/checkpoint-content/dd8e9b56d81e-bookmark-underside.png",
+      "sha256": "dd8e9b56d81ed6c573ea994fe8f7ba97b5bf38cea74f8f2234940072fd3c2220",
+      "bytes": 50970
+    },
+    {
+      "source": "history/spine-system/before/captures/spine-grazing.png",
+      "destination": "history/checkpoint-content/d5834f122c10-spine-grazing.png",
+      "sha256": "d5834f122c1033947cee37b1bbda8cfb6145d6c4010d0ab9753805f62bee38ee",
+      "bytes": 151212
+    },
+    {
+      "source": "history/spine-system/before/captures/spine-neutral.png",
+      "destination": "history/checkpoint-content/6ffb3a35277c-spine-neutral.png",
+      "sha256": "6ffb3a35277c01d9a3293b4fd872f1aa4fc5f1b870fb6c2f43dbad49de8924cf",
+      "bytes": 160803
+    },
+    {
+      "source": "history/spine-system/before/extra-results.json",
+      "destination": "history/checkpoint-content/d2930bd6a5e9-extra-results.json",
+      "sha256": "d2930bd6a5e95f0f39c44885475f9070fce9c06c54d2fc139f153f7cdde71db4",
+      "bytes": 11444
+    },
+    {
+      "source": "history/spine-system/before/extraction-requirements.md",
+      "destination": "history/checkpoint-content/1c8b0ed7d4d1-extraction-requirements.md",
+      "sha256": "1c8b0ed7d4d1ec328e8e6c9ce293e571a7e10ac74c0a33d3e229bf98c056356b",
+      "bytes": 3583
+    },
+    {
+      "source": "history/spine-system/before/findings.json",
+      "destination": "history/checkpoint-content/c483f61aa829-findings.json",
+      "sha256": "c483f61aa8290d7e397eeaa2218ad69ebb290de3da17765c9b6d563eab42c3d9",
+      "bytes": 43080
+    },
+    {
+      "source": "history/spine-system/before/followup-results.json",
+      "destination": "history/checkpoint-content/451740c5f8f8-followup-results.json",
+      "sha256": "451740c5f8f8ae6b48f0c436f4f26cb9f1f129003b015b70526807b0a545a3a9",
+      "bytes": 2514
+    },
+    {
+      "source": "history/spine-system/before/index.html",
+      "destination": "history/checkpoint-content/e30f05d60550-index.html",
+      "sha256": "e30f05d60550e1dddd80be1ecc83b1cbb137788e0c4bab30a519476025c3ec2f",
+      "bytes": 83144
+    },
+    {
+      "source": "history/spine-system/before/inventory.json",
+      "destination": "history/checkpoint-content/eedb2b37c2db-inventory.json",
+      "sha256": "eedb2b37c2dbcd351a2fb72def7f40b03602ff032e76e5cd2290ad6a7c53ae53",
+      "bytes": 52165
+    },
+    {
+      "source": "history/spine-system/before/measurements.json",
+      "destination": "history/checkpoint-content/6c41f5175b0f-measurements.json",
+      "sha256": "6c41f5175b0f91f528a189a3ef1c819635e465e59ec6c671d34f94a6d3bca408",
+      "bytes": 111374
+    },
+    {
+      "source": "history/spine-system/before/performance.json",
+      "destination": "history/checkpoint-content/834b6aa85f1f-performance.json",
+      "sha256": "834b6aa85f1f647c7e889fbac3219ccc53e7dcc394d6622e4daca3cbbcbf812b",
+      "bytes": 1304
+    },
+    {
+      "source": "history/spine-system/before/README.md",
+      "destination": "history/checkpoint-content/9272e9fcafb1-README.md",
+      "sha256": "9272e9fcafb11bfd0b82aee891f1681f6194245972c736d06f8aa410a93b1e2d",
+      "bytes": 2105
+    },
+    {
+      "source": "history/spine-system/before/report-preview.png",
+      "destination": "history/checkpoint-content/90bdd1252579-report-preview.png",
+      "sha256": "90bdd1252579618553625cc73d034f753ee043764fe61d5f82d2d78dd2a2931c",
+      "bytes": 79001
+    },
+    {
+      "source": "history/spine-system/before/report-ui-results.json",
+      "destination": "history/checkpoint-content/bb79a98e3b1d-report-ui-results.json",
+      "sha256": "bb79a98e3b1d7b64d0ac9133cf177eb5aa57f3b41303cdc919127132e09563e3",
+      "bytes": 204
+    },
+    {
+      "source": "history/spine-system/before/report-validation.json",
+      "destination": "history/checkpoint-content/3fd65307cf41-report-validation.json",
+      "sha256": "3fd65307cf415f8131a88e9a20345a216a631f6bd85d901d588d23db680286cc",
+      "bytes": 176
+    },
+    {
+      "source": "history/spine-system/before/report.md",
+      "destination": "history/checkpoint-content/66f41a9a1533-report.md",
+      "sha256": "66f41a9a153322a4ed92d1a6397628181a1258016b8c9bccfa0bf2fd848d589c",
+      "bytes": 37344
+    },
+    {
+      "source": "history/spine-system/before/sections.svg",
+      "destination": "history/checkpoint-content/3aa99e365429-sections.svg",
+      "sha256": "3aa99e3654294b642da8eb0ef08a58d7e54c8bded84fe522fed5df87e25b2212",
+      "bytes": 23519
+    },
+    {
+      "source": "history/spine-system/before/source-evidence.md",
+      "destination": "history/checkpoint-content/c822e4a522f6-source-evidence.md",
+      "sha256": "c822e4a522f698baa89ca1dee4b6e6786e3960295b1e847ab60c9e0acf640685",
+      "bytes": 14693
+    },
+    {
+      "source": "history/spine-system/before/source-preservation.json",
+      "destination": "history/checkpoint-content/b546c7679ef3-source-preservation.json",
+      "sha256": "b546c7679ef3e2b9ead66e0040e26db89189f98d81d9583b874a7178860be1e2",
+      "bytes": 37
+    },
+    {
+      "source": "history/spine-system/methods/browser-audit.mjs",
+      "destination": "history/transfer-source/11438becc7f4-browser-audit.mjs",
+      "sha256": "11438becc7f45affffc8a5933943ae00a68833792c520f551a859eea0c6a6c0a",
+      "bytes": 6233
+    },
+    {
+      "source": "history/spine-system/methods/build-report.mjs",
+      "destination": "history/transfer-source/e25d12f46df9-build-report.mjs",
+      "sha256": "e25d12f46df9a586f31edaf370b7506fd7180e6310be3f912cde41f62b5b5232",
+      "bytes": 41590
+    },
+    {
+      "source": "history/spine-system/methods/extra-checks.mjs",
+      "destination": "history/transfer-source/681f4835387e-extra-checks.mjs",
+      "sha256": "681f4835387edf72a8d8e03016515f587a992651867afd35ffad68ab790517cb",
+      "bytes": 2974
+    },
+    {
+      "source": "history/spine-system/methods/finalize.mjs",
+      "destination": "history/transfer-source/51e80a0b1e75-finalize.mjs",
+      "sha256": "51e80a0b1e756a5e5478c2929b048a110714256e4f0c2411cbee56f8e60b74d3",
+      "bytes": 4999
+    },
+    {
+      "source": "history/spine-system/methods/followup-checks.mjs",
+      "destination": "history/transfer-source/08c8e05e365c-followup-checks.mjs",
+      "sha256": "08c8e05e365cfe2b72493cf4b101ddeaa38f6bfb201c11220e737fe09213468c",
+      "bytes": 3643
+    },
+    {
+      "source": "history/spine-system/methods/geometry-checks.mjs",
+      "destination": "history/transfer-source/5fa8a59d0c23-geometry-checks.mjs",
+      "sha256": "5fa8a59d0c23486e3c0ab481b3c249222d7368619f0b10af4e80f9f0a67aa59a",
+      "bytes": 2789
+    },
+    {
+      "source": "history/spine-system/methods/performance-reproduce.mjs",
+      "destination": "history/transfer-source/0cb062159a44-performance-reproduce.mjs",
+      "sha256": "0cb062159a442844174920e4ccabe6aa82048cb7b1533a2e39b1862deb55b376",
+      "bytes": 1136
+    },
+    {
+      "source": "history/spine-system/methods/repairs/benchmark.mjs",
+      "destination": "history/transfer-source/45bfbdb525a5-benchmark.mjs",
+      "sha256": "45bfbdb525a54c370014452b542b76940b00eadaddffdaba694d1c435aa9fe9a",
+      "bytes": 1261
+    },
+    {
+      "source": "history/spine-system/methods/repairs/browser-check.mjs",
+      "destination": "history/transfer-source/4864cb028a85-browser-check.mjs",
+      "sha256": "4864cb028a8556c3a0735935692fe47dd91a8699c0ccfdf025fe56bdd8ee3237",
+      "bytes": 4368
+    },
+    {
+      "source": "history/spine-system/methods/repairs/build-report.mjs",
+      "destination": "history/transfer-source/869c5ecad724-build-report.mjs",
+      "sha256": "869c5ecad724acde36297f6a50410385731408976bba3fff98494b69d8a010c1",
+      "bytes": 14212
+    },
+    {
+      "source": "history/spine-system/methods/repairs/check.mjs",
+      "destination": "history/transfer-source/768166f295b7-check.mjs",
+      "sha256": "768166f295b746210d1777117a1d8745c95a2425beb94c38a18d1ba4d64283f2",
+      "bytes": 3192
+    },
+    {
+      "source": "history/spine-system/methods/repairs/gathering-check.mjs",
+      "destination": "history/transfer-source/27705205fd8b-gathering-check.mjs",
+      "sha256": "27705205fd8b9447c7cab0cc262d5a17cab2cd5d72bbcb90ddbec0b5c67683b3",
+      "bytes": 1575
+    },
+    {
+      "source": "history/spine-system/methods/repairs/interpolation-check.mjs",
+      "destination": "history/transfer-source/bf7d5e391e53-interpolation-check.mjs",
+      "sha256": "bf7d5e391e5395048958573cab40835002c520fcde0e92f895569a84013692bb",
+      "bytes": 1561
+    },
+    {
+      "source": "history/spine-system/methods/run-audit.mjs",
+      "destination": "history/transfer-source/bb76b918cbd6-run-audit.mjs",
+      "sha256": "bb76b918cbd6c670d39af3879425f3329f058907fa96bce3dbfa7269b53d72e5",
+      "bytes": 5815
+    },
+    {
+      "source": "history/spine-system/repairs/browser-results.json",
+      "destination": "history/checkpoint-content/fee6f4afacab-browser-results.json",
+      "sha256": "fee6f4afacab90674b9aaaa25dc09cd2c5b13a16d5c0c6f75414ec97a87dfc7a",
+      "bytes": 3012
+    },
+    {
+      "source": "history/spine-system/repairs/captures/fold.png",
+      "destination": "history/checkpoint-content/94e665e21b7e-fold.png",
+      "sha256": "94e665e21b7ec573a91d9d129673fa12c141edd34347f94ace4cbc6b433a5450",
+      "bytes": 45658
+    },
+    {
+      "source": "history/spine-system/repairs/captures/head.png",
+      "destination": "history/checkpoint-content/b32f6dc4599c-head.png",
+      "sha256": "b32f6dc4599c827bdac9a9bcf5a1fb35a1c4b0cc887a5e1a4f595c480df3754b",
+      "bytes": 126447
+    },
+    {
+      "source": "history/spine-system/repairs/captures/joint.png",
+      "destination": "history/checkpoint-content/df6c8fa87665-joint.png",
+      "sha256": "df6c8fa876652f8adb315a59992801ae414b29fd16eb63e5fc5614bd0e99f561",
+      "bytes": 65642
+    },
+    {
+      "source": "history/spine-system/repairs/captures/repair-bias-diagnostic.png",
+      "destination": "history/checkpoint-content/e35c1bae74e0-repair-bias-diagnostic.png",
+      "sha256": "e35c1bae74e0cb8e1a14decd6af6ac3721edc803f1a353680a0679a36219702f",
+      "bytes": 246327
+    },
+    {
+      "source": "history/spine-system/repairs/captures/repair-shadow-diagnostic.png",
+      "destination": "history/checkpoint-content/863c00430c73-repair-shadow-diagnostic.png",
+      "sha256": "863c00430c73ea680c206c2559ace4ebf0cb32a30656a4967e237167add37a74",
+      "bytes": 104113
+    },
+    {
+      "source": "history/spine-system/repairs/captures/repair.png",
+      "destination": "history/checkpoint-content/cbb2670391da-repair.png",
+      "sha256": "cbb2670391dac447743be1cc3c49aa6e5f726044f2f686b259fc5ff0afe2ad39",
+      "bytes": 104063
+    },
+    {
+      "source": "history/spine-system/repairs/captures/spine.png",
+      "destination": "history/checkpoint-content/c045c63d8eab-spine.png",
+      "sha256": "c045c63d8eab95e541f6362ec06b8a8e232ae030ada6bd3e0231786bacb09c2d",
+      "bytes": 65610
+    },
+    {
+      "source": "history/spine-system/repairs/changed-files.json",
+      "destination": "history/checkpoint-content/2ae2ca4f88f6-changed-files.json",
+      "sha256": "2ae2ca4f88f634d70ee50b72727ed0749053aed21085688a7490355cca1bbaa2",
+      "bytes": 4006
+    },
+    {
+      "source": "history/spine-system/repairs/gathering-results.json",
+      "destination": "history/checkpoint-content/39104431bbd4-gathering-results.json",
+      "sha256": "39104431bbd4aca6462066fc9fb8919639bb058390c71ad85a6441b65b636106",
+      "bytes": 4008
+    },
+    {
+      "source": "history/spine-system/repairs/geometry-results.json",
+      "destination": "history/transfer-source/f76a8086ccae-geometry-results.json",
+      "sha256": "f76a8086ccae82c52bb4d58ad9b53cc5546490e8603c59f3a26053680e905a8b",
+      "bytes": 51834
+    },
+    {
+      "source": "history/spine-system/repairs/index.html",
+      "destination": "history/checkpoint-content/90cf05dffcfc-index.html",
+      "sha256": "90cf05dffcfc4e467f4fe82a36b3cb90a5787a79780dd4996f3e8e6417eeb688",
+      "bytes": 15909
+    },
+    {
+      "source": "history/spine-system/repairs/interpolation-results.json",
+      "destination": "history/checkpoint-content/9a212d96d2dc-interpolation-results.json",
+      "sha256": "9a212d96d2dcc77b2158d5ba70b4d6c2dc81587cadc7651d95504b6f3723de1f",
+      "bytes": 6416
+    },
+    {
+      "source": "history/spine-system/repairs/performance.json",
+      "destination": "history/checkpoint-content/69830061f14c-performance.json",
+      "sha256": "69830061f14ce076a6a810a689c9616bab564a7e4a980fe536461645c34b688c",
+      "bytes": 1738
+    },
+    {
+      "source": "history/spine-system/repairs/README.md",
+      "destination": "history/checkpoint-content/a152de445a76-README.md",
+      "sha256": "a152de445a76523b0928406e392ed3cdff122ad9c90cee71e24b0d5cc79d95cd",
+      "bytes": 2021
+    },
+    {
+      "source": "history/spine-system/repairs/repair-status.json",
+      "destination": "history/checkpoint-content/15d46188421c-repair-status.json",
+      "sha256": "15d46188421cec2f0360819f66a961b072dda0230202f65d14a4b78e1624932f",
+      "bytes": 5773
+    },
+    {
+      "source": "history/spine-system/repairs/report-validation.json",
+      "destination": "history/checkpoint-content/4b3707d7efc2-report-validation.json",
+      "sha256": "4b3707d7efc23fc4706fe89cc030066191835294af817ea32a91126dfcdf37d4",
+      "bytes": 215
+    },
+    {
+      "source": "history/spine-system/repairs/report.md",
+      "destination": "history/transfer-source/fe6891dc19cf-report.md",
+      "sha256": "fe6891dc19cfd878735a6fc03601528153b17c5132979d998c80f7dd3307f1a8",
+      "bytes": 8979
+    },
+    {
+      "source": "history/spine-system/source-map.json",
+      "destination": "history/transfer-source/d0263c3d7acb-source-map.json",
+      "sha256": "d0263c3d7acb16e25d227e55ad6b050962d7fa58e7bd83684e17cb4b021bed3c",
+      "bytes": 41976
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/examples/evaluation-report-template.md",
+      "destination": "history/checkpoint-content/2248bff1de04-evaluation-report-template.md",
+      "sha256": "2248bff1de04b85db81c8a358bdb2cb407141d6b2cd168274acf5a7205fa5944",
+      "bytes": 3408
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/examples/sample-initial-front-audit.md",
+      "destination": "history/transfer-source/765dc12a8f3b-sample-initial-front-audit.md",
+      "sha256": "765dc12a8f3b16a1a87912eb813422067d978d33092eb6585752b88433c15398",
+      "bytes": 4189
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/references/book-cover-standards.md",
+      "destination": "history/checkpoint-content/0255b3901be8-book-cover-standards.md",
+      "sha256": "0255b3901be829eed6e3d9c4c9a0dda96f563bb3b7adb660d9d49d358baa1256",
+      "bytes": 5626
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/references/dual-representation-parity.md",
+      "destination": "history/checkpoint-content/bc8d558f6b7f-dual-representation-parity.md",
+      "sha256": "bc8d558f6b7f9af0a9cb71520311b504571dc58b9eb3a0c3de628b078d4a76db",
+      "bytes": 3766
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/references/evaluation-rubric.md",
+      "destination": "history/checkpoint-content/dab6ec7c7788-evaluation-rubric.md",
+      "sha256": "dab6ec7c7788414e60f1d14ab19b099abf326a6f318c9576f75467512e25a755",
+      "bytes": 14738
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/references/threejs-quality-standards.md",
+      "destination": "history/checkpoint-content/2d79de858e4e-threejs-quality-standards.md",
+      "sha256": "2d79de858e4e6058fa410416829969be28373e00f8eb96867d6d5accfce0c801",
+      "bytes": 6246
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/scripts/evaluate-book-parity.mjs",
+      "destination": "history/transfer-source/b54d9f15d637-evaluate-book-parity.mjs",
+      "sha256": "b54d9f15d637429b4e27b66a5c0f7179e5debd4e6b06645292497e65e55eb7f7",
+      "bytes": 9541
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/scripts/evaluate-book-svg.mjs",
+      "destination": "history/checkpoint-content/3828bea5244b-evaluate-book-svg.mjs",
+      "sha256": "3828bea5244bc14dd025b6a5654576b897749584c5e78c8bfce1b52d1a1e3bf6",
+      "bytes": 21313
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/scripts/evaluate-codex.mjs",
+      "destination": "history/transfer-source/8f5629ce8e73-evaluate-codex.mjs",
+      "sha256": "8f5629ce8e73c4a691ca4eb8868754a13614948a85258da822c5d8bba9808a6f",
+      "bytes": 7297
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/scripts/evaluate-threejs-model.mjs",
+      "destination": "history/transfer-source/6c7d54bcfe0b-evaluate-threejs-model.mjs",
+      "sha256": "6c7d54bcfe0bf4900a27f2291cabcdbe2416492ea931b46fe53f2f6e21d75d9b",
+      "bytes": 15289
+    },
+    {
+      "source": ".agents/skills/svg-book-design-evaluation/SKILL.md",
+      "destination": "history/checkpoint-content/cfac0ba239c2-SKILL.md",
+      "sha256": "cfac0ba239c26c94f55c9b785fadd74083fa40708503a1b7d6cb877357cd1180",
+      "bytes": 5527
+    },
+    {
+      "source": "tools/spine-system/index.html",
+      "destination": "history/transfer-source/be186c9773b4-index.html",
+      "sha256": "be186c9773b4af20aeeb7efb53568416bed7e1ea66508e5b2da6b47098bf7c2e",
+      "bytes": 795
+    },
+    {
+      "source": "tools/spine-system/server.mjs",
+      "destination": "history/transfer-source/76e41778723e-server.mjs",
+      "sha256": "76e41778723e9f72d05c182abb6615ffca8f8f0b83e68b0174da906a7fcac866",
+      "bytes": 107
+    },
+    {
+      "source": "AGENTS.md",
+      "destination": "history/transfer-source/45c5d825afe4-AGENTS.md",
+      "sha256": "45c5d825afe4684131f925a94b9f3dae7ee0f22132804a5a61eb92f10dd6ea37",
+      "bytes": 1548
+    },
+    {
+      "source": ".gitignore",
+      "destination": "history/transfer-source/476b267507f7-.gitignore",
+      "sha256": "476b267507f735f512d261b87f8f4cba77d72ac715bacef1b484864543a72902",
+      "bytes": 61
+    },
+    {
+      "source": "tools/build.mjs",
+      "destination": "history/transfer-source/012a4f116701-build.mjs",
+      "sha256": "012a4f1167012c361672e4349e5d0a571a8a895cee999c5887a04be3fcdfa1e8",
+      "bytes": 5147
+    },
+    {
+      "source": "tools/history.mjs",
+      "destination": "history/transfer-source/f0567d45d420-history.mjs",
+      "sha256": "f0567d45d420833692b8bf9101bba82b4d5a99ca7a2dd2384494e0693352417b",
+      "bytes": 5338
+    },
+    {
+      "source": "tools/verify.mjs",
+      "destination": "history/transfer-source/1ea6b16aa11c-verify.mjs",
+      "sha256": "1ea6b16aa11c7f5a85dee0a03ecdebd133696a3b84daac6b1657fe56f42d8996",
+      "bytes": 6074
+    },
+    {
+      "source": "tools/validate-workspace.mjs",
+      "destination": "history/transfer-source/22b323b8b850-validate-workspace.mjs",
+      "sha256": "22b323b8b85043b30fab28cdea9d78dd5541e7c922e386901bcd3865fd821d3a",
+      "bytes": 3897
+    },
+    {
+      "source": "tools/workspace.test.mjs",
+      "destination": "history/transfer-source/252ade914f33-workspace.test.mjs",
+      "sha256": "252ade914f33bdcb3abb1c5ae2e726006e7dcd0d44e549c20003deebf4371d9c",
+      "bytes": 3160
+    },
+    {
+      "source": "tools/check-exports.mjs",
+      "destination": "history/transfer-source/4c256111c6b4-check-exports.mjs",
+      "sha256": "4c256111c6b490d8c847f09aff1d1270ae27f4314bea1b81c1e83b2fa33506f2",
+      "bytes": 1611
+    },
+    {
+      "source": "history/README.md",
+      "destination": "history/transfer-source/3b08bd062a4b-README.md",
+      "sha256": "3b08bd062a4bd12a74ac31dcd106d9de8fd904318728b4a9dac9a419aa40774a",
+      "bytes": 2075
+    },
+    {
+      "source": "history/snapshots.json",
+      "destination": "history/transfer-source/c45b75c49fb8-snapshots.json",
+      "sha256": "c45b75c49fb87c6b998195a9bed63408d92f6882a95e4e88b16ccf98b5851b66",
+      "bytes": 35029
+    },
+    {
+      "source": "shared/Part_1-Engine-Root/book-binding-knowledge.mjs",
+      "destination": "history/transfer-source/84d4db2b4bd9-book-binding-knowledge.mjs",
+      "sha256": "84d4db2b4bd9269cb74a7fdffa66c1fa0f131128e0a7a38d14272a16bd19c11d",
+      "bytes": 5555
+    },
+    {
+      "source": "shared/Part_1-Engine-Root/geometry-audit.mjs",
+      "destination": "history/transfer-source/8978e153babd-geometry-audit.mjs",
+      "sha256": "8978e153babdbed674050c9760fddfeacecc6db6a13668a80e34d73b9e59eff7",
+      "bytes": 1457
+    },
+    {
+      "source": "shared/Part_2-Connectors/navigation.mjs",
+      "destination": "history/checkpoint-content/f40b8cf3d95d-navigation.mjs",
+      "sha256": "f40b8cf3d95d0f27892e336cb8d9f9c05d4d98c6160ca27ec2af50111a5be7e8",
+      "bytes": 7214
+    },
+    {
+      "source": "shared/Part_2-Connectors/resources.mjs",
+      "destination": "history/transfer-source/bd5503739e5c-resources.mjs",
+      "sha256": "bd5503739e5cb0ccb39c4bad106b7c29ec3d2b6db0483a1c637ccb4818bb1467",
+      "bytes": 1884
+    },
+    {
+      "source": "shared/Part_2-Connectors/server.mjs",
+      "destination": "history/transfer-source/4b2d220c0a8e-server.mjs",
+      "sha256": "4b2d220c0a8ecb8fd2ce19bf6330a4658d5fbaf3516b14638c871034d97bc90e",
+      "bytes": 3658
+    },
+    {
+      "source": "shared/Part_3-Outer-Look-Shell/standalone-host-bridge.js",
+      "destination": "history/transfer-source/0b19685a4a76-standalone-host-bridge.js",
+      "sha256": "0b19685a4a762846461f42ee0f7af67b86a35df7d93eee0c057ebf6e8d291bed",
+      "bytes": 9970
+    },
+    {
+      "source": "shared/Part_3-Outer-Look-Shell/visualize.css",
+      "destination": "history/transfer-source/038fc5e0e41d-visualize.css",
+      "sha256": "038fc5e0e41de359ab0873b63dd5c2c70e1eed0e01735233b885abd4a9c6d1a0",
+      "bytes": 36570
+    },
+    {
+      "source": "shared/Part_3-Outer-Look-Shell/visualize.html",
+      "destination": "history/transfer-source/3b25c0d80c28-visualize.html",
+      "sha256": "3b25c0d80c2880eab8b69e52ed7361aa4f6a6acfba27b1d29758326458429234",
+      "bytes": 20663
+    },
+    {
+      "source": "objects/architecture/gothic-library-room/design.md",
+      "destination": "history/transfer-source/e01e14686814-design.md",
+      "sha256": "e01e14686814db5ddcafcdccb6ed8b8c77a7a66685d79ec82454b67e8a9c5626",
+      "bytes": 17814
+    },
+    {
+      "source": "C:\\Users\\ANDRE~1.OLI\\AppData\\Local\\Temp\\codex-clipboard-e120ab8d-b988-48f1-8109-ce76e6d792b6.png",
+      "destination": "history/transfer-source/bc1cfc51e99a-codex-clipboard-e120ab8d-b988-48f1-8109-ce76e6d792b6.png",
+      "sha256": "bc1cfc51e99a53819210d6ef0500a9b4e3a851c368234f7f15326f16e5c27b18",
+      "bytes": 245827
+    },
+    {
+      "source": "objects/architecture/gothic-library-room/exports/screenshots/upgrade-book-clay.png",
+      "destination": "history/transfer-source/00c0e4fbf07e-upgrade-book-clay.png",
+      "sha256": "00c0e4fbf07e20d06ac865ce223abd6977b0883a5e4ae9d28313dd74d9ddfb55",
+      "bytes": 243465
+    },
+    {
+      "source": "objects/architecture/gothic-library-room/exports/screenshots/upgrade-book-edge.png",
+      "destination": "history/transfer-source/294a4534d2be-upgrade-book-edge.png",
+      "sha256": "294a4534d2beb6a159c2d41557f7778f536df3aead2590bd3b94eb785686759a",
+      "bytes": 542454
+    },
+    {
+      "source": "C:\\Users\\Andre.Olivier\\.codex\\visualizations\\2026\\10\\09\\01a120d1-0d41-7fc2-9908-c54bc792023f\\wizard-grimoire-study.html",
+      "destination": "history/conversation-previews/wizard-grimoire-study.html",
+      "bytes": 69415,
+      "sha256": "729e4df5cf8992512a1836987dff85bd534c67454684f178893939250eaa0bfb"
+    },
+    {
+      "source": "C:\\Users\\Andre.Olivier\\.codex\\visualizations\\2026\\10\\09\\01a120d1-0d41-7fc2-9908-c54bc792023f\\wizard-grimoire-v2.html",
+      "destination": "history/conversation-previews/wizard-grimoire-v2.html",
+      "bytes": 68465,
+      "sha256": "e1d84a374c7bddf37957673b482f8a04963e2bb2b115c1be39d690907fbf290b"
+    }
+  ]
+}

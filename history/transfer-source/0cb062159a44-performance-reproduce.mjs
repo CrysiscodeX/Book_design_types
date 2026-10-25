@@ -1,0 +1,5 @@
+import {resourceURL} from '../../shared/Part_2-Connectors/resources.mjs';
+import {chromium} from '@playwright/test/index.mjs';import fs from 'node:fs/promises';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--enable-webgl','--ignore-gpu-blocklist']}),page=await browser.newPage({viewport:{width:1920,height:1080},deviceScaleFactor:1});await page.goto('http://127.0.0.1:4194/?embed=1');await page.waitForFunction(()=>document.getElementById('study')?.grimoire,{timeout:90000});const rows=[];
+for(const mode of ['orbit','turn','close'])rows.push(await page.evaluate(mode=>{const a=document.getElementById('study').grimoire;if(mode==='close'){const original=a.renderer.setPixelRatio.bind(a.renderer);a.renderer.setPixelRatio=()=>original(1);original(1);}return a.benchmark(90,mode);},mode));
+await fs.writeFile(resourceURL('performance.json',import.meta.url),JSON.stringify({generated:new Date().toISOString(),browser:browser.version(),rows,inspectionOverride:'Diagnostic ratio pinned to 1 for close; production unchanged'},null,2));await browser.close();

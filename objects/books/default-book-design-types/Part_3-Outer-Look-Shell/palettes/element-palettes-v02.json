@@ -1,0 +1,165 @@
+{
+  "version": "0.2",
+  "date": "2026-10-06",
+  "colorSpace": "sRGB",
+  "evidenceStatus": "proposed",
+  "note": "Authored elemental swatches. Legacy book palettes remain unchanged. No physical material sampling or rendered validation is claimed.",
+  "palettes": [
+    {
+      "id": "palette-element-fire",
+      "elementId": "fire",
+      "colors": {
+        "cover": "#332323",
+        "primary": "#E96B24",
+        "secondary": "#FFC16A",
+        "ornament": "#B8753C",
+        "pages": "#D9BE94"
+      },
+      "materialFamily": "charred-cover",
+      "shaderProfile": "element-fire"
+    },
+    {
+      "id": "palette-element-water",
+      "elementId": "water",
+      "colors": {
+        "cover": "#173D54",
+        "primary": "#40C9D7",
+        "secondary": "#C6E9E7",
+        "ornament": "#789CA6",
+        "pages": "#DCCDAF"
+      },
+      "materialFamily": "water-inlay",
+      "shaderProfile": "element-water"
+    },
+    {
+      "id": "palette-element-earth",
+      "elementId": "earth",
+      "colors": {
+        "cover": "#534239",
+        "primary": "#C09651",
+        "secondary": "#798387",
+        "ornament": "#8C6B48",
+        "pages": "#D4BC94"
+      },
+      "materialFamily": "stratified-stone",
+      "shaderProfile": "element-earth"
+    },
+    {
+      "id": "palette-element-air",
+      "elementId": "air",
+      "colors": {
+        "cover": "#D4E1E5",
+        "primary": "#93C9E0",
+        "secondary": "#F0EEE1",
+        "ornament": "#A6ADB5",
+        "pages": "#E4D9C3"
+      },
+      "materialFamily": "air-filigree",
+      "shaderProfile": "element-air"
+    },
+    {
+      "id": "palette-element-ice",
+      "elementId": "ice",
+      "colors": {
+        "cover": "#C8DFE6",
+        "primary": "#78CEF0",
+        "secondary": "#F1FAFA",
+        "ornament": "#9AACBE",
+        "pages": "#E4DDD0"
+      },
+      "materialFamily": "frost-facet",
+      "shaderProfile": "element-ice"
+    },
+    {
+      "id": "palette-element-lightning",
+      "elementId": "lightning",
+      "colors": {
+        "cover": "#242A50",
+        "primary": "#58A9FF",
+        "secondary": "#CDE7FF",
+        "ornament": "#B6985D",
+        "pages": "#D7C5A1"
+      },
+      "materialFamily": "conductor-inlay",
+      "shaderProfile": "element-lightning"
+    },
+    {
+      "id": "palette-element-metal",
+      "elementId": "metal",
+      "colors": {
+        "cover": "#303840",
+        "primary": "#B7C1C9",
+        "secondary": "#B88A52",
+        "ornament": "#8C989F",
+        "pages": "#D1C4AE"
+      },
+      "materialFamily": "ordered-metal",
+      "shaderProfile": "element-metal"
+    },
+    {
+      "id": "palette-element-crystal",
+      "elementId": "crystal",
+      "colors": {
+        "cover": "#372F50",
+        "primary": "#B89AEA",
+        "secondary": "#D9E8EA",
+        "ornament": "#9C91B0",
+        "pages": "#DED1BD"
+      },
+      "materialFamily": "crystal-lattice",
+      "shaderProfile": "element-crystal"
+    },
+    {
+      "id": "palette-element-light",
+      "elementId": "light",
+      "colors": {
+        "cover": "#E4DBC3",
+        "primary": "#FFE2A0",
+        "secondary": "#FFF5DA",
+        "ornament": "#CDA757",
+        "pages": "#E7DBC0"
+      },
+      "materialFamily": "radial-ivory",
+      "shaderProfile": "element-light"
+    },
+    {
+      "id": "palette-element-shadow",
+      "elementId": "shadow",
+      "colors": {
+        "cover": "#22212C",
+        "primary": "#79648F",
+        "secondary": "#B6AAC7",
+        "ornament": "#62616E",
+        "pages": "#C9BBA5"
+      },
+      "materialFamily": "shadow-recess",
+      "shaderProfile": "element-shadow"
+    },
+    {
+      "id": "palette-element-nature",
+      "elementId": "nature",
+      "colors": {
+        "cover": "#324C3B",
+        "primary": "#78B474",
+        "secondary": "#C6CC91",
+        "ornament": "#82684A",
+        "pages": "#D9C7A1"
+      },
+      "materialFamily": "botanical-relief",
+      "shaderProfile": "element-nature"
+    },
+    {
+      "id": "palette-element-decay",
+      "elementId": "decay",
+      "colors": {
+        "cover": "#3D4541",
+        "primary": "#70A095",
+        "secondary": "#C79D63",
+        "ornament": "#867960",
+        "pages": "#C6B99E"
+      },
+      "materialFamily": "patinated-relief",
+      "shaderProfile": "element-decay"
+    }
+  ]
+}

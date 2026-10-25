@@ -1,0 +1,79 @@
+{
+  "memory": [
+    {
+      "geometries": 114,
+      "textures": 20
+    },
+    {
+      "geometries": 220,
+      "textures": 21
+    },
+    {
+      "geometries": 114,
+      "textures": 20
+    },
+    {
+      "geometries": 220,
+      "textures": 21
+    },
+    {
+      "geometries": 114,
+      "textures": 20
+    },
+    {
+      "geometries": 220,
+      "textures": 21
+    },
+    {
+      "geometries": 114,
+      "textures": 20
+    },
+    {
+      "geometries": 220,
+      "textures": 21
+    },
+    {
+      "geometries": 114,
+      "textures": 20
+    },
+    {
+      "geometries": 220,
+      "textures": 21
+    },
+    {
+      "geometries": 114,
+      "textures": 20
+    },
+    {
+      "geometries": 220,
+      "textures": 21
+    }
+  ],
+  "benchmark": {
+    "frames": 80,
+    "elapsedMs": 1321.1000000238419,
+    "renderer": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "metrics": {
+      "frames": 82,
+      "meanSubmitMs": 2.7829268276691437,
+      "rendererMemory": {
+        "geometries": 221,
+        "textures": 21
+      },
+      "solidTriangles": 103114
+    }
+  },
+  "previewBenchmark": {
+    "frames": 80,
+    "elapsedMs": 1347.0999999940395,
+    "metrics": {
+      "frames": 80,
+      "meanSubmitMs": 2.7825000014156105,
+      "rendererMemory": {
+        "geometries": 221,
+        "textures": 21
+      },
+      "solidTriangles": 27480
+    }
+  }
+}

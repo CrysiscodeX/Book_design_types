@@ -1,0 +1,16 @@
+{
+  "errors": [],
+  "failures": [],
+  "layouts": [
+    {
+      "width": 1440,
+      "actual": 1440,
+      "brokenImages": []
+    },
+    {
+      "width": 320,
+      "actual": 320,
+      "brokenImages": []
+    }
+  ]
+}

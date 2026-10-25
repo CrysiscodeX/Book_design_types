@@ -1,0 +1,19 @@
+{
+  "name": "default-book-design-types",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node Part_2-Connectors/server.mjs",
+    "sync:catalog": "node Part_2-Connectors/sync-catalog.mjs",
+    "drawings": "node Part_2-Connectors/generate-svg.mjs",
+    "export:model": "node Part_2-Connectors/export-model.mjs",
+    "check": "node --test checks/design.test.mjs",
+    "check:browser": "playwright test",
+    "evaluate:svg": "node ../../../.agents/skills/svg-book-design-evaluation/scripts/evaluate-book-svg.mjs",
+    "evaluate:model": "node ../../../.agents/skills/svg-book-design-evaluation/scripts/evaluate-threejs-model.mjs",
+    "evaluate:parity": "node ../../../.agents/skills/svg-book-design-evaluation/scripts/evaluate-book-parity.mjs",
+    "evaluate:codex": "node ../../../.agents/skills/svg-book-design-evaluation/scripts/evaluate-codex.mjs",
+    "verify": "npm run check && npm run drawings && npm run export:model && npm run check:browser"
+  }
+}

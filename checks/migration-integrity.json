@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Dubai",
+  "passed": true,
+  "copiedSourceRecords": 395,
+  "immutableSourceFiles": 395,
+  "checkpointEntries": 339,
+  "historicalSnapshots": 135,
+  "publicArchives": [
+    {
+      "file": "history/conversations/ranked-covers.json",
+      "turns": 8,
+      "messages": 44
+    },
+    {
+      "file": "history/conversations/related-books.json",
+      "turns": 9,
+      "messages": 56
+    }
+  ],
+  "canonicalPublicMessages": 158,
+  "messageHashes": "All match; unique message IDs",
+  "gitBytePreservation": "Text normalization disabled for all files",
+  "attachmentAndContextImages": 11,
+  "boundOpenBookSHA256": "3afeb645abca344d3ac933e796fe2c858bb537a25970acf8c2b4d2629436675c",
+  "limits": "Source bytes, scoped public-message structure and attachments; no new artistic or fabrication certification."
+}

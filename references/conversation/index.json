@@ -1,0 +1,68 @@
+[
+  {
+    "file": "references/conversation/7af6d8a3c071-codex-clipboard-47f1bcdc-f90a-4215-af01-fcb8535b4f7c.jpg",
+    "name": "codex-clipboard-47f1bcdc-f90a-4215-af01-fcb8535b4f7c.jpg",
+    "sha256": "7af6d8a3c071b283f8872c61a5dae5e3c338efb53ccd8ce3f90755463ee6d465",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/871f66276a46-codex-clipboard-6287663d-09d7-487c-a2c7-8be19ba21943.jpg",
+    "name": "codex-clipboard-6287663d-09d7-487c-a2c7-8be19ba21943.jpg",
+    "sha256": "871f66276a46d8980294e0876ae11c734a61fefde26e23567ddaa2e64c78c8fa",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/176211f8b3cc-codex-clipboard-3f213ede-f0bd-4fdc-8b5a-53b6250d89d9.jpg",
+    "name": "codex-clipboard-3f213ede-f0bd-4fdc-8b5a-53b6250d89d9.jpg",
+    "sha256": "176211f8b3cc2a2f7416efb9b28898b72691f0a8f9d43556e1e31ba353405206",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/5abf09e1e935-codex-clipboard-20563ae4-fbf3-43e1-9bf9-965c566729e5.jpg",
+    "name": "codex-clipboard-20563ae4-fbf3-43e1-9bf9-965c566729e5.jpg",
+    "sha256": "5abf09e1e9359c63f46854a6cdf94db93f07f33113152e6bcbd7cb7113c8c056",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/eb7f44ed78a8-codex-clipboard-d98f5540-17b1-47ae-8bbe-ae2eb480c8f8.webp",
+    "name": "codex-clipboard-d98f5540-17b1-47ae-8bbe-ae2eb480c8f8.webp",
+    "sha256": "eb7f44ed78a8c25fb1e9126dd187261123ec1471d6fb9f5b99bd19f8c95f829b",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/dba826203a5f-codex-clipboard-4f045364-fac7-49f9-b193-576ae339c3e0.webp",
+    "name": "codex-clipboard-4f045364-fac7-49f9-b193-576ae339c3e0.webp",
+    "sha256": "dba826203a5f802eafcb0f0d22b270b601d6f449d346b7d8be8f2cc86278b15f",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/77a8d77dbc2c-codex-clipboard-85478816-bc66-43df-b36b-7557bd67f143.jpg",
+    "name": "codex-clipboard-85478816-bc66-43df-b36b-7557bd67f143.jpg",
+    "sha256": "77a8d77dbc2cc236c9e558ef382c84de04f9b90e9b7a5dba36d2ae75aa49f0f4",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/9afc35f6cb57-codex-clipboard-8f46da3b-a243-4fd7-80eb-0129f069981d.jpg",
+    "name": "codex-clipboard-8f46da3b-a243-4fd7-80eb-0129f069981d.jpg",
+    "sha256": "9afc35f6cb57aa767b02624afc45e949b154b281455050b64db780456a49e6a5",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/bc1cfc51e99a-codex-clipboard-e120ab8d-b988-48f1-8109-ce76e6d792b6.png",
+    "name": "codex-clipboard-e120ab8d-b988-48f1-8109-ce76e6d792b6.png",
+    "sha256": "bc1cfc51e99a53819210d6ef0500a9b4e3a851c368234f7f15326f16e5c27b18",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/09664c3d603f-codex-clipboard-b13a8fb1-2b3a-4ac8-b6f3-998c2b499d56.png",
+    "name": "codex-clipboard-b13a8fb1-2b3a-4ac8-b6f3-998c2b499d56.png",
+    "sha256": "09664c3d603fde933d27b156e704373d7af5fef0ad7c5b19f84dd8174746881d",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  },
+  {
+    "file": "references/conversation/d012efdccc83-codex-clipboard-857baecd-9b90-4628-8164-d57c24b22509.png",
+    "name": "codex-clipboard-857baecd-9b90-4628-8164-d57c24b22509.png",
+    "sha256": "d012efdccc83e12daed4acb8066df3152fb907b629c0c1e71002aaf30b535ac1",
+    "evidence": "User-supplied reference; original bytes retained. Attribution/watermarks are source evidence, not modeled features."
+  }
+]

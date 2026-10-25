@@ -1,0 +1,21 @@
+{
+  "version": "0.3",
+  "date": "2026-10-06",
+  "result": "PASS",
+  "documentation": {
+    "originalReferenceHashes": 8,
+    "referenceCatalogComponents": 142,
+    "sharedCatalog": "Matches source JSON",
+    "editableSVGs": 24,
+    "portableAssembliesReloaded": 3,
+    "markdownFiles": 44,
+    "localLinks": 268,
+    "historicalLinksResolvedAgainstProjectRoot": 3,
+    "masterAndDocumentExport": "Match"
+  },
+  "snapshots": {
+    "0.1": 22,
+    "0.2": 29
+  },
+  "limits": "Documentation, portable static files, and source preservation only; runtime results are separate."
+}

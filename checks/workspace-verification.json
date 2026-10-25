@@ -1,0 +1,68 @@
+{
+  "stage": "static",
+  "excluded": [],
+  "checks": [
+    {
+      "id": "workspace-contracts",
+      "code": 0,
+      "seconds": 2.3
+    },
+    {
+      "id": "default-book-design-types-checks-design-test-mjs",
+      "code": 0,
+      "seconds": 3.7
+    },
+    {
+      "id": "wizard-grimoire-checks-mjs",
+      "code": 0,
+      "seconds": 16.3
+    },
+    {
+      "id": "wizard-grimoire-motion-checks-mjs",
+      "code": 0,
+      "seconds": 12.7
+    },
+    {
+      "id": "wizard-grimoire-fittings-checks-mjs",
+      "code": 0,
+      "seconds": 3.7
+    },
+    {
+      "id": "default-book-design-types-browser",
+      "code": 0,
+      "seconds": 34.9
+    },
+    {
+      "id": "wizard-grimoire-browser",
+      "code": 0,
+      "seconds": 17.3
+    },
+    {
+      "id": "grimoire-inline",
+      "code": 0,
+      "seconds": 10.1
+    }
+  ],
+  "limits": "Scoped software checks and historical preservation; no fabrication or continuous collision certification.",
+  "integrity": {
+    "files": 805,
+    "localLinks": 265,
+    "relativeImports": 86,
+    "historicalFiles": 135,
+    "exports": {
+      "svgs": 24,
+      "portableAssemblies": 3
+    },
+    "originalDispositions": 336,
+    "failures": []
+  },
+  "passed": true,
+  "status": "complete",
+  "lastRun": {
+    "stage": "static",
+    "excluded": [],
+    "passed": true
+  },
+  "builds": 2,
+  "historicalChecks": "The V1 spine repair suite describes the retired binding; current anatomy, motion and interface checks validate v2."
+}

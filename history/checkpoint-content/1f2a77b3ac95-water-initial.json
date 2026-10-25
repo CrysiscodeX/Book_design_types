@@ -1,0 +1,31 @@
+{
+  "version": "0.3",
+  "config": {
+    "rank": "initial",
+    "primaryElement": "water",
+    "accentElements": [],
+    "fantasyMotif": "neutral",
+    "wizardryStyle": "sigilcraft-warding",
+    "botanical": true,
+    "title": "Water Codex",
+    "developmentStage": "",
+    "projectArea": "",
+    "industry": "",
+    "quality": "high",
+    "constructionTrack": "unspecified",
+    "bookmark": false,
+    "evidence": null
+  },
+  "presentation": {
+    "view": "three-quarter",
+    "lighting": "reference",
+    "state": "resting",
+    "playing": true,
+    "reduced": false,
+    "effectsEnabled": true,
+    "intensity": 1,
+    "display": "single",
+    "explode": 0,
+    "time": 0
+  }
+}

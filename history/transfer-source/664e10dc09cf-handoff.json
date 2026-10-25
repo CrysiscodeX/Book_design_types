@@ -1,0 +1,91 @@
+{
+  "version": 2,
+  "status": "Grimoire rebuild finished; scoped automatic checks pass",
+  "authority": "Andre Olivier, The Anatomy & Physics of the Book, 2026-10-24",
+  "activeFactory": "Part_1-Engine-Root/book-v2.mjs",
+  "publicAdapters": [
+    "Part_1-Engine-Root/book.mjs",
+    "Part_1-Engine-Root/specification.mjs",
+    "Part_1-Engine-Root/geometry.mjs"
+  ],
+  "knowledge": "shared/Part_1-Engine-Root/book-binding-knowledge.mjs",
+  "ownedRecipe": "Part_2-Connectors/inline-recipe.mjs",
+  "inlineSources": [
+    "../../../../shared/Part_1-Engine-Root/book-binding-knowledge.mjs",
+    "../Part_1-Engine-Root/specification-v2.mjs",
+    "../Part_1-Engine-Root/binding-kinematics.mjs",
+    "../Part_1-Engine-Root/geometry-v2.mjs",
+    "../Part_3-Outer-Look-Shell/materials.mjs",
+    "../Part_3-Outer-Look-Shell/content.mjs",
+    "../Part_1-Engine-Root/book-v2.mjs"
+  ],
+  "packageScripts": {
+    "start": "node Part_2-Connectors/server.mjs",
+    "check": "node checks/checks.mjs",
+    "check:browser": "node checks/browser-qa.mjs",
+    "check:motion": "node checks/motion-checks.mjs",
+    "check:fittings": "node checks/fittings-checks.mjs",
+    "benchmark": "node checks/benchmark.mjs",
+    "capture": "node checks/capture.mjs",
+    "documents": "node Part_2-Connectors/documents.mjs",
+    "build": "node Part_2-Connectors/documents.mjs && node Part_2-Connectors/build-inline.mjs",
+    "build:inline": "node Part_2-Connectors/build-inline.mjs",
+    "check:inline": "node checks/inline-qa.mjs",
+    "review": "node Part_2-Connectors/review-v2.mjs"
+  },
+  "applicableChecks": [
+    "checks/rebuild-check.mjs",
+    "checks/anatomy-motion.mjs",
+    "checks/anatomy-interfaces.mjs",
+    "checks/anatomy-browser.mjs",
+    "checks/inline-qa.mjs"
+  ],
+  "applicability": "Legacy entry names delegate to these v2 checks. The previous book.sample API and spine-system repair checks are historical v1; they are not evidence for v2.",
+  "results": {
+    "sourceSolids": true,
+    "paperMotion": true,
+    "interfaces": true,
+    "browser": true,
+    "inline": true
+  },
+  "device": "ANGLE (Intel, Intel(R) Arc(TM) 140V GPU (16GB) (0x000064A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "performance": [
+    {
+      "mode": "orbit",
+      "fps": 60.87971183529426,
+      "buffer": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "mode": "turn",
+      "fps": 61.48170919207879,
+      "buffer": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "mode": "close",
+      "fps": 33.21431536959566,
+      "buffer": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "integrationNotes": [
+    "No shared cleanup/build/validation infrastructure or other object source was edited by this rebuild. The new shared book-binding-knowledge module is consumed by the local v2 specification.",
+    "The shared embedded builder already consumes bundle.recipe; the grimoire-owned builder and recipe remain supported.",
+    "New anatomy HTML and v2 screenshots are linked through /@workspace/ URLs, so no additional shared resource alias is required.",
+    "The earlier full v1 copy was created before reconstruction; the cleanup owner now owns its deduplication and reconstruction manifest. No active v2 code relies on copied historical assets.",
+    "Source geometry, appearance, content, state and derived evidence remain separate. Review/capture/report scripts refer to v2 only.",
+    "Current motion coverage is sampled paper placement, not universal collision or physical-material certification. See the v2 report limits."
+  ],
+  "remainingMaterialWork": [
+    "physical sewn dummy and calibrated paper/leather behaviour",
+    "complete needle-hole/tie-down routes and every concealed adhesive contact",
+    "further artistic refinement of corner folding and manuscript character"
+  ]
+}
